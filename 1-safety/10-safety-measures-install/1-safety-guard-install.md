@@ -1,16 +1,16 @@
 ﻿# 1.10.1. 안전 가드 설치
 
-![프레임없음|751x751픽셀](../../_assets/1.10.1._안전_가드_설치(Hi6)-경고.png  )
+[](../../_assets/1.10.1._안전_가드_설치(Hi6)-경고.png  )
 
 로봇 동작시 로봇과 작업자가 충돌할 위험이 있기 때문에 작업자가 로봇과 가까이 하지 않도록 ISO 13855:2010를 준수하여 안전망을 설치하여 주십시오. 로봇이나 용접치구의 점검, 또는 팁 드레싱(tip dressing), 팁교환(tip changing) 등 어떠한 이유든지 로봇동작 중에 안전망(fence)의 문을 열고 설비에 접근하면 로봇이 정지하도록 구성하여 주십시오.
 
-![프레임없음|975x975픽셀](../../_assets/그림_1.4_안전펜스_연결.png  )
+[](../../_assets/그림_1.4_안전펜스_연결.png  )
 
 그림 1.4 안전펜스 연결
 
 출처: ISO 13855:2010 Safety of machinery — Positioning of safeguards with respect to the approach speeds of parts of the human body
 
-![프레임없음|738x738픽셀](../../_assets/표_1-3_안전펜스_설치_규격.png  )
+[](../../_assets/표_1-3_안전펜스_설치_규격.png  )
 
 출처: ISO 13855:2010 Safety of machinery - Positioning of safeguards with respect to the approach speeds of parts of the human body
 

@@ -1,10 +1,10 @@
 ﻿# 4.3.2.4. 설정장치
 
-![프레임없음|701x701픽셀](../../../_assets/그림_4.31_BD632(Safety_IO_Board)의_설정장치_설명.png  )
+![](../../../_assets/그림_4.31_BD632(Safety_IO_Board)의_설정장치_설명.png  )
 
 그림 4.31 BD632(Safety IO Board)의 설정장치 설명
 
-![프레임없음|742x742픽셀](../../../_assets/4.3.2.4._설정장치(Hi6)-경고.png  )
+![](../../../_assets/4.3.2.4._설정장치(Hi6)-경고.png  )
 
 표 4-11 BD632(Safety IO Module)의 SW1, SW2, SW3, SW4, SW7 설정장치 설명
 

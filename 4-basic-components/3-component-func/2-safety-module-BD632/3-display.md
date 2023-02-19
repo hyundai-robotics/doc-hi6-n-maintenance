@@ -1,6 +1,6 @@
 ﻿# 4.3.2.3. 표시장치
 
-![프레임없음|945x945픽셀](../../../_assets/그림_4.27_BD632(Safety_IO_Board)의_표시장치.png  )
+![](../../../_assets/그림_4.27_BD632(Safety_IO_Board)의_표시장치.png  )
 
 그림 4.27 BD632(Safety IO Board)의 표시장치
 

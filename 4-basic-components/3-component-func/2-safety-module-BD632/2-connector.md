@@ -2,7 +2,7 @@
 
 다음 그림은 BD632(Safety IO Module)에 있는 각종 커넥터의 위치와 용도를 나타낸 것입니다.
 
-![프레임없음|945x945픽셀](../../../_assets/그림_4.24_BD632(Safety_IO_Board)의_커넥터_및_스위치_배치.png  )
+![](../../../_assets/그림_4.24_BD632(Safety_IO_Board)의_커넥터_및_스위치_배치.png  )
 
 그림 4.24 BD632(Safety IO Board)의 커넥터 및 스위치 배치
 
@@ -145,11 +145,11 @@
 
 \(1\) BD632 외부안전신호용 터미널블럭: TBEM
 
-![프레임없음|263x263픽셀](../../../_assets/그림_4.25_BD632(Safety_IO_Board)_TBEM.png  )
+![](../../../_assets/그림_4.25_BD632(Safety_IO_Board)_TBEM.png  )
 
 그림 4.25 BD632(Safety IO Board) TBEM
 
-![프레임없음|755x755픽셀](../../../_assets/4.3.2.2._커넥터(Hi6)-주의.png  )
+![](../../../_assets/4.3.2.2._커넥터(Hi6)-주의.png  )
 
 표 4-7 BD632(Safety IO Board) TBEM 설명
 
@@ -249,11 +249,11 @@
 
 \(2\)   BD632 안전 PLC 연결용 터미널블럭: TBPLC
 
-![프레임없음|211x211픽셀](../../../_assets/그림_4.26_BD632(Safety_IO_Board)_TBPLC.png  )
+![](../../../_assets/그림_4.26_BD632(Safety_IO_Board)_TBPLC.png  )
 
 그림 4.26 BD632(Safety IO Board) TBPLC
 
-![프레임없음|745x745픽셀](../../../_assets/4.3.2.2._커넥터(Hi6)-경고.png  )
+![](../../../_assets/4.3.2.2._커넥터(Hi6)-경고.png  )
 
 표 4-8 BD632(Safety IO Board) TBPLC 설명
 
@@ -337,7 +337,7 @@
 
 \(3\)    외부 모터온 커넥터
 
-![프레임없음|325x325픽셀](../../../_assets/외부_모터온_커넥터.png  )
+![](../../../_assets/외부_모터온_커넥터.png  )
 
 BD632외부 모터온 스위치
 
