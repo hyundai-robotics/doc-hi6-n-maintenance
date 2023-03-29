@@ -1,15 +1,14 @@
-﻿# 3. 제어기의 설치
+﻿# 3. Installation of the Controller
 
-설치 위치나 방향, 주위 공간의 크기 등을 고려하여 제품을 올바르게 설치, 운반, 보관하면 제품의 수명을 확보하고 성능 저하를 방지할 수 있습니다.
+If you properly install, transport, and store the product in consideration of the position and direction of the installation and the size of the surrounding space, you can secure the service life of the product and prevent the degradation of its performance.
 
-* 구성
+*	Checking of the installation and use environments
 
-* 설치 및 사용 환경 확인
+*	Transport of the controller
 
-* 제어기의 운반
+*	Storage of the controller
 
-* 제어기의 보관
+*	Discarding of the controller
 
-* 제어기의 폐기
 
 ![](../_assets/3._제어기의_설치(Hi6)-주의.png  )

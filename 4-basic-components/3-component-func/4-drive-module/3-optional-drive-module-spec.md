@@ -1,62 +1,62 @@
-﻿# 4.3.4.3. 선택사양 드라이브모듈 사양
+﻿# 4.3.4.3. Specification of the Optional Drive Module
 
 ![](../../../_assets/선택사양_드라이브모듈의_형번_구성.png  )
 
-표 4-34 선택사양 드라이브모듈의 형식 기호
+Table 4-31 Type Symbol of the Optional Drive Module
 
 <table>
 <thead>
   <tr>
-    <th>구분</th>
-    <th>형식 기호</th>
+    <th>Category</th>
+    <th>Type symbol</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>Hi6 드라이브모듈</td>
+    <td>Hi6 drive module</td>
     <td>H6D</td>
   </tr>
 </tbody>
 </table>
 
-표 4-35 선택사양 드라이브모듈의IPM 용량
+Table 4-32 Capacity of the IPM of the Optional Drive Module
 
 <table>
 <thead>
   <tr>
-    <td rowspan="4">중형/대형</td>
+    <td rowspan="4">Medium-sized/Large-sized)</td>
     <td>L</td>
-    <td>(IPM 전류정격) 150A, (홀센서 전류정격) 4V/75A</td>
+    <td>(IPM current rating) 150A, (Hall sensor current rating) 4V/75A</td>
   </tr>
   <tr>
     <td>X</td>
-    <td>(IPM 전류정격) 100A, (홀센서 전류정격) 4V/50A</td>
+    <td>(IPM current rating) 100A, (Hall sensor current rating) 4V/50A</td>
   </tr>
   <tr>
     <td>Y</td>
-    <td>(IPM 전류정격) 75A,  (홀센서 전류정격) 4V/50A</td>
+    <td>(IPM current rating) 75A, (Hall sensor current rating) 4V/50A</td>
   </tr>
   <tr>
     <td>Z</td>
-    <td>(IPM 전류정격) 50A,  (홀센서 전류정격) 4V/25A</td>
+    <td>(IPM current rating) 50A, (Hall sensor current rating) 4V/25A</td>
   </tr>
 </thead>
 </table>
 
-표 4-36 션택사양 드라이브모듈의 홀센서(Hall Sensor) 기호
+Table 4-33 Symbols of the Hall Sensors of the Optional Drive Module
 
 <table>
 <thead>
   <tr>
     <th>Drive Model</th>
-    <th>Hall Sensor기호(사양)</th>
-    <th>Full Scale 전류(Im)</th>
-    <th>IPM 사양 (정격 전류)</th>
+    <th>Hall sensor symbol(Specification)</br>Full-scale current (Im)</th>
+    <th>Full-scale current(Im)</th>
+    <th>IPM specification</br>(Rated current</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td rowspan="6">부가축<br>드라이브모듈</td>
+    <td rowspan="6">Drive module of the additional axis</td>
     <td>0 (4V/75A)</td>
     <td>140.62Apeak</td>
     <td>PM150CG1APL065 202G (150A)</td>

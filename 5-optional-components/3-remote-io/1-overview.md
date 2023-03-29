@@ -1,9 +1,9 @@
-﻿# 5.3.1. 개요
+﻿# 5.3.1. Overview
 
-Hi6 제어기에서 범용 IO 신호를 사용하기 위해서 상용 리모트 IO가 필요합니다. 상용 리모트 IO는 기본적으로 “통신모듈” 1개에 “IO 모듈”(사용자 선택)을 연결하여 사용합니다. 아래의 모듈은 Crevis사의 상용 리모트 IO 모듈을 소개해 놓았으며, 타사의 상용 리모트 IO를 구매하여 사용하여도 무방합니다. 자세한 사용법은 구매하신 IO업체에 요청하시면 됩니다.
+To use general IO signals in the Hi6 controller, you need the commercial remote IO. Basically, the commercial remote IO can be used by connecting an “IO module” (selected by the user) to one “communication module.” The module introduced below is a commercial remote IO module of Crevis, and you may purchase and use a commercial remote of other companies. For details on how to use each module, you are required to ask the company about the IO module you purchased.
 
 ![](../../_assets/5.3.1._개요(Hi6)-주의.png  )
 
 ![](../../_assets/그림_5.5상용_리모트_IO_구성_예시.png  )
 
-그림 5.5상용 리모트 IO 구성 예시
+Figure 5.5 Example of Configuration of Commercial Remote IO

@@ -1,4 +1,4 @@
-﻿# 1.11. 로봇 조작시 안전 작업
+﻿# 1.11. Safety Works When Operating the Robot
 
 
 

@@ -1,41 +1,43 @@
-﻿# 5.2.2. 전원 및 커넥터
+﻿# 5.2.3. Power and Connectors 
 
-브레이크 해제 유닛의 전원 및 커넥터 배치는 다음 그림5.4와 같으며 각각에 대한 용도 및 접속장치는 표 5-5와 같습니다.
+The placement of the power and connectors of the brake release unit is as shown in Figure 5.4 below, and their individual usage and connection devices are as shown in Table 5-5 below.
 
 ![](../../_assets/5.2.3._전원_및_커넥터(Hi6)-주의,경고.png  )
 
 ![](../../_assets/그림_5.4_브레이크_해제_유닛_스위치_및_커넥터.png  )
 
-표 5-5 브레이크 해제 유닛 커넥터의 종류 및 용도
+Figure 5.4 Switches and Connectors of the Brake Release Unit</br></br>
+
+Table 5-5 Types and Usage of the Connectors of the Brake Release Unit
 
 <table>
 <thead>
   <tr>
-    <th>명 칭</th>
-    <th>용      도</th>
-    <th>외부연결장치</th>
+    <th>Name</th>
+    <th>Usage</th>
+    <th>Connection of external devices</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>AC220V 전원 커넥터 및 스위치</td>
-    <td>AC 전원 인가</td>
-    <td>100V AC ~ 240V AC 단상</td>
+    <td>AC 220V power connector and switch</td>
+    <td>Application of the AC power</td>
+    <td>100V AC~240V AC Single phase</td>
   </tr>
   <tr>
-    <td>브레이크 해제 케이블 연결 커넥터</td>
-    <td>브레이크 해제유닛과 제어기 연결</td>
-    <td>BD640보드 CNB1, CNB7, CNB8</td>
+    <td>Brake release cable connection connector</td>
+    <td>Connection of the brake release unit and controller</td>
+    <td>CNB1, CNB7, and CNB8 of BD640</td>
   </tr>
   <tr>
-    <td>DC24V 배터리 전원 커넥터</td>
-    <td>휴대용 24V 배터리 전원 연결</td>
-    <td>휴대용 24V 배터리</td>
+    <td>DC24V battery power connector</td>
+    <td>Connection of the power of a portable 24V battery</td>
+    <td>Portable 24V battery</td>
   </tr>
   <tr>
-    <td>DC24V전원 스위치</td>
-    <td>브레이크 해제유닛 구동 ON/OFF</td>
-    <td>없음</td>
+    <td>DC24V power switch</td>
+    <td>Brake release unit drive on/off</td>
+    <td>None</td>
   </tr>
 </tbody>
 </table>

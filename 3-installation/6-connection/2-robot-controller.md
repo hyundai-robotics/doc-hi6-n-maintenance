@@ -1,10 +1,10 @@
-﻿# 3.6.2. 로봇 본체와 제어기의 접속
+﻿# 3.6.2. Connection of the Manipulator and Controller
 
-로봇 본체와 제어기간의 연결은 와이어하네스(wire harness)로 연결합니다. 각각의 리셉터클 명칭을 확인하시고 연결하여 주십시오.
+Connect between the manipulator and controller by using a wire harness. Check the names of individual receptacles while connecting them.
 
-![](../../_assets/3.6.2._로봇_본체와_제어기의_접속-1.png  )
+![](../../_assets/3.6.2._로봇_본체와_제어기의_접속-1.png)<br/><br/>
 
-Wire Harness 결선도
+Wire Harness connection diagram
 
 <table>
 <thead>
@@ -47,4 +47,4 @@ Wire Harness 결선도
 
 ![](../../_assets/3.6.2._로봇_본체와_제어기의_접속-주의.png  )
 
-그림 3.6 로봇 본체와 제어기의 접속 (Hi6-N\*\*(U))
+Figure 3.6 Connection of the Manipulator and Controller (Hi6-N**(U))

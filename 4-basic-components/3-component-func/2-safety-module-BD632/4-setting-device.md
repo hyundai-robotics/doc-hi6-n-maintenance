@@ -1,18 +1,18 @@
-﻿# 4.3.2.4. 설정장치
+﻿# 4.3.2.4. Setting Devices
 
 ![](../../../_assets/그림_4.31_BD632(Safety_IO_Board)의_설정장치_설명.png  )
 
-그림 4.31 BD632(Safety IO Board)의 설정장치 설명
+Figure 4.11 Description of the Setting Devices of the BD632 (Safety IO Board)
 
 ![](../../../_assets/4.3.2.4._설정장치(Hi6)-경고.png  )
 
-표 4-11 BD632(Safety IO Module)의 SW1, SW2, SW3, SW4, SW7 설정장치 설명
+Table 4-8 Description of the SW1, SW2, SW3, SW4 and SW7 setting devices of BD632 (Safety IO Module)
 
 
 <table>
 <thead>
   <tr>
-    <th colspan="2">스위치</th>
+    <th colspan="2">Switch</th>
     <th rowspan="2">SW1</th>
     <th rowspan="2">SW2</th>
     <th rowspan="2">SW3</th>
@@ -20,42 +20,52 @@
     <th rowspan="2">SW7</th>
   </tr>
   <tr>
-    <th colspan="2">번호</th>
+    <th colspan="2">number</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td colspan="2">용도</td>
-    <td>OP(Operational Panel) 설치 여부 설정 (체인1)</td>
-    <td>OP(Operational Panel) 설치 여부 설정 (체인2)</td>
-    <td>OVT6,LS, OVT7(부가축), OVT8(확장축) 설치 여부 설정(체인1)</td>
-    <td>OVT6, LS, OVT7(부가축), OVT8(확장축) 설치 여부 설정(체인2)</td>
-    <td>PLC ES, SG 설치 여부 설정<br>(체인1, 체인2)</td>
+    <td colspan="2">Usage</td>
+    <td>Sets whether to install the Operation Panel (OP) (Chain 1)</td>
+    <td>Sets whether to install the Operation Panel (OP) (Chain 2)</td>
+    <td>Sets whether to install OVT6, LS, OVT7 (additional axis), and OVT8 (extended axis) (Chain 1)</td>
+    <td>Sets whether to install OVT6, LS, OVT7 (additional axis), and OVT8 (extended axis) (Chain 2)</td>
+    <td>Sets whether to install the PLC ES, SG(Chain 1, Chain 2)
+</td>
   </tr>
   <tr>
-    <td rowspan="2">설정</td>
+    <td rowspan="2">Contents of setting</td>
     <td>OFF</td>
-    <td>미설치</td>
-    <td>미설치</td>
-    <td>1: OVT6 설치<br>2: LS 설치<br>3: OVT7 설치<br>4: OVT8 설치</td>
-    <td>1: OVT6 설치<br>2: LS 설치<br>3: OVT7 설치<br>4: OVT8 설치</td>
-    <td>1: ES설치(체인1)<br>2: SG설치(체인1)<br>3: ES설치(체인2)<br>4: SG설치(체인2)</td>
+    <td>Non-installation</td>
+    <td>Non-installation</td>
+    <td>1: Installation of OVT6</br>2: Installation of LS<br>3: Installation of OVT7</br>4: Installation of OVT8
+</td>
+    <td>1: Installation of OVT6</br>2: Installation of LS</br>3: Installation of OVT7</br>4: Installation of OVT8</br>
+</td>
+    <td>1: Installation of ES(Chain 1)</br>2: Installation of SG(Chain 1)</br>3: Installation of ES(Chain 2)</br>4: Installation of SG(Chain 2)</br>
+</td>
   </tr>
   <tr>
     <td>ON</td>
-    <td>설치</td>
-    <td>설치</td>
-    <td>1: OVT6 미설치<br>2: LS 미설치<br>3: OVT7 미설치<br>4: OVT8 미설치</td>
-    <td>1: OVT6 미설치<br>2: LS 미설치<br>3: OVT7 미설치<br>4: OVT8 미설치</td>
-    <td>1: ES미설치(체인1)<br>2: SG미설치(체인1)<br>3: ES미설치(체인2)<br>4: SG미설치(체인2)</td>
+    <td>Installation</td>
+    <td>Installation</td>
+    <td>1: No installation of OVT6</br>2: No installation of LS</br>3: No installation of OVT7</br>4: No installation of OVT8</br>
+</td>
+    <td>1: No installation of OVT6</br>2: No installation of LS</br>3: No installation of OVT7</br>4: No installation of OVT8</br>
+</td>
+    <td>1: No installation of ES(Chain 1)</br>2: No installation of SG(Chain 1)</br>3: No installation of ES(Chain 2)</br>4: No installation of SG(Chain 2)</br>
+</td>
   </tr>
   <tr>
-    <td colspan="2">출고시</td>
-    <td>미설치(OFF)</td>
-    <td>미설치(OFF)</td>
-    <td>1: OFF<br>2: OFF<br>3: On(부가축OVT연결시 OFF)<br>4: On(확장축OVT연결시 OFF)</td>
-    <td>1: OFF<br>2: OFF<br>3: On(부가축OVT연결시 OFF)<br>4: On(확장축OVT연결시 OFF)</td>
-    <td>1: ES미설치(체인1)<br>2: SG미설치(체인1)<br>3: ES미설치(체인2)<br>4: SG미설치(체인2)</td>
+    <td colspan="2">Setting when shipped from the factory</td>
+    <td>Non-installation (OFF)</td>
+    <td>Non-installation (OFF)</td>
+    <td>1: OFF</br>2: OFF</br>3: On (OFF when an additional axis OVT is connected)</br>4: On (OFF when an extended axis OVT is connected)</br>
+</td>
+    <td>1: OFF</br>2: OFF</br>3: On (OFF when an additional axis OVT is connected)</br>4: On (OFF when an extended axis OVT is connected)</br>
+</td>
+    <td>1: No installation of ES(Chain 1)</br>2: No installation of SG(Chain 1)</br>3: No installation of ES(Chain 2)</br>4: No installation of SG(Chain 2)</br>
+</td>
   </tr>
 </tbody>
 </table>

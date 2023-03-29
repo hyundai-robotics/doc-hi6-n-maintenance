@@ -1,8 +1,10 @@
-﻿# 3.1.2. 각종 명판의 확인
+﻿# 3.1.2. Checking of Various Name Plates
 
 ![](../../_assets/그림_1.1_안전라벨.png  )
 
-그림3.2 제어기 라벨
+Figure 3.2 Controller’s Labels <br/><br/>
+
+Table 3-1 Label Type
 
 ![](../../_assets/표3-1_라벨_종류-1.png  )
 
