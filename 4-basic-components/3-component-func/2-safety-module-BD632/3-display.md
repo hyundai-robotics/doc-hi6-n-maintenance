@@ -2,9 +2,9 @@
 
 ![](../../../_assets/그림_4.27_BD632(Safety_IO_Board)의_표시장치.png  )
 
-그림 4.27 BD632(Safety IO Board)의 표시장치
+그림 4.10 BD632(Safety IO Board)의 표시장치
 
-표 4-9 BD632(Safety IO Module) 표시장치 설명
+표 4-8 BD632(Safety IO Module) 표시장치 설명
 
 <table>
 <tbody>

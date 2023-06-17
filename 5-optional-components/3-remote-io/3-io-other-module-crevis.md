@@ -2,7 +2,7 @@
 
 IO 및 기타 모듈의 종류는 다음과 같으며 원하는 동작에 맞게 구성해서 사용하면 됩니다.
 
-표 5-6 IO 모듈(Crevis사)
+표 5-8 IO 모듈(Crevis사)
 
 <table>
 <tbody>
@@ -56,7 +56,7 @@ IO 및 기타 모듈의 종류는 다음과 같으며 원하는 동작에 맞게
 </tbody>
 </table>
 
-표 5-7 Relay 모듈(Crevis사)
+표 5-9 Relay 모듈(Crevis사)
 
 <table>
 <tbody>
@@ -73,7 +73,7 @@ IO 및 기타 모듈의 종류는 다음과 같으며 원하는 동작에 맞게
 </tbody>
 </table>
 
-표 5-8 아날로그 IO 모듈(Crevis사)
+표 5-10 아날로그 IO 모듈(Crevis사)
 
 <table>
 <tbody>
@@ -96,7 +96,7 @@ IO 및 기타 모듈의 종류는 다음과 같으며 원하는 동작에 맞게
 </tbody>
 </table>
 
-표 5-9 펄스 측정 모듈(Crevis사)
+표 5-11 펄스 측정 모듈(Crevis사)
 
 <table>
 <tbody>
@@ -120,7 +120,7 @@ IO 및 기타 모듈의 종류는 다음과 같으며 원하는 동작에 맞게
 </tbody>
 </table>
 
-표 5-10 Serial 통신 모듈(Crevis사)
+표 5-12 Serial 통신 모듈(Crevis사)
 
 <table>
 <tbody>

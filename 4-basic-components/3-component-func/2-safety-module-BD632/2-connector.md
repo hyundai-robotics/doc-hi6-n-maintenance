@@ -4,9 +4,9 @@
 
 ![](../../../_assets/그림_4.24_BD632(Safety_IO_Board)의_커넥터_및_스위치_배치.png  )
 
-그림 4.24 BD632(Safety IO Board)의 커넥터 및 스위치 배치
+그림 4.7 BD632(Safety IO Board)의 커넥터 및 스위치 배치
 
-표 4-5 BD632(Safety IO Board)커넥터 종류 및 용도
+표 4-4 BD632(Safety IO Board)커넥터 종류 및 용도
 
 <table>
 <tbody>
@@ -147,11 +147,13 @@
 
 ![](../../../_assets/그림_4.25_BD632(Safety_IO_Board)_TBEM.png  )
 
-그림 4.25 BD632(Safety IO Board) TBEM
+그림 4.8 BD632(Safety IO Board) TBEM
 
-![](../../../_assets/4.3.2.2._커넥터(Hi6)-주의.png  )
+{% hint style="info" %}
+안전관련 입력을 연결하여 활성화를 한경우 반드시 “1.11. 로봇 조작시 안전대책”을 참고하여 기능 정상 동작 여부를 확인하여 주십시오.
+{% endhint %}
 
-표 4-7 BD632(Safety IO Board) TBEM 설명
+표 4-5 BD632(Safety IO Board) TBEM 설명
 
 <table>
 <thead>
@@ -251,11 +253,11 @@
 
 ![](../../../_assets/그림_4.26_BD632(Safety_IO_Board)_TBPLC.png  )
 
-그림 4.26 BD632(Safety IO Board) TBPLC
+그림 4.9 BD632(Safety IO Board) TBPLC
 
 ![](../../../_assets/4.3.2.2._커넥터(Hi6)-경고.png  )
 
-표 4-8 BD632(Safety IO Board) TBPLC 설명
+표 4-6 BD632(Safety IO Board) TBPLC 설명
 
 <table>
 <thead>
@@ -339,7 +341,7 @@
 
 ![](../../../_assets/외부_모터온_커넥터.png  )
 
-BD632외부 모터온 스위치
+표 4-7 BD632 외부 모터온 스위치
 
 <table>
 <tbody>
@@ -353,29 +355,25 @@ BD632외부 모터온 스위치
 <td><p>5</p></td>
 <td><p>EXMON_C1+</p></td>
 <td><p>외부 모터온(접점type)</p></td>
-<td><p>사용하지 않을 경우 EXMON_C1+와 EXMON_C1-를 쇼트
-시킵니다.</p></td>
+<td><p>사용하지 않을 경우 EXMON_C1+와<br>EXMON_C1-를 쇼트시킵니다.</p></td>
 </tr>
 <tr class="odd">
 <td><p>1</p></td>
 <td><p>EXMON_C1-</p></td>
 <td><p>외부 모터온(접점type)</p></td>
-<td><p>사용하지 않을 경우 EXMON_C1+와 EXMON_C1-를 쇼트
-시킵니다.</p></td>
+<td><p>사용하지 않을 경우 EXMON_C1+와<br>EXMON_C1-를 쇼트시킵니다.</p></td>
 </tr>
 <tr class="even">
 <td><p>8</p></td>
 <td><p>EXMON_C2+</p></td>
 <td><p>외부 모터온(접점type)</p></td>
-<td><p>사용하지 않을 경우 EXMON_C2+와 EXMON_C2-를 쇼트
-시킵니다.</p></td>
+<td><p>사용하지 않을 경우 EXMON_C2+와<br>EXMON_C2-를 쇼트시킵니다.</p></td>
 </tr>
 <tr class="odd">
 <td><p>4</p></td>
 <td><p>EXMON_C2-</p></td>
 <td><p>외부 모터온(접점type)</p></td>
-<td><p>사용하지 않을 경우 EXMON_C2+와 EXMON_C2-를 쇼트
-시킵니다.</p></td>
+<td><p>사용하지 않을 경우 EXMON_C2+와<br>EXMON_C2-를 쇼트시킵니다.</p></td>
 </tr>
 </tbody>
 </table>

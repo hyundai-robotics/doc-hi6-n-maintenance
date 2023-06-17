@@ -4,7 +4,10 @@
 
 **보수 부품 A**
 
-![](../_assets/보수_부품A-주의1.png  )
+{% hint style="info" %}
+일상적 보수점검으로서 준비해야 할 중요 부품입니다.
+{% endhint %}
+
 
 통상의 운전을 유지하기 위해서는 위 부품A-2, 부품A-3은 최소한의 필요한 부품이며 1 set이상을 준비하여 주십시오.
 
@@ -162,8 +165,8 @@
 <tr class="even">
 <td><p>1</p></td>
 <td><p>전지 (3.6V AA Size)</p></td>
-<td><p>ER6C</p></td>
-<td><p>Hitachi Maxwell(JAPAN)</p></td>
+<td><p>ER6V-T1</p></td>
+<td><p>TOSHIBA (JAPAN)</p></td>
 <td><p>1</p></td>
 <td><p>2년 주기 교환</p></td>
 </tr>
@@ -172,7 +175,10 @@
 
 **보수부품 B**
 
-![](../_assets/보수_부품B-주의1.png  )
+{% hint style="info" %}
+여러 대 구입하는 경우에는 준비해야 할 보수 부품입니다.
+{% endhint %}
+
 
 표 6-8 보수 부품 점검 B
 
@@ -216,19 +222,19 @@
     <td>CMC1</td>
     <td>현대로보틱스</td>
     <td>1</td>
-    <td>중형/소형</td>
+    <td>대형/중형/소형</td>
   </tr>
   <tr>
     <td>CMC2</td>
     <td>현대로보틱스</td>
     <td>1</td>
-    <td>중형</td>
+    <td>대형/중형</td>
   </tr>
   <tr>
     <td>CEC1</td>
     <td>현대로보틱스</td>
     <td>1</td>
-    <td>중형/소형</td>
+    <td>대형/중형/소형</td>
   </tr>
 </tbody>
 </table>
