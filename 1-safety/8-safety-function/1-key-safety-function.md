@@ -6,7 +6,10 @@ There is one emergency stop button on the controller and teach pendant respectiv
 
 
 
-![](../../_assets/1.8.1._주요_안전_기능(Hi6)-주요_안전_기능.png  )
+{% hint style="info" %}
+As the emergency stop function immediately cuts off the motor power, so reckless use of the function may result in accumulation of fatigue that affects the durability of the robot. The functoin must be used only in emergency situations.
+{% endhint %}
+
 
 ![](../../_assets/그림_1.2_제어기,_티칭펜던트_비상정지_스위치.png  )
 

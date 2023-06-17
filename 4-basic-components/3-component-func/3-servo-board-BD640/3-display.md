@@ -1,6 +1,6 @@
 ﻿# 4.3.3.3. Display Devices
 
- Table 4-10 LEDs of the Servo Board (BD640)
+ Table 4-11 LEDs of the Servo Board (BD640)
 
 <table>
 <tbody>

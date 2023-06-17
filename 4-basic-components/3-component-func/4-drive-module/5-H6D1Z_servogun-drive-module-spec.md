@@ -6,7 +6,7 @@ The drive module performs a power amplification function that allows the current
 
 Figure 4.25 Parts Placement Diagram of BD659 for H6D1Z</br></br>
 
-Table 4-36 Configuration of H6D1Z
+Table 4-37 Configuration of H6D1Z
 
 <table>
 <thead>
@@ -41,7 +41,7 @@ Table 4-36 Configuration of H6D1Z
 </tbody>
 </table>
 
-Table 4-37 Description of the Connectors of H6D1Z
+Table 4-38 Description of the Connectors of H6D1Z
 
 <table>
 <thead>

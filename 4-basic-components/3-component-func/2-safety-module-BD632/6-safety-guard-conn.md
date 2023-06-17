@@ -16,7 +16,10 @@ If the general safety guard is not to be used, connect the terminals (pins 15-7 
 
 Figure 4.15 Method to Perform When Not Using a General Safety Guard
 
-![](../../../_assets/4.3.2.6._안전가드의_연결(Hi6)-경고.png  )
+{% hint style="warning" %}
+If a general safety guard is to be installed and used, the robot should be operated after confirming that the emergency stop operates normally. In addition, check if the emergency stop input is disabled. This is an essential measure that must be taken in advance for the safety of workers.
+{% endhint %}
+
 
 \(2\) Automatic Safety Guard of Contact Input Type 
 
@@ -32,4 +35,7 @@ If the automatic safety guard is not to be used, connect the terminals of the te
 
 Figure 4.17 Method to Perform When Not Using an Automatic Safety Guard of Contact Input Type
 
-![](../../../_assets/4.3.2.6._안전가드의_연결(Hi6)-경고2.png  )
+{% hint style="warning" %}
+If an automatic safety guard is to be installed and used, the robot should be operated after confirming that the emergency stop works normally. In addition, check if the emergency stop input is disabled. This is an essential measure that must be taken in advance for the safety of workers.
+{% endhint %}
+

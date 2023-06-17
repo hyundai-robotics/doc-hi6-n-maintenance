@@ -1,6 +1,8 @@
 ﻿# 1.10.3. Installation of the Robot
 
-![](../../_assets/1.10.3._로봇_설치(Hi6)-경고.png  )
+{% hint style="warning" %}
+The robot should be installed and operated according to the guidelines of ISO 10218-2. In addition, it is required to comply with the relevant requirements of international standards and national laws. Our company (or the manufacturer) will not be responsible for any accidents that occur due to not complying with the relevant requirements of international standards and national laws or due to not reviewing the “risk assessment”.
+{% endhint %}
 
 Installation of the product should be performed by a qualified installer according to relevant national and local regulations and laws.
 *	When unpacking the pruduct, check it for damage that may occur while transporting or unpacking it.

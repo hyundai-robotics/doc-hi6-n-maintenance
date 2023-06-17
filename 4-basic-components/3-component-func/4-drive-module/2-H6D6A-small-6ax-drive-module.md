@@ -5,7 +5,7 @@ The drive module performs a power amplification function that allows the current
 The three-phase current supplied from the power supply module is rectified through a diode module and then converted into direct current and stored in a smoothing capacitor. When the motor speed of the robot is decelerated, the electric power generated from the motor will be consumed through transistors and resistors. The relevant configuration is as follows.
 
 
-Table 4-22 Configuration of H6D6A (Small-Sized 6 Axes Integrated Drive Module)
+Table 4-23 Configuration of H6D6A (Small-Sized 6 Axes Integrated Drive Module)
 
 <table>
 <thead>
@@ -69,11 +69,16 @@ Table 4-22 Configuration of H6D6A (Small-Sized 6 Axes Integrated Drive Module)
 </tbody>
 </table>
 
-![](../../../_assets/4.3.4.2._-_주의1.png  )
+{% hint style="info" %}
+The drive module differs depending on the type of the robot, so you must check the type when replacing it.
+{% endhint %}
+
+■  **Configuration of the Type Number of the Small-Sized 6 Axes Integrated Drive Module**
+
 
 ![](../../../_assets/소형_6축_일체형_드라이브모듈_형번_구성.png  )
 
-Table 4-23 Type Symbol of the Small-Sized 6 Axes Integrated Drive Module
+Table 4-24 Type Symbol of the Small-Sized 6 Axes Integrated Drive Module
 
 <table>
 <tbody>
@@ -88,7 +93,7 @@ Table 4-23 Type Symbol of the Small-Sized 6 Axes Integrated Drive Module
 </tbody>
 </table>
 
-Table 4-24 Specification of the Small-Sized 6 Axes Integrated Drive Module
+Table 4-25 Specification of the Small-Sized 6 Axes Integrated Drive Module
 
 <table>
 <thead>
@@ -124,7 +129,7 @@ Table 4-24 Specification of the Small-Sized 6 Axes Integrated Drive Module
 </tbody>
 </table>
 
-Table 4-25 Capacity of the Small-Sized IPM
+Table 4-26 Capacity of the Small-Sized IPM
 
 <table>
 <thead>
@@ -140,7 +145,7 @@ Table 4-25 Capacity of the Small-Sized IPM
 </thead>
 </table>
 
-Table 4-26 Symbols of the Hall Sensors of the Small-Sized IPM
+Table 4-27 Symbols of the Hall Sensors of the Small-Sized IPM
 
 <table>
 <thead>
@@ -188,13 +193,15 @@ Table 4-26 Symbols of the Hall Sensors of the Small-Sized IPM
 </tbody>
 </table>
 
-![](../../../_assets/4.3.4.2._-_주의2.png  )
+{% hint style="info" %}
+The drive module differs depending on the type of the robot, so you must check the type when replacing it.
+{% endhint %}
 
 ![](../../../_assets/그림_4.41_BD653_부품_배치도.png  )
 
 Figure 4.22 Parts Placement Diagram of BD653 
 
-Table 4-27 Description of the Connectors of BD653
+Table 4-28 Description of the Connectors of BD653
 
 <table>
 <tbody>
@@ -246,7 +253,7 @@ Table 4-27 Description of the Connectors of BD653
 </tbody>
 </table>
 
-Table 4-28 Description of the LEDs of BD653
+Table 4-29 Description of the LEDs of BD653
 
 <table>
 <tbody>
@@ -287,7 +294,7 @@ Table 4-28 Description of the LEDs of BD653
 
 Figure 4.23 Parts Placement Diagram of BD654</br></br>
 
-Table 4 29 Description of the Connectors of BD654
+Table 4-30 Description of the Connectors of BD654
 
 <table>
 <tbody>
@@ -324,7 +331,7 @@ Table 4 29 Description of the Connectors of BD654
 </tbody>
 </table>
 
-Table 4-30 Description of the LEDs of BD654
+Table 4-31 Description of the LEDs of BD654
 
 <table>
 <tbody>

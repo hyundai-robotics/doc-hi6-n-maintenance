@@ -1,6 +1,6 @@
 ﻿# 4.3.3.2. Connectors
 
-Table 4-9 Types and Usage of the Connectors of the Servo Board (BD640)
+Table 4-10 Types and Usage of the Connectors of the Servo Board (BD640)
 
 <table>
 <tbody>

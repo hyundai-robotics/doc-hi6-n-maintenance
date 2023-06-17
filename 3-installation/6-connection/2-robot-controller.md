@@ -45,6 +45,9 @@ Wire Harness connection diagram
 </tbody>
 </table>
 
-![](../../_assets/3.6.2._로봇_본체와_제어기의_접속-주의.png  )
+{% hint style="info" %}
+Since the contact part of the connector for each robot may be different from the figure above, you must read the relevant robot maintenance manual carefully before connecting the wire harness.
+{% endhint %}
+
 
 Figure 3.6 Connection of the Manipulator and Controller (Hi6-N**(U))

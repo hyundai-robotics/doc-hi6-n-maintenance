@@ -12,7 +12,7 @@ The following figure shows the power system diagram for the AC control power rel
 
 Figure 4.27 Power System of the Hi6-N Controller</br></br>
 
-Table 4-38 Types and Usage of the Fuses of the Electronic Module 
+Table 4-39 Types and Usage of the Fuses of the Electronic Module 
 
 <table>
 <thead>

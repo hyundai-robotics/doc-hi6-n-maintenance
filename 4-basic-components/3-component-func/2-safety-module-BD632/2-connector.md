@@ -147,7 +147,9 @@ Table 4-4 Types and Usage of the Connectors of the BD632 (Safety IO Board)
 
 Figure 4.8 BD632(Safety IO Board) TBEM
 
-![](../../../_assets/4.3.2.2._커넥터(Hi6)-주의.png  )
+{% hint style="info" %}
+When a safety-related input is connected and activated, you must check whether the function is operating normally by referring to “1.11 Safety Measures When Operating the Robot.”
+{% endhint %}
 
 Table 4-5 Description of TBEM of the BD632 (Safety IO Board) 
 
@@ -251,7 +253,10 @@ Table 4-5 Description of TBEM of the BD632 (Safety IO Board)
 
 Figure 4.9 BD632(Safety IO Board) TBPLC
 
-![](../../../_assets/4.3.2.2._커넥터(Hi6)-경고.png  )
+{% hint style="warning" %}
+When a safety-related input is connected and activated, you must check whether the function is operating normally by referring to “1.11 Safety Measures When Operating the Robot.”
+{% endhint %}
+
 
 Table 4-6 Description of TBPLC of BD632 (Safety IO Board)
 
@@ -337,7 +342,7 @@ Table 4-6 Description of TBPLC of BD632 (Safety IO Board)
 
 ![](../../../_assets/외부_모터온_커넥터.png  )
 
-BD632 external motor on switch 
+Table 4-7 BD632 external motor on switch 
 
 <table>
 <tbody>

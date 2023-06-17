@@ -4,7 +4,10 @@ The characteristics of individual parts are described below.
 
 **Maintenance Parts of the Category A**
 
-![](../_assets/보수_부품A-주의1.png  )
+{% hint style="info" %}
+These are the important parts to be prepared for daily maintenance and inspection.
+{% endhint %}
+
 
 To maintain normal operation, the parts of the category A-2 and parts of the category A-3 are the minimum necessary parts, and at least one set of each group should be prepared.
 
@@ -169,7 +172,10 @@ Table 6-7 Maintenance Parts of the Category A-3 (Periodic Replacement Parts)
 
 **Maintenance Parts of the Category B**
 
-![](../_assets/보수_부품B-주의1.png  )
+{% hint style="info" %}
+These are the maintenance parts to be prepared when multiple units are purchased.
+{% endhint %}
+
 
 Table 6-8 Maintenance Parts of the Category B 
 

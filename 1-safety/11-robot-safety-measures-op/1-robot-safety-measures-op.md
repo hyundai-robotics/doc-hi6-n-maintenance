@@ -33,7 +33,10 @@ Observe the following measures considering that safety is very important when op
 
 *	Do not operate the robot operation buttons on the teach pendant just by using the feeling at the hands while watching the teaching points. Instead, operate the buttons while checking with bare eyes.
 
-![](../../_assets/1.11.1._로봇_조작시_안전대책(Hi6)-경고.png  )
+{% hint style="warning" %}
+Sufficiently check under your feet when teaching. In particular, you must perform the teaching work outside the safety guard when teaching at a high spped (250mm/s or above).
+{% endhint %}
+
 
 * 	Take the following measures when abnormality occurs.
 이
@@ -98,7 +101,9 @@ Table 1-4 Status of the robot when it stop mode
 </tbody>
 </table>
 
-![](../../_assets/1.11.1._로봇_조작시_안전대책(Hi6)-주의.png  )
+{% hint style="info" %}
+You should not be negligent in paying attention to sudden movements even when entry is made possible. Must avoid approaching without preparing for possible emergency situation under any circumstances.
+{% endhint %}
 
   
     - If the entrance door needs to be opened to take measures for minor abnormalities (such as nozzle contact, deposition detection and arc abnormality) during a temporary stop, the same measures as taken for opening the door for the teaching should be taken.

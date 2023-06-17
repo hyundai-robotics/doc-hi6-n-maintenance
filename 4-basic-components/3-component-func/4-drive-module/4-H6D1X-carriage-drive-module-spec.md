@@ -6,7 +6,7 @@ The drive module performs a power amplification function that allows the current
 
 Figure 4.24 Parts Placement Diagram of BD658 for H6D1X</br></br>
 
-Table 4-34 Configuration of H6D1X
+Table 4-35 Configuration of H6D1X
 
 <table>
 <thead>
@@ -42,7 +42,7 @@ Table 4-34 Configuration of H6D1X
 </tbody>
 </table>
 
-Table 4 35 Description of the Connectors of H6D1X
+Table 4-36 Description of the Connectors of H6D1X
 
 <table>
 <thead>

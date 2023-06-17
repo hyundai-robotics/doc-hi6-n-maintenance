@@ -27,4 +27,12 @@ Install the product in an appropriate place in consideration of the installation
 *	For the matters related to the installation of the robot, refer to each robot maintenance manual.
 
 
-![](../_assets/3.2._설치_및_사용_환경(Hi6)-주의,경고.png  )
+{% hint style="info" %}
+If the product is not installed in the recommended locations, the performance and service life of the product may be reduced. Install and use the product according to the recommendations.
+{% endhint %}
+
+{% hint style="warning" %}
+The robot should be installed and operated according to the guidelines of ISO 10218-2. In addition, it is required to comply with the relevant requirements of international standards and national laws. 
+Our company (or the manufacturer) will not be responsible for any accidents that occur due to not complying with the relevant requirements of international standards and national laws or due to not reviewing the “risk assessment”.
+{% endhint %}
+

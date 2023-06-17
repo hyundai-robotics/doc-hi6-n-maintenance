@@ -15,4 +15,11 @@ Observe the following actions after maintenance and inspection.
 *	Operate the robot at a low speed.
 
 
-![](../../_assets/1.13.3._보수,_점검_후_조치사항(Hi6)-주의,경고.png  )
+{% hint style="info" %}
+Before turning on the power, check that there is no worker inside the robot operation area and you are in a safe place
+{% endhint %}
+
+{% hint style="warning" %}
+When it comes to the change of components or additoin of optional equipment (both hardware and software) to the robot both of which may affect safety-related functions, you must check whether the functions are in normal conditions, by paying attention to the items described in “1.11 Safety Works When Operating the Robot”. 
+{% endhint %}
+

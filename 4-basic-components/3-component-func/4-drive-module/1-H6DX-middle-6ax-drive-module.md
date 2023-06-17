@@ -4,7 +4,7 @@ The drive module performs a power amplification function that allows the current
 
 The three-phase current supplied from the power supply module is rectified through a diode module and then converted into direct current and stored in a smoothing capacitor. When the motor speed of the robot is decelerated, the electric power generated from the motor will be consumed through transistors and resistors. The relevant configuration is as follows. 
 
-Table 4-13 Configuration of H6D6X (Medium-Sized 6 Axes Integrated Drive Module)
+Table 4-14 Configuration of H6D6X (Medium-Sized 6 Axes Integrated Drive Module)
 
 
 <table>
@@ -73,7 +73,7 @@ Table 4-13 Configuration of H6D6X (Medium-Sized 6 Axes Integrated Drive Module)
 
 ![](../../../_assets/중형_6축_일체형_드라이브모듈_형번_구성.png  )
 
-Table 4-14 Type Symbol of the Medium-Sized 6 Axes Integrated Drive Module 
+Table 4-15 Type Symbol of the Medium-Sized 6 Axes Integrated Drive Module 
 
 <table>
 <tbody>
@@ -88,7 +88,7 @@ Table 4-14 Type Symbol of the Medium-Sized 6 Axes Integrated Drive Module
 </tbody>
 </table>
 
-Table 4-15 Specification of the Medium-Sized 6 Axes Integrated Drive Module
+Table 4-16 Specification of the Medium-Sized 6 Axes Integrated Drive Module
 
 <table>
 <thead>
@@ -129,7 +129,7 @@ Table 4-15 Specification of the Medium-Sized 6 Axes Integrated Drive Module
 </tbody>
 </table>
 
-Table 4-16 Capacity of the Medium-Sized IPM 
+Table 4-17 Capacity of the Medium-Sized IPM 
 
 <table>
 <thead>
@@ -153,7 +153,7 @@ Table 4-16 Capacity of the Medium-Sized IPM
 </thead>
 </table>
 
-Table 4-17 Symbols of the Hall Sensors of the Medium-Sized IPM 
+Table 4-18 Symbols of the Hall Sensors of the Medium-Sized IPM 
 
 <table>
 <thead>
@@ -195,13 +195,16 @@ Table 4-17 Symbols of the Hall Sensors of the Medium-Sized IPM
 </tbody>
 </table>
 
-![](../../../_assets/4.3.4.1._-주의1.png  ).
+{% hint style="info" %}
+The drive module differs depending on the type of the robot, so you must check the type when replacing it.
+{% endhint %}
+
 
 ![](../../../_assets/그림_4.39_BD651_부품_배치도.png  )
 
 Figure 4.20 Parts Placement Diagram of BD651</br></br>
 
-Table 4-18 Description of the Connectors of BD651
+Table 4-19 Description of the Connectors of BD651
 
 <table>
 <tbody>
@@ -263,7 +266,7 @@ Table 4-18 Description of the Connectors of BD651
 </tbody>
 </table>
 
-Table 4-19 Description of LEDs of BD651
+Table 4-20 Description of LEDs of BD651
 
 <table>
 <tbody>
@@ -304,7 +307,7 @@ Table 4-19 Description of LEDs of BD651
 
 Figure 4.21 Parts Placement Diagram of BD652
 
-Table 4-20 Description of the Connectors of BD652
+Table 4-21 Description of the Connectors of BD652
 
 <table>
 <tbody>
@@ -341,7 +344,7 @@ Table 4-20 Description of the Connectors of BD652
 </tbody>
 </table>
 
-Table 4-21 Description of the LEDs of BD652
+Table 4-22 Description of the LEDs of BD652
 
 <table>
 <tbody>

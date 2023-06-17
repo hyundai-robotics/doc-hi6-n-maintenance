@@ -41,5 +41,8 @@ Figure 3.3 Controller Wire Connection Position
 Figure 3.4 Transport of the Controller by Using a Forklift
 
 
-![](../../_assets/3.3.2._운반_무게_수정_Hi6_-경고.png )
+{% hint style="warning" %}
+If you transport the product by uisng lifting equpment, you should comply with the relevant national and local safety regulations and equipment usage guidelines. When moving the product by using a crane, you must make sure that that no workers are under the product. Also, never work or walk under the crane or the product.
+{% endhint %}
+
 

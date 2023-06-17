@@ -1,8 +1,11 @@
 ﻿# 4.3.3.4. Setting Devices 
 
-![](../../../_assets/4.3.3.4._설정장치(Hi6)-주의1.png  )
+{% hint style="info" %}
+The DIP switch is set to OFF mode when shipped from the factory, and the setting should not be changed arbitrarily by the user.
+{% endhint %}
 
-Table 4-11 Method to Set the DIP Switch (DS1) of the Servo Board (BD640) 
+
+Table 4-12 Method to Set the DIP Switch (DS1) of the Servo Board (BD640) 
 
 <table>
 <thead>
@@ -34,9 +37,13 @@ Table 4-11 Method to Set the DIP Switch (DS1) of the Servo Board (BD640)
 </table>
 
 ![](../../../_assets/표4-11_스위치외형.png)</br></br>
-![](../../../_assets/4.3.3.4._설정장치(Hi6)-주의2.png  )
 
-Table 4-12 Description of the Jumper (JP1) of the Servo Board (BD640) 
+{% hint style="info" %}
+The user cannot change the following items arbitrarily and needs to refer to them only when required to reprogram through FPGA JTAG.
+{% endhint %}
+
+
+Table 4-13 Description of the Jumper (JP1) of the Servo Board (BD640) 
 
 <table>
 <thead>

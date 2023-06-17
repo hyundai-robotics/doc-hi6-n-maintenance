@@ -19,7 +19,7 @@ This manual has been created based on standard specifications, so some contents 
 
 The contents covered in this manual are protected by copyright laws and confidentiality agreements. This manual may be provided as reference material for customers who have purchased Hyundai Robotics products or may be used as internal training material. Any activities, such as use, copying, disclosure, or distribution to third parties that are not expressly permitted by Hyundai Robotics, are strictly prohibited.
 
-Copyright ⓒ 2022 HYUNDAI ROBOTICS. All rights reserved.
+Copyright ⓒ 2023 HYUNDAI ROBOTICS. All rights reserved.
 
 
 ## Safety Cautions
@@ -28,14 +28,20 @@ Before using the product, you must fully understand the following safety caution
 
 ■ 	Danger
 
-![](./_assets/Hi6_위험사항.png)
+{% hint style="danger" %}
+Imminent danger: Incompliance may cause the death of or serious injuries to the worker.
+{% endhint %}
+
 
 * Make sure that the safety circuit is never ignored, modified or altered in any way.
 * Considering that additional problems may occur due to gravity or brake release, you must take a measure, before carrying out works, such as using a rope and crane that are to be used for transport of individual robots to prevent the brake from running down or additional accidents from taking place during the release of the brake.
 
 ■ Warning
 
-![](./_assets/Hi6_경고.png)
+{% hint style="warning" %}
+Potential danger: Incompliance may cause injuries to the worker or damage to property, such as significant damage to the product.
+{% endhint %}
+
 
 * Any act of damaging the safety labels, such as relocating the name plates, warning markings, safety symbols, name markings and wire markings or painting over them or blocking them with a cover is prohibited.
 * When the robot is operating, there is a risk of collision between the robot and the worker. Therefore, install a safety fence to prevent the worker from getting close to the robot.
@@ -55,7 +61,10 @@ Our company (or the manufacturer) will not be responsible for any accidents that
 
 ■ Caution
 
-![](./_assets/Hi6_주의.png)
+{% hint style="info" %}
+Low-level danger factor: Incompliance may result in minor injury to the worker or damage to property, such as damage to the product.
+{% endhint %}
+
 
 * Mark the installation and dangerous areas of the robot in a way that they can be clearly differentiated from other facilities and devices in terms of type, color and style.
 * As the emergency stop function immediately cuts off the motor power, so reckless use of the function may result in accumulation of fatigue that affects the durability of the robot. The function must be used only in emergency situations.

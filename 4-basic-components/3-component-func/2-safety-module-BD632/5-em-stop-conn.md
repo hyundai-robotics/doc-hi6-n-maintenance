@@ -14,4 +14,6 @@ If the external emergency stop is not to be used, connect the terminals of the t
 
 Figure 4.13 Method to Perform When Not Using the External Emergency Stop of Contact Input Type
 
-![](../../../_assets/4.3.2.5._비상정지의_연결(Hi6)-경고.png  )
+{% hint style="warning" %}
+If an external emergency stop is to be installed and used, the robot should be operated after confirming that the emergency stop operates normally. In addition, check if the emergency stop input is disabled. This is an essential measure that must be taken in advance for the safety of workers.
+{% endhint %}

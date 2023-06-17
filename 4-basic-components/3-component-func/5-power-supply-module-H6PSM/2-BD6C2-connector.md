@@ -6,7 +6,7 @@ The placement of the connectors of the electronic board (BD6C2) is shown in the 
 
 Figure 4.28 Connectors of the Electronic Board (BD6C2)</br></br>
 
-Table 4-39 Types and Usage of the Connectors of BD6C2
+Table 4-40 Types and Usage of the Connectors of BD6C2
 
 <table>
 <thead>

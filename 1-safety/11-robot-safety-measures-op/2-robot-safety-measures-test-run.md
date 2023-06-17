@@ -1,6 +1,8 @@
 ﻿# 1.11.2. Safety Measures When Trial-Operating the Robot
 
-![](../../_assets/1.11.2._로봇_시운저시_안전대책(Hi6)-주의.png  )
+{% hint style="info" %}
+In the case of trial-operation, there may be a design error, a teaching error, or a defect in manufacturing with regard to the entire system including the teaching program, jigs, and sequencing. For this reason, you should work with elevated safety awareness in trial-operation. Multiple factors can contribute to safety accidents. Observe the following measures considering that safety is very important when trial-operating the robot.
+{% endhint %}
 
 * 	Before operating the robot, check the functions of buttons such as the emergency stop button and the stop button as well as the functions of relevant signals. After that, check the operation related to detection of abnormality. First of all, it is important to check all the signals that stop the robot. When an accident is expected, the most important thing is to stop the robot.
 

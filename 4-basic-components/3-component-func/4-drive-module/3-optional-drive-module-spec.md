@@ -1,8 +1,10 @@
 ﻿# 4.3.4.3. Specification of the Optional Drive Module
 
+■  **Configuration of the Type Number of the Optional Drive Module**
+
 ![](../../../_assets/선택사양_드라이브모듈의_형번_구성.png  )
 
-Table 4-31 Type Symbol of the Optional Drive Module
+Table 4-32 Type Symbol of the Optional Drive Module
 
 <table>
 <thead>
@@ -19,7 +21,7 @@ Table 4-31 Type Symbol of the Optional Drive Module
 </tbody>
 </table>
 
-Table 4-32 Capacity of the IPM of the Optional Drive Module
+Table 4-33 Capacity of the IPM of the Optional Drive Module
 
 <table>
 <thead>
@@ -43,7 +45,7 @@ Table 4-32 Capacity of the IPM of the Optional Drive Module
 </thead>
 </table>
 
-Table 4-33 Symbols of the Hall Sensors of the Optional Drive Module
+Table 4-34 Symbols of the Hall Sensors of the Optional Drive Module
 
 <table>
 <thead>

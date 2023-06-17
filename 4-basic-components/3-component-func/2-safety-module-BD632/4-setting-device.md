@@ -4,9 +4,12 @@
 
 Figure 4.11 Description of the Setting Devices of the BD632 (Safety IO Board)
 
-![](../../../_assets/4.3.2.4._설정장치(Hi6)-경고.png  )
+{% hint style="warning" %}
+When a safety-related input is connected and activated, you must check whether the function is operating normally by referring to “1.11 Safety Measures When Operating the Robot.”
+{% endhint %}
 
-Table 4-8 Description of the SW1, SW2, SW3, SW4 and SW7 setting devices of BD632 (Safety IO Module)
+
+Table 4-9 Description of the SW1, SW2, SW3, SW4 and SW7 setting devices of BD632 (Safety IO Module)
 
 
 <table>

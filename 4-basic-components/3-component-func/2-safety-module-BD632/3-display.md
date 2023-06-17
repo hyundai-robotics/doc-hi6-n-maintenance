@@ -4,7 +4,7 @@
 
 Figure 4.10 Display Devices of BD632 (Safety IO Board)</br></br>
 
-Table 4-7 Description of the Display Devices of the BD632 (Safety IO Module)
+Table 4-8 Description of the Display Devices of the BD632 (Safety IO Module)
 
 <table>
 <tbody>

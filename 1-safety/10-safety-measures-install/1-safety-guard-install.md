@@ -1,6 +1,8 @@
 ﻿# 1.10.1. Installing the Safety Guard
 
-![](../../_assets/1.10.1._안전_가드_설치(Hi6)-경고.png  )
+{% hint style="warning" %}
+When the robot is operating, there is a risk of collision between the robot and the worker. Therefore, install a safety fence to prevent a worker from getting close to the robot.
+{% endhint %}
 
 When the robot is operating, there is a risk of collision between the robot and the worker. Therefore, install a safety fence to prevent a worker from getting close to the robot according to ISO 13855:2010. Configure the system to ensure that the robot stops when a worker opens the door of the safety fence and approaches the facility, during the robot operation, for any reason, such as inspecting the robot or a welding fixure, performing tip dressing or tip changing, etc.
 
