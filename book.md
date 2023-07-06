@@ -2906,7 +2906,7 @@ H6COM-T는 은 그림 4.3과 같은 구조로서 Main CPU보드와 Carier보드�
 
 그림 4.11 BD632(Safety IO Board)의 설정장치 설명
 
-{% hint style="warning " %}
+{% hint style="warning" %}
 안전관련 입력을 연결하여 활성화를 한경우 반드시 “1.11. 로봇 조작시 안전대책”을 참고하여 기능 정상 동작 여부를 확인하여 주십시오.
 {% endhint %}
 

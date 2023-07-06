@@ -326,232 +326,232 @@
 	},
 	{
 		"link": "4-basic-components/3-component-func/2-safety-module-BD632/5-em-stop-conn.md",
-		"char_ofs": 86519,
-		"byte_ofs": 139272
+		"char_ofs": 86518,
+		"byte_ofs": 139334
 	},
 	{
 		"link": "4-basic-components/3-component-func/2-safety-module-BD632/6-safety-guard-conn.md",
-		"char_ofs": 87228,
-		"byte_ofs": 140711
+		"char_ofs": 87227,
+		"byte_ofs": 140773
 	},
 	{
 		"link": "4-basic-components/3-component-func/2-safety-module-BD632/7-safety-plc-io-conn.md",
-		"char_ofs": 88600,
-		"byte_ofs": 143564
+		"char_ofs": 88599,
+		"byte_ofs": 143626
 	},
 	{
 		"link": "4-basic-components/3-component-func/2-safety-module-BD632/8-ext-motor-on-sig-conn.md",
-		"char_ofs": 89305,
-		"byte_ofs": 144950
+		"char_ofs": 89304,
+		"byte_ofs": 145012
 	},
 	{
 		"link": "4-basic-components/3-component-func/3-servo-board-BD640/README.md",
-		"char_ofs": 89501,
-		"byte_ofs": 145355
+		"char_ofs": 89500,
+		"byte_ofs": 145417
 	},
 	{
 		"link": "4-basic-components/3-component-func/3-servo-board-BD640/1-overview.md",
-		"char_ofs": 89522,
-		"byte_ofs": 145387
+		"char_ofs": 89521,
+		"byte_ofs": 145449
 	},
 	{
 		"link": "4-basic-components/3-component-func/3-servo-board-BD640/2-connector.md",
-		"char_ofs": 89695,
-		"byte_ofs": 145711
+		"char_ofs": 89694,
+		"byte_ofs": 145773
 	},
 	{
 		"link": "4-basic-components/3-component-func/3-servo-board-BD640/3-display.md",
-		"char_ofs": 91417,
-		"byte_ofs": 147744
+		"char_ofs": 91416,
+		"byte_ofs": 147806
 	},
 	{
 		"link": "4-basic-components/3-component-func/3-servo-board-BD640/4-setting-device.md",
-		"char_ofs": 92035,
-		"byte_ofs": 148469
+		"char_ofs": 92034,
+		"byte_ofs": 148531
 	},
 	{
 		"link": "4-basic-components/3-component-func/4-drive-module/README.md",
-		"char_ofs": 93266,
-		"byte_ofs": 150031
+		"char_ofs": 93265,
+		"byte_ofs": 150093
 	},
 	{
 		"link": "4-basic-components/3-component-func/4-drive-module/1-H6DX-middle-6ax-drive-module.md",
-		"char_ofs": 93297,
-		"byte_ofs": 150077
+		"char_ofs": 93296,
+		"byte_ofs": 150139
 	},
 	{
 		"link": "4-basic-components/3-component-func/4-drive-module/2-H6D6A-small-6ax-drive-module.md",
-		"char_ofs": 100588,
-		"byte_ofs": 159292
+		"char_ofs": 100587,
+		"byte_ofs": 159354
 	},
 	{
 		"link": "4-basic-components/3-component-func/4-drive-module/3-optional-drive-module-spec.md",
-		"char_ofs": 107504,
-		"byte_ofs": 168142
+		"char_ofs": 107503,
+		"byte_ofs": 168204
 	},
 	{
 		"link": "4-basic-components/3-component-func/4-drive-module/4-H6D1X-carriage-drive-module-spec.md",
-		"char_ofs": 108983,
-		"byte_ofs": 169967
+		"char_ofs": 108982,
+		"byte_ofs": 170029
 	},
 	{
 		"link": "4-basic-components/3-component-func/4-drive-module/5-H6D1Z_servogun-drive-module-spec.md",
-		"char_ofs": 110337,
-		"byte_ofs": 171878
+		"char_ofs": 110336,
+		"byte_ofs": 171940
 	},
 	{
 		"link": "4-basic-components/3-component-func/5-power-supply-module-H6PSM/README.md",
-		"char_ofs": 111689,
-		"byte_ofs": 173791
+		"char_ofs": 111688,
+		"byte_ofs": 173853
 	},
 	{
 		"link": "4-basic-components/3-component-func/5-power-supply-module-H6PSM/1-H6PSM-power-dist-bd-BD6C2.md",
-		"char_ofs": 111713,
-		"byte_ofs": 173830
+		"char_ofs": 111712,
+		"byte_ofs": 173892
 	},
 	{
 		"link": "4-basic-components/3-component-func/5-power-supply-module-H6PSM/2-BD6C2-connector.md",
-		"char_ofs": 112630,
-		"byte_ofs": 175322
+		"char_ofs": 112629,
+		"byte_ofs": 175384
 	},
 	{
 		"link": "4-basic-components/3-component-func/6-teach-pendant-TP630/README.md",
-		"char_ofs": 114504,
-		"byte_ofs": 177719
+		"char_ofs": 114503,
+		"byte_ofs": 177781
 	},
 	{
 		"link": "4-basic-components/3-component-func/6-teach-pendant-TP630/1-overview.md",
-		"char_ofs": 114527,
-		"byte_ofs": 177755
+		"char_ofs": 114526,
+		"byte_ofs": 177817
 	},
 	{
 		"link": "4-basic-components/3-component-func/6-teach-pendant-TP630/2-USB-cover.md",
-		"char_ofs": 115185,
-		"byte_ofs": 179038
+		"char_ofs": 115184,
+		"byte_ofs": 179100
 	},
 	{
 		"link": "5-optional-components/README.md",
-		"char_ofs": 115336,
-		"byte_ofs": 179348
-	},
-	{
-		"link": "5-optional-components/1-PCI-comm-card/README.md",
-		"char_ofs": 115351,
-		"byte_ofs": 179382
-	},
-	{
-		"link": "5-optional-components/1-PCI-comm-card/1-overview.md",
-		"char_ofs": 115368,
+		"char_ofs": 115335,
 		"byte_ofs": 179410
 	},
 	{
+		"link": "5-optional-components/1-PCI-comm-card/README.md",
+		"char_ofs": 115350,
+		"byte_ofs": 179444
+	},
+	{
+		"link": "5-optional-components/1-PCI-comm-card/1-overview.md",
+		"char_ofs": 115367,
+		"byte_ofs": 179472
+	},
+	{
 		"link": "5-optional-components/1-PCI-comm-card/2-PCI-comm-card-config.md",
-		"char_ofs": 117654,
-		"byte_ofs": 181901
+		"char_ofs": 117653,
+		"byte_ofs": 181963
 	},
 	{
 		"link": "5-optional-components/1-PCI-comm-card/3-PCI-comm-card-front.md",
-		"char_ofs": 118210,
-		"byte_ofs": 182682
+		"char_ofs": 118209,
+		"byte_ofs": 182744
 	},
 	{
 		"link": "5-optional-components/2-brake-release-unit/README.md",
-		"char_ofs": 119068,
-		"byte_ofs": 183931
+		"char_ofs": 119067,
+		"byte_ofs": 183993
 	},
 	{
 		"link": "5-optional-components/2-brake-release-unit/1-overview.md",
-		"char_ofs": 119086,
-		"byte_ofs": 183968
+		"char_ofs": 119085,
+		"byte_ofs": 184030
 	},
 	{
 		"link": "5-optional-components/2-brake-release-unit/2-brake-release-switch.md",
-		"char_ofs": 119680,
-		"byte_ofs": 185253
+		"char_ofs": 119679,
+		"byte_ofs": 185315
 	},
 	{
 		"link": "5-optional-components/2-brake-release-unit/3-power-connector.md",
-		"char_ofs": 120842,
-		"byte_ofs": 186922
+		"char_ofs": 120841,
+		"byte_ofs": 186984
 	},
 	{
 		"link": "5-optional-components/2-brake-release-unit/4-brake-release-unit-status-LED.md",
-		"char_ofs": 122016,
-		"byte_ofs": 188837
+		"char_ofs": 122015,
+		"byte_ofs": 188899
 	},
 	{
 		"link": "5-optional-components/3-remote-io/README.md",
-		"char_ofs": 123178,
-		"byte_ofs": 190490
+		"char_ofs": 123177,
+		"byte_ofs": 190552
 	},
 	{
 		"link": "5-optional-components/3-remote-io/1-overview.md",
-		"char_ofs": 123192,
-		"byte_ofs": 190513
+		"char_ofs": 123191,
+		"byte_ofs": 190575
 	},
 	{
 		"link": "5-optional-components/3-remote-io/2-comm-module-crevis.md",
-		"char_ofs": 123627,
-		"byte_ofs": 191395
+		"char_ofs": 123626,
+		"byte_ofs": 191457
 	},
 	{
 		"link": "5-optional-components/3-remote-io/3-io-other-module-crevis.md",
-		"char_ofs": 124400,
-		"byte_ofs": 192261
+		"char_ofs": 124399,
+		"byte_ofs": 192323
 	},
 	{
 		"link": "6-regular-inspection/README.md",
-		"char_ofs": 127620,
-		"byte_ofs": 195674
+		"char_ofs": 127619,
+		"byte_ofs": 195736
 	},
 	{
 		"link": "6-regular-inspection/1-inspection-schedule.md",
-		"char_ofs": 127712,
-		"byte_ofs": 195895
+		"char_ofs": 127711,
+		"byte_ofs": 195957
 	},
 	{
 		"link": "6-regular-inspection/2-regular-insp-general-cautions.md",
-		"char_ofs": 127923,
-		"byte_ofs": 196357
+		"char_ofs": 127922,
+		"byte_ofs": 196419
 	},
 	{
 		"link": "6-regular-inspection/3-general-inspection.md",
-		"char_ofs": 128426,
-		"byte_ofs": 197533
+		"char_ofs": 128425,
+		"byte_ofs": 197595
 	},
 	{
 		"link": "6-regular-inspection/4-first-inspection-750-hour.md",
-		"char_ofs": 129307,
-		"byte_ofs": 198775
+		"char_ofs": 129306,
+		"byte_ofs": 198837
 	},
 	{
 		"link": "6-regular-inspection/5-periodic-inspection.md",
-		"char_ofs": 129960,
-		"byte_ofs": 199573
+		"char_ofs": 129959,
+		"byte_ofs": 199635
 	},
 	{
 		"link": "6-regular-inspection/6-long-vacation-inspection.md",
-		"char_ofs": 133350,
-		"byte_ofs": 203718
+		"char_ofs": 133349,
+		"byte_ofs": 203780
 	},
 	{
 		"link": "6-regular-inspection/7-repare-part-item.md",
-		"char_ofs": 133656,
-		"byte_ofs": 204401
+		"char_ofs": 133655,
+		"byte_ofs": 204463
 	},
 	{
 		"link": "appendices/README.md",
-		"char_ofs": 138180,
-		"byte_ofs": 209914
+		"char_ofs": 138179,
+		"byte_ofs": 209976
 	},
 	{
 		"link": "appendices/rules-occupational-safety.md",
-		"char_ofs": 138185,
-		"byte_ofs": 209926
+		"char_ofs": 138184,
+		"byte_ofs": 209988
 	},
 	{
 		"link": "quality-assurance.md",
-		"char_ofs": 138405,
-		"byte_ofs": 210319
+		"char_ofs": 138404,
+		"byte_ofs": 210381
 	}
 ]
