@@ -31,7 +31,7 @@
 <tr class="even">
 <td><p><strong>3</strong></p></td>
 <td><p>Hi6-N80</p></td>
-<td><p>Max. 10.4KVA</p></td>
+<td><p>Max. 10.5KVA</p></td>
 <td><p>220V/380V/400V/440V</p></td>
 <td><p>50/60</p></td>
 <td><p>50A</p></td>
@@ -55,7 +55,7 @@
 <tr class="odd">
 <td><p><strong>6</strong></p></td>
 <td><p>Hi6-N80U</p></td>
-<td><p>Max. 10.4KVA</p></td>
+<td><p>Max. 10.5KVA</p></td>
 <td><p>460V/480V</p></td>
 <td><p>50/60</p></td>
 <td><p>50A</p></td>

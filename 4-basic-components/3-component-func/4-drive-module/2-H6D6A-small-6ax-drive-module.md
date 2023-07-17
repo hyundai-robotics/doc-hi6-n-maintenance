@@ -2,7 +2,7 @@
 
 드라이브모듈(Drive Module)은 서보보드로부터의 전류지령에 따라 모터 각 상에 전류를 흘려주는 전력증폭기능을 수행합니다. 6축 일체형 드라이브모듈은 6개의 모터를 동시에 구동시킬 수 있으며, 다음과 같이 구성되어 있습니다.
 
-전원공급모듈로부터 공급되는 3상 전류를 다이오드 모듈로 정류하여 직류로 변화하여 평활용 커패시터에 저장합니다. 로봇의 감속 시에 모터로부터 발생하는 전력은 트랜지스터와 저항을 통하여 소비하며, 다음과 같이 구성되어 있습니다.
+전원공급모듈로부터 입력되는 3상 전류를 다이오드 모듈로 정류하여 직류로 변화하여 평활용 커패시터에 저장합니다. 로봇의 감속 시에 모터로부터 발생하는 전력은 IGBT와 저항을 통하여 소비하며, 다음과 같이 구성되어 있습니다.
 
 표 4-23 H6D6A (소형 6축 일체형 드라이브모듈)의 구성
 
@@ -17,11 +17,11 @@
   <tr>
     <td rowspan="6">BD653<br>(Power Board)</td>
     <td>게이트 드라이브 회로</td>
-    <td>IPM 게이트 신호 생성</td>
+    <td>IPM 게이트 신호 전달</td>
   </tr>
   <tr>
     <td>게이트 전원 모듈</td>
-    <td>게이트 전원 생성</td>
+    <td>IPM 게이트 전원 생성</td>
   </tr>
   <tr>
     <td>전류 검출부</td>
@@ -33,29 +33,29 @@
   </tr>
   <tr>
     <td>에러검출부</td>
-    <td>과전압, 회생 저항 과열, 저전압 에러 검지</td>
+    <td>PN 과전압, 회생방전 저항 과열, PN 저전압 에러 검지</td>
   </tr>
   <tr>
     <td>고전압 커패시터</td>
     <td>직류 전원 평활</td>
   </tr>
   <tr>
-    <td rowspan="2">BD654<br>(Iterface Board)</td>
+    <td rowspan="2">BD654<br>(Interface Board)</td>
     <td>시퀀스 연동부</td>
-    <td>시퀀스 상태와 서보 온 신호 연동</td>
+    <td>전용 IO 터미널블록</td>
   </tr>
   <tr>
     <td>시스템용 DIO 입출력</td>
-    <td>제어기 내부의 예비 IO장치</td>
+    <td>제어기 내부의 예비 IO 포트</td>
   </tr>
   <tr>
     <td rowspan="4">기타부품</td>
     <td>방열판(Heat Sink)</td>
-    <td>전력소자로부터 발생하는 열을 외부로 방출</td>
+    <td>전력소자에서 발생하는 열을 외부로 방출</td>
   </tr>
   <tr>
     <td>정류부</td>
-    <td>교류입력 주전원으로부터 모터에 공급되는 DC전원회로 생성</td>
+    <td>교류입력 전원을 정류하여 모터 구동용 직류 전원 생성</td>
   </tr>
   <tr>
     <td>회생 IGBT</td>
@@ -63,7 +63,7 @@
   </tr>
   <tr>
     <td>IPM</td>
-    <td>스위칭 디바이스</td>
+    <td>3상 모터 구동용 전력 변환</td>
   </tr>
 </tbody>
 </table>
@@ -85,8 +85,8 @@
 <td><p><strong>형식기호</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Hi6 드라이브모듈</strong></p></td>
-<td><p>H6D</p></td>
+<td><p><strong>Hi6 소형 6축 드라이브모듈</strong></p></td>
+<td><p>H6D6A</p></td>
 </tr>
 </tbody>
 </table>
@@ -121,29 +121,36 @@
   </tr>
   <tr>
     <td>일련번호</td>
-    <td colspan="2">0001 ~ 9999</td>
-    <td colspan="2">월 생산대수 : 1대 ~ 9999대</td>
+    <td colspan="2">001 ~ 999</td>
+    <td colspan="2">월 생산대수 : 1대 ~ 999대</td>
   </tr>
 </tbody>
 </table>
 
-표 4-26 소형IPM 용량
+표 4-26 소형 6축 드라이브모듈의 IPM 기호
 
 <table>
 <thead>
   <tr>
-    <td rowspan="2">소형</td>
+    <th>Drive Model</th>
+    <th>IPM 기호</th>
+    <th>IPM 사양</th>
+    </tr>
+</thead>
+<tbody>
+  <tr>
+    <td rowspan="7">소형 6축 드라이브모듈</td>
     <td>A</td>
-    <td>(IPM 허용 전류정격) 30A, (Hall Sensor 전류정격) 4V/15A</td>
+    <td>(IPM 허용 전류정격) 30A</td>
   </tr>
   <tr>
     <td>D</td>
-    <td>(IPM 허용 전류정격) 10A, (Hall Sensor 전류정격) 4V/5A</td>
+    <td>(IPM 허용 전류정격) 10A</td>
   </tr>
-</thead>
+</tbody>
 </table>
 
-표 4-27 소형 IPM용 Hall Sensor 기호
+표 4-27 소형 6축 드라이브모듈의 홀센서(Hall Sensor) 기호
 
 <table>
 <thead>
@@ -225,13 +232,13 @@
 </tr>
 <tr class="odd">
 <td><p><strong>CNDR</strong></p></td>
-<td><p>회생 전력 출력</p></td>
-<td><p>회생저항</p></td>
+<td><p>회생방전 출력</p></td>
+<td><p>회생방전 저항</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CNTR</strong></p></td>
-<td><p>회생저항 과열 검지</p></td>
-<td><p>회생저항 온도센서</p></td>
+<td><p>회생방전 저항 과열 검지</p></td>
+<td><p>회생방전 저항 온도센서</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CNM1~6</strong></p></td>
@@ -303,7 +310,7 @@
 </tr>
 <tr class="even">
 <td><p><strong>CNBS1~3</strong></p></td>
-<td><p>8축 PWM신호, IPM에러 신호</p></td>
+<td><p>8축 PWM신호, IPM에러 신호<br>컨버터부 에러 신호</p></td>
 <td><p>BD640 Board to Board 커넥터</p></td>
 </tr>
 <tr class="odd">
@@ -314,7 +321,7 @@
 <tr class="even">
 <td><p><strong>CNPWM7~8</strong></p></td>
 <td><p>부가축 PWM신호, IPM에러 신호</p></td>
-<td><p>부가축 드라이브모듈(BD658 or BD659)의 CNPWM</p></td>
+<td><p>부가축 드라이브모듈(BD658 또는 BD659)의 CNPWM</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CNCVT</strong></p></td>

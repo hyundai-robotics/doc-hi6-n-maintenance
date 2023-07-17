@@ -1,13 +1,13 @@
 ﻿# 2.1. 제어기 모델별 세부사양
 
-표 2‑1제어기 모델별 세부 사양
+표 2‑1 제어기 모델별 세부 사양
 
 <table>
 <thead>
   <tr>
     <th colspan="2">&nbsp;&nbsp;&nbsp;<br>모델&nbsp;&nbsp;&nbsp;</th>
-    <th>&nbsp;&nbsp;&nbsp;<br>Hi6-N00-A0<br>&nbsp;&nbsp;&nbsp;Hi6-N30-A0<br>&nbsp;&nbsp;&nbsp;Hi6-N80-A0&nbsp;&nbsp;&nbsp;</th>
-    <th>&nbsp;&nbsp;&nbsp;<br>Hi6-N00U-A0<br>&nbsp;&nbsp;&nbsp;Hi6-N30U-A0<br>&nbsp;&nbsp;&nbsp;Hi6-N80U-A0&nbsp;&nbsp;&nbsp;</th>
+    <th><br>Hi6-N00-A0<br>Hi6-N30-A0<br>Hi6-N80-A0&nbsp;&nbsp;&nbsp;</th>
+    <th><br>Hi6-N00U-A0<br>Hi6-N30U-A0<br>Hi6-N80U-A0</th>
   </tr>
 </thead>
 <tbody>
@@ -95,7 +95,7 @@
   <tr>
     <td rowspan="2">&nbsp;&nbsp;&nbsp;<br>드라이브&nbsp;&nbsp;&nbsp;모듈&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>중형&nbsp;&nbsp;&nbsp;6축용&nbsp;&nbsp;&nbsp;</td>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>N00(U)-A0 : H6D6X<br>&nbsp;&nbsp;&nbsp;N80(U)-A0 : H6D6X<br>&nbsp;&nbsp;&nbsp;N30(U)-A0 : H6D6A&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2"><br>N00(U)-A0 : H6D6X<br>N80(U)-A0 : H6D6X<br>N30(U)-A0 : H6D6A</td>
   </tr>
   <tr>
     <td>&nbsp;&nbsp;&nbsp;<br>부가&nbsp;&nbsp;&nbsp;1축용&nbsp;&nbsp;&nbsp;</td>
@@ -111,12 +111,12 @@
   </tr>
   <tr>
     <td colspan="2">&nbsp;&nbsp;&nbsp;<br>정격 공급 전압&nbsp;&nbsp;&nbsp;</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>3상 220V(50/60 Hz)<br>&nbsp;&nbsp;&nbsp;±10%<br>&nbsp;&nbsp;&nbsp;선택 사양 : 3상 380V, 400V, 415V,&nbsp;&nbsp;&nbsp;440V&nbsp;&nbsp;&nbsp;</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>3상 220V(50/60 Hz)<br>&nbsp;&nbsp;&nbsp;±10%<br>&nbsp;&nbsp;&nbsp;선택 사양 : 3상 460V, 480V&nbsp;&nbsp;&nbsp;</td>
+    <td><br>3상 220V(50/60 Hz)<br>±10%<br>선택 사양 : 3상 380V, 400V, 415V,440V</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>3상 220V(50/60 Hz)<br>±10%<br>선택 사양 : 3상 460V, 480V</td>
   </tr>
   <tr>
     <td colspan="2">&nbsp;&nbsp;&nbsp;<br>최대 소비 전력&nbsp;&nbsp;&nbsp;</td>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Hi6-N80(U)-A0:&nbsp;&nbsp;&nbsp;10.3KVA<br>&nbsp;&nbsp;&nbsp;Hi6-N00(U)-A0: 7.8KVA<br>&nbsp;&nbsp;&nbsp;Hi6-N30(U)-A0: 4.4KVA&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2"><br>Hi6-N80(U)-A0 : 10.5KVA<br>Hi6-N00(U)-A0 : 7.8KVA<br>Hi6-N30(U)-A0 : 4.4KVA</td>
   </tr>
   <tr>
     <td colspan="2">&nbsp;&nbsp;&nbsp;<br>동작 온도&nbsp;&nbsp;&nbsp;</td>
@@ -135,18 +135,18 @@
     <td colspan="2">&nbsp;&nbsp;&nbsp;<br>최대 68dB&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>외관 크기*1<br>&nbsp;&nbsp;&nbsp;(WxHxD)&nbsp;&nbsp;&nbsp;</td>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>W650xD560xH580 (mm)<br>&nbsp;&nbsp;&nbsp;Caster(옵션) 포함시 &nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>외관 크기*1<br>(WxHxD)&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>W650xD560xH580 (mm)<br>Caster(옵션) 포함시 &nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td colspan="2">&nbsp;&nbsp;&nbsp;<br>중 량&nbsp;&nbsp;&nbsp;</td>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>　&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">표준 사양(TR 미포함)<br>Hi6-N30(U): 120kg<br>Hi6-N00(U): 120kg<br>Hi6-N80(U): 125kg<br><br>옵션 사양(TR포함)<br>Hi6-N30(U): 165kg<br>Hi6-N00(U): 185kg<br>Hi6-N80(U): 195kg</td>
   </tr>
 </tbody>
 </table>
 
 
-표 2‑2전원 요구 조건
+표 2‑2 전원 요구 조건
 
 <table>
 <thead>
@@ -175,7 +175,7 @@
   </tr>
   <tr>
     <td>&nbsp;&nbsp;&nbsp;<br>Hi6-N80&nbsp;&nbsp;&nbsp;</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>Max. 10.4 KVA&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Max. 10.5 KVA&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>220/380/400/415/440V&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>50/60&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>50 A&nbsp;&nbsp;&nbsp;</td>
@@ -196,7 +196,7 @@
   </tr>
   <tr>
     <td>&nbsp;&nbsp;&nbsp;<br>Hi6-N80U&nbsp;&nbsp;&nbsp;</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>Max. 10.4 KVA&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Max. 10.5 KVA&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>460/480V&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>50/60&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>50 A&nbsp;&nbsp;&nbsp;</td>
@@ -207,4 +207,4 @@
 
 주 1) 전원 용량 : 제어기 공급 전원용량을 의미하며, 로봇별 전원용량은 본체 보수설명서 참조
 
-주 2) 전압 범위 : ±10 % (제어기의 전원 터미널)ㅍ
+주 2) 전압 범위 : ±10 % (제어기의 전원 터미널)

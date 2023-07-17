@@ -55,7 +55,7 @@
       * [3.6.3.2. 전원 전선 굵기](3-installation/6-connection/3-controller-1st-power/2-power-wire-thick.md)
     * [3.6.4. 제어기와 접지](3-installation/6-connection/4-controller-ground.md)
     * [3.6.5. 기타 주의 사항](3-installation/6-connection/5-other-caution.md)
-    * [3.6.6. 사용자 이더넷 포트의 접속(옵션)](3-installation/6-connection/6-user-eth-port-conn.md)
+    * [3.6.6. 사용자 이더넷 포트의 접속](3-installation/6-connection/6-user-eth-port-conn.md)
 
 * [4. 제어기의 기본구성](4-basic-components/README.md)
   * [4.1. 구성](4-basic-components/1-config.md)

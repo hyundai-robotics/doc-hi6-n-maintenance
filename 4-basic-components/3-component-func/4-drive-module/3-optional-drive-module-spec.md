@@ -16,34 +16,36 @@
 </thead>
 <tbody>
   <tr>
-    <td>Hi6 드라이브모듈</td>
-    <td>H6D</td>
+    <td>Hi6 1축 드라이브모듈</td>
+    <td>H6D1</td>
   </tr>
 </tbody>
 </table>
 
-표 4-33 선택사양 드라이브모듈의IPM 용량
+표 4-33 선택사양 드라이브모듈의 IPM 기호
 
 <table>
 <thead>
   <tr>
-    <td rowspan="4">중형/대형</td>
-    <td>L</td>
-    <td>(IPM 전류정격) 150A, (홀센서 전류정격) 4V/75A</td>
+    <th>Drive Model</th>
+    <th>IPM 기호</th>
+    <th>IPM 사양</th>
   </tr>
+</thead>
+<tbody>
   <tr>
+    <td rowspan="6">부가축 드라이브모듈</td>
     <td>X</td>
-    <td>(IPM 전류정격) 100A, (홀센서 전류정격) 4V/50A</td>
+    <td>(IPM 전류정격) 100A</td>
   </tr>
   <tr>
     <td>Y</td>
-    <td>(IPM 전류정격) 75A,  (홀센서 전류정격) 4V/50A</td>
-  </tr>
+    <td>(IPM 전류정격) 75A</td>
   <tr>
     <td>Z</td>
-    <td>(IPM 전류정격) 50A,  (홀센서 전류정격) 4V/25A</td>
+    <td>(IPM 전류정격) 50A</td>
   </tr>
-</thead>
+</tbody>
 </table>
 
 표 4-34 션택사양 드라이브모듈의 홀센서(Hall Sensor) 기호
@@ -60,10 +62,7 @@
 <tbody>
   <tr>
     <td rowspan="6">부가축<br>드라이브모듈</td>
-    <td>0 (4V/75A)</td>
-    <td>140.62Apeak</td>
-    <td>PM150CG1APL065 202G (150A)</td>
-  </tr>
+   </tr>
   <tr>
     <td>1 (4V/50A)</td>
     <td>93.75Apeak</td>

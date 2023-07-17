@@ -19,11 +19,11 @@
   <tr>
     <td rowspan="3">BD659<br>(IPM보드)</td>
     <td>로직부</td>
-    <td>6축 드라이브모듈로부터 수신한 PWM신호를 IPM의 상하단 구동신호로 변환하며, 에러처리를 수행</td>
+    <td>6축 드라이브모듈로부터 수신한 PWM신호를<br>IPM의 상하단 구동신호로 변환하며, 에러처리를 수행</td>
   </tr>
   <tr>
     <td>게이트 전원모듈</td>
-    <td>게이트 전원 생성</td>
+    <td>IPM 게이트 전원 생성</td>
   </tr>
   <tr>
     <td>전류 검출부</td>
@@ -32,11 +32,11 @@
   <tr>
     <td rowspan="2">기타부품</td>
     <td>방열판(Heat Sink)</td>
-    <td>IPM으로부터 발생하는 열을 외부로 방출</td>
+    <td>IPM에서 발생하는 열을 외부로 방출</td>
   </tr>
   <tr>
     <td>IPM</td>
-    <td>50A 스위칭 디바이스</td>
+    <td>3상 모터 구동용 전력 변환</td>
   </tr>
 </tbody>
 </table>
@@ -55,7 +55,7 @@
   <tr>
     <td>CNPWM</td>
     <td>PWM신호, 에러신호</td>
-    <td>6축 드라이브모듈(BD652 or BD654)의 CNPWM7 or CNPWM8</td>
+    <td>6축 드라이브모듈(BD652 또는 BD654)의 CNPWM7 또는 CNPWM8</td>
   </tr>
   <tr>
     <td>CNM</td>
@@ -65,12 +65,12 @@
   <tr>
     <td>CNFG</td>
     <td>모터 Frame Ground</td>
-    <td>AMC1 or AMC2</td>
+    <td>AMC1 또는 AMC2</td>
   </tr>
   <tr>
     <td>CNPN</td>
     <td>구동 직류전원 입력</td>
-    <td>6축 드라이브모듈(BD651 or BD653)의 CNPN7 or CNPN8</td>
+    <td>6축 드라이브모듈(BD651 또는 BD653)의 CNPN7 또는 CNPN8</td>
   </tr>
 </tbody>
 </table>
