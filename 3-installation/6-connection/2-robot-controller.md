@@ -45,7 +45,7 @@ Wire Harness 결선도
 </tbody>
 </table>
 
-{% hint style="info" %}
+{% hint style="caution" %}
 로봇별로 커넥터 접촉부가 위의 그림과 상이 할 수 있으므로 반드시 와이어하네스(Wire Harness) 연결 전 해당 로봇 보수 매뉴얼을 숙독하여 연결을 하십시오.
 {% endhint %}
 

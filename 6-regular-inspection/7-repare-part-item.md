@@ -4,7 +4,7 @@
 
 **보수 부품 A**
 
-{% hint style="info" %}
+{% hint style="caution" %}
 일상적 보수점검으로서 준비해야 할 중요 부품입니다.
 {% endhint %}
 
@@ -175,7 +175,7 @@
 
 **보수부품 B**
 
-{% hint style="info" %}
+{% hint style="caution" %}
 여러 대 구입하는 경우에는 준비해야 할 보수 부품입니다.
 {% endhint %}
 
