@@ -1,6 +1,6 @@
 ﻿# 3.6.5. Other Cautions 
 
-{% hint style="info" %}
+{% hint style="caution" %}
 1. When wiring the controller and manipulator, separate the signal line and the power line.
 In addition, use separate ducts respectively for high power lines and signal lines.
 2. Use a protective cover for the wires, as a measure to prevent the wires from getting damaged when people are passing.

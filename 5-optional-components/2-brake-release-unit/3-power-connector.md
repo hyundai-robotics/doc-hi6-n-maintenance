@@ -2,7 +2,7 @@
 
 The placement of the power and connectors of the brake release unit is as shown in Figure 5.4 below, and their individual usage and connection devices are as shown in Table 5-5 below.
 
-{% hint style="info" %}
+{% hint style="caution" %}
 - When using the brake release unit, follow the procedures below.
 1. Turn off the AC220V power switch and check that the DC24V power switch is turned off.
 2. Connect the AC power cable to the AC power connector.

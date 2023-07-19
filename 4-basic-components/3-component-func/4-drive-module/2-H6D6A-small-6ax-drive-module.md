@@ -69,7 +69,7 @@ Table 4-23 Configuration of H6D6A (Small-Sized 6 Axes Integrated Drive Module)
 </tbody>
 </table>
 
-{% hint style="info" %}
+{% hint style="caution" %}
 The drive module differs depending on the type of the robot, so you must check the type when replacing it.
 {% endhint %}
 
@@ -193,7 +193,7 @@ Table 4-27 Symbols of the Hall Sensors of the Small-Sized IPM
 </tbody>
 </table>
 
-{% hint style="info" %}
+{% hint style="caution" %}
 The drive module differs depending on the type of the robot, so you must check the type when replacing it.
 {% endhint %}
 

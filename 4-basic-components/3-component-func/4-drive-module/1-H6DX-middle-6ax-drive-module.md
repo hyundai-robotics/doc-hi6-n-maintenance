@@ -195,7 +195,7 @@ Table 4-18 Symbols of the Hall Sensors of the Medium-Sized IPM
 </tbody>
 </table>
 
-{% hint style="info" %}
+{% hint style="caution" %}
 The drive module differs depending on the type of the robot, so you must check the type when replacing it.
 {% endhint %}
 

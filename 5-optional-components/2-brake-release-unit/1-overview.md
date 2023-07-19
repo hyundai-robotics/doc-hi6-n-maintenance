@@ -2,7 +2,7 @@
 
 The brake release unit can be used when it is necessary to release the motor brake for each axis of the robot. It can help to set the robot posture mainly during the initial installation of the robot. When releasing the brake, you must fully understand the safety information of “Release of the manual brake” in “1.8.2 Other Related Functions” before using the robot.
 
-{% hint style="info" %}
+{% hint style="caution" %}
 1. Do not release more than two axes at the same time.
 2. Keep a safe distance from the robot first before using the brake release unit.
 3. Use the brake release unit after preparing for the dropping of the robot’s axis using equipment such as a crane.

@@ -1,6 +1,6 @@
 ﻿# 1.11.2. Safety Measures When Trial-Operating the Robot
 
-{% hint style="info" %}
+{% hint style="caution" %}
 In the case of trial-operation, there may be a design error, a teaching error, or a defect in manufacturing with regard to the entire system including the teaching program, jigs, and sequencing. For this reason, you should work with elevated safety awareness in trial-operation. Multiple factors can contribute to safety accidents. Observe the following measures considering that safety is very important when trial-operating the robot.
 {% endhint %}
 

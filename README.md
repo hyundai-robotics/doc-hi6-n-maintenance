@@ -61,7 +61,7 @@ Our company (or the manufacturer) will not be responsible for any accidents that
 
 ■ Caution
 
-{% hint style="info" %}
+{% hint style="caution" %}
 Low-level danger factor: Incompliance may result in minor injury to the worker or damage to property, such as damage to the product.
 {% endhint %}
 

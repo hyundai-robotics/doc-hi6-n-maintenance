@@ -27,7 +27,7 @@ Install the product in an appropriate place in consideration of the installation
 *	For the matters related to the installation of the robot, refer to each robot maintenance manual.
 
 
-{% hint style="info" %}
+{% hint style="caution" %}
 If the product is not installed in the recommended locations, the performance and service life of the product may be reduced. Install and use the product according to the recommendations.
 {% endhint %}
 

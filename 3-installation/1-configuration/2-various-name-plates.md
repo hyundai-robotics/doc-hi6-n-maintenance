@@ -18,6 +18,6 @@ Any act of damaging the safety labels, such as relocating the name plates, warni
 {% endhint %}
 
 
-{% hint style="info" %}
+{% hint style="caution" %}
 Mark the installation and dangerous areas of the robot in a way that they can be differentiated from other facilities and devices in terms of type, color and style.
 {% endhint %}

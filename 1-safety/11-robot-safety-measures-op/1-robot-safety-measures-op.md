@@ -101,7 +101,7 @@ Table 1-4 Status of the robot when it stop mode
 </tbody>
 </table>
 
-{% hint style="info" %}
+{% hint style="caution" %}
 You should not be negligent in paying attention to sudden movements even when entry is made possible. Must avoid approaching without preparing for possible emergency situation under any circumstances.
 {% endhint %}
 

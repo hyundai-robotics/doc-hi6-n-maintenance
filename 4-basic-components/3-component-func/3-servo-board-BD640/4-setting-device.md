@@ -1,6 +1,6 @@
 ﻿# 4.3.3.4. Setting Devices 
 
-{% hint style="info" %}
+{% hint style="caution" %}
 The DIP switch is set to OFF mode when shipped from the factory, and the setting should not be changed arbitrarily by the user.
 {% endhint %}
 
@@ -38,7 +38,7 @@ Table 4-12 Method to Set the DIP Switch (DS1) of the Servo Board (BD640)
 
 ![](../../../_assets/표4-11_스위치외형.png)</br></br>
 
-{% hint style="info" %}
+{% hint style="caution" %}
 The user cannot change the following items arbitrarily and needs to refer to them only when required to reprogram through FPGA JTAG.
 {% endhint %}
 
