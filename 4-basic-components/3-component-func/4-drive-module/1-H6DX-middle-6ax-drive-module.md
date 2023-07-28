@@ -196,7 +196,7 @@
 </tbody>
 </table>
 
-{% hint style="caution" %}
+{% hint style="info" %}
 드라이브 모듈은 로봇에 따라 다르므로 교환할 때에는 형식을 반드시 확인하시기 바랍니다.
 {% endhint %}
 

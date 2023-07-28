@@ -61,7 +61,7 @@ Copyright ⓒ 2023 HYUNDAI ROBOTICS. All rights reserved.
 
 ■ 주의
 
-{% hint style="caution" %}
+{% hint style="info" %}
 저위험 요소: 준수하지 않았을 경우 작업자가 경미한 상해를 입거나 제품이 손상되는 등 재산상의 손해를 입을 수 있습니다.
 {% endhint %}
 

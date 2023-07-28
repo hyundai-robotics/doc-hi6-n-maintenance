@@ -16,6 +16,6 @@
 {% endhint %}
 
 
-{% hint style="caution" %}
+{% hint style="info" %}
 로봇의 설치 영역 및 위험 지역은 형태나 색상, 스타일에서 차이를 두어 다른 시설 및 기기와 명확히 구분되도록 표시하십시오.
 {% endhint %}
