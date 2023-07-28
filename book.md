@@ -61,7 +61,7 @@ Our company (or the manufacturer) will not be responsible for any accidents that
 
 ■ Caution
 
-{% hint style="caution" %}
+{% hint style="info" %}
 Low-level danger factor: Incompliance may result in minor injury to the worker or damage to property, such as damage to the product.
 {% endhint %}
 
@@ -267,7 +267,7 @@ Table 1-2 Safety Labels
 Any act of damaging the safety labels, such as relocating the name plates, warning markings, safety symbols, name markings and wire markings or painting over them or blocking them with a cover is prohibited.
 {% endhint %}
 
-{% hint style="caution" %}
+{% hint style="info" %}
 Mark the installation and dangerous areas of the robot in a way that they can be differentiated from other facilities and devices in terms of type, color and style.
 {% endhint %}
 
@@ -289,7 +289,7 @@ There is one emergency stop button on the controller and teach pendant respectiv
 
 
 
-{% hint style="caution" %}
+{% hint style="info" %}
 As the emergency stop function immediately cuts off the motor power, so reckless use of the function may result in accumulation of fatigue that affects the durability of the robot. The functoin must be used only in emergency situations.
 {% endhint %}
 
@@ -335,7 +335,7 @@ Considering that additional problems may occur due to gravity or brake release, 
 
 When the robot is stopped by the limit switch, it is possible to change the position by jogging the robot with the teaching pendant in the constant setting mode. After designating the soft limit according to the site situation, make sure that it is installed by a trained worker.
 
-{% hint style="caution" %}
+{% hint style="info" %}
 Our company is not responsible if the jogging operation does not work due to the failure of the hardware limit switch. 
 You must check it periodically. For the measure to take in case of a failure, please refer to the troubleshooting manual.
 {% endhint %}
@@ -573,7 +573,7 @@ Table 1-4 Status of the robot when it stop mode
 </tbody>
 </table>
 
-{% hint style="caution" %}
+{% hint style="info" %}
 You should not be negligent in paying attention to sudden movements even when entry is made possible. Must avoid approaching without preparing for possible emergency situation under any circumstances.
 {% endhint %}
 
@@ -583,7 +583,7 @@ You should not be negligent in paying attention to sudden movements even when en
 * After completing the robot operation, clean the inside of the safety fence to make sure that no tools, oil or foreign substances remain. If the operation area is stained with oil, or if tools are left in the operation area, it could cause an accident such as falling over. Make sure that arranging and organizing are performed always.
 # 1.11.2. Safety Measures When Trial-Operating the Robot
 
-{% hint style="caution" %}
+{% hint style="info" %}
 In the case of trial-operation, there may be a design error, a teaching error, or a defect in manufacturing with regard to the entire system including the teaching program, jigs, and sequencing. For this reason, you should work with elevated safety awareness in trial-operation. Multiple factors can contribute to safety accidents. Observe the following measures considering that safety is very important when trial-operating the robot.
 {% endhint %}
 
@@ -633,7 +633,7 @@ When you enter the robot operation area, you must full understand the following 
 *	Thinking that the robot may rush towards you unexpectedly, you should prepare a method or place for evacuation. 
 
 
-{% hint style="caution" %}
+{% hint style="info" %}
 You should not be negligent in paying attention to sudden movements even when entry is made possible. Must avoid approaching without preparing for possible emergency situation under any circumstances.
 {% endhint %}
 
@@ -667,12 +667,12 @@ Observe the following safety measures when maintaining and inspecting the robot 
 *	Must cut off the main power of the controller. In order to prevent other workers from powering it up again, put a warning marking such as [Power-On Prohibited] on the primary power supply.
  
 
-{% hint style="caution" %}
+{% hint style="info" %}
 During maintenance and inspection of the manipulator, the robot arm may fall, or there could be a different type of danger. So, you must proceed with the work according to the instructed procedures. 
 {% endhint %}
 
 
-{% hint style="caution" %}
+{% hint style="info" %}
 When moving the axis of the robot without driving force applied, there is a risk of the axis dropping due to gravity and also an additional risk due to the release of the brake system. So, you must proceed with the work according to the instructed procedures.
 {% endhint %}
 # 1.13.3. Actions to Take after Maintenance and Inspection
@@ -692,7 +692,7 @@ Observe the following actions after maintenance and inspection.
 *	Operate the robot at a low speed.
 
 
-{% hint style="caution" %}
+{% hint style="info" %}
 Before turning on the power, check that there is no worker inside the robot operation area and you are in a safe place
 {% endhint %}
 
@@ -845,7 +845,7 @@ Table 2‑1 Details of Specifications of Each Controller Model
   </tr>
   <tr>
     <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Maximum power consumption&nbsp;&nbsp;&nbsp;</td>
-    <td colspan="2"><br>Hi6-N80(U)-A0:10.3KVA<br>Hi6-N00(U)-A0: 7.8KVA<br>Hi6-N30(U)-A0: 4.4KVA&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2"><br>Hi6-N80(U)-A0:10.5KVA<br>Hi6-N00(U)-A0: 7.8KVA<br>Hi6-N30(U)-A0: 4.4KVA&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Operation temperature&nbsp;&nbsp;&nbsp;</td>
@@ -865,18 +865,18 @@ Table 2‑1 Details of Specifications of Each Controller Model
   </tr>
   <tr>
     <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Exterior diemsion*1 (WxHxD)<br>&nbsp;&nbsp;&nbsp;(WxHxD)&nbsp;&nbsp;&nbsp;</td>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>W650xD560xH580 (mm) Caster(option) included&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>W650xD560xH580 (mm)<br>Caster 100mm Exclude&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Weight&nbsp;&nbsp;&nbsp;</td>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Standard Voltage Specification(Exclude TR)<br>Hi6-N30(U): 120kg<br>Hi6-N00(U): 120kg<br>Hi6-N80(U): 125kg<br>Optional Voltage Specification(Include TR)<br>Hi6-N30(U): 165kg<br>Hi6-N00(U): 185kg<br>Hi6-N80(U): 195kg</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Standard Voltage Specification(Exclude TR)<br>Hi6-N30(U): 120kg<br>Hi6-N00(U): 120kg<br>Hi6-N80(U): 125kg<br><br>Optional Voltage Specification(Include TR)<br>Hi6-N30(U): 165kg<br>Hi6-N00(U): 185kg<br>Hi6-N80(U): 195kg</td>
   </tr>
 </tbody>
 </table>
 
+<br>
 
 Table 2‑2 Power Requirements
-
 <table>
 <thead>
   <tr>
@@ -904,7 +904,7 @@ Table 2‑2 Power Requirements
   </tr>
   <tr>
     <td>&nbsp;&nbsp;&nbsp;<br>Hi6-N80&nbsp;&nbsp;&nbsp;</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>Max. 10.4 KVA&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Max. 10.5 KVA&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>220/380/400/415/440V&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>50/60&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>50 A&nbsp;&nbsp;&nbsp;</td>
@@ -925,7 +925,7 @@ Table 2‑2 Power Requirements
   </tr>
   <tr>
     <td>&nbsp;&nbsp;&nbsp;<br>Hi6-N80U&nbsp;&nbsp;&nbsp;</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>Max. 10.4 KVA&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Max. 10.5 KVA&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>460/480V&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>50/60&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>50 A&nbsp;&nbsp;&nbsp;</td>
@@ -940,6 +940,9 @@ Note 2) Voltage range: ±10% (at the power terminal of the controller)
 # 2.2. Exterior of the Controller
 
 ![](../_assets/2.2._제어기_외관(Hi6).png )
+
+Figure 2.1 Front Exterior of the Controller
+
 # 3. Installation of the Controller
 
 If you properly install, transport, and store the product in consideration of the position and direction of the installation and the size of the surrounding space, you can secure the service life of the product and prevent the degradation of its performance.
@@ -953,7 +956,7 @@ If you properly install, transport, and store the product in consideration of th
 *	Discarding of the controller
 
 
-{% hint style="caution" %}
+{% hint style="info" %}
 Before installing the product, you must perform a risk assessment sufficiently and then set the safety function based on the assement results. For details on safety functions, refer to “1. Safety”.
 {% endhint %}
 
@@ -992,7 +995,7 @@ Any act of damaging the safety labels, such as relocating the name plates, warni
 {% endhint %}
 
 
-{% hint style="caution" %}
+{% hint style="info" %}
 Mark the installation and dangerous areas of the robot in a way that they can be differentiated from other facilities and devices in terms of type, color and style.
 {% endhint %}
 # 3.2. Installation and Use Environmets 
@@ -1024,7 +1027,7 @@ Install the product in an appropriate place in consideration of the installation
 *	For the matters related to the installation of the robot, refer to each robot maintenance manual.
 
 
-{% hint style="caution" %}
+{% hint style="info" %}
 If the product is not installed in the recommended locations, the performance and service life of the product may be reduced. Install and use the product according to the recommendations.
 {% endhint %}
 
@@ -1124,7 +1127,7 @@ When storing the controller, instead of installing it, refer to the following it
 
 In order to ensure user safety and protect the environment, certain parts should be managed and discarded according to specified methods, and if they contain industrial waste materials, they must never be discarded together with general industrial or household waste. When discarding all or part of the robot system, you must comply with the relevant national or local regulations and laws. For details on the discarding and disposal of the product, please contact our customer support team.# 3.6. Connection
 
-{% hint style="caution" %}
+{% hint style="info" %}
 1. Before connecting the cables, turn “off” the controller's main power switch and lock it by using use a padlock. 
 2. The controller has DC400V charged energy. Be careful. 
 Turn “off” the power switch and then wait 5 minutes at least to discharge the charged energy.
@@ -1185,7 +1188,7 @@ Wire Harness connection diagram
 </tbody>
 </table>
 
-{% hint style="caution" %}
+{% hint style="info" %}
 Since the contact part of the connector for each robot may be different from the figure above, you must read the relevant robot maintenance manual carefully before connecting the wire harness.
 {% endhint %}
 
@@ -1200,6 +1203,8 @@ At this time, use a terminal receptable of an appropriate size for the end side 
 
 
 ![](../../../_assets/그림_3.8_Hi6-N__U__제어기에_1차_전원_접속부.png  )
+
+![](../../../_assets/그림_3.8_Hi6-N__U__제어기에_1차_전원_접속부_2.png  )
 
 Figure 3.7 Primary Power Connection Part of Hi6-N**(U) Controller
 # 3.6.3.1. Power Requirements 
@@ -1235,7 +1240,7 @@ Table 3-2 Power Requirements
 <tr class="even">
 <td><p><strong>3</strong></p></td>
 <td><p>Hi6-N80</p></td>
-<td><p>Max. 10.4KVA</p></td>
+<td><p>Max. 10.5KVA</p></td>
 <td><p>220V/380V/400V/440V</p></td>
 <td><p>50/60</p></td>
 <td><p>50A</p></td>
@@ -1259,7 +1264,7 @@ Table 3-2 Power Requirements
 <tr class="odd">
 <td><p><strong>6</strong></p></td>
 <td><p>Hi6-N80U</p></td>
-<td><p>Max. 10.4KVA</p></td>
+<td><p>Max. 10.5KVA</p></td>
 <td><p>460V/480V</p></td>
 <td><p>50/60</p></td>
 <td><p>50A</p></td>
@@ -1334,13 +1339,13 @@ Table 3-3 Recommended Minimum Cable Thickness
 For using the controller safely, connect the grounding wire to the controller. Use a grounding wire of 5.5㎟ or more. (Grounding of Category 3).
 # 3.6.5. Other Cautions 
 
-{% hint style="caution" %}
+{% hint style="info" %}
 1. When wiring the controller and manipulator, separate the signal line and the power line.
 In addition, use separate ducts respectively for high power lines and signal lines.
 2. Use a protective cover for the wires, as a measure to prevent the wires from getting damaged when people are passing.
 3. Before supplying the primary power, you must check again the relationship in terms of connection, the power specification and the power supply specification of the controller.
 {% endhint %}
-# 3.6.6. Connection of the Ethernet Port for the User (Option)
+# 3.6.6. Connection of the Ethernet Port for the User
 
 The Ethernet port for the user is located on the front door of the controller. The pin descriptin and connection with a Pc are as follows.</br></br>
 
@@ -1382,7 +1387,7 @@ Table 3-4 Pin Description (RJ45 Connector Specification; RJ 45P Shield)
 </table>
 # 4. Basic Configuration of the Controller
 
-{% hint style="caution" %}
+{% hint style="info" %}
 The person in charge of maintenance should work after understanding the placement of various devices and parts and their functions inside the controller.
 {% endhint %}
 
@@ -1399,7 +1404,7 @@ Figure 4.1 Hi6-N**(U) Controller
 Figure 4.2 Teaching Pendant TP630
 # 4.2. Placement of Parts
 
-The main components of the Hi6-N00/N30/N80 controller and their individual names are shown below in Table 4-1 and are arranged as shown in Figure 4.5 to Figure 4.13.</br></br>
+The main components of the Hi6-N00/N30/N80 controller and their individual names are shown below in Table 4-1 and are arranged as shown in Figure 4.3 to Figure 4.5.</br></br>
 
 Table 4-1 Names of Individual Parts of the Hi6-N00/N30/N80 Controller
 
@@ -1819,7 +1824,7 @@ Table 4-4 Types and Usage of the Connectors of the BD632 (Safety IO Board)
 
 Figure 4.8 BD632(Safety IO Board) TBEM
 
-{% hint style="caution" %}
+{% hint style="info" %}
 When a safety-related input is connected and activated, you must check whether the function is operating normally by referring to “1.11 Safety Measures When Operating the Robot.”
 {% endhint %}
 
@@ -3140,7 +3145,7 @@ Table 4-10 Types and Usage of the Connectors of the Servo Board (BD640)
 </table>
 # 4.3.3.4. Setting Devices 
 
-{% hint style="caution" %}
+{% hint style="info" %}
 The DIP switch is set to OFF mode when shipped from the factory, and the setting should not be changed arbitrarily by the user.
 {% endhint %}
 
@@ -3178,7 +3183,7 @@ Table 4-12 Method to Set the DIP Switch (DS1) of the Servo Board (BD640)
 
 ![](../../../_assets/표4-11_스위치외형.png)</br></br>
 
-{% hint style="caution" %}
+{% hint style="info" %}
 The user cannot change the following items arbitrarily and needs to refer to them only when required to reprogram through FPGA JTAG.
 {% endhint %}
 
@@ -3216,16 +3221,16 @@ Table 4-13 Description of the Jumper (JP1) of the Servo Board (BD640)
   </tr>
   <tr>
     <td>Setting when shipped from the factory</td>
-    <td colspan="5">Jumper 1~2, or no connection</td>
+    <td colspan="5">1, 2 : short / 3 : open</td>
   </tr>
 </tbody>
 </table>
 # 4.3.4. Drive Module
-# 4.3.4.1. H6DX (Medium-Sized 6 Axes Integrated Drive Module)
+# 4.3.4.1. H6D6X (Medium-Sized 6 Axes Integrated Drive Module)
 
 The drive module performs a power amplification function that allows the current to flow to the individual phases of the motor according to the current command from the servo board. The six axes integrated drive module can drive six motors at the same time and is configured as follows.
 
-The three-phase current supplied from the power supply module is rectified through a diode module and then converted into direct current and stored in a smoothing capacitor. When the motor speed of the robot is decelerated, the electric power generated from the motor will be consumed through transistors and resistors. The relevant configuration is as follows. 
+The three-phase current entered from the power supply module is rectified through a diode module and then converted into direct current and stored in a smoothing capacitor. When the motor speed of the robot is decelerated, the electric power generated from the motor will be consumed through IGBT and resistors. The relevant configuration is as follows. 
 
 Table 4-14 Configuration of H6D6X (Medium-Sized 6 Axes Integrated Drive Module)
 
@@ -3245,7 +3250,7 @@ Table 4-14 Configuration of H6D6X (Medium-Sized 6 Axes Integrated Drive Module)
   </tr>
   <tr>
     <td>Gate power module</td>
-    <td>Generates the gate power</td>
+    <td>Transmit the gate power</td>
   </tr>
   <tr>
     <td>Current detection part</td>
@@ -3257,7 +3262,7 @@ Table 4-14 Configuration of H6D6X (Medium-Sized 6 Axes Integrated Drive Module)
   </tr>
   <tr>
     <td>Error detection part</td>
-    <td>Detects the overvoltage, regenerative resistor overheating, and undervoltage errors</td>
+    <td>Detects the PN overvoltage, regenerative discharge resistor overheating, and PN undervoltage errors</td>
   </tr>
   <tr>
     <td>High voltage capacitor</td>
@@ -3269,8 +3274,8 @@ Table 4-14 Configuration of H6D6X (Medium-Sized 6 Axes Integrated Drive Module)
     <td>Interlocks between the sequence status and the servo on signal</td>
   </tr>
   <tr>
-    <td>System DIO board input and outputs</td>
-    <td>Reserved IO unit inside the controller</td>
+    <td>Dedicated IO Terminal Blocks</td>
+    <td>Reserved IO port inside the controller</td>
   </tr>
   <tr>
     <td rowspan="4">Other parts</td>
@@ -3279,7 +3284,7 @@ Table 4-14 Configuration of H6D6X (Medium-Sized 6 Axes Integrated Drive Module)
   </tr>
   <tr>
     <td>Rectification part</td>
-    <td>Generates the circuit for the DC power that is supplied to the motor from the AC input main power</td>
+    <td>Rectify the AC input power to generate DC power for driving the motor</td>
   </tr>
   <tr>
     <td>Regenerative IGBT</td>
@@ -3287,7 +3292,7 @@ Table 4-14 Configuration of H6D6X (Medium-Sized 6 Axes Integrated Drive Module)
   </tr>
   <tr>
     <td>IPM</td>
-    <td>A switching device</td>
+    <td>Convert the power for driving a three-phase motor</td>
   </tr>
 </tbody>
 </table>
@@ -3305,8 +3310,8 @@ Table 4-15 Type Symbol of the Medium-Sized 6 Axes Integrated Drive Module
 <td><p><strong>Type symbol</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Hi6 drive module</strong></p></td>
-<td><p>H6D</p></td>
+<td><p><strong>Hi6 Medium-Sized 6 Axes drive module</strong></p></td>
+<td><p>H6D6X</p></td>
 </tr>
 </tbody>
 </table>
@@ -3346,53 +3351,53 @@ Table 4-16 Specification of the Medium-Sized 6 Axes Integrated Drive Module
   </tr>
   <tr>
     <td>Serial No.</td>
-    <td colspan="2">0001 ~ 999</td>
+    <td colspan="2">001 ~ 999</td>
     <td colspan="2">Number of units produced monthly: 1~999</td>
   </tr>
 </tbody>
 </table>
 
-Table 4-17 Capacity of the Medium-Sized IPM 
+Table 4-17 Symbols of the IPM of the medium-sized 6 axes drive module 
 
 <table>
 <thead>
   <tr>
-    <td rowspan="4">Medium-sized(Large-sized)</td>
-    <td>L</td>
-    <td>(IPM current rating) 150A, (Hall sensor current rating) 4V/75A</td>
+    <th>Drive Model</th>
+    <th>IPM symbol</th>
+    <th>IPM Specification</th>
   </tr>
+</thead>
+<tbody>
   <tr>
+    <td rowspan="6">Drive module of the medium-sized 6 axes</td>
     <td>X</td>
-    <td>(IPM current rating) 100A, (Hall sensor current rating) 4V/50A</td>
+    <td>(IPM current rating) 100A</td>
   </tr>
   <tr>
     <td>Y</td>
-    <td>(IPM current rating) 75A, (Hall sensor current rating) 4V/50A</td>
+    <td>(IPM current rating) 75A</td>
   </tr>
-  <tr>
+   <tr>
     <td>Z</td>
-    <td>(IPM current rating) 50A, (Hall sensor current rating) 4V/25A</td>
+    <td>(IPM current rating) 50A</td>
   </tr>
-</thead>
+</tbody>
 </table>
 
-Table 4-18 Symbols of the Hall Sensors of the Medium-Sized IPM 
+Table 4-18 Symbols of the Hall Sensors of the medium-sized 6 axes drive module 
 
 <table>
 <thead>
   <tr>
     <th>Drive Model</th>
     <th>Hall sensor symbol (Specification)</th>
-    <th>Full-scale current (Im)</th>
-    <th>IPM specification (Rated current)</th>
+    <th>Full-scalecurrent (Im)</th>
+    <th>IPM specification<br>(Rated current)</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td rowspan="6">Medium-sized</br>(Large-sized) drive module</td>
-    <td>0 (4V/75A)</td>
-    <td>140.62Apeak</td>
-    <td>PM150CG1APL065 202G (150A)</td>
+    <td rowspan="6">Drive module of the medium-sized 6 axes</td>
   </tr>
   <tr>
     <td>1 (4V/50A)</td>
@@ -3418,7 +3423,7 @@ Table 4-18 Symbols of the Hall Sensors of the Medium-Sized IPM
 </tbody>
 </table>
 
-{% hint style="caution" %}
+{% hint style="info" %}
 The drive module differs depending on the type of the robot, so you must check the type when replacing it.
 {% endhint %}
 
@@ -3453,13 +3458,13 @@ Table 4-19 Description of the Connectors of BD651
 </tr>
 <tr class="odd">
 <td><p><strong>CNDR</strong></p></td>
-<td><p>Regenerative power output</p></td>
-<td><p>Regenerative resistor</p></td>
+<td><p>Regenerative discharge power output</p></td>
+<td><p>Regenerative discharge resistor</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CNTR</strong></p></td>
-<td><p>Regenerative resistor overheating detection</p></td>
-<td><p>Regenerative resistor temperature sensor</p></td>
+<td><p>Regenerative discharge resistor overheating detection</p></td>
+<td><p>Regenerative discharge resistor temperature sensor</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CNM1~3</strong></p></td>
@@ -3541,7 +3546,7 @@ Table 4-21 Description of the Connectors of BD652
 </tr>
 <tr class="even">
 <td><p><strong>CNBS1~3</strong></p></td>
-<td><p>PWM signals and IPM error signals for 8 axes</p></td>
+<td><p>PWM signals and IPM error signals for 8 axes<br>Converter part error signal</p></td>
 <td><p>Board-to-board connectors of BD640</p></td>
 </tr>
 <tr class="odd">
@@ -3592,7 +3597,7 @@ Table 4-22 Description of the LEDs of BD652
 
 The drive module performs a power amplification function that allows the current to flow to individual phases of the motor according to the current command from the servo board. The six axes integrated drive module can drive six motors at the same time and is configured as follows.
 
-The three-phase current supplied from the power supply module is rectified through a diode module and then converted into direct current and stored in a smoothing capacitor. When the motor speed of the robot is decelerated, the electric power generated from the motor will be consumed through transistors and resistors. The relevant configuration is as follows.
+The three-phase current entered from the power supply module is rectified through a diode module and then converted into direct current and stored in a smoothing capacitor. When the motor speed of the robot is decelerated, the electric power generated from the motor will be consumed through IGBT and resistors. The relevant configuration is as follows.
 
 
 Table 4-23 Configuration of H6D6A (Small-Sized 6 Axes Integrated Drive Module)
@@ -3620,7 +3625,7 @@ Table 4-23 Configuration of H6D6A (Small-Sized 6 Axes Integrated Drive Module)
   </tr>
   <tr>
     <td>Regenerative control</td>
-    <td>Drives the IGBT when the PN voltage rises</td>
+    <td>Turn on the IGBT when the PN voltage rises</td>
   </tr>
   <tr>
     <td>Error detection part</td>
@@ -3636,17 +3641,17 @@ Table 4-23 Configuration of H6D6A (Small-Sized 6 Axes Integrated Drive Module)
     <td>Interlocks between the sequence status and the servo on signal</td>
   </tr>
   <tr>
-    <td>System DIO board input and outputs </td>
-    <td>Reserved IO unit inside the controller</td>
+    <td>Dedicated IO Terminal Blocks</td>
+    <td>Reserved IO port inside the controller</td>
   </tr>
   <tr>
     <td rowspan="4">Other Parts</td>
     <td>Heat sink</td>
-    <td>Releases the heat generated from power elements to the outside</td>
+    <td>Releases the heat generated in power elements to the outside</td>
   </tr>
   <tr>
     <td>Rectification part</td>
-    <td>Generates the circuit for the DC power that is supplied to the motor from the AC input main power</td>
+    <td>Rectify the AC input power to generate DC power for driving the motor</td>
   </tr>
   <tr>
     <td>Regenerative IGBT</td>
@@ -3654,12 +3659,12 @@ Table 4-23 Configuration of H6D6A (Small-Sized 6 Axes Integrated Drive Module)
   </tr>
   <tr>
     <td>IPM</td>
-    <td>A switching device</td>
+    <td>Convert the power for driving a three-phase motor</td>
   </tr>
 </tbody>
 </table>
 
-{% hint style="caution" %}
+{% hint style="info" %}
 The drive module differs depending on the type of the robot, so you must check the type when replacing it.
 {% endhint %}
 
@@ -3677,8 +3682,8 @@ Table 4-24 Type Symbol of the Small-Sized 6 Axes Integrated Drive Module
 <td><p><strong>Type symbol</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Hi6 drive module</strong></p></td>
-<td><p>H6D</p></td>
+<td><p><strong>Hi6 Small-Sized 6 Axes drive module</strong></p></td>
+<td><p>H6D6A</p></td>
 </tr>
 </tbody>
 </table>
@@ -3713,8 +3718,8 @@ Table 4-25 Specification of the Small-Sized 6 Axes Integrated Drive Module
   </tr>
   <tr>
     <td>Serial No.</td>
-    <td colspan="2">0001 ~ 9999</td>
-    <td colspan="2">Number of units produced monthly: 1~9999</td>
+    <td colspan="2">001 ~ 999</td>
+    <td colspan="2">Number of units produced monthly: 1~999</td>
   </tr>
 </tbody>
 </table>
@@ -3724,15 +3729,22 @@ Table 4-26 Capacity of the Small-Sized IPM
 <table>
 <thead>
   <tr>
-    <td rowspan="2">Small-sized</td>
+    <th>Drive Model</th>
+    <th>IPM symbol</th>
+    <th>IPM Specification</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td rowspan="7">Drive module of the small-sized 6 axes</td>
     <td>A</td>
-    <td>(IPM allowable current rating) 30A, (Hall sensor current rating) 4V/15A</td>
+    <td>(IPM allowable current rating) 30A</td>
   </tr>
   <tr>
     <td>D</td>
-    <td>(IPM allowable current rating) 10A, (Hall sensor current rating) 4V/5A</td>
+    <td>(IPM allowable current rating) 10A</td>
   </tr>
-</thead>
+</tbody>
 </table>
 
 Table 4-27 Symbols of the Hall Sensors of the Small-Sized IPM
@@ -3748,7 +3760,7 @@ Table 4-27 Symbols of the Hall Sensors of the Small-Sized IPM
 </thead>
 <tbody>
   <tr>
-    <td rowspan="7">Small-sized drive module</td>
+    <td rowspan="7">Drive module of the small-sized 6 axes</td>
     <td>3 (4V/15A)</td>
     <td>27.27Apeak</td>
     <td rowspan="2">6MBP50VAA060 (30A)</td>
@@ -3783,7 +3795,7 @@ Table 4-27 Symbols of the Hall Sensors of the Small-Sized IPM
 </tbody>
 </table>
 
-{% hint style="caution" %}
+{% hint style="info" %}
 The drive module differs depending on the type of the robot, so you must check the type when replacing it.
 {% endhint %}
 
@@ -3817,13 +3829,13 @@ Table 4-28 Description of the Connectors of BD653
 </tr>
 <tr class="odd">
 <td><p><strong>CNDR</strong></p></td>
-<td><p>Regenerative power output </p></td>
-<td><p>Regenerative resistor</p></td>
+<td><p>Regenerative discharge power output </p></td>
+<td><p>Regenerative discharge resistor</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CNTR</strong></p></td>
-<td><p>Regenerative resistor overheating detection</p></td>
-<td><p>Regenerative resistor temperature sensor</p></td>
+<td><p>Regenerative discharge resistor overheating detection</p></td>
+<td><p>Regenerative discharge resistor temperature sensor</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CNM1~6</strong></p></td>
@@ -3895,7 +3907,7 @@ Table 4-30 Description of the Connectors of BD654
 </tr>
 <tr class="even">
 <td><p><strong>CNBS1~3</strong></p></td>
-<td><p>PWM signals and IPM error signals for 8 axes</p></td>
+<td><p>PWM signals and IPM error signals for 8 axes<br>Converter part error signal</p></td>
 <td><p>Board-to-board connectors of BD640</p></td>
 </tr>
 <tr class="odd">
@@ -3959,8 +3971,8 @@ Table 4-32 Type Symbol of the Optional Drive Module
 </thead>
 <tbody>
   <tr>
-    <td>Hi6 drive module</td>
-    <td>H6D</td>
+    <td>Hi6 1 Axes drive module</td>
+    <td>H6D1</td>
   </tr>
 </tbody>
 </table>
@@ -3970,23 +3982,26 @@ Table 4-33 Capacity of the IPM of the Optional Drive Module
 <table>
 <thead>
   <tr>
-    <td rowspan="4">Medium-sized/Large-sized)</td>
-    <td>L</td>
-    <td>(IPM current rating) 150A, (Hall sensor current rating) 4V/75A</td>
+    <th>Drive Model</th>
+    <th>IPM symbol</th>
+    <th>IPM Specification</th>
   </tr>
+</thead>
+<tbody>
   <tr>
+    <td rowspan="6">Drive module of the additional axis</td>
     <td>X</td>
-    <td>(IPM current rating) 100A, (Hall sensor current rating) 4V/50A</td>
+    <td>(IPM current rating) 100A</td>
   </tr>
   <tr>
     <td>Y</td>
-    <td>(IPM current rating) 75A, (Hall sensor current rating) 4V/50A</td>
+    <td>(IPM current rating) 75A</td>
   </tr>
   <tr>
     <td>Z</td>
-    <td>(IPM current rating) 50A, (Hall sensor current rating) 4V/25A</td>
+    <td>(IPM current rating) 50A</td>
   </tr>
-</thead>
+</tbody>
 </table>
 
 Table 4-34 Symbols of the Hall Sensors of the Optional Drive Module
@@ -4003,9 +4018,6 @@ Table 4-34 Symbols of the Hall Sensors of the Optional Drive Module
 <tbody>
   <tr>
     <td rowspan="6">Drive module of the additional axis</td>
-    <td>0 (4V/75A)</td>
-    <td>140.62Apeak</td>
-    <td>PM150CG1APL065 202G (150A)</td>
   </tr>
   <tr>
     <td>1 (4V/50A)</td>
@@ -4056,7 +4068,7 @@ Table 4-35 Configuration of H6D1X
   </tr>
   <tr>
     <td>Gate power module</td>
-    <td>Generates the gate power</td>
+    <td>Generates the IPM gate power</td>
   </tr>
   <tr>
     <td>Current detection part</td>
@@ -4065,11 +4077,11 @@ Table 4-35 Configuration of H6D1X
   <tr>
     <td rowspan="2">Other parts</td>
     <td>Heat sink</td>
-    <td>Releases the heat generated from IPM to the outside</td>
+    <td>Releases the heat generated in IPM to the outside</td>
   </tr>
   <tr>
     <td>IPM</td>
-    <td>A switching device of 100A</td>
+    <td>Convert the power for driving a three-phase motor</td>
   </tr>
 </tbody>
 </table>
@@ -4132,7 +4144,7 @@ Table 4-37 Configuration of H6D1Z
   </tr>
   <tr>
     <td>Gate power module</td>
-    <td>Generates the gate power</td>
+    <td>Generates the IPM gate power</td>
   </tr>
   <tr>
     <td>Current detection part</td>
@@ -4141,11 +4153,11 @@ Table 4-37 Configuration of H6D1Z
   <tr>
     <td rowspan="2">Other parts</td>
     <td>Heat sink</td>
-    <td>Releases the heat generated from IPM to the outside</td>
+    <td>Releases the heat generated in IPM to the outside</td>
   </tr>
   <tr>
     <td>IPM</td>
-    <td>A switching device of 50A</td>
+    <td>Convert the power for driving a three-phase motor</td>
   </tr>
 </tbody>
 </table>
@@ -4559,7 +4571,7 @@ Table 5-3 Configuration of the Front Part of the PCI Communication Card, and the
 
 The brake release unit can be used when it is necessary to release the motor brake for each axis of the robot. It can help to set the robot posture mainly during the initial installation of the robot. When releasing the brake, you must fully understand the safety information of “Release of the manual brake” in “1.8.2 Other Related Functions” before using the robot.
 
-{% hint style="caution" %}
+{% hint style="info" %}
 1. Do not release more than two axes at the same time.
 2. Keep a safe distance from the robot first before using the brake release unit.
 3. Use the brake release unit after preparing for the dropping of the robot’s axis using equipment such as a crane.
@@ -4642,7 +4654,7 @@ Table 5-4 Usage of the Switches of the Brake Release Unit
 
 The placement of the power and connectors of the brake release unit is as shown in Figure 5.4 below, and their individual usage and connection devices are as shown in Table 5-5 below.
 
-{% hint style="caution" %}
+{% hint style="info" %}
 - When using the brake release unit, follow the procedures below.
 1. Turn off the AC220V power switch and check that the DC24V power switch is turned off.
 2. Connect the AC power cable to the AC power connector.
@@ -4766,7 +4778,7 @@ Table 5--6 Usage and Operation of the LEDs for the Status of the Brake Release U
 
 To use general IO signals in the Hi6 controller, you need the commercial remote IO. Basically, the commercial remote IO can be used by connecting an “IO module” (selected by the user) to one “communication module.” The module introduced below is a commercial remote IO module of Crevis, and you may purchase and use a commercial remote of other companies. For details on how to use each module, you are required to ask the company about the IO module you purchased.
 
-{% hint style="caution" %}
+{% hint style="info" %}
 Fieldbus communication must be available to use the commercial remote IO. Therefore, you should configure the PCI communication card together by referring to “5.1 PCI Communication Card” mentioned above.
 {% endhint %}
 
@@ -5296,7 +5308,7 @@ The characteristics of individual parts are described below.
 
 **Maintenance Parts of the Category A**
 
-{% hint style="caution" %}
+{% hint style="info" %}
 These are the important parts to be prepared for daily maintenance and inspection.
 {% endhint %}
 
@@ -5464,7 +5476,7 @@ Table 6-7 Maintenance Parts of the Category A-3 (Periodic Replacement Parts)
 
 **Maintenance Parts of the Category B**
 
-{% hint style="caution" %}
+{% hint style="info" %}
 These are the maintenance parts to be prepared when multiple units are purchased.
 {% endhint %}
 
