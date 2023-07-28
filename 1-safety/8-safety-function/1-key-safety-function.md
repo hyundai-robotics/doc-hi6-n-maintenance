@@ -6,7 +6,7 @@ There is one emergency stop button on the controller and teach pendant respectiv
 
 
 
-{% hint style="caution" %}
+{% hint style="info" %}
 As the emergency stop function immediately cuts off the motor power, so reckless use of the function may result in accumulation of fatigue that affects the durability of the robot. The functoin must be used only in emergency situations.
 {% endhint %}
 

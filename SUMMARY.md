@@ -55,7 +55,7 @@
       * [3.6.3.2. Power Cable Thickness](3-installation/6-connection/3-controller-1st-power/2-power-wire-thick.md)
     * [3.6.4. The Controller and Grounding](3-installation/6-connection/4-controller-ground.md)
     * [3.6.5. Other Cautions](3-installation/6-connection/5-other-caution.md)
-    * [3.6.6. Other Cautions](3-installation/6-connection/6-user-eth-port-conn.md)
+    * [3.6.6. Connection of the Ethernet Port for the User](3-installation/6-connection/6-user-eth-port-conn.md)
 
 * [4. Basic Configuration of the Controller](4-basic-components/README.md)
   * [4.1. Configuration](4-basic-components/1-config.md)
@@ -79,7 +79,7 @@
       * [4.3.3.3. Display Devices](4-basic-components/3-component-func/3-servo-board-BD640/3-display.md)
       * [4.3.3.4. Setting Devices ](4-basic-components/3-component-func/3-servo-board-BD640/4-setting-device.md)
     * [4.3.4. Drive Module](4-basic-components/3-component-func/4-drive-module/README.md)
-      * [4.3.4.1. H6DX (Medium-Sized 6 Axes Integrated Drive Module)](4-basic-components/3-component-func/4-drive-module/1-H6DX-middle-6ax-drive-module.md)
+      * [4.3.4.1. H6D6X (Medium-Sized 6 Axes Integrated Drive Module)](4-basic-components/3-component-func/4-drive-module/1-H6DX-middle-6ax-drive-module.md)
       * [4.3.4.2. H6D6A (Small-Sized 6 Axes Integrated Drive Module)](4-basic-components/3-component-func/4-drive-module/2-H6D6A-small-6ax-drive-module.md)
       * [4.3.4.3. Specification of the Optional Drive Module](4-basic-components/3-component-func/4-drive-module/3-optional-drive-module-spec.md)
       * [4.3.4.4. H6D1X (Carriage Drive Module; Optional)](4-basic-components/3-component-func/4-drive-module/4-H6D1X-carriage-drive-module-spec.md)

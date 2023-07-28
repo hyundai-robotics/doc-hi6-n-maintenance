@@ -15,7 +15,7 @@ Considering that additional problems may occur due to gravity or brake release, 
 
 When the robot is stopped by the limit switch, it is possible to change the position by jogging the robot with the teaching pendant in the constant setting mode. After designating the soft limit according to the site situation, make sure that it is installed by a trained worker.
 
-{% hint style="caution" %}
+{% hint style="info" %}
 Our company is not responsible if the jogging operation does not work due to the failure of the hardware limit switch. 
 You must check it periodically. For the measure to take in case of a failure, please refer to the troubleshooting manual.
 {% endhint %}

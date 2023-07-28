@@ -2,7 +2,7 @@
 
 The drive module performs a power amplification function that allows the current to flow to individual phases of the motor according to the current command from the servo board. The six axes integrated drive module can drive six motors at the same time and is configured as follows.
 
-The three-phase current supplied from the power supply module is rectified through a diode module and then converted into direct current and stored in a smoothing capacitor. When the motor speed of the robot is decelerated, the electric power generated from the motor will be consumed through transistors and resistors. The relevant configuration is as follows.
+The three-phase current entered from the power supply module is rectified through a diode module and then converted into direct current and stored in a smoothing capacitor. When the motor speed of the robot is decelerated, the electric power generated from the motor will be consumed through IGBT and resistors. The relevant configuration is as follows.
 
 
 Table 4-23 Configuration of H6D6A (Small-Sized 6 Axes Integrated Drive Module)
@@ -30,7 +30,7 @@ Table 4-23 Configuration of H6D6A (Small-Sized 6 Axes Integrated Drive Module)
   </tr>
   <tr>
     <td>Regenerative control</td>
-    <td>Drives the IGBT when the PN voltage rises</td>
+    <td>Turn on the IGBT when the PN voltage rises</td>
   </tr>
   <tr>
     <td>Error detection part</td>
@@ -46,17 +46,17 @@ Table 4-23 Configuration of H6D6A (Small-Sized 6 Axes Integrated Drive Module)
     <td>Interlocks between the sequence status and the servo on signal</td>
   </tr>
   <tr>
-    <td>System DIO board input and outputs </td>
-    <td>Reserved IO unit inside the controller</td>
+    <td>Dedicated IO Terminal Blocks</td>
+    <td>Reserved IO port inside the controller</td>
   </tr>
   <tr>
     <td rowspan="4">Other Parts</td>
     <td>Heat sink</td>
-    <td>Releases the heat generated from power elements to the outside</td>
+    <td>Releases the heat generated in power elements to the outside</td>
   </tr>
   <tr>
     <td>Rectification part</td>
-    <td>Generates the circuit for the DC power that is supplied to the motor from the AC input main power</td>
+    <td>Rectify the AC input power to generate DC power for driving the motor</td>
   </tr>
   <tr>
     <td>Regenerative IGBT</td>
@@ -64,12 +64,12 @@ Table 4-23 Configuration of H6D6A (Small-Sized 6 Axes Integrated Drive Module)
   </tr>
   <tr>
     <td>IPM</td>
-    <td>A switching device</td>
+    <td>Convert the power for driving a three-phase motor</td>
   </tr>
 </tbody>
 </table>
 
-{% hint style="caution" %}
+{% hint style="info" %}
 The drive module differs depending on the type of the robot, so you must check the type when replacing it.
 {% endhint %}
 
@@ -87,8 +87,8 @@ Table 4-24 Type Symbol of the Small-Sized 6 Axes Integrated Drive Module
 <td><p><strong>Type symbol</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Hi6 drive module</strong></p></td>
-<td><p>H6D</p></td>
+<td><p><strong>Hi6 Small-Sized 6 Axes drive module</strong></p></td>
+<td><p>H6D6A</p></td>
 </tr>
 </tbody>
 </table>
@@ -123,8 +123,8 @@ Table 4-25 Specification of the Small-Sized 6 Axes Integrated Drive Module
   </tr>
   <tr>
     <td>Serial No.</td>
-    <td colspan="2">0001 ~ 9999</td>
-    <td colspan="2">Number of units produced monthly: 1~9999</td>
+    <td colspan="2">001 ~ 999</td>
+    <td colspan="2">Number of units produced monthly: 1~999</td>
   </tr>
 </tbody>
 </table>
@@ -134,15 +134,22 @@ Table 4-26 Capacity of the Small-Sized IPM
 <table>
 <thead>
   <tr>
-    <td rowspan="2">Small-sized</td>
+    <th>Drive Model</th>
+    <th>IPM symbol</th>
+    <th>IPM Specification</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td rowspan="7">Drive module of the small-sized 6 axes</td>
     <td>A</td>
-    <td>(IPM allowable current rating) 30A, (Hall sensor current rating) 4V/15A</td>
+    <td>(IPM allowable current rating) 30A</td>
   </tr>
   <tr>
     <td>D</td>
-    <td>(IPM allowable current rating) 10A, (Hall sensor current rating) 4V/5A</td>
+    <td>(IPM allowable current rating) 10A</td>
   </tr>
-</thead>
+</tbody>
 </table>
 
 Table 4-27 Symbols of the Hall Sensors of the Small-Sized IPM
@@ -158,7 +165,7 @@ Table 4-27 Symbols of the Hall Sensors of the Small-Sized IPM
 </thead>
 <tbody>
   <tr>
-    <td rowspan="7">Small-sized drive module</td>
+    <td rowspan="7">Drive module of the small-sized 6 axes</td>
     <td>3 (4V/15A)</td>
     <td>27.27Apeak</td>
     <td rowspan="2">6MBP50VAA060 (30A)</td>
@@ -193,7 +200,7 @@ Table 4-27 Symbols of the Hall Sensors of the Small-Sized IPM
 </tbody>
 </table>
 
-{% hint style="caution" %}
+{% hint style="info" %}
 The drive module differs depending on the type of the robot, so you must check the type when replacing it.
 {% endhint %}
 
@@ -227,13 +234,13 @@ Table 4-28 Description of the Connectors of BD653
 </tr>
 <tr class="odd">
 <td><p><strong>CNDR</strong></p></td>
-<td><p>Regenerative power output </p></td>
-<td><p>Regenerative resistor</p></td>
+<td><p>Regenerative discharge power output </p></td>
+<td><p>Regenerative discharge resistor</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CNTR</strong></p></td>
-<td><p>Regenerative resistor overheating detection</p></td>
-<td><p>Regenerative resistor temperature sensor</p></td>
+<td><p>Regenerative discharge resistor overheating detection</p></td>
+<td><p>Regenerative discharge resistor temperature sensor</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CNM1~6</strong></p></td>
@@ -305,7 +312,7 @@ Table 4-30 Description of the Connectors of BD654
 </tr>
 <tr class="even">
 <td><p><strong>CNBS1~3</strong></p></td>
-<td><p>PWM signals and IPM error signals for 8 axes</p></td>
+<td><p>PWM signals and IPM error signals for 8 axes<br>Converter part error signal</p></td>
 <td><p>Board-to-board connectors of BD640</p></td>
 </tr>
 <tr class="odd">

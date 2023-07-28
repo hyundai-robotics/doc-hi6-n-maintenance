@@ -1,8 +1,8 @@
-﻿# 4.3.4.1. H6DX (Medium-Sized 6 Axes Integrated Drive Module)
+﻿# 4.3.4.1. H6D6X (Medium-Sized 6 Axes Integrated Drive Module)
 
 The drive module performs a power amplification function that allows the current to flow to the individual phases of the motor according to the current command from the servo board. The six axes integrated drive module can drive six motors at the same time and is configured as follows.
 
-The three-phase current supplied from the power supply module is rectified through a diode module and then converted into direct current and stored in a smoothing capacitor. When the motor speed of the robot is decelerated, the electric power generated from the motor will be consumed through transistors and resistors. The relevant configuration is as follows. 
+The three-phase current entered from the power supply module is rectified through a diode module and then converted into direct current and stored in a smoothing capacitor. When the motor speed of the robot is decelerated, the electric power generated from the motor will be consumed through IGBT and resistors. The relevant configuration is as follows. 
 
 Table 4-14 Configuration of H6D6X (Medium-Sized 6 Axes Integrated Drive Module)
 
@@ -22,7 +22,7 @@ Table 4-14 Configuration of H6D6X (Medium-Sized 6 Axes Integrated Drive Module)
   </tr>
   <tr>
     <td>Gate power module</td>
-    <td>Generates the gate power</td>
+    <td>Transmit the gate power</td>
   </tr>
   <tr>
     <td>Current detection part</td>
@@ -34,7 +34,7 @@ Table 4-14 Configuration of H6D6X (Medium-Sized 6 Axes Integrated Drive Module)
   </tr>
   <tr>
     <td>Error detection part</td>
-    <td>Detects the overvoltage, regenerative resistor overheating, and undervoltage errors</td>
+    <td>Detects the PN overvoltage, regenerative discharge resistor overheating, and PN undervoltage errors</td>
   </tr>
   <tr>
     <td>High voltage capacitor</td>
@@ -46,8 +46,8 @@ Table 4-14 Configuration of H6D6X (Medium-Sized 6 Axes Integrated Drive Module)
     <td>Interlocks between the sequence status and the servo on signal</td>
   </tr>
   <tr>
-    <td>System DIO board input and outputs</td>
-    <td>Reserved IO unit inside the controller</td>
+    <td>Dedicated IO Terminal Blocks</td>
+    <td>Reserved IO port inside the controller</td>
   </tr>
   <tr>
     <td rowspan="4">Other parts</td>
@@ -56,7 +56,7 @@ Table 4-14 Configuration of H6D6X (Medium-Sized 6 Axes Integrated Drive Module)
   </tr>
   <tr>
     <td>Rectification part</td>
-    <td>Generates the circuit for the DC power that is supplied to the motor from the AC input main power</td>
+    <td>Rectify the AC input power to generate DC power for driving the motor</td>
   </tr>
   <tr>
     <td>Regenerative IGBT</td>
@@ -64,7 +64,7 @@ Table 4-14 Configuration of H6D6X (Medium-Sized 6 Axes Integrated Drive Module)
   </tr>
   <tr>
     <td>IPM</td>
-    <td>A switching device</td>
+    <td>Convert the power for driving a three-phase motor</td>
   </tr>
 </tbody>
 </table>
@@ -82,8 +82,8 @@ Table 4-15 Type Symbol of the Medium-Sized 6 Axes Integrated Drive Module
 <td><p><strong>Type symbol</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Hi6 drive module</strong></p></td>
-<td><p>H6D</p></td>
+<td><p><strong>Hi6 Medium-Sized 6 Axes drive module</strong></p></td>
+<td><p>H6D6X</p></td>
 </tr>
 </tbody>
 </table>
@@ -123,53 +123,53 @@ Table 4-16 Specification of the Medium-Sized 6 Axes Integrated Drive Module
   </tr>
   <tr>
     <td>Serial No.</td>
-    <td colspan="2">0001 ~ 999</td>
+    <td colspan="2">001 ~ 999</td>
     <td colspan="2">Number of units produced monthly: 1~999</td>
   </tr>
 </tbody>
 </table>
 
-Table 4-17 Capacity of the Medium-Sized IPM 
+Table 4-17 Symbols of the IPM of the medium-sized 6 axes drive module 
 
 <table>
 <thead>
   <tr>
-    <td rowspan="4">Medium-sized(Large-sized)</td>
-    <td>L</td>
-    <td>(IPM current rating) 150A, (Hall sensor current rating) 4V/75A</td>
+    <th>Drive Model</th>
+    <th>IPM symbol</th>
+    <th>IPM Specification</th>
   </tr>
+</thead>
+<tbody>
   <tr>
+    <td rowspan="6">Drive module of the medium-sized 6 axes</td>
     <td>X</td>
-    <td>(IPM current rating) 100A, (Hall sensor current rating) 4V/50A</td>
+    <td>(IPM current rating) 100A</td>
   </tr>
   <tr>
     <td>Y</td>
-    <td>(IPM current rating) 75A, (Hall sensor current rating) 4V/50A</td>
+    <td>(IPM current rating) 75A</td>
   </tr>
-  <tr>
+   <tr>
     <td>Z</td>
-    <td>(IPM current rating) 50A, (Hall sensor current rating) 4V/25A</td>
+    <td>(IPM current rating) 50A</td>
   </tr>
-</thead>
+</tbody>
 </table>
 
-Table 4-18 Symbols of the Hall Sensors of the Medium-Sized IPM 
+Table 4-18 Symbols of the Hall Sensors of the medium-sized 6 axes drive module 
 
 <table>
 <thead>
   <tr>
     <th>Drive Model</th>
     <th>Hall sensor symbol (Specification)</th>
-    <th>Full-scale current (Im)</th>
-    <th>IPM specification (Rated current)</th>
+    <th>Full-scalecurrent (Im)</th>
+    <th>IPM specification<br>(Rated current)</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td rowspan="6">Medium-sized</br>(Large-sized) drive module</td>
-    <td>0 (4V/75A)</td>
-    <td>140.62Apeak</td>
-    <td>PM150CG1APL065 202G (150A)</td>
+    <td rowspan="6">Drive module of the medium-sized 6 axes</td>
   </tr>
   <tr>
     <td>1 (4V/50A)</td>
@@ -195,7 +195,7 @@ Table 4-18 Symbols of the Hall Sensors of the Medium-Sized IPM
 </tbody>
 </table>
 
-{% hint style="caution" %}
+{% hint style="info" %}
 The drive module differs depending on the type of the robot, so you must check the type when replacing it.
 {% endhint %}
 
@@ -230,13 +230,13 @@ Table 4-19 Description of the Connectors of BD651
 </tr>
 <tr class="odd">
 <td><p><strong>CNDR</strong></p></td>
-<td><p>Regenerative power output</p></td>
-<td><p>Regenerative resistor</p></td>
+<td><p>Regenerative discharge power output</p></td>
+<td><p>Regenerative discharge resistor</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CNTR</strong></p></td>
-<td><p>Regenerative resistor overheating detection</p></td>
-<td><p>Regenerative resistor temperature sensor</p></td>
+<td><p>Regenerative discharge resistor overheating detection</p></td>
+<td><p>Regenerative discharge resistor temperature sensor</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CNM1~3</strong></p></td>
@@ -318,7 +318,7 @@ Table 4-21 Description of the Connectors of BD652
 </tr>
 <tr class="even">
 <td><p><strong>CNBS1~3</strong></p></td>
-<td><p>PWM signals and IPM error signals for 8 axes</p></td>
+<td><p>PWM signals and IPM error signals for 8 axes<br>Converter part error signal</p></td>
 <td><p>Board-to-board connectors of BD640</p></td>
 </tr>
 <tr class="odd">

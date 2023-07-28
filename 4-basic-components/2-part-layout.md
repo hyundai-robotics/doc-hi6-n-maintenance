@@ -1,6 +1,6 @@
 ﻿# 4.2. Placement of Parts
 
-The main components of the Hi6-N00/N30/N80 controller and their individual names are shown below in Table 4-1 and are arranged as shown in Figure 4.5 to Figure 4.13.</br></br>
+The main components of the Hi6-N00/N30/N80 controller and their individual names are shown below in Table 4-1 and are arranged as shown in Figure 4.3 to Figure 4.5.</br></br>
 
 Table 4-1 Names of Individual Parts of the Hi6-N00/N30/N80 Controller
 

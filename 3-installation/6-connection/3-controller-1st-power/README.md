@@ -8,4 +8,6 @@ At this time, use a terminal receptable of an appropriate size for the end side 
 
 ![](../../../_assets/그림_3.8_Hi6-N__U__제어기에_1차_전원_접속부.png  )
 
+![](../../../_assets/그림_3.8_Hi6-N__U__제어기에_1차_전원_접속부_2.png  )
+
 Figure 3.7 Primary Power Connection Part of Hi6-N**(U) Controller

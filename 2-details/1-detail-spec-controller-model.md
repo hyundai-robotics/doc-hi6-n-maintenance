@@ -116,7 +116,7 @@ Table 2‑1 Details of Specifications of Each Controller Model
   </tr>
   <tr>
     <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Maximum power consumption&nbsp;&nbsp;&nbsp;</td>
-    <td colspan="2"><br>Hi6-N80(U)-A0:10.3KVA<br>Hi6-N00(U)-A0: 7.8KVA<br>Hi6-N30(U)-A0: 4.4KVA&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2"><br>Hi6-N80(U)-A0:10.5KVA<br>Hi6-N00(U)-A0: 7.8KVA<br>Hi6-N30(U)-A0: 4.4KVA&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Operation temperature&nbsp;&nbsp;&nbsp;</td>
@@ -136,18 +136,18 @@ Table 2‑1 Details of Specifications of Each Controller Model
   </tr>
   <tr>
     <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Exterior diemsion*1 (WxHxD)<br>&nbsp;&nbsp;&nbsp;(WxHxD)&nbsp;&nbsp;&nbsp;</td>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>W650xD560xH580 (mm) Caster(option) included&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>W650xD560xH580 (mm)<br>Caster 100mm Exclude&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Weight&nbsp;&nbsp;&nbsp;</td>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Standard Voltage Specification(Exclude TR)<br>Hi6-N30(U): 120kg<br>Hi6-N00(U): 120kg<br>Hi6-N80(U): 125kg<br>Optional Voltage Specification(Include TR)<br>Hi6-N30(U): 165kg<br>Hi6-N00(U): 185kg<br>Hi6-N80(U): 195kg</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Standard Voltage Specification(Exclude TR)<br>Hi6-N30(U): 120kg<br>Hi6-N00(U): 120kg<br>Hi6-N80(U): 125kg<br><br>Optional Voltage Specification(Include TR)<br>Hi6-N30(U): 165kg<br>Hi6-N00(U): 185kg<br>Hi6-N80(U): 195kg</td>
   </tr>
 </tbody>
 </table>
 
+<br>
 
 Table 2‑2 Power Requirements
-
 <table>
 <thead>
   <tr>
@@ -175,7 +175,7 @@ Table 2‑2 Power Requirements
   </tr>
   <tr>
     <td>&nbsp;&nbsp;&nbsp;<br>Hi6-N80&nbsp;&nbsp;&nbsp;</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>Max. 10.4 KVA&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Max. 10.5 KVA&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>220/380/400/415/440V&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>50/60&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>50 A&nbsp;&nbsp;&nbsp;</td>
@@ -196,7 +196,7 @@ Table 2‑2 Power Requirements
   </tr>
   <tr>
     <td>&nbsp;&nbsp;&nbsp;<br>Hi6-N80U&nbsp;&nbsp;&nbsp;</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>Max. 10.4 KVA&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Max. 10.5 KVA&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>460/480V&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>50/60&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>50 A&nbsp;&nbsp;&nbsp;</td>

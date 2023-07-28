@@ -17,7 +17,7 @@ When you enter the robot operation area, you must full understand the following 
 *	Thinking that the robot may rush towards you unexpectedly, you should prepare a method or place for evacuation. 
 
 
-{% hint style="caution" %}
+{% hint style="info" %}
 You should not be negligent in paying attention to sudden movements even when entry is made possible. Must avoid approaching without preparing for possible emergency situation under any circumstances.
 {% endhint %}
 

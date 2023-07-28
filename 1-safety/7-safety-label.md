@@ -14,7 +14,7 @@ Table 1-2 Safety Labels
 Any act of damaging the safety labels, such as relocating the name plates, warning markings, safety symbols, name markings and wire markings or painting over them or blocking them with a cover is prohibited.
 {% endhint %}
 
-{% hint style="caution" %}
+{% hint style="info" %}
 Mark the installation and dangerous areas of the robot in a way that they can be differentiated from other facilities and devices in terms of type, color and style.
 {% endhint %}
 

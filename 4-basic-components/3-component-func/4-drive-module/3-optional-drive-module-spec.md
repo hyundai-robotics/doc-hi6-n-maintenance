@@ -15,8 +15,8 @@ Table 4-32 Type Symbol of the Optional Drive Module
 </thead>
 <tbody>
   <tr>
-    <td>Hi6 drive module</td>
-    <td>H6D</td>
+    <td>Hi6 1 Axes drive module</td>
+    <td>H6D1</td>
   </tr>
 </tbody>
 </table>
@@ -26,23 +26,26 @@ Table 4-33 Capacity of the IPM of the Optional Drive Module
 <table>
 <thead>
   <tr>
-    <td rowspan="4">Medium-sized/Large-sized)</td>
-    <td>L</td>
-    <td>(IPM current rating) 150A, (Hall sensor current rating) 4V/75A</td>
+    <th>Drive Model</th>
+    <th>IPM symbol</th>
+    <th>IPM Specification</th>
   </tr>
+</thead>
+<tbody>
   <tr>
+    <td rowspan="6">Drive module of the additional axis</td>
     <td>X</td>
-    <td>(IPM current rating) 100A, (Hall sensor current rating) 4V/50A</td>
+    <td>(IPM current rating) 100A</td>
   </tr>
   <tr>
     <td>Y</td>
-    <td>(IPM current rating) 75A, (Hall sensor current rating) 4V/50A</td>
+    <td>(IPM current rating) 75A</td>
   </tr>
   <tr>
     <td>Z</td>
-    <td>(IPM current rating) 50A, (Hall sensor current rating) 4V/25A</td>
+    <td>(IPM current rating) 50A</td>
   </tr>
-</thead>
+</tbody>
 </table>
 
 Table 4-34 Symbols of the Hall Sensors of the Optional Drive Module
@@ -59,9 +62,6 @@ Table 4-34 Symbols of the Hall Sensors of the Optional Drive Module
 <tbody>
   <tr>
     <td rowspan="6">Drive module of the additional axis</td>
-    <td>0 (4V/75A)</td>
-    <td>140.62Apeak</td>
-    <td>PM150CG1APL065 202G (150A)</td>
   </tr>
   <tr>
     <td>1 (4V/50A)</td>

@@ -23,7 +23,7 @@ Table 4-37 Configuration of H6D1Z
   </tr>
   <tr>
     <td>Gate power module</td>
-    <td>Generates the gate power</td>
+    <td>Generates the IPM gate power</td>
   </tr>
   <tr>
     <td>Current detection part</td>
@@ -32,11 +32,11 @@ Table 4-37 Configuration of H6D1Z
   <tr>
     <td rowspan="2">Other parts</td>
     <td>Heat sink</td>
-    <td>Releases the heat generated from IPM to the outside</td>
+    <td>Releases the heat generated in IPM to the outside</td>
   </tr>
   <tr>
     <td>IPM</td>
-    <td>A switching device of 50A</td>
+    <td>Convert the power for driving a three-phase motor</td>
   </tr>
 </tbody>
 </table>

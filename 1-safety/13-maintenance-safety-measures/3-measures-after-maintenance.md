@@ -15,7 +15,7 @@ Observe the following actions after maintenance and inspection.
 *	Operate the robot at a low speed.
 
 
-{% hint style="caution" %}
+{% hint style="info" %}
 Before turning on the power, check that there is no worker inside the robot operation area and you are in a safe place
 {% endhint %}
 

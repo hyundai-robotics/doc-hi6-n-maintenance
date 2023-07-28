@@ -11,7 +11,7 @@ If you properly install, transport, and store the product in consideration of th
 *	Discarding of the controller
 
 
-{% hint style="caution" %}
+{% hint style="info" %}
 Before installing the product, you must perform a risk assessment sufficiently and then set the safety function based on the assement results. For details on safety functions, refer to “1. Safety”.
 {% endhint %}
 

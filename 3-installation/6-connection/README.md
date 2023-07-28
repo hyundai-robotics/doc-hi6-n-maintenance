@@ -1,6 +1,6 @@
 ﻿# 3.6. Connection
 
-{% hint style="caution" %}
+{% hint style="info" %}
 1. Before connecting the cables, turn “off” the controller's main power switch and lock it by using use a padlock. 
 2. The controller has DC400V charged energy. Be careful. 
 Turn “off” the power switch and then wait 5 minutes at least to discharge the charged energy.

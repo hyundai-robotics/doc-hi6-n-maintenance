@@ -4,7 +4,7 @@ The characteristics of individual parts are described below.
 
 **Maintenance Parts of the Category A**
 
-{% hint style="caution" %}
+{% hint style="info" %}
 These are the important parts to be prepared for daily maintenance and inspection.
 {% endhint %}
 
@@ -172,7 +172,7 @@ Table 6-7 Maintenance Parts of the Category A-3 (Periodic Replacement Parts)
 
 **Maintenance Parts of the Category B**
 
-{% hint style="caution" %}
+{% hint style="info" %}
 These are the maintenance parts to be prepared when multiple units are purchased.
 {% endhint %}
 

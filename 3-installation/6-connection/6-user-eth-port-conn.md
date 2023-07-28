@@ -1,4 +1,4 @@
-﻿# 3.6.6. Connection of the Ethernet Port for the User (Option)
+﻿# 3.6.6. Connection of the Ethernet Port for the User
 
 The Ethernet port for the user is located on the front door of the controller. The pin descriptin and connection with a Pc are as follows.</br></br>
 
