@@ -27,27 +27,27 @@ Table 4-3 Types and Usage of the Connectors of Hi6COM-T
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>LAN 1</strong></p></td>
+<td><p><strong>LAN 4</strong></p></td>
 <td><p>EtherCAT master connector port</p></td>
 <td><p>EtherCAT connector</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>LAN 2</strong></p></td>
+<td><p><strong>LAN 5</strong></p></td>
 <td><p>Ethernet port: For communication between teach pendants</p></td>
 <td><p>TP connector</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>LAN 3</strong></p></td>
+<td><p><strong>LAN 1</strong></p></td>
 <td><p>Ethernet port: For the user (PC I/F)</p></td>
 <td><p>Optional EtherCAT connector</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>LAN4</strong></p></td>
+<td><p><strong>LAN 2</strong></p></td>
 <td><p>Ethernet port: For the user (PC I/F)</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>LAN5</strong></p></td>
+<td><p><strong>LAN 3</strong></p></td>
 <td><p>Ethernet port: For the user (PC I/F)</p></td>
 <td><p>-</p></td>
 </tr>
