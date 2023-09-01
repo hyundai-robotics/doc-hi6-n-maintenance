@@ -27,27 +27,27 @@
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>LAN 1</strong></p></td>
+<td><p><strong>LAN 4</strong></p></td>
 <td><p>EtherCAT 마스터 커넥터 포트</p></td>
 <td><p>EtherCAT 커넥터</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>LAN 2</strong></p></td>
+<td><p><strong>LAN 5</strong></p></td>
 <td><p>이더넷포트: T/P간 통신용</p></td>
 <td><p>TP 커넥터</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>LAN 3</strong></p></td>
+<td><p><strong>LAN 1</strong></p></td>
 <td><p>이더넷포트: 사용자용(PC I/F)</p></td>
 <td><p>옵션용 EtherCAT 커넥터</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>LAN4</strong></p></td>
+<td><p><strong>LAN 2</strong></p></td>
 <td><p>이더넷포트: 사용자용(PC I/F)</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>LAN5</strong></p></td>
+<td><p><strong>LAN 3</strong></p></td>
 <td><p>이더넷포트: 사용자용(PC I/F)</p></td>
 <td><p>-</p></td>
 </tr>
