@@ -161,397 +161,397 @@
 	},
 	{
 		"link": "2-details/2-controller-appearance.md",
-		"char_ofs": 71349,
-		"byte_ofs": 72665
+		"char_ofs": 71351,
+		"byte_ofs": 72667
 	},
 	{
 		"link": "3-installation/README.md",
-		"char_ofs": 71468,
-		"byte_ofs": 72803
+		"char_ofs": 71470,
+		"byte_ofs": 72805
 	},
 	{
 		"link": "3-installation/1-configuration/README.md",
-		"char_ofs": 72148,
-		"byte_ofs": 73507
+		"char_ofs": 72150,
+		"byte_ofs": 73509
 	},
 	{
 		"link": "3-installation/1-configuration/1-basic-configuration.md",
-		"char_ofs": 72169,
-		"byte_ofs": 73532
+		"char_ofs": 72171,
+		"byte_ofs": 73534
 	},
 	{
 		"link": "3-installation/1-configuration/2-various-name-plates.md",
-		"char_ofs": 72405,
-		"byte_ofs": 73815
+		"char_ofs": 72407,
+		"byte_ofs": 73817
 	},
 	{
 		"link": "3-installation/2-install-use-env.md",
-		"char_ofs": 73123,
-		"byte_ofs": 74603
+		"char_ofs": 73125,
+		"byte_ofs": 74605
 	},
 	{
 		"link": "3-installation/3-controller-transport/README.md",
-		"char_ofs": 75439,
-		"byte_ofs": 76976
+		"char_ofs": 75441,
+		"byte_ofs": 76978
 	},
 	{
 		"link": "3-installation/3-controller-transport/1-packaging.md",
-		"char_ofs": 75694,
-		"byte_ofs": 77236
+		"char_ofs": 75696,
+		"byte_ofs": 77238
 	},
 	{
 		"link": "3-installation/3-controller-transport/2-carrying-weight-modi.md",
-		"char_ofs": 76028,
-		"byte_ofs": 77583
+		"char_ofs": 76030,
+		"byte_ofs": 77585
 	},
 	{
 		"link": "3-installation/3-controller-transport/3-unpackaging.md",
-		"char_ofs": 78358,
-		"byte_ofs": 80024
+		"char_ofs": 78360,
+		"byte_ofs": 80026
 	},
 	{
 		"link": "3-installation/4-keep-controller.md",
-		"char_ofs": 78934,
-		"byte_ofs": 80617
+		"char_ofs": 78936,
+		"byte_ofs": 80619
 	},
 	{
 		"link": "3-installation/5-disposal-controller.md",
-		"char_ofs": 79852,
-		"byte_ofs": 81555
+		"char_ofs": 79854,
+		"byte_ofs": 81557
 	},
 	{
 		"link": "3-installation/6-connection/README.md",
-		"char_ofs": 80380,
-		"byte_ofs": 82088
+		"char_ofs": 80382,
+		"byte_ofs": 82090
 	},
 	{
 		"link": "3-installation/6-connection/1-teach-pendant-conn.md",
-		"char_ofs": 80870,
-		"byte_ofs": 82598
+		"char_ofs": 80872,
+		"byte_ofs": 82600
 	},
 	{
 		"link": "3-installation/6-connection/2-robot-controller.md",
-		"char_ofs": 81120,
-		"byte_ofs": 82878
+		"char_ofs": 81122,
+		"byte_ofs": 82880
 	},
 	{
 		"link": "3-installation/6-connection/3-controller-1st-power/README.md",
-		"char_ofs": 82819,
-		"byte_ofs": 84655
+		"char_ofs": 82821,
+		"byte_ofs": 84657
 	},
 	{
 		"link": "3-installation/6-connection/3-controller-1st-power/1-req-power.md",
-		"char_ofs": 83392,
-		"byte_ofs": 85292
+		"char_ofs": 83394,
+		"byte_ofs": 85294
 	},
 	{
 		"link": "3-installation/6-connection/3-controller-1st-power/2-power-wire-thick.md",
-		"char_ofs": 85166,
-		"byte_ofs": 87146
+		"char_ofs": 85168,
+		"byte_ofs": 87148
 	},
 	{
 		"link": "3-installation/6-connection/4-controller-ground.md",
-		"char_ofs": 87431,
-		"byte_ofs": 89469
+		"char_ofs": 87433,
+		"byte_ofs": 89471
 	},
 	{
 		"link": "3-installation/6-connection/5-other-caution.md",
-		"char_ofs": 87614,
-		"byte_ofs": 89660
+		"char_ofs": 87616,
+		"byte_ofs": 89662
 	},
 	{
 		"link": "3-installation/6-connection/6-user-eth-port-conn.md",
-		"char_ofs": 88154,
-		"byte_ofs": 90211
+		"char_ofs": 88156,
+		"byte_ofs": 90213
 	},
 	{
 		"link": "4-basic-components/README.md",
-		"char_ofs": 89184,
-		"byte_ofs": 91284
+		"char_ofs": 89186,
+		"byte_ofs": 91286
 	},
 	{
 		"link": "4-basic-components/1-config.md",
-		"char_ofs": 89421,
-		"byte_ofs": 91530
+		"char_ofs": 89423,
+		"byte_ofs": 91532
 	},
 	{
 		"link": "4-basic-components/2-part-layout.md",
-		"char_ofs": 89662,
-		"byte_ofs": 91809
+		"char_ofs": 89664,
+		"byte_ofs": 91811
 	},
 	{
 		"link": "4-basic-components/3-component-func/README.md",
-		"char_ofs": 93865,
-		"byte_ofs": 96284
+		"char_ofs": 93867,
+		"byte_ofs": 96286
 	},
 	{
 		"link": "4-basic-components/3-component-func/1-main-module-H6COM-T/README.md",
-		"char_ofs": 95771,
-		"byte_ofs": 98248
+		"char_ofs": 95773,
+		"byte_ofs": 98250
 	},
 	{
 		"link": "4-basic-components/3-component-func/1-main-module-H6COM-T/1-overview.md",
-		"char_ofs": 95802,
-		"byte_ofs": 98283
+		"char_ofs": 95804,
+		"byte_ofs": 98285
 	},
 	{
 		"link": "4-basic-components/3-component-func/1-main-module-H6COM-T/2-connector.md",
-		"char_ofs": 96824,
-		"byte_ofs": 99319
+		"char_ofs": 96826,
+		"byte_ofs": 99321
 	},
 	{
 		"link": "4-basic-components/3-component-func/2-safety-module-BD632/README.md",
-		"char_ofs": 98583,
-		"byte_ofs": 101146
+		"char_ofs": 98587,
+		"byte_ofs": 101150
 	},
 	{
 		"link": "4-basic-components/3-component-func/2-safety-module-BD632/1-overview.md",
-		"char_ofs": 98614,
-		"byte_ofs": 101181
+		"char_ofs": 98618,
+		"byte_ofs": 101185
 	},
 	{
 		"link": "4-basic-components/3-component-func/2-safety-module-BD632/2-connector.md",
-		"char_ofs": 99098,
-		"byte_ofs": 101671
+		"char_ofs": 99102,
+		"byte_ofs": 101675
 	},
 	{
 		"link": "4-basic-components/3-component-func/2-safety-module-BD632/3-display.md",
-		"char_ofs": 109742,
-		"byte_ofs": 112755
+		"char_ofs": 109746,
+		"byte_ofs": 112759
 	},
 	{
 		"link": "4-basic-components/3-component-func/2-safety-module-BD632/4-setting-device.md",
-		"char_ofs": 138157,
-		"byte_ofs": 141995
+		"char_ofs": 138161,
+		"byte_ofs": 141999
 	},
 	{
 		"link": "4-basic-components/3-component-func/2-safety-module-BD632/5-em-stop-conn.md",
-		"char_ofs": 141095,
-		"byte_ofs": 145032
+		"char_ofs": 141099,
+		"byte_ofs": 145036
 	},
 	{
 		"link": "4-basic-components/3-component-func/2-safety-module-BD632/6-safety-guard-conn.md",
-		"char_ofs": 142471,
-		"byte_ofs": 146484
+		"char_ofs": 142475,
+		"byte_ofs": 146488
 	},
 	{
 		"link": "4-basic-components/3-component-func/2-safety-module-BD632/7-safety-plc-io-conn.md",
-		"char_ofs": 145113,
-		"byte_ofs": 149270
+		"char_ofs": 145117,
+		"byte_ofs": 149274
 	},
 	{
 		"link": "4-basic-components/3-component-func/2-safety-module-BD632/8-ext-motor-on-sig-conn.md",
-		"char_ofs": 146562,
-		"byte_ofs": 150761
+		"char_ofs": 146566,
+		"byte_ofs": 150765
 	},
 	{
 		"link": "4-basic-components/3-component-func/3-servo-board-BD640/README.md",
-		"char_ofs": 146967,
-		"byte_ofs": 151204
+		"char_ofs": 146971,
+		"byte_ofs": 151208
 	},
 	{
 		"link": "4-basic-components/3-component-func/3-servo-board-BD640/1-overview.md",
-		"char_ofs": 146996,
-		"byte_ofs": 151237
+		"char_ofs": 147000,
+		"byte_ofs": 151241
 	},
 	{
 		"link": "4-basic-components/3-component-func/3-servo-board-BD640/2-connector.md",
-		"char_ofs": 147335,
-		"byte_ofs": 151588
+		"char_ofs": 147339,
+		"byte_ofs": 151592
 	},
 	{
 		"link": "4-basic-components/3-component-func/3-servo-board-BD640/3-display.md",
-		"char_ofs": 149383,
-		"byte_ofs": 153717
+		"char_ofs": 149387,
+		"byte_ofs": 153721
 	},
 	{
 		"link": "4-basic-components/3-component-func/3-servo-board-BD640/4-setting-device.md",
-		"char_ofs": 150176,
-		"byte_ofs": 154543
+		"char_ofs": 150180,
+		"byte_ofs": 154547
 	},
 	{
 		"link": "4-basic-components/3-component-func/4-drive-module/README.md",
-		"char_ofs": 151790,
-		"byte_ofs": 156262
+		"char_ofs": 151794,
+		"byte_ofs": 156266
 	},
 	{
 		"link": "4-basic-components/3-component-func/4-drive-module/1-H6DX-middle-6ax-drive-module.md",
-		"char_ofs": 151812,
-		"byte_ofs": 156288
+		"char_ofs": 151816,
+		"byte_ofs": 156292
 	},
 	{
 		"link": "4-basic-components/3-component-func/4-drive-module/2-H6D6A-small-6ax-drive-module.md",
-		"char_ofs": 161748,
-		"byte_ofs": 166657
+		"char_ofs": 161752,
+		"byte_ofs": 166661
 	},
 	{
 		"link": "4-basic-components/3-component-func/4-drive-module/3-optional-drive-module-spec.md",
-		"char_ofs": 171446,
-		"byte_ofs": 176782
+		"char_ofs": 171450,
+		"byte_ofs": 176786
 	},
 	{
 		"link": "4-basic-components/3-component-func/4-drive-module/4-H6D1X-carriage-drive-module-spec.md",
-		"char_ofs": 173148,
-		"byte_ofs": 178608
+		"char_ofs": 173152,
+		"byte_ofs": 178612
 	},
 	{
 		"link": "4-basic-components/3-component-func/4-drive-module/5-H6D1Z_servogun-drive-module-spec.md",
-		"char_ofs": 175145,
-		"byte_ofs": 180701
+		"char_ofs": 175149,
+		"byte_ofs": 180705
 	},
 	{
 		"link": "4-basic-components/3-component-func/5-power-supply-module-H6PSM/README.md",
-		"char_ofs": 177142,
-		"byte_ofs": 182793
+		"char_ofs": 177146,
+		"byte_ofs": 182797
 	},
 	{
 		"link": "4-basic-components/3-component-func/5-power-supply-module-H6PSM/1-H6PSM-power-dist-bd-BD6C2.md",
-		"char_ofs": 177179,
-		"byte_ofs": 182834
+		"char_ofs": 177183,
+		"byte_ofs": 182838
 	},
 	{
 		"link": "4-basic-components/3-component-func/5-power-supply-module-H6PSM/2-BD6C2-connector.md",
-		"char_ofs": 178810,
-		"byte_ofs": 184556
+		"char_ofs": 178814,
+		"byte_ofs": 184560
 	},
 	{
 		"link": "4-basic-components/3-component-func/6-teach-pendant-TP630/README.md",
-		"char_ofs": 181318,
-		"byte_ofs": 187198
+		"char_ofs": 181322,
+		"byte_ofs": 187202
 	},
 	{
 		"link": "4-basic-components/3-component-func/6-teach-pendant-TP630/1-overview.md",
-		"char_ofs": 181349,
-		"byte_ofs": 187233
+		"char_ofs": 181353,
+		"byte_ofs": 187237
 	},
 	{
 		"link": "4-basic-components/3-component-func/6-teach-pendant-TP630/2-USB-cover.md",
-		"char_ofs": 182495,
-		"byte_ofs": 188425
+		"char_ofs": 182499,
+		"byte_ofs": 188429
 	},
 	{
 		"link": "5-optional-components/README.md",
-		"char_ofs": 182782,
-		"byte_ofs": 188719
+		"char_ofs": 182786,
+		"byte_ofs": 188723
 	},
 	{
 		"link": "5-optional-components/1-PCI-comm-card/README.md",
-		"char_ofs": 182825,
-		"byte_ofs": 188766
+		"char_ofs": 182829,
+		"byte_ofs": 188770
 	},
 	{
 		"link": "5-optional-components/1-PCI-comm-card/1-overview.md",
-		"char_ofs": 182855,
-		"byte_ofs": 188800
+		"char_ofs": 182859,
+		"byte_ofs": 188804
 	},
 	{
 		"link": "5-optional-components/1-PCI-comm-card/2-PCI-comm-card-config.md",
-		"char_ofs": 185307,
-		"byte_ofs": 191367
+		"char_ofs": 185311,
+		"byte_ofs": 191371
 	},
 	{
 		"link": "5-optional-components/1-PCI-comm-card/3-PCI-comm-card-front.md",
-		"char_ofs": 186199,
-		"byte_ofs": 192314
+		"char_ofs": 186203,
+		"byte_ofs": 192318
 	},
 	{
 		"link": "5-optional-components/2-brake-release-unit/README.md",
-		"char_ofs": 187610,
-		"byte_ofs": 193789
+		"char_ofs": 187614,
+		"byte_ofs": 193793
 	},
 	{
 		"link": "5-optional-components/2-brake-release-unit/1-overview.md",
-		"char_ofs": 187637,
-		"byte_ofs": 193820
+		"char_ofs": 187641,
+		"byte_ofs": 193824
 	},
 	{
 		"link": "5-optional-components/2-brake-release-unit/2-brake-release-switch.md",
-		"char_ofs": 188865,
-		"byte_ofs": 195081
+		"char_ofs": 188869,
+		"byte_ofs": 195085
 	},
 	{
 		"link": "5-optional-components/2-brake-release-unit/3-power-connector.md",
-		"char_ofs": 190442,
-		"byte_ofs": 196766
+		"char_ofs": 190446,
+		"byte_ofs": 196770
 	},
 	{
 		"link": "5-optional-components/2-brake-release-unit/4-brake-release-unit-status-LED.md",
-		"char_ofs": 192354,
-		"byte_ofs": 198780
+		"char_ofs": 192358,
+		"byte_ofs": 198784
 	},
 	{
 		"link": "5-optional-components/3-remote-io/README.md",
-		"char_ofs": 194372,
-		"byte_ofs": 200863
+		"char_ofs": 194376,
+		"byte_ofs": 200867
 	},
 	{
 		"link": "5-optional-components/3-remote-io/1-overview.md",
-		"char_ofs": 194389,
-		"byte_ofs": 200884
+		"char_ofs": 194393,
+		"byte_ofs": 200888
 	},
 	{
 		"link": "5-optional-components/3-remote-io/2-comm-module-crevis.md",
-		"char_ofs": 195227,
-		"byte_ofs": 201771
+		"char_ofs": 195231,
+		"byte_ofs": 201775
 	},
 	{
 		"link": "5-optional-components/3-remote-io/3-io-other-module-crevis.md",
-		"char_ofs": 196129,
-		"byte_ofs": 202712
+		"char_ofs": 196133,
+		"byte_ofs": 202716
 	},
 	{
 		"link": "6-regular-inspection/README.md",
-		"char_ofs": 199602,
-		"byte_ofs": 206332
+		"char_ofs": 199606,
+		"byte_ofs": 206336
 	},
 	{
 		"link": "6-regular-inspection/1-inspection-schedule.md",
-		"char_ofs": 199858,
-		"byte_ofs": 206593
+		"char_ofs": 199862,
+		"byte_ofs": 206597
 	},
 	{
 		"link": "6-regular-inspection/2-regular-insp-general-cautions.md",
-		"char_ofs": 200315,
-		"byte_ofs": 207072
+		"char_ofs": 200319,
+		"byte_ofs": 207076
 	},
 	{
 		"link": "6-regular-inspection/3-general-inspection.md",
-		"char_ofs": 201552,
-		"byte_ofs": 208334
+		"char_ofs": 201556,
+		"byte_ofs": 208338
 	},
 	{
 		"link": "6-regular-inspection/4-first-inspection-750-hour.md",
-		"char_ofs": 202953,
-		"byte_ofs": 209792
+		"char_ofs": 202957,
+		"byte_ofs": 209796
 	},
 	{
 		"link": "6-regular-inspection/5-periodic-inspection.md",
-		"char_ofs": 203831,
-		"byte_ofs": 210705
+		"char_ofs": 203835,
+		"byte_ofs": 210709
 	},
 	{
 		"link": "6-regular-inspection/6-long-vacation-inspection.md",
-		"char_ofs": 208255,
-		"byte_ofs": 215491
+		"char_ofs": 208259,
+		"byte_ofs": 215495
 	},
 	{
 		"link": "6-regular-inspection/7-repare-part-item.md",
-		"char_ofs": 208965,
-		"byte_ofs": 216212
+		"char_ofs": 208969,
+		"byte_ofs": 216216
 	},
 	{
 		"link": "appendices/README.md",
-		"char_ofs": 214842,
-		"byte_ofs": 222390
+		"char_ofs": 214846,
+		"byte_ofs": 222394
 	},
 	{
 		"link": "appendices/rules-occupational-safety.md",
-		"char_ofs": 214855,
-		"byte_ofs": 222407
+		"char_ofs": 214859,
+		"byte_ofs": 222411
 	},
 	{
 		"link": "quality-assurance.md",
-		"char_ofs": 215313,
-		"byte_ofs": 222873
+		"char_ofs": 215317,
+		"byte_ofs": 222877
 	}
 ]
