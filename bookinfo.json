@@ -1,8 +1,12 @@
 ﻿{
     "langCode": "ko",
-    "series": "현대로봇 Hi6 제어기",
+    "series": "Hi6-N 제어기",
     "title": "보수설명서",
-    "publisher": "현대로보틱스",
+    "publisher": "HD현대로보틱스",
     "tocTitle": "목차",
-    "tocTitleElements": "[ \"h1\", \"h2\" ]"
+    "tocTitleElements": "[ \"h1\", \"h2\" ]",
+    "docId": "HI6NMAINTENANCE_EN_001",
+    "references": [
+        { "rpath" : "doc-hi6-operation/en-tp630" }
+    ]
 }
