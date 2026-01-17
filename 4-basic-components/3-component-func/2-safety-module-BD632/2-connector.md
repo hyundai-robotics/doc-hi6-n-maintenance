@@ -148,7 +148,7 @@ Table 4-4 Types and Usage of the Connectors of the BD632 (Safety IO Board)
 Figure 4.8 BD632(Safety IO Board) TBEM
 
 {% hint style="info" %}
-When a safety-related input is connected and activated, you must check whether the function is operating normally by referring to “1.11 Safety Measures When Operating the Robot.”
+When a safety-related input is connected and activated, you must check whether the function is operating normally by referring to "1.11 Safety Measures When Operating the Robot."
 {% endhint %}
 
 Table 4-5 Description of TBEM of the BD632 (Safety IO Board) 
@@ -254,7 +254,7 @@ Table 4-5 Description of TBEM of the BD632 (Safety IO Board)
 Figure 4.9 BD632(Safety IO Board) TBPLC
 
 {% hint style="warning" %}
-When a safety-related input is connected and activated, you must check whether the function is operating normally by referring to “1.11 Safety Measures When Operating the Robot.”
+When a safety-related input is connected and activated, you must check whether the function is operating normally by referring to "1.11 Safety Measures When Operating the Robot."
 {% endhint %}
 
 

@@ -10,13 +10,13 @@
 
 *	The weight of the controller is maximum 200kg. When using a crane, take precautions to prevent an object on the controller from being damaged by the wire. 
 
-※ For the weight of the controller, refer to “2. Details of Specifications’.
+* For the weight of the controller, refer to "2. Details of Specifications'.
 
 *	 When using a forklift, fix the controller in a way to prevent the controller from shaking.
 
 *	When moving the product by vehicle, fix the manipulator and controller by using squids.
 
-*	When transporting the product, fully understand the contents related to the packing and transport, and follow the instructions. Our company will not be responsible for any damage to or breaking of the product due to customer’s carelessness, inexperience in operation, or negligence.
+*	When transporting the product, fully understand the contents related to the packing and transport, and follow the instructions. Our company will not be responsible for any damage to or breaking of the product due to customer's carelessness, inexperience in operation, or negligence.
 
 *	Check the following items when transporting the controller by using a crane.
 

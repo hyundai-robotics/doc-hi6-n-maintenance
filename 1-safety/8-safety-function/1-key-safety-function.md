@@ -21,7 +21,7 @@ Figure 1.3 Connection of an Additional Emergency Stop Device
 
 *	Protective stop (ISO 10218-1:2011)
 
-The robot should have multiple safety inputs so that it can be used in connection with external safety devices such as safety guards, safety pads, and safety lamps. These safety inputs will make the robot stop when there is an input from the robot itself and peripheral facilities, securing a safe state. For details on the connection to the safety inputs, refer to “4.3.2. Safety Module (BD632)”.
+The robot should have multiple safety inputs so that it can be used in connection with external safety devices such as safety guards, safety pads, and safety lamps. These safety inputs will make the robot stop when there is an input from the robot itself and peripheral facilities, securing a safe state. For details on the connection to the safety inputs, refer to "4.3.2. Safety Module (BD632)".
 
 *   Speed limit (EN ISO 10218-1:2011)
 
@@ -29,7 +29,7 @@ In manual operation mode, the speed of the robot is limited to a maximum of 250 
 
 *  Operaiton area limit (ANSI/RIA R15.06-2012)
 
-When applying a robot, in order to secure a sufficient safety area, the operation range of the robot can be limited by using a hardware limit or a stopper. This function can minimize the damage if the robot collides with an external safety device such as a safety guard. Axis 1, 2, and 3 are mainly limited by a stopper or hardware limit. If the operation range is changed due to a mechanical stopper or hardware limit, the operation range limit parameter should be also changed in software as well. Please refer to the operation manual about the change. The operation area limit of each axis can be changed by the user, and at the time of shipment, it is set to the maximum operation range of the robot. The safety system of the Hi6 controller can support up to 4 hardware limit switches as an option. Refer to “4.3.2. Please refer to “Safety Module (BD632)” for the matters related to the connection.
+When applying a robot, in order to secure a sufficient safety area, the operation range of the robot can be limited by using a hardware limit or a stopper. This function can minimize the damage if the robot collides with an external safety device such as a safety guard. Axis 1, 2, and 3 are mainly limited by a stopper or hardware limit. If the operation range is changed due to a mechanical stopper or hardware limit, the operation range limit parameter should be also changed in software as well. Please refer to the operation manual about the change. The operation area limit of each axis can be changed by the user, and at the time of shipment, it is set to the maximum operation range of the robot. The safety system of the Hi6 controller can support up to 4 hardware limit switches as an option. Refer to "4.3.2. Please refer to "Safety Module (BD632)" for the matters related to the connection.
 
 *  Operaiton mode selection (ANSI/RIA R15.06-2012)
 

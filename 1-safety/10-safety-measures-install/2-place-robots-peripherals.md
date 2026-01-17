@@ -1,7 +1,7 @@
 ﻿# 1.10.2. Placement of the Robot and Peripheral Devices 
 
 {% hint style="warning" %}
-The robot should be installed and operated according to the guidelines of ISO 10218-2. In addition, it is required to comply with the relevant requirements of international standards and national laws. Our company (or the manufacturer) will not be responsible for any accidents that occur due to not complying with the relevant requirements of international standards and national laws or due to not reviewing the “risk assessment”.
+The robot should be installed and operated according to the guidelines of ISO 10218-2. In addition, it is required to comply with the relevant requirements of international standards and national laws. Our company (or the manufacturer) will not be responsible for any accidents that occur due to not complying with the relevant requirements of international standards and national laws or due to not reviewing the "risk assessment".
 {% endhint %}
 
 Installation of the product should be performed by a qualified installer according to relevant national and local regulations and laws.
@@ -12,7 +12,7 @@ Installation of the product should be performed by a qualified installer accordi
 
 *	When connecting the primary power of the controller or peripheral device, peroform the connection after checking first whether the supply side power is turned off. Since high voltage is used as the primary power source, there is a risk of electric shock.
 
-*	Put up a sign “No entry during operation” at the entrance of the safety fence, and inform the workers of the intents.
+*	Put up a sign "No entry during operation" at the entrance of the safety fence, and inform the workers of the intents.
 
 *	Place the controller, interlock panels, and other control panels in a way that they can be operated from outside the safety fence.
 

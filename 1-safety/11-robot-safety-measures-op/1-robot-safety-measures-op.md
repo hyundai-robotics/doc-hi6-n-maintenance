@@ -15,7 +15,7 @@ Observe the following measures considering that safety is very important when op
 
 *	Works such as teaching should be performed outside the robot safety guard in principle. However, when required to stop the system and work within the operation range, the worker should bring in the mode switch key (or a switch to change to the auto mode), or the safety plug when going inside. Such action is necessary to make sure that no other worker accidentally changes the robot to the auto operation mode. Also, pay special attention to the direction of the operation of the robot just in preparation for the robot malfunctioning or operating in wrong conditions.
 
-※   The supervisor should observe the followings.
+*   The supervisor should observe the followings.
             
     - The supervisor should be positioned at a location where she or he can see the robot entirely and should be dedicated to the duties of supervision.
     - If there is any problem, press the emergency stop button immediately.

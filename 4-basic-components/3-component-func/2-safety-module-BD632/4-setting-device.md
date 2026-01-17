@@ -5,7 +5,7 @@
 Figure 4.11 Description of the Setting Devices of the BD632 (Safety IO Board)
 
 {% hint style="warning" %}
-When a safety-related input is connected and activated, you must check whether the function is operating normally by referring to “1.11 Safety Measures When Operating the Robot.”
+When a safety-related input is connected and activated, you must check whether the function is operating normally by referring to "1.11 Safety Measures When Operating the Robot."
 {% endhint %}
 
 

@@ -2,7 +2,7 @@
 
 ![](../../_assets/그림_1.1_안전라벨.png  )
 
-Figure 3.2 Controller’s Labels <br/><br/>
+Figure 3.2 Controller's Labels <br/><br/>
 
 Table 3-1 Label Type
 

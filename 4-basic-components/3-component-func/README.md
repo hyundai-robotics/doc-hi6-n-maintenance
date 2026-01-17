@@ -47,4 +47,4 @@ Table 4-2 Summary of Functions of the Individual Components
 </table>
 
 
-※ For the types of components of each controller, refer to “2.1 Details of Specifications of Each Controller Model.”
+* For the types of components of each controller, refer to "2.1 Details of Specifications of Each Controller Model."

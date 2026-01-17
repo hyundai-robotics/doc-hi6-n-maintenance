@@ -1,6 +1,6 @@
 ﻿# 2.1. Details of Specifications of Each Controller Model
 
-Table 2‑1 Details of Specifications of Each Controller Model
+Table 2-1 Details of Specifications of Each Controller Model
 
 <table>
 <thead>
@@ -147,7 +147,7 @@ Table 2‑1 Details of Specifications of Each Controller Model
 
 <br>
 
-Table 2‑2 Power Requirements
+Table 2-2 Power Requirements
 <table>
 <thead>
   <tr>

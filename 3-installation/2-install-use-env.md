@@ -16,9 +16,9 @@ Install the product in an appropriate place in consideration of the installation
 
 *	Do not install or use the product in an area that has a source of strong electrical noise or is affected by it.
 
-*	Install the controller in a safe area by referring to “1.10 Safety Measures When Installing”.
+*	Install the controller in a safe area by referring to "1.10 Safety Measures When Installing".
 
-*	Carry out the controller maintenance work by referring to “1.13. Safety Measures When Maintaining and Inspecting”.
+*	Carry out the controller maintenance work by referring to "1.13. Safety Measures When Maintaining and Inspecting".
 
 *	When installing the product in an area where welding work is performed, install the product in a location where there will be no effect from welding spatter and cooling water.
 
@@ -33,6 +33,6 @@ If the product is not installed in the recommended locations, the performance an
 
 {% hint style="warning" %}
 The robot should be installed and operated according to the guidelines of ISO 10218-2. In addition, it is required to comply with the relevant requirements of international standards and national laws. 
-Our company (or the manufacturer) will not be responsible for any accidents that occur due to not complying with the relevant requirements of international standards and national laws or due to not reviewing the “risk assessment”.
+Our company (or the manufacturer) will not be responsible for any accidents that occur due to not complying with the relevant requirements of international standards and national laws or due to not reviewing the "risk assessment".
 {% endhint %}
 

@@ -10,7 +10,7 @@ When the robot is operating, there is a risk of collision between the robot and 
 
 Figure 1.4 Connection of the Safety Fence<br/><br/>
 
-Source : ISO 13855:2010 Safety of machinery — Positioning of safeguards with respect to the approach speeds of parts of the human body
+Source : ISO 13855:2010 Safety of machinery - Positioning of safeguards with respect to the approach speeds of parts of the human body
 
 ![](../../_assets/표_1-3_안전펜스_설치_규격.png  )
 
