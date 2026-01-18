@@ -5,8 +5,8 @@
     "publisher": "HD현대로보틱스",
     "tocTitle": "목차",
     "tocTitleElements": "[ \"h1\", \"h2\" ]",
-    "docId": "HI6NMAINTENANCE_EN_001",
+    "docId": "HI6NMAINTENANCE_KO_001",
     "references": [
-        { "rpath" : "doc-hi6-operation/en-tp630" }
+        { "rpath" : "doc-hi6-operation/ko-tp630" }
     ]
 }
