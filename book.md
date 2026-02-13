@@ -2,6 +2,12 @@
 [__SOURCE](README.md)
 # Hi6-N 제어기 보수 설명서
 
+[__SOURCE](0-about-this-manual/precautions.md)
+## 사전 주의사항
+
+{% include url="https://hrcontentsrelay-bmgae5hdbzapc4bc.koreacentral-01.azurewebsites.net/api/proxy?path=doc-common-pages/ko/precautions.md" %}
+
+[__SOURCE](0-about-this-manual/preface.md)
 ## 개요
 
 본 장의 주된 목적은 산업용 로봇의 사용자와 보수, 조작하는 작업자의 안전에 대한 사항을 기술하는 것입니다.
@@ -19,7 +25,7 @@
 이 설명서는 표준 사양을 기준으로 작성되었으므로 구입하신 제품의 옵션과 모델에 따라 일부 내용이 다를 수 있습니다. 이 설명서의 내용과 사양은 제품의 성능 향상을 위해 예고 없이 변경될 수 있으며 부정확한 내용이나 오탈자로 인해 발생하는 상황에 대해서 HD현대로보틱스는 책임이 없습니다.
 개정에 관한 상세한 정보는 당사의 인터넷 웹사이트([www.hd-hyundairobotics.com](https://hd-hyundairobotics.com/))를 방문하여 확인하시기 바랍니다.
 
-
+[__SOURCE](0-about-this-manual/safety-caution.md)
 ## 안전 주의 사항
 
 제품의 올바른 사용과 사용자의 안전을 확보하고 재산상의 피해 방지를 위해 반드시 다음의 안전 주의 사항을 숙지한 후 제품을 사용하시기 바랍니다.
