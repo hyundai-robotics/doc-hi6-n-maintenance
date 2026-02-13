@@ -2,6 +2,12 @@
 [__SOURCE](README.md)
 # Hi6-N Controller Maintenance Manual
 
+[__SOURCE](0-about-this-manual/precautions.md)
+## Precautions
+
+{% include url="https://hrcontentsrelay-bmgae5hdbzapc4bc.koreacentral-01.azurewebsites.net/api/proxy?path=doc-common-pages/en/precautions.md" %}
+
+[__SOURCE](0-about-this-manual/overview.md)
 ## Overview
 
 The main purpose of this chapter is to describe the matters about the safety for the users of the industrial robot and for the workers who maintain and operate the robot.
@@ -16,7 +22,7 @@ The dangerous areas of the robot system, in other words, the areas where the rob
 
 This manual has been created based on standard specifications, so some contents may differ depending on the options and model of the product that you have purchased. In addition, the contents and specifications of this manual are subject to change without prior notice to improve the performance of the product, and HD Hyundai Robotics is not responsible for situations that could be caused by inaccuracies or typos in the manual. For detailed information on the revision of the manual, you need to visit our internet website ([www.hd-hyundairobotics.com](https://www.hd-hyundairobotics.com/en/main)).
 
-
+[__SOURCE](0-about-this-manual/safety-cautions.md)
 ## Safety Cautions
 
 Before using the product, you must fully understand the following safety cautions for proper use, user safety, and prevention of property damage.
