@@ -1,38 +1,36 @@
-﻿# 3.2. Installation and Use Environmets 
+# 3.2. 安装和使用环境
 
-Install the product in an appropriate place in consideration of the installation and use environments and conditions.
+在考虑安装和使用环境及条件的情况下，将产品安装在合适的地方。
 
-*	The proper use temperature of the product is 0℃ - 45℃, and the proper storage humidity is 20 to 85%RH.
+*	产品的适用温度为 0℃ - 45℃，适宜的储存湿度为 20% 到 85%RH。
 
-*	Do not drop the product or apply a strong impact to it while moving or using it.
+*	在移动或使用时，请勿将产品摔落或施加强烈冲击。
 
-*	Transport and install the product in a correct way based on the weight of the product while paying attention to the safety.
+*	在运输和安装产品时，请根据产品的重量正确操作，同时注意安全。
 
-*	Install and use the product in a solid, flat and vibration-free area where the product will not turn over easily.
+*	在坚固、平坦且无震动的区域安装和使用产品，以避免产品轻易翻倒。
 
-*	Do not install and use the product in an area with a lot of foreign substances such as water, moisture, gas, dust, or in a dirty place.
+*	请勿在有大量外来物质的区域（如水、潮气、气体、灰尘）或肮脏的地方安装和使用产品。
 
-*	Do not install or use the product in an area with flammable and corrosive substances or gases, or in an area wherer heat is generated, or near heat of fire.
+*	请勿在含有易燃和腐蚀性物质或气体的区域，或在产生热量的区域，或靠近火源的地方安装或使用产品。
 
-*	Do not install or use the product in an area that has a source of strong electrical noise or is affected by it.
+*	请勿在有强电噪声源或受其影响的区域安装或使用产品。
 
-*	Install the controller in a safe area by referring to "1.10 Safety Measures When Installing".
+*	根据“1.10 安装时的安全措施”将控制器安装在安全区域。
 
-*	Carry out the controller maintenance work by referring to "1.13. Safety Measures When Maintaining and Inspecting".
+*	根据“1.13 维护和检查时的安全措施”进行控制器的维护工作。
 
-*	When installing the product in an area where welding work is performed, install the product in a location where there will be no effect from welding spatter and cooling water.
+*	在焊接作业进行的区域安装产品时，请安装在不会受到焊接飞溅和冷却水影响的位置。
 
-*	When installing the controller, keep a distance of at least 500mm if there is a wall or obstacle nearby.
+*	在安装控制器时，如果附近有墙壁或障碍物，请保持至少 500mm 的距离。
 
-*	For the matters related to the installation of the robot, refer to each robot maintenance manual.
-
+*	有关机器人安装的事项，请参考各自的机器人维护手册。
 
 {% hint style="info" %}
-If the product is not installed in the recommended locations, the performance and service life of the product may be reduced. Install and use the product according to the recommendations.
+如果未在推荐位置安装产品，可能会降低产品的性能和使用寿命。请根据推荐进行产品的安装和使用。
 {% endhint %}
 
 {% hint style="warning" %}
-The robot should be installed and operated according to the guidelines of ISO 10218-2. In addition, it is required to comply with the relevant requirements of international standards and national laws. 
-Our company (or the manufacturer) will not be responsible for any accidents that occur due to not complying with the relevant requirements of international standards and national laws or due to not reviewing the "risk assessment".
+机器人必须根据 ISO 10218-2 的指导方针进行安装和操作。此外，必须遵守国际标准和国家法律的相关要求。
+我们的公司（或制造商）将不对因未遵守国际标准和国家法律的相关要求或未审查“风险评估”而发生的任何事故负责。
 {% endhint %}
-

@@ -1,11 +1,11 @@
-﻿# 4.1. Configuration 
+# 4.1. 配置
 
-The controller consists of the main body and teaching pendant.
+控制器由主机和教学手柄组成。
 
 ![](../_assets/그림_4.1_Hi6-N_(U)_제어기.png  )
 
-Figure 4.1 Hi6-N**(U) Controller
+图 4.1 Hi6-N**(U) 控制器
 
 ![](../_assets/그림_4.2_티칭펜던트_TP630.png  )
 
-Figure 4.2 Teaching Pendant TP630
+图 4.2 教学手柄 TP630

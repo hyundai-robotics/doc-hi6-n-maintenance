@@ -1,7 +1,7 @@
-﻿# 3.6.1. Connection of the Teaching Pendant 
+# 3.6.1. 教学挂件的连接
 
-Connect the cable connector of the teaching pendant to the CNRTP receptacle of the controller.
+将教学挂件的电缆连接器连接到控制器的 CNRTP 插座。
 
-![](../../_assets/그림_3.5_Hi6-N_(U)_티칭펜던트의_접속.png  )
+![](../../_assets/그림_3.5_Hi6-N_(U)_티칭펜던트의_접속.png)
 
-Figure 3.5 Connection of Hi6-N**(U) Teaching Pendant  
+图 3.5 Hi6-N**(U) 教学挂件的连接

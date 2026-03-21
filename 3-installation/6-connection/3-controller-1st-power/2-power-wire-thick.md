@@ -1,15 +1,14 @@
-﻿# 3.6.3.2. Power Cable Thickness 
+# 3.6.3.2. 电源电缆厚度 
 
-
-Table 3-3 Recommended Minimum Cable Thickness 
+表 3-3 推荐的最小电缆厚度 
 
 <table>
 <thead>
   <tr>
-    <th rowspan="2">&nbsp;&nbsp;&nbsp;<br>No.&nbsp;&nbsp;&nbsp;</th>
-    <th rowspan="2">&nbsp;&nbsp;&nbsp;<br>Cable length m(feet)&nbsp;&nbsp;&nbsp;</th>
-    <th colspan="2">&nbsp;&nbsp;&nbsp;<br>Cable thickness<br>&nbsp;&nbsp;&nbsp;<br>(Hi6-N00(U),Hi6-N80(U))&nbsp;&nbsp;&nbsp;</th>
-    <th colspan="2">&nbsp;&nbsp;&nbsp;<br>Cable thickness<br>&nbsp;&nbsp;&nbsp;<br>(Hi6-N30(U))&nbsp;&nbsp;&nbsp;</th>
+    <th rowspan="2">&nbsp;&nbsp;&nbsp;<br>编号&nbsp;&nbsp;&nbsp;</th>
+    <th rowspan="2">&nbsp;&nbsp;&nbsp;<br>电缆长度 m(英尺)&nbsp;&nbsp;&nbsp;</th>
+    <th colspan="2">&nbsp;&nbsp;&nbsp;<br>电缆厚度<br>&nbsp;&nbsp;&nbsp;<br>(Hi6-N00(U),Hi6-N80(U))&nbsp;&nbsp;&nbsp;</th>
+    <th colspan="2">&nbsp;&nbsp;&nbsp;<br>电缆厚度<br>&nbsp;&nbsp;&nbsp;<br>(Hi6-N30(U))&nbsp;&nbsp;&nbsp;</th>
   </tr>
   <tr>
     <th>&nbsp;&nbsp;&nbsp;<br>mm2&nbsp;&nbsp;&nbsp;</th>

@@ -1,179 +1,175 @@
 ﻿
 [__SOURCE](README.md)
-# Hi6-N Controller Maintenance Manual
-
+# Hi6-N 控制器维护手册
 [__SOURCE](0-about-this-manual/precautions.md)
-## Precautions
+## 预防措施
 
-{% include url="https://hrcontentsrelay-bmgae5hdbzapc4bc.koreacentral-01.azurewebsites.net/api/proxy?path=doc-common-pages/en/precautions.md" %}
-
+{% include url="https://hrcontentsrelay-bmgae5hdbzapc4bc.koreacentral-01.azurewebsites.net/api/proxy?path=doc-common-pages/zh/precautions.md" %}
 [__SOURCE](0-about-this-manual/overview.md)
-## Overview
+## 概述
 
-The main purpose of this chapter is to describe the matters about the safety for the users of the industrial robot and for the workers who maintain and operate the robot.
+本章旨在阐述面向工业机器人用户、维护及操作人员的安全要求事项。
 
-Every worker who installs, replaces, adjusts, operate, preserves and maintains the robot system must carefully read and fully understand the operation manual and maintenance manual. Also, keep the manuals nearby so that you can view it whenever necessary.
+每位安装、替换、调整、操作、保存和维护机器人系统的工作人员必须仔细阅读并充分理解操作手册和维护手册。此外，请将手册就近保管，以便需要时随时查看。
 
-Our company plans and implements the preservation, maintenance and operation trainings so the person using the robot should ensure that the workers working in the robot system should receive the relevant trainings. It must be ensured that only those who have completed this course can handle the robot.
+机器人用户务必让机器人工作人员接受本公司实施的保养、维护和操作培训。另外，务必确保只有完成本培训课程的工作人员才能操作机器人。
 
-The users of our industrial robots are responsible for surely understanding and complying with safety-related laws applicable in concerned countries and for properly designing, installing, and operating safety devices to protect workers working in robot systems.
+为确保在机器人系统中工作的人员安全，我司工业机器人用户有责任充分理解并遵守适用于相关国家的安全法律，并负责正确设计、安装和运行安全装置。
 
-The dangerous areas of the robot system, in other words, the areas where the robot, tools and peripheral devices are operating, should be equipped with safety devices according to ANSI / RIA R15.06-2012 to prevent an object, other than the workers and the workpiece, from entering the dangerous areas. The robot system should be configured in a way that it can be stopped immediately by an emergency stop device when a worker or object needs to enter the dangerous area in spite of possible danger. The workers are responsible for installing, checking and operating these safety devices.
+机器人系统的危险区域，换句话说，机器人、工具和外围设备工作区域，应按照 ANSI / RIA R15.06-2012 配备安全装置，以防止除工作人员和工件以外的物体进入危险区域。当工作人员或物体需要进入存在潜在危险的危险区域时，机器人系统应可以通过紧急停止装置立即停止。工作人员负责安装、检查和操作这些安全装置。
 
-This manual has been created based on standard specifications, so some contents may differ depending on the options and model of the product that you have purchased. In addition, the contents and specifications of this manual are subject to change without prior notice to improve the performance of the product, and HD Hyundai Robotics is not responsible for situations that could be caused by inaccuracies or typos in the manual. For detailed information on the revision of the manual, you need to visit our internet website ([www.hd-hyundairobotics.com](https://www.hd-hyundairobotics.com/en/main)).
-
+本手册是根据标准规范创建的，因此某些内容可能会根据您购买的产品的选项和型号而有所不同。为提高产品性能，本手册的内容和配置可能会在未经通知的情况下进行更改，HD现代机器人对内容不准确或印刷错误而可能导致的情况不承担责任。有关手册修订的详细信息，请访问我司网站 (http://www.hyundai-robotics.cn)进行查询。
 [__SOURCE](0-about-this-manual/safety-cautions.md)
-## Safety Cautions
+## 安全注意事项
 
-Before using the product, you must fully understand the following safety cautions for proper use, user safety, and prevention of property damage.
+在使用产品之前，您必须充分理解以下安全注意事项，以确保正确使用、用户安全和防止财产损失。
 
-■ 	Danger
+■  危险
 
 {% hint style="danger" %}
-Imminent danger: Incompliance may cause the death of or serious injuries to the worker.
+迫在眉睫的危险：不遵守可能导致工人死亡或严重受伤。
 {% endhint %}
 
 
-* Make sure that the safety circuit is never ignored, modified or altered in any way.
-* Considering that additional problems may occur due to gravity or brake release, you must take a measure, before carrying out works, such as using a rope and crane that are to be used for transport of individual robots to prevent the brake from running down or additional accidents from taking place during the release of the brake.
+* 确保安全电路绝不被忽视、修改或以任何方式更改。
+* 考虑到由于重力或刹车释放可能出现额外问题，您必须采取措施，例如使用绳索和起重机进行机器人单独运输，以防止刹车失灵或在刹车释放期间发生额外意外。
 
-■ Warning
+■ 警告
 
 {% hint style="warning" %}
-Potential danger: Incompliance may cause injuries to the worker or damage to property, such as significant damage to the product.
+潜在危险：不遵守可能导致工人受伤或对财产造成损害，例如对产品造成重大损坏。
 {% endhint %}
 
 
-* Any act of damaging the safety labels, such as relocating the name plates, warning markings, safety symbols, name markings and wire markings or painting over them or blocking them with a cover is prohibited.
-* When the robot is operating, there is a risk of collision between the robot and the worker. Therefore, install a safety fence to prevent the worker from getting close to the robot.
-* The robot should be installed and operated according to the guidelines of ISO 10218-2. In addition, it is required to comply with the relevant requirements of international standards and national laws. Our company (or the manufacturer) will not be responsible for any accidents that occur due to not complying with the relevant requirements of international standards and national laws or due to not reviewing the "risk assessment".
-* Must observe the safety work procedures to prevent safety accidents. Do not change or ignore safety devices or circuits under any circumstances, and pay attention to possible electric shock. In auto mode, all normal works should be performed outside the safety guard. Before carrying out works, make sure that there are no people in the operation area of the robot.
-* Sufficiently check under your feet when teaching. In particular, you must perform the teaching work outside the safety guard when teaching at a high speed (250mm/s or above).
-* When it comes to changing of components or addition of optional equipment (both hardware and software) to the robot both of which may affect safety-related functions, you must check whether the functions are in normal conditions, by paying attention to the items described in "1.11 Safety Works When Operating the Robot".
-* When installing and operating an end effector, you must perform application, maintenance and operation according to ISO/TR 20218-1:2018.
-* When transporting the product by using lifting equipment, you should comply with the relevant national and local safety regulations and equipment usage guidelines. When moving the product using a crane, you must make sure that that no workers are under the product. Also, never work or walk under a crane or the product.
-* If a general safety guard is to be installed and used, the robot should be operated after confirming that the emergency stop operates normally. Also, check if the emergency stop input is disabled. This is an essential measure that must be taken in advance for the safety of workers.
-* If an automatic safety guard is to be installed and used, the robot should be operated after confirming that the emergency stop operates normally. Also, check if the emergency stop input is disabled. This is an essential measure that must be taken in advance for the safety of workers.
-* If a safety input is to be installed and used, the robot should be operated after confirming that the input function operates normally. This is an essential measure that must be taken in advance for the safety of workers.
-* The robot should be installed and operated according to the guidelines of ISO 10218-2. In addition, it is required to comply with the relevant requirements of international standards and national laws. 
-Our company (or the manufacturer) will not be responsible for any accidents that occur due to not complying with the relevant requirements of international standards and national laws or due to not following the above "caution".
-* If a safety-related input is installed and enabled, you must check whether the function operates normally by referring to "1.11 Safety Measures When Operating the Robot".
-* If an emergency stop output is to be installed and used, the robot should be operated after confirming that the emergency stop output operates normally. This is an essential measure that must be taken in advance for the safety of workers.
+* 任何损坏安全标签的行为是被禁止的，例如移动名称牌、警告标记、安全符号、名称标记和电线标记，或将其涂漆或用遮盖物遮挡。
+* 当机器人运行时，机器人和工人之间存在碰撞风险。因此，请安装安全围栏以防止工人靠近机器人。
+* 机器人应按照ISO 10218-2的指导方针进行安装和操作。此外，必须遵守国际标准和国家法律的相关要求。我们公司（或制造商）不对因未遵守国际标准和国家法律的相关要求或未审查“风险评估”而发生的任何事故负责。
+* 必须遵守安全工作程序，以防止安全事故。 在任何情况下都不得更改或忽视安全设备或电路，并注意可能的电击。在自动模式下，所有正常工作应在安全保护外进行。在进行工作之前，请确保操作区域内没有人员。
+* 教学时要充分检查脚下的情况。特别是在以高速（250mm/s或以上）进行教学时，必须在安全保护外进行教学工作。
+* 在更换组件或添加可能影响安全相关功能的可选设备（包括硬件和软件）时，必须检查功能是否处于正常状态，注意“1.11 操作机器人时的安全工作”中描述的事项。
+* 在安装和操作末端执行器时，必须根据ISO/TR 20218-1:2018进行应用、维护和操作。
+* 在使用起重设备运输产品时，您应遵守相关的国家和地方安全法规以及设备使用指南。使用起重机搬运产品时，务必确保没有工人在产品下方。同时，决不要在起重机或产品下方工作或行走。
+* 如果需要安装和使用一般安全保护装置，应在确认紧急停止正常运作后再操作机器人。同时检查紧急停止输入是否被禁用。这是为工人安全必须提前采取的必要措施。
+* 如果需要安装和使用自动安全保护装置，应在确认紧急停止正常运作后再操作机器人。同时检查紧急停止输入是否被禁用。这是为工人安全必须提前采取的必要措施。
+* 如果安全输入需要安装和使用，应在确认输入功能正常运作后再操作机器人。这是为工人安全必须提前采取的必要措施。
+* 机器人应按照ISO 10218-2的指导方针进行安装和操作。此外，必须遵守国际标准和国家法律的相关要求。 
+我们公司（或制造商）不对因未遵守国际标准和国家法律的相关要求或未遵循上述“注意事项”而发生的任何事故负责。
+* 如果安全相关输入已安装并启用，您必须通过参考“1.11 操作机器人时的安全措施”来检查功能是否正常运作。
+* 如果需要安装和使用紧急停止输出，应在确认紧急停止输出正常运作后再操作机器人。这是为工人安全必须提前采取的必要措施。
 
-■ Caution
+■ 注意
 
 {% hint style="info" %}
-Low-level danger factor: Incompliance may result in minor injury to the worker or damage to property, such as damage to the product.
+低等级危险因素：不遵守可能导致工人轻微受伤或对财产造成损害，例如对产品造成损坏。
 {% endhint %}
 
 
-* Mark the installation and dangerous areas of the robot in a way that they can be clearly differentiated from other facilities and devices in terms of type, color and style.
-* As the emergency stop function immediately cuts off the motor power, so reckless use of the function may result in accumulation of fatigue that affects the durability of the robot. The function must be used only in emergency situations.
-* Our company is not responsible if the jogging operation does not work due to the failure of the hardware limit switch. You must check it periodically. For the measure to take in case of a failure, please refer to the troubleshooting manual.
-* You should not be negligent in paying attention to sudden movements while entry is made possible. Under any circumstances, you must avoid approaching the robot without preparing for possible emergency situation.
-* In the case of trial-operation, there may be a design error, teaching error, or defect in manufacturing with regard to the entire system including the teaching program, jigs, and sequencing. For this reason, you should work with elevated safety awareness in trial-operation. Multiple factors can contribute to safety accidents. Observe the following measures considering that safety is very important when trial-operating the robot.
-* During maintenance and inspection of the manipulator, the robot arm may fall, or there could be a different type of danger. So, you must proceed with the work according to the instructed procedures
-* When moving the axis of the robot that has no driving force applied, there is a risk of the axis dropping due to gravity and also an additional risk due to the release of the brake system. So, you must proceed with the work according to the instructed procedures.
-* Before turning on the power, check that there is no worker inside the robot operation area and you are in a safe place.
-* Before installing the product, you must perform a sufficient risk assessment and then set the safety functions based on the assessment results. For details on safety functions, refer to "1. Safety" section.
-* When installing and repairing the product, contact the customer support team and ask an expert.
-* Do not install and use the product in an area that has lots of dust or is dirty. Dust or foreign substances may cause product failure or performance problems. 
-* Mark the installation and dangerous areas of the robot in a way that they can be clearly differentiated from other facilities and devices in terms of type, color and style.
-* If the product is not installed in the recommended locations, the performance and service life of the product may be reduced. Install and use the product according to the recommendations.
-1. Before connecting the cables, turn "off" the controller's main power switch and then lock it by using a padlock. 
-2. The controller has DC400V charged energy. Be careful. Wait at least 5 minutes after turning "off" the power switch, and then wait 5 minutes at least to discharge the charged energy.
-3. When handling the PCB, take precautions not to allow static electricity to damage it
-4. Wiring and connection of wires must be performed by qualified personnel.
-	Since the contact part of the connector for each robot may be different from the figure above, you must read the relevant robot maintenance manual carefully before connecting the wire harness.
-	1. When performing the wiring work for the controller and manipulator, separate the signal line and the power line. In addition, use a separate duct for the high power line and the signal line respectively.
-2. Use a protective cover for the wiring, as a measure to prevent the wiring from getting damaged when people are passing nearby.
-3. Before supplying the primary power, you must check again the relationship with regard to connection, the power specification and power supply specification of the controller.
-* The person in charge of maintenance should work after understanding the placement of various devices and parts and their functions inside the controller.
-* The DIP switch is set to OFF mode when shipped from the factory, and the setting should not be changed arbitrarily by the user.
-* The user cannot change the following items arbitrarily, and needs to refer to them only when required to reprogram through FPGA JTAG.
-* The drive module differs depending on the type of the robot, so you must check the type when replacing it.
-1. Do not release more than two axes at the same time.
-2. Must keep a safe distance from the robot first before using the brake release unit.
-3. Use the brake release unit after preparing for the dropping of the robot's axis by using equipment such as a crane.
-4. Check the safety matters while working in a group of at least 2 people.
-* When using the brake release unit, follow the procedures below.
-1. Turn off the AC220V power switch and check that the DC24V power switch is turned off.
-2. Connect the AC power cable to the AC power connector.
-3. Turn on the AC220V power switch. 
-4. Turn on the DC24V power switch.
-- When the use of the brake release unit is finished, follow the procedures below.
-1. Turn off the DC24V power switch.
-2. Turn off the AC220V power switch.
-3. Disconnect the AC power cable. 
-- Do not use AC220V power and DC24V battery power at the same time.
-* Fieldbus communication must be available to use commercial remote IO. Therefore, you should configure the PCI communication card together by referring to the Paragraph 5.1 mentioned above.
-* The drive unit differs depending on the type of the robot, so you must check the type when replacing the drive unit.
-* When transporting the product, you should maintain a proper posture and work in a group of at least two workers. Otherwise, injury to parts of the body such as the back, arms and legs may result.
-* If you transport the product by using lifting equipment, you should comply with relevant national and local safety regulations and equipment usage guidelines. 
-* When transporting the product, you should fully understand the transport-related contents in the manual and follow the instructions. Our company will not be responsible for any damage to or breaking of the product due to the customer's transport of the product. 
-* These are important parts to be prepared for daily maintenance and inspection.
-* These are maintenance parts to be prepared when multiple units are purchased.
+* 以便能清楚区分于其他设施和设备，标记机器人安装和危险区域时应在类型、颜色和样式上明确区分。
+* 由于紧急停止功能立即切断电机电源，故盲目使用该功能可能会导致机器人的耐久性受到影响。因此，该功能仅应在紧急情况下使用。
+* 如果由于硬件限位开关故障而导致 jogging 操作无法正常使用，我公司不承担责任。您必须定期检查。有关故障时的应对措施，请参考故障排除手册。
+* 在进入可能存在突发动作的区域时，您应时刻保持警惕。在任何情况下都必须避免在未准备应对可能的紧急情况的情况下靠近机器人。
+* 在试运转时，整个系统（包括教学程序、夹具和顺序）的设计错误、教学错误或制造缺陷可能会出现。因此，您在试运转时应保持高安全意识。多种因素可能导致安全事故。在试运行机器人时，考虑到安全非常重要，请遵守以下措施。
+* 在维护和检查机械手时，机器人手臂可能会掉落，或可能存在不同类型的危险。因此，您必须按照指示程序进行操作。
+* 移动未施加驱动力的机器人的轴时，由于重力可能导致轴掉落，还存在由于刹车系统释放而带来的额外风险。因此，您必须按照指示程序进行操作。
+* 在开启电源之前，请检查机器人操作区域内没有工人，并确认您处于安全位置。
+* 在安装产品之前，您必须进行充分的风险评估，并根据评估结果设置安全功能。有关安全功能的详细信息，请参考“1. 安全”部分。
+* 在安装和维修产品时，请联系客户支持团队并咨询专家。
+* 不要将产品安装并在尘土较多或脏污的区域中使用。灰尘或异物可能导致产品故障或性能问题。
+* 以便能清楚区分于其他设施和设备，标记机器人安装和危险区域时应在类型、颜色和样式上明确区分。
+* 如果产品未安装在推荐位置，可能会降低产品的性能和使用寿命。请根据推荐进行产品的安装和使用。
+1. 在连接电缆之前，将控制器的主电源开关"关闭"，然后用挂锁锁住。
+2. 控制器有DC400V充电能量。请注意。在“关闭”电源开关后至少等待5分钟，然后再等待至少5分钟以放电已充电的能量。
+3. 在处理PCB时，请采取预防措施，避免静电损坏。
+4. 线路和连接线必须由合格人员进行。
+	由于每个机器人的连接器接触部分可能与上图不同，因此在连接线束之前，您必须在仔细阅读相关机器人维护手册。
+	1. 在执行控制器和机械手的布线作业时，将信号线与电源线分开。此外，为高电源线和信号线分别使用单独的管道。
+2. 使用保护罩来防止布线在人员经过时受到损坏。
+3. 在供电之前，您必须再次检查与连接、控制器的电源规格和供电规格的关系。
+* 维护负责人在工作时应了解控制器内部各种设备和部件的放置及其功能。
+* DIP开关在出厂时设定为OFF模式，用户不应随意更改该设置。
+* 用户无法随意更改以下项目，并在需要通过FPGA JTAG重新编程时仅需参考它们。
+* 驱动模块因机器人类型的不同而有所不同，因此在更换时必须检查类型。
+1. 不得同时释放超过两个轴。
+2. 在使用刹车释放单元前，必须与机器人保持安全距离。
+3. 使用刹车释放单元前，必须准备好使用起重机等设备应对机器人的轴掉落。
+4. 在至少两人组内工作时检查安全事项。
+* 使用刹车释放单元时，请遵循以下程序。
+1. 关闭AC220V电源开关，检查DC24V电源开关是否关闭。
+2. 将AC电源电缆连接到AC电源接口。
+3. 打开AC220V电源开关。 
+4. 打开DC24V电源开关。
+- 当刹车释放单元使用结束时，请遵循以下程序。
+1. 关闭DC24V电源开关。
+2. 关闭AC220V电源开关。
+3. 拔掉AC电源电缆。 
+- 不要同时使用AC220V电源和DC24V电池电源。
+* 进行现场总线通信必须可用以使用商业远程IO。因此，您应通过参考上述第5.1段来一起配置PCI通信卡。
+* 驱动单元因机器人类型的不同而有所不同，因此在更换驱动单元时必须检查类型。
+* 在运输产品时，您应保持正确姿势并至少两人合作进行工作。否则，可能会导致身体各部位如背部、手臂和腿部受伤。
+* 如果通过起重设备运输产品，您应遵守相关国家和地方安全法规以及设备使用指南。 
+* 运输产品时，您应充分理解手册中的运输相关内容并遵循说明。我公司不对因客户运输产品而导致的任何损坏或破坏负责。 
+* 这些是日常维护和检查时要准备的重要部件。
+* 这些是购买多个单位时要准备的维护部件。
 [__SOURCE](1-safety/README.md)
-# 1. Safety
+# 1. 安全
 
 Refer to the maintenance manual of each robot for detailed specifications regarding the installation of end effectors.
 [__SOURCE](1-safety/1-applied-standard.md)
-# 1.1. Applicable Standards
+# 1.1. 适用标准
 
-The safety standards applied to the product are as follows
+适用于该产品的安全标准如下：
 
-* ANSI/RIA/ISO 10218-1:2011 Robots and robotic devices - Safety requirements for industrial robots - Part 1: Robots
+* ANSI/RIA/ISO 10218-1:2011 机器人和机器人设备 - 工业机器人安全要求 - 第 1 部分：机器人
 
-* ANSI/RIA R15.06-2012 - Industrial Robots and Robot Systems - Safety Requirements
+* ANSI/RIA R15.06-2012 - 工业机器人和机器人系统 - 安全要求
 
-* ISO 10218-2:2011 Robots and robotic devices - Safety requirements for industrial robots - Part 2: Robot systems and integration
+* ISO 10218-2:2011 机器人和机器人设备 - 工业机器人安全要求 - 第 2 部分：机器人系统和集成
 
-* IEC 61508-1:2010 Functional safety of electrical/electronic/programmable electronic safety-related systems - Part 1: General requirements
+* IEC 61508-1:2010 电气/电子/可编程电子安全相关系统的功能安全 - 第 1 部分：一般要求
 
-* IEC 61508-2:2010 Functional safety of electrical/electronic/programmable electronic safety-related systems - Part 2: Requirements for electrical/electronic/programmable electronic safety-related systems
+* IEC 61508-2:2010 电气/电子/可编程电子安全相关系统的功能安全 - 第 2 部分：电气/电子/可编程电子安全相关系统的要求
 
-* IEC 61508-3:2010 Functional safety of electrical/electronic/programmable electronic safety-related systems - Part 3: Software requirements 
-  
-* IEC 61508-4:2010 Functional safety of electrical/electronic/programmable electronic safety-related systems - Part 4: Definitions and abbreviations
+* IEC 61508-3:2010 电气/电子/可编程电子安全相关系统的功能安全 - 第 3 部分：软件要求
 
-* IEC 61508-5:2010 Functional safety of electrical/electronic/programmable electronic safety-related systems - Part 5: Examples of methods for the determination of safety integrity levels
+* IEC 61508-4:2010 电气/电子/可编程电子安全相关系统的功能安全 - 第 4 部分：定义和缩略语
 
-* IEC 61508-6:2010 Functional safety of electrical/electronic/programmable electronic safety-related systems - Part 6: Guidelines on the application of IEC 61508-2 and IEC 61508-3 
+* IEC 61508-5:2010 电气/电子/可编程电子安全相关系统的功能安全 - 第 5 部分：安全完整性水平确定方法的示例
 
-* IEC 61508-7:2010 Functional safety of electrical/electronic/programmable electronic safety-related systems - Part 7: Overview of techniques and measures 
-  
-* IEC 61800-5-1:2007/A1:2017 Adjustable speed electrical power drive systems - Part 5-1: Safety requirements - Electrical, thermal and energy 
+* IEC 61508-6:2010 电气/电子/可编程电子安全相关系统的功能安全 - 第 6 部分：IEC 61508-2 和 IEC 61508-3 的应用指南
 
-* IEC 61800-5-2:2015 Adjustable speed electrical power drive systems - Part 2: General requirements - Rating specifications for low voltage adjustable speed a.c. power drive systems
+* IEC 61508-7:2010 电气/电子/可编程电子安全相关系统的功能安全 - 第 7 部分：技术和措施概述
 
-* ISO 13849-1:2015 Safety of machinery - Safety-related parts of control systems - Part 1: General principles for design
+* IEC 61800-5-1:2007/A1:2017 可调速电力驱动系统 - 第 5-1 部分：安全要求 - 电气、热和能源
 
-* ISO 13849-2:2012 Safety of machinery - Safety-related parts of control systems - Part 2: Validation
+* IEC 61800-5-2:2015 可调速电力驱动系统 - 第 2 部分：一般要求 - 低压可调速交流电力驱动系统的额定规范
 
-* IEC 62061:2005/A2:2015 Safety of machinery. Functional safety of safety-related electrical, electronic and programmable electronic control systems
+* ISO 13849-1:2015 机械设备的安全 - 控制系统的安全相关部分 - 第 1 部分：设计的一般原则
 
-* IEC 61800-3:2017 Adjustable speed electrical power drive systems - Part 3: EMC requirements and specific test methods
+* ISO 13849-2:2012 机械设备的安全 - 控制系统的安全相关部分 - 第 2 部分：验证
 
-* IEC 61000-6-7:2014 Electromagnetic compatibility (EMC) - Part 6-7: Generic standards - Immunity requirements for equipment intended to perform functions in a safety-related system (functional safety) in industrial locations
+* IEC 62061:2005/A2:2015 机械的安全。安全相关电气、电子和可编程电子控制系统的功能安全
 
-* IEC 61326-3-1:2017 Electrical equipment for measurement, control and laboratory use. EMC requirements. Part 3-1: Immunity requirements for safety-related systems and for equipment intended to perform safety-related functions (functional safety) - General industrial applications
+* IEC 61800-3:2017 可调速电力驱动系统 - 第 3 部分：EMC 要求和特定测试方法
 
-* IEC 60204-1:2016 Safety of machinery - Electrical equipment of machines - Part 1: General requirements
+* IEC 61000-6-7:2014 电磁兼容性(EMC) - 第 6-7 部分：通用标准 - 针对在工业场所执行安全相关功能的设备(功能安全)的免疫要求
 
-* ISO 11161:2007 Safety of machinery - Integrated manufacturing systems - Basic requirements
+* IEC 61326-3-1:2017 测量、控制和实验室用电气设备。EMC 要求。第 3-1 部分：安全相关系统和旨在执行安全相关功能的设备(功能安全)的免疫要求 - 一般工业应用
 
+* IEC 60204-1:2016 机械安全 - 机器的电气设备 - 第 1 部分：一般要求
+
+* ISO 11161:2007 机械安全 - 集成制造系统 - 基本要求
 [__SOURCE](1-safety/2-safety-performance.md)
-# 1.2. Safety Performance
+# 1.2. 安全性能
 
-The performance of the industrial robot's safety modules is as follows.
+工业机器人安全模块的性能如下。
 
-Table 1-1 Safety Performance of Safety Modules
+表 1-1 安全模块的安全性能
 <table>
 <thead>
   <tr>
-    <th>Item</th>
-    <th>Safety performance</th>
-    <th>Applicable standards</th>
+    <th>项目</th>
+    <th>安全性能</th>
+    <th>适用标准</th>
   </tr>
 </thead>
 <tbody>
@@ -183,621 +179,568 @@ Table 1-1 Safety Performance of Safety Modules
     <td rowspan="2">IEC 61508/62061/61800-5-2</td>
   </tr>
   <tr>
-    <td>SIL (Safety Integrity Level)</td>
+    <td>SIL (安全完整性等级)</td>
     <td>2</td>
   </tr>
   <tr>
-    <td>Category</td>
+    <td>类别</td>
     <td>3</td>
     <td rowspan="2">ISO 13849-1</td>
   </tr>
   <tr>
-    <td>PL (Performance Level)</td>
+    <td>PL (性能等级)</td>
     <td>d</td>
   </tr>
 </tbody>
 </table>
-
 [__SOURCE](1-safety/3-safety-edu.md)
-# 1.3. Safety Trainings
+# 1.3. 安全培训
 
-In order to use the functions of the product effectively, you must fully understand the contents of the manual and then install, use and maintain the product properly. The users of the product are responsible for fully understanding and complying with robot-related safety laws in the area where the robot is installed and used, and also responsible for properly designing, installing, and operating safety devices to ensure the safety of users working in the robot system.
+为了有效地使用产品的功能，您必须充分理解手册的内容，然后正确安装、使用和维护产品。产品的用户有责任充分理解并遵守机器人安装和使用所在区域的相关安全法律，并且负责合理设计、安装和操作安全设备，以确保在机器人系统中工作的用户的安全。
 
-* All the workers who install, use, and maintain the robot system must read the manual carefully and understand the contents completely. In particular, they must fully understand the safety cautions(![](../_assets/삼각형1.png)).
+* 所有安装、使用和维护机器人系统的工作人员必须仔细阅读手册，并完全理解其内容。特别是，他们必须彻底理解安全注意事项(![](../_assets/삼각형1.png))。
 
-* Our company plans and implements the trainings for the installation, use and maintenance of the product. So, the product users and the workers must complete relevant training courses before using the product.
-* The workers responsible for teaching and inspecting the robot must complete the robot use and safety trainings before using the robot. The contents covered in the safety training courses include the following items.
-  * The concept of safety. and the purpose and function of the safety devices
-  * Procedures for safe handling of the robot
-  * Performance and potential danger of the robot and robotic system
-  * Items including the works related to specific applications of the robot
-
-
+* 我们公司计划并实施产品的安装、使用和维护培训。因此，产品用户和工作人员在使用产品之前必须完成相关的培训课程。
+* 负责教授和检查机器人的工作人员必须在使用机器人之前完成机器人使用和安全培训。安全培训课程涵盖的内容包括以下项目。
+  * 安全的概念，以及安全设备的目的和功能
+  * 安全处理机器人的程序
+  * 机器人和机器人系统的性能及潜在危险
+  * 包括与机器人特定应用相关的工作项目
 [__SOURCE](1-safety/4-risk-assess.md)
-# 1.4. Risk Assessment
+# 1.4. 风险评估
 
-When it comes to configuring an integrated system including a robot, risk assessment is one of the most critical factors that are handled as legal requirements in most countries. A risk assessment of an integrated system cannot be performed only on a single robot because the safety assessment for the installation of the will differ depending on how the robot is integrated into the system.
+当涉及到配置包含机器人在内的集成系统时，风险评估是大多数国家作为法律要求处理的最关键因素之一。集成系统的风险评估不能仅仅在单个机器人上进行，因为机器人在系统中的集成方式会影响安装的安全评估。
 
-The system administrator should configure and operate the system according to the guidelines of ISO 12100 and ISO 10218-2 to conduct a risk assessment.
-You should conduct the risk assessment by taking into account the entire process of an integrated system including the robot. The main objectives of the risk assessment are as follows.
+系统管理员应根据ISO 12100和ISO 10218-2的指南来配置和操作系统，以进行风险评估。您应考虑包括机器人在内的集成系统的整个过程来进行风险评估。风险评估的主要目标如下。
 
-* Basic settings for the use of the robot, and teaching of the robot
-* Trouble diagnosis, and maintenance
-* Normal operation of the installed robot
+* 机器人使用的基本设置以及机器人的教学
+* 故障诊断和维护
+* 已安装机器人的正常操作
 
-After installing the robot and configuring the s
-ystem, you must conduct a risk assessment. The risk assessment mainly determines the appropriateness of safety devices in the robot integrated system, as well as the necessity for additional emergency stop devices and other safety devices. It is very important to know the appropriate safety devices and properly configure the robot integrated system. You should configure the integrated system by referring to the relevant information in the manual. For details on configuring the safety functions, refer to "1.8. Safety Functions". In addition, when installing the robot in a specific location or configuring safety-related functions by using the safety I/O, the important items in the risk assessment of an integrated robot system are as follows.
+在安装机器人并配置系统后，必须进行风险评估。风险评估主要确定机器人集成系统中安全设备的适当性，以及是否需要额外的紧急停机设备和其他安全设备。了解适当的安全设备并正确配置机器人集成系统非常重要。您应参考手册中的相关信息来配置集成系统。有关配置安全功能的详细信息，请参见“1.8. 安全功能”。此外，当在特定位置安装机器人或通过使用安全I/O配置安全相关功能时，集成机器人系统风险评估中的重要事项如下。
 
-* Severity
-* Frequency of exposure to risks
-* Possible occurrence
-* Possible avoidance
+* 严重性
+* 暴露于风险的频率
+* 可能发生
+* 可能避免
 
-In the process of configuring an integrated system, if the safety-related functions of the robot do not sufficiently eliminate the risk factors, it is possible to check the necessity for additional protective devices during the risk assessment.
-
-
+在配置集成系统的过程中，如果机器人的安全相关功能未能充分消除风险因素，则在风险评估过程中可以检查额外保护设备的必要性。
 [__SOURCE](1-safety/5-potential_risk.md)
-# 1.5. Potential Risks
+# 1.5. 潜在风险
 
-If the results of the risk assessment of an integrated system linked to the robot reveal that the risk factors have not been sufficiently removed only with the safety-related functions of the robot, additional protective measures must be taken.
-The items to take into consideration when establishing additional protective measures is as follows.
-* During installation, fingers can be pinched (caught) between the robot base and the mounting table.
-* Injuries (puncture wound, penetrating injury, etc.) from sharp edges or pointed parts of obstacles or tools in the operation area.
-* Injuries (bruise, falling over, fracture, etc.) due to collision with the robot
-* Injuries caused (puncture wound, penetrating injury, fracture, etc.) due to obstacles around the robot
-* Injuries that may occur because the fastening part is not completely fixed
-* Injuries (skin damage, shortness of breath, etc.) that may occur when working with toxic and hazardous substances
-* Separation of a workpiece from the tool due to sudden power failure
-* A mistake caused by confusing with the emergency stop switch of other equipment
-* Errors due to arbitrary change of the setting of safety-related functions.
-The type of risk that may occur depends on the system configuration, so you must conduct the risk assessment before using the integrated system.
-
+如果与机器人连接的集成系统的风险评估结果显示，仅凭机器人的安全相关功能无法充分消除风险因素，则必须采取额外的防护措施。
+在建立额外防护措施时需要考虑的事项如下：
+* 在安装过程中，手指可能会被夹住（卡住）在机器人底座和安装台之间。
+* 在操作区域内，锐利边缘或障碍物或工具的尖锐部分可能造成的伤害（穿刺伤、贯穿性伤害等）。
+* 因与机器人碰撞导致的伤害（淤伤、跌倒、骨折等）。
+* 由于机器人周围障碍物引起的伤害（穿刺伤、贯穿性伤害、骨折等）。
+* 由于固定部件未完全固定而可能发生的伤害。
+* 在处理有毒和危险物质时可能发生的伤害（皮肤损伤、呼吸急促等）。
+* 由于突然断电导致工件与工具分离。
+* 由于与其他设备的紧急停止开关混淆而导致的错误。
+* 由于随意更改安全相关功能的设置而导致的错误。
+可能发生的风险类型取决于系统配置，因此在使用集成系统之前必须进行风险评估。
 [__SOURCE](1-safety/6-validity-responsibility.md)
-# 1.6. Effectiveness and Responsibility
+# 1.6. 效率与责任
 
-It is required to observe the safety requirements according to the safety regulations and laws of the countries and regions where the robot is installed and used. Suppliers and users of the robot integrated systems have a variety of responsibilities, including the following items.
-*	Risk assessment of the robot integrated system
-*	Addition and removal of safety devices according to the risk assessment results
-*	Check whether the integrated system is configured, installed and set up correctly.
-*	Establishment of the methods and guidelines to use the integrated system, and trainings for the users
-*	Management of safety devices (Prohibition of user's arbitrary change and manipulation of safety devices)
-*	Provision of important information, as well as contact information, related to the use and safety of the product
-*	Provision of all kinds of technical documents including manuals
+根据安装和使用机器人所在国家和地区的安全法规和法律，必须遵守安全要求。机器人集成系统的供应商和用户有多种责任，包括以下项目。
+* 机器人集成系统的风险评估
+* 根据风险评估结果添加和移除安全装置
+* 检查集成系统是否正确配置、安装和设置。
+* 建立使用集成系统的方法和指南，以及用户培训
+* 安全装置的管理（禁止用户自行更改和操作安全装置）
+* 提供与产品使用和安全相关的重要信息以及联系信息
+* 提供包括手册在内的各种技术文件
 
-The safety information in this manual does not cover all risk factors and situations that may arise while using the product.
-
-
+本手册中的安全信息未涵盖在使用产品时可能出现的所有风险因素和情况。
 [__SOURCE](1-safety/7-safety-label.md)
-# 1.7. Safety Labels 
+# 1.7. 安全标签 
 
-Name plates, warning markings, safety symbols, etc. are attached on the inside and outside of the controller. Any act of damaging the safety labels, such as relocating the name plates, warning markings, safety symbols, name markings and wire markings or painting over them or blocking them with a cover is prohibited. Mark the installation and dangerous areas of the robot in a way that they can be differentiated from other facilities and devices in terms of type, color and style.
+名称牌、警告标记、安全符号等附在控制器的内部和外部。任何损坏安全标签的行为，例如移动名称牌、警告标记、安全符号、名称标记和线缆标记，或在其上涂漆或用覆盖物遮挡，都是禁止的。标记机器人的安装和危险区域，以便在类型、颜色和风格上与其他设施和设备区分开来。
 
 ![](../_assets/그림_1.1_안전라벨.png)
 
-Figure 1.1 Safety Labels
+图 1.1 安全标签
 
-Table 1-2 Safety Labels
+表 1-2 安全标签
 
 ![](../_assets/1.7._안전_라벨(Hi6).png)
 
 {% hint style="warning" %}
-Any act of damaging the safety labels, such as relocating the name plates, warning markings, safety symbols, name markings and wire markings or painting over them or blocking them with a cover is prohibited.
+任何损坏安全标签的行为，例如移动名称牌、警告标记、安全符号、名称标记和线缆标记，或在其上涂漆或用覆盖物遮挡，都是禁止的。
 {% endhint %}
 
 {% hint style="info" %}
-Mark the installation and dangerous areas of the robot in a way that they can be differentiated from other facilities and devices in terms of type, color and style.
+标记机器人的安装和危险区域，以便在类型、颜色和风格上与其他设施和设备区分开来。
 {% endhint %}
-
-
 [__SOURCE](1-safety/8-safety-function/README.md)
-# 1.8 Safety Functions
+# 1.8 安全功能
 
-The safety system of the robot is designed in dual configuration (HFT=1) to satisfy the safety performance (PL) = d Cat3 of [ISO13849-1:2015] and the safety integrity level (SIL) 2 of [IEC62061:2005], and continuously monitors the status of safety related devices. When an error is detected by self-diagnosis, or a safety related signal is inputted, the safety functions will stop the robot according to the classification of stop situations determined based on the risk assessment. Also, when any of the dual switches of the safety circuit is activated, the motor drive power and brake drive power will be cut off by the sfety functions to secure a safe state. Information on the relevant status can be checked through the teaching pendant.
+机器人的安全系统采用双重配置设计（HFT=1），以满足[ISO13849-1:2015]的安全性能（PL）= d Cat3 和[IEC62061:2005]的安全完整性等级（SIL）2，并持续监控安全相关设备的状态。当自我诊断检测到错误或输入安全相关信号时，安全功能将根据风险评估确定的停机情况分类停止机器人。此外，当安全电路的双重开关中的任何一个被激活时，安全功能将切断电机驱动电源和制动驱动电源，以确保安全状态。相关状态的信息可以通过教学挂件检查。
 
 {% hint style="danger" %}
-Make sure that the safety circuit is never ignored, modified or altered in any way.
+确保安全电路绝不能被忽视、修改或以任何方式更改。
 {% endhint %}
 
-
-The safety-related main functions of the robot are as follows.
-
+机器人的安全相关主要功能如下。
 [__SOURCE](1-safety/8-safety-function/1-key-safety-function.md)
-# 1.8.1. Main Safety Functions
+# 1.8.1. 主要安全功能
 
-* Emergency stop (IEC 60204-1,10,7)
+* 紧急停止（IEC 60204-1,10,7）
 
-There is one emergency stop button on the controller and teach pendant respectively. It is possible to connect, if necessary, an additional emergency button to the safety chain circuit of the robot. The emergency stop function is to be applied with higher priority over all other control functions of the robot. The function will immediately cut off the power supply to the motors of individual axes of the robot, stopping the robot and making it impossible to use safety related funtions controlled by the robot. 
-
-
+控制器和教学挂件上各有一个紧急停止按钮。如有必要，可以将额外的紧急按钮连接到机器人的安全链电路。紧急停止功能在所有其他控制功能之上具有更高的优先级。该功能将立即切断机器人各个轴的电源，停止机器人，并使与机器人控制的安全相关功能无法使用。 
 
 {% hint style="info" %}
-As the emergency stop function immediately cuts off the motor power, so reckless use of the function may result in accumulation of fatigue that affects the durability of the robot. The functoin must be used only in emergency situations.
+由于紧急停止功能会立即切断电机电源，因此，鲁莽使用该功能可能导致影响机器人的耐久性的疲劳累积。该功能仅应在紧急情况下使用。
 {% endhint %}
 
+![](../../_assets/그림_1.2_제어기,_티칭펜던트_비상정지_스위치.png)
 
-![](../../_assets/그림_1.2_제어기,_티칭펜던트_비상정지_스위치.png  )
+图 1.2 控制器和教学挂件上的紧急停止按钮
 
-Figure 1.2 Emergency Stop Buttons on the Controller and Teaching Pendant
+![](../../_assets/그림_1.3_추가_비상정지_장치_연결.png)
 
-![](../../_assets/그림_1.3_추가_비상정지_장치_연결.png  )
+图 1.3 附加紧急停止装置的连接
 
-Figure 1.3 Connection of an Additional Emergency Stop Device
+*  保护停止（ISO 10218-1:2011）
 
-*	Protective stop (ISO 10218-1:2011)
+机器人应具有多个安全输入，以便能够与安全防护、 安全垫和安全灯等外部安全设备连接。当来自机器人本身及外围设施的输入产生时，这些安全输入将使机器人停止，以确保安全状态。有关安全输入连接的详细信息，请参阅“4.3.2. 安全模块 (BD632)”。
 
-The robot should have multiple safety inputs so that it can be used in connection with external safety devices such as safety guards, safety pads, and safety lamps. These safety inputs will make the robot stop when there is an input from the robot itself and peripheral facilities, securing a safe state. For details on the connection to the safety inputs, refer to "4.3.2. Safety Module (BD632)".
+*  速度限制（EN ISO 10218-1:2011）
 
-*   Speed limit (EN ISO 10218-1:2011)
+在手动操作模式下，机器人的速度限制为最大250 mm/s。速度限制不仅适用于TCP（工具中心点），还适用于以手动模式操作的机器人的所有其他部件。还应能够监控安装在机器人上的设备的速度。
 
-In manual operation mode, the speed of the robot is limited to a maximum of 250 mm / s. The speed limit applies not only to the TCP (Tool Center Point) but also to all other parts of the robot that are to be operated in manual mode. It should be also made possible to monitor the speed of the equipment mounted on the robot.
+*  操作区域限制（ANSI/RIA R15.06-2012）
 
-*  Operaiton area limit (ANSI/RIA R15.06-2012)
+在使用机器人时，为了确保足够的安全区域，可以通过使用硬件限制或限位器来限制机器人的操作范围。如果机器人与外部安全设备（如安全防护）发生碰撞， 此功能可以最小化损害。轴1、2和3主要通过限位器或硬件限制进行限制。如果由于机械限位器或硬件限制更改了操作范围，则在软件中也应更改操作范围限制参数。有关更改的详细信息，请参阅操作手册。每个轴的操作区域限制可以由用户更改，出厂时设置为机器人的最大操作范围。 Hi6 控制器的安全系统可以选配支持最多4个硬件限位开关。有关连接事项，请参阅“4.3.2. 安全模块 (BD632)”。
 
-When applying a robot, in order to secure a sufficient safety area, the operation range of the robot can be limited by using a hardware limit or a stopper. This function can minimize the damage if the robot collides with an external safety device such as a safety guard. Axis 1, 2, and 3 are mainly limited by a stopper or hardware limit. If the operation range is changed due to a mechanical stopper or hardware limit, the operation range limit parameter should be also changed in software as well. Please refer to the operation manual about the change. The operation area limit of each axis can be changed by the user, and at the time of shipment, it is set to the maximum operation range of the robot. The safety system of the Hi6 controller can support up to 4 hardware limit switches as an option. Refer to "4.3.2. Please refer to "Safety Module (BD632)" for the matters related to the connection.
+*  操作模式选择（ANSI/RIA R15.06-2012）
 
-*  Operaiton mode selection (ANSI/RIA R15.06-2012)
-
-You can operate the robot in manual, automatic or remote mode. The maximum speed in manual mode is limited to 250 mm/s, and you can perform operation only with the teaching pendant. In addition, it is possible to mount a mode switch additionally on the control panel by configuring it as an option. For details on the operation, please refer to the operation manual.
-
-
+您可以在手动、自动或远程模式下操作机器人。手动模式下的最大速度限制为250 mm/s，并且只能使用教学挂件进行操作。此外，可以通过将其配置为可选项，额外安装一个模式开关在控制面板上。有关操作的详细信息，请参阅操作手册。
 [__SOURCE](1-safety/8-safety-function/2-related-other-func.md)
-# 1.8.2. Other Related Functions
+# 1.8.2. 其他相关功能
 
-Required to fully understand the following items and take actions if a person is pinched due to an accident caused by the arm of the robot.
+必须完全理解以下项目，并在由于机器手臂导致的事故中出现被夹的情况时采取行动。
 
-* Release of the manual brake 
+* 手动刹车的释放
 
 {% hint style="danger" %}
-Considering that additional problems may occur due to gravity or brake release, you must take a measure, before carrying out works, such as using a rope and crane that are to used for transporation of individual robots to prevent the brake from running down or additional accidents from taking place during the release of the brake.
+考虑到由于重力或刹车释放可能会引发其他问题，在进行工作之前，您必须采取措施，例如使用绳索和起重机以防止刹车失效或在释放刹车期间发生其他事故。
 {% endhint %}
 
+    - 在切断控制器的电源后，将刹车释放单元连接到机器人指定的连接器或控制器的内部板连接器，然后根据需要释放每个轴的手动刹车。
 
-    - After removing power from the controller, connect the brake release unit to the designated connector of the robot or the internal board connector of the controller and then release the manual brake for each axis as needed.
+    - 有关每个机器人的单独轴的信息以及每个机器人指定的运输设备（例如，绳索、起重机），请参考每个机器人的维护手册。
 
-    - Refer to the maintenance manual of each robot for the information on individual axes of each robot, and for the designated transport equipment (eg, rope, crane) for each robot.
-
-When the robot is stopped by the limit switch, it is possible to change the position by jogging the robot with the teaching pendant in the constant setting mode. After designating the soft limit according to the site situation, make sure that it is installed by a trained worker.
+当机器人被限位开关停止时，可以通过在常量设置模式下使用教学手柄对机器人进行微调以更改位置。根据现场情况指定软限位后，请确保由经过培训的工作人员进行安装。
 
 {% hint style="info" %}
-Our company is not responsible if the jogging operation does not work due to the failure of the hardware limit switch. 
-You must check it periodically. For the measure to take in case of a failure, please refer to the troubleshooting manual.
+如果微调操作由于硬件限位开关故障而无法正常工作，我公司不承担责任。 
+您必须定期检查。有关故障情况下采取的措施，请参阅故障排除手册。
 {% endhint %}
-
-
 [__SOURCE](1-safety/9-stop.md)
-# 1.9. Stop
+# 1.9. 停止
 
-The safety system of Hi6 controller can handle the stop operation as shown below. Safety inputs can be classified as follows according to the stop classification criteria specified in IEC 60204-1.
+Hi6 控制器的安全系统可以处理如下所示的停止操作。安全输入可以根据 IEC 60204-1 中规定的停止分类标准进行分类。
 
-*  Stop classification Stopping (uncontrolled stoping) occurs as the power to the machine actuator is immediately removed.
+*  停止分类 失控停止（uncontrolled stoping）是在机器执行器的电源被立即切断时发生的。
 
-    →  Emergency stop button
+    →  紧急停止按钮
 
-*  Stop classification 1: Controlled stop in which the machine actuator still has a power that can be used to achieve the stopping. The power will be removd when the stopping is achieved. 
+*  停止分类 1：受控停止，其中机器执行器仍然有可以用于实现停止的电源。达到停止后，将切断电源。
 
-    →  Safety inputs except for the emergency stop button
-
+    →  除紧急停止按钮外的安全输入
 [__SOURCE](1-safety/10-safety-measures-install/README.md)
-# 1.10. Safety Measures When Installing
-
+# 1.10. 安装时的安全措施
 [__SOURCE](1-safety/10-safety-measures-install/1-safety-guard-install.md)
-# 1.10.1. Installing the Safety Guard
+# 1.10.1. 安装安全护栏
 
 {% hint style="warning" %}
-When the robot is operating, there is a risk of collision between the robot and the worker. Therefore, install a safety fence to prevent a worker from getting close to the robot.
+在机器人操作期间，机器人与工人之间存在碰撞风险。因此，请安装安全护栏，以防止工人靠近机器人。
 {% endhint %}
 
-When the robot is operating, there is a risk of collision between the robot and the worker. Therefore, install a safety fence to prevent a worker from getting close to the robot according to ISO 13855:2010. Configure the system to ensure that the robot stops when a worker opens the door of the safety fence and approaches the facility, during the robot operation, for any reason, such as inspecting the robot or a welding fixure, performing tip dressing or tip changing, etc.
+在机器人操作期间，机器人与工人之间存在碰撞风险。因此，请根据 ISO 13855:2010 安装安全护栏，以防止工人靠近机器人。当工人在机器人操作期间出于任何原因（例如检查机器人或焊接夹具、进行工具修整或更换工具等）打开安全护栏的门并靠近设备时，配置系统以确保机器人停止。
 
-![](../../_assets/그림_1.4_안전펜스_연결.png  )
+![](../../_assets/그림_1.4_안전펜스_연결.png)
 
-Figure 1.4 Connection of the Safety Fence<br/><br/>
+图 1.4 安全护栏的连接<br/><br/>
 
-Source : ISO 13855:2010 Safety of machinery - Positioning of safeguards with respect to the approach speeds of parts of the human body
+来源：ISO 13855:2010 机器安全 - 关于人体部位接近速度的保护装置定位
 
-![](../../_assets/표_1-3_안전펜스_설치_규격.png  )
+![](../../_assets/표_1-3_안전펜스_설치_규격.png)
 
-Source : ISO 13855:2010 Safety of machinery - Positioning of safeguards with respect to the approach speeds of parts of the human body
+来源：ISO 13855:2010 机器安全 - 关于人体部位接近速度的保护装置定位
 
-*   The safety fence should cover the operation area of the robot, and should secure enough space so that there is no interference when the worker carries out works, such as teaching, maintenance, etc. The safety fence should be made solid to prevent it frome being moved easily and should be structured in a way not to allow people to enter inside the fence by going over the safety fence.
+* 安全护栏应覆盖机器人的操作区域，并应确保足够的空间，以便工人在进行教学、维护等工作时没有干扰。安全护栏应坚固，以防止其轻易移动，并应构造为不允许人们通过越过安全护栏进入护栏内部。
 
-*	In principle, it is required to install and use a fixed type safety fence that does not have dangerous parts such as uneven or sharp parts.
+* 原则上，要求安装和使用没有危险部分（如不平整或尖锐部分）的固定型安全护栏。
 
-*	An entrance door should be installed to allow people to enter inside the safety fence, and a safety plug must be installed on the door in a way that the door should not open unless the plug is removed. In addition, wiring should be configured in a way that allows the motor to be turned off and the brake to be in hold state when the safety plug is removed or the sfety fence is opened.
+* 应安装入口门，以便人员能够进入安全护栏内部，并且必须在门上安装安全插头，使门在未移除插头时无法打开。此外，布线应配置为在移除安全插头或打开安全护栏时，电机关闭并刹车处于保持状态。
 
-*	If you want to operate the robot even when the safety plug is removed, wiring should be configured in a way that allows the robot to play back at low speed.
+* 如果希望在安全插头移除时仍能操作机器人，则应配置布线，以允许机器人以低速运行。
 
-*	Install the emergency stop button of the robot at a location where the operator can quickly press it.
+* 将机器人的紧急停止按钮安装在操作员可以快速按压的位置。
 
-*	If a safety fence is not to be installed, safety devices such as photoelectric switches and mat switches should be installed covering the entire area that falls within the specification of the safety guard range of the robot, as substitute devices for the safety fence, making it possile for the robot to stop automatically when a person enters inside the safety fence. 
+* 如果不安装安全护栏，应该安装光电开关和垫开关等安全设备，覆盖在机器人的安全护栏范围规范内的整个区域，作为安全护栏的替代设备，以使机器人在人员进入安全护栏内部时能够自动停止。
 
-*	Make sure that the robot's operation area (danger area) can be identified in some way, such as painting the floor.
-
-
+* 确保机器人的操作区域（危险区域）可以通过某种方式识别，例如在地面上涂漆。
 [__SOURCE](1-safety/10-safety-measures-install/2-place-robots-peripherals.md)
-# 1.10.2. Placement of the Robot and Peripheral Devices 
+# 1.10.2. 机器人的放置及外围设备
 
 {% hint style="warning" %}
-The robot should be installed and operated according to the guidelines of ISO 10218-2. In addition, it is required to comply with the relevant requirements of international standards and national laws. Our company (or the manufacturer) will not be responsible for any accidents that occur due to not complying with the relevant requirements of international standards and national laws or due to not reviewing the "risk assessment".
+机器人应按照 ISO 10218-2 的指导方针进行安装和操作。此外，必须遵守国际标准和国家法律的相关要求。我们公司（或制造商）将不对因未遵守国际标准和国家法律的相关要求或未审核“风险评估”而导致的任何事故承担责任。
 {% endhint %}
 
-Installation of the product should be performed by a qualified installer according to relevant national and local regulations and laws.
+产品的安装应由合格的安装人员根据相关国家和地方的法规及法律进行。
 
-*	When unpacking the product, check it for damage that may occur while transporting or unpacka it.
+*	在拆箱时，请检查产品是否因运输或拆箱而受损。
 
-*	Before installing the product after unpacking it, you must check the safety regulations, instructions, information related to the product installation and use environments, and fully undertand the installation methods.
+*	在拆箱后安装产品之前，必须检查与产品安装和使用环境相关的安全法规、说明和信息，并充分了解安装方法。
 
-*	When connecting the primary power of the controller or peripheral device, peroform the connection after checking first whether the supply side power is turned off. Since high voltage is used as the primary power source, there is a risk of electric shock.
+*	在连接控制器或外围设备的主电源时，请先检查供电侧电源是否关闭，然后再进行连接。由于主电源使用高电压，存在电击风险。
 
-*	Put up a sign "No entry during operation" at the entrance of the safety fence, and inform the workers of the intents.
+*	在安全围栏的入口处张贴“操作期间禁止入内”的标志，并通知工人注意事项。
 
-*	Place the controller, interlock panels, and other control panels in a way that they can be operated from outside the safety fence.
+*	将控制器、联锁面板和其他控制面板放置在可以从安全围栏外操作的位置。
 
-*	When installing the operation stand, attach an emergency stop button to it also. Wherever you operate the robot, you should be able to stop the robot in an emergency situation.
+*	在安装操作站时，还应安装紧急停止按钮。无论您在哪里操作机器人，都应能够在紧急情况下停止机器人。
 
-*	Do not allow the wiring or piping of the manipulator, controller, interlock panel, timer, etc. to get caught on by the workers' feet or to get stepped on directly by the forklift. Otherwise, there is a risk of accidents of the worker getting electric shock or the wires getting disconnected. 
+*	请勿让操纵器、控制器、联锁面板、计时器等的布线或管道被工人的脚绊倒或直接被叉车踩踏。否则，存在工人电击或电缆断开的事故风险。
 
-*	Place the controller, interlock panel, and operation stand at a place where the operation of the manipulator can be seen sufficiently. If the robot is operating abnormally in an area from which the robot operation cannot be seen, or the worker is working on something in the area, there is a risk of major accidents taking place during operation.
+*	将控制器、联锁面板和操作站放置在可以充分看到操纵器操作的地方。如果机器人在无法看到其操作的区域异常操作，或者工人在该区域工作，则在操作期间发生重大事故的风险。
 
-*	If the required robot operation area is narrower than the allowable robot operation area, you should limit the robot operation area. It can be limited by soft limit, hardware limit, mechanical stopper, etc. Even when the robot operates off the normal operation area due to abnormal operation such as mistakes in the operation of the robot, the robot will be stopped in advance by the operation area limit function. 
+*	如果所需的机器人操作区域比允许的机器人操作区域小，则应限制机器人操作区域。可以通过软限位、硬件限位、机械挡块等进行限制。即使在机器人操作出现错误等异常情况下超出正常操作区域，机器人也将通过操作区域限位功能提前停止。
 
-*	During welding, spatter may fall on or fall near the worker and cause a burn or fire. Install a light shield plate, cover, etc. in the range where the movement of the manipulator can be seen sufficiently.
+*	在焊接过程中，溅出的焊渣可能会落在工人身上或附近，造成烧伤或火灾。在可以充分看到手臂移动范围的区域安装光护罩、覆盖物等。
 
-*	When it comes to a device that shows the auto and manual operation modes of the robot, an easily visible device should be installed to ensure that the status can be recognized from a distance. In case of starting the operation in auto mode, a buzzer or an alarm will be useful.
+*	对于显示机器人自动和手动操作模式的装置，应安装易于识别的装置，以确保从远处可以识别状态。在自动模式下启动操作时，蜂鸣器或报警将会很有用。
 
-*	Make sure there is no protruding part on the peripheral devices of the robot. If necessary, place a cover on them. Otherwise, in general, an accident could occur when the worker comes into contact with a protruding part, and a major accident could occur when a worker surprised over a sudden movement of the robot could fall over. 
+*	确保机器人的外围设备没有突出的部分。如有必要，请对其进行覆盖。否则，通常情况下，工人与突出部分接触时可能会发生事故，而工人因机器人突然移动而感到惊吓可能会摔倒，导致重大事故。
 
-*	Do not design a system that requires the worker to put in hands inside the safety fence to carry in and carry out a workpiece.
-
+*	请勿设计需要工人把手放入安全围栏内以搬运工件的系统。
 
 ![](../../_assets/그림_1.5_LCD핸들링_로봇의_빔형_안전펜스.png  )
 
-Figure 1.5 Beam Type Safety Fence for the LCD Handling Robot
+图 1.5 LCD 处理机器人的梁型安全围栏
 
-Placement of the Peripheral Devices and Workers for the Industrial Robot
+工业机器人的外围设备和工人的放置
 
 ![](../../_assets/그림_1.6_산업용_로봇의_원통형_안전펜스.png  )
 
-Figure 1.6 Cylinder Type Safety Fence for the Industrial Robot
-
+图 1.6 工业机器人的圆柱型安全围栏
 [__SOURCE](1-safety/10-safety-measures-install/3-robot-install.md)
-# 1.10.3. Installation of the Robot
+# 1.10.3. 机器人的安装
 
 {% hint style="warning" %}
-The robot should be installed and operated according to the guidelines of ISO 10218-2. In addition, it is required to comply with the relevant requirements of international standards and national laws. Our company (or the manufacturer) will not be responsible for any accidents that occur due to not complying with the relevant requirements of international standards and national laws or due to not reviewing the "risk assessment".
+机器人应根据 ISO 10218-2 的指南进行安装和操作。此外，还必须遵守国际标准和国家法律的相关要求。我们的公司（或制造商）对于因未遵守国际标准和国家法律的相关要求或未检查“风险评估”而导致的任何事故不承担责任。
 {% endhint %}
 
-Installation of the product should be performed by a qualified installer according to relevant national and local regulations and laws.
-*	When unpacking the pruduct, check it for damage that may occur while transporting or unpacking it.
+产品的安装应由合格的安装人员根据相关国家和地方法规进行。
+* 开箱时，检查产品是否在运输或拆包过程中受损。
 
-*	Before installing the product after unpacking it, you must check the safety regulations, instructions, information related to the product installation and use environments, and fully undertand the installation methods.
-*	The worker who uses the robot should fully understand the contents described in the application and auxiliary manuals, and operate and handle the industrial robot skillfully.
-*	The worker who installs the robot should be able to apply the safety instructions during the installation if there is a problem.
-*	The system supplier should guarantee that all circuits used for safety functions perform their functions surely.
-*	The main power supply to the robot should be installed in a way that it can be cut off from outside the robot operation area.
-*	The system supplier should surely guarantee that all circuits used for safety functions perform their functions safely.
-*	The emergency stop button should be located at a place where the worker can easily approach it when required to stop the robot urgently. 
-*	By taking into consideration the dimensions of the manipulator and the operation range, make sure that that there is no interference with peripheral devices.
-*	Avoid installing the robot in a place that is exposed to direct sunlight, has high level of humidity, has oil or chemicals around and has lots of metal powder or explosive gas in the air.
-*	Install the robot in an area where the ambient temperature is 0 - 45 ℃.
-*	Secure enough space for disassembling and inspecting the robot easily.
-*	Install a safety fence and prevent people from entering the robot operation range.
-*	Make sure there is no obstacle in the robot operation area.
-*	When installing the robot in an area exposed to direct sunlight or near a heating element, you should take measures in consideration of the thermodynamic state of the controller.
-*	Take additional measures when installing the robot in an area that has lots of dust such as metal powder in the air.
-*	Carry out installation in a way that welding current never flows to the robot. In other words, there should be insulation between the spot gun and the wrist of the robot. 
-*	Since grounding is important for preventing a malfunction due to noise and an electric shock, you should install the robot as shown below.
+* 在开箱后安装产品之前，必须检查安全法规、说明、与产品安装和使用环境相关的信息，并充分理解安装方法。
+* 使用机器人操作的工人应充分理解应用手册和辅助手册中描述的内容，并熟练操作和处理工业机器人。
+* 安装机器人的工人应在出现问题时能够应用安全说明进行安装。
+* 系统供应商应保证所有用于安全功能的电路都能正常执行其功能。
+* 机器人的主电源应以能够在机器人操作区域外切断的方式安装。
+* 系统供应商应确保所有用于安全功能的电路都能安全地执行其功能。
+* 紧急停止按钮应放置在工人在需要紧急停止机器人时能轻易接近的地方。
+* 考虑到操作臂的尺寸和操作范围，确保周围设备没有干扰。
+* 避免在阳光直射、湿度高、周围有油或化学品、并且空气中有大量金属粉末或易爆气体的地方安装机器人。
+* 在环境温度为 0 - 45 ℃ 的区域安装机器人。
+* 确保有足够的空间以便轻松拆卸和检查机器人。
+* 安装安全围栏，防止人员进入机器人操作范围。
+* 确保机器人操作区域内没有障碍物。
+* 在阳光直射或靠近加热元件的区域安装机器人时，应考虑控制器的热力学状态采取措施。
+* 在有大量灰尘（如空气中金属粉末）的区域安装机器人时需采取额外措施。
+* 安装时，确保焊接电流不会流入机器人。换句话说，点焊枪与机器人的手腕之间应有绝缘。
+* 由于接地对于防止因噪音和电击引发的故障非常重要，应按照以下方式安装机器人：
 
-     - Install the dedicated grounding terminal while setting it as Type 3 Grounding higher.
-     - Connect the grounding wire to the grounding bus bar inside the control panel.
-     - When the manipulator is installed, if it is directly grounded to the floor by an anchor, etc., the controller side and the manipulator side will make a two-point grounding, forming a closed circuit, which conversely may cause malfunctioning due to some reasons such as noise. In this case, connect the grounding wire to the base part of the manipulator, but not to the controller side. In addition, if there is shaking when the robot stops, there is a high possibility that the grounding is incomplete or there is a closed circuit. It is required to check the grounding again.
-     - If you use a gun with an embedded transformer, there is a risk of dropping because the primary power cable is connected directly to the spot gun. In this case, in order to protect the control panel and prevent electric shock, connect the grounding wire directly to the base part of the manipulator and do not connect it to the controller.<br/><br/>
+     - 安装专用接地端子，设置为Type 3 Grounding。
+     - 将接地线连接到控制面板内的接地母线。
+     - 当操作臂被安装时，如果通过锚等直接接地到地面，控制器侧和操作臂侧将形成两个点接地，形成闭合回路，这可能会因噪音等原因导致故障。在这种情况下，将接地线连接到操作臂的基部，但不要连接到控制器侧。此外，如果机器人停止时有晃动，很可能接地不完整或形成闭合回路。需要再次检查接地。
+     - 如果使用带有嵌入变压器的枪，则由于主电源电缆直接连接到点焊枪，有掉落的风险。在这种情况下，为了保护控制面板和防止电击，直接将接地线连接到操作臂的基部，而不是连接到控制器。<br/><br/>
 
-* Carry out the installation by referring to the robot maintenance manual for each robot.
-* After designating the soft limit suitable for the site situation, the positionining and adjustment of the hardware limit must be performed by a trained worker. After installation, you must check whether the functions are working well.
-
+* 请根据每个机器人的维护手册进行安装。
+* 在指定适合现场情况的软限制后，硬限制的位置和调整必须由经过训练的工人执行。安装后，必须检查功能是否正常。
 [__SOURCE](1-safety/11-robot-safety-measures-op/README.md)
-# 1.11. Safety Works When Operating the Robot
-
+# 1.11. 操作机器人时的安全工作
 
 {% hint style="warning" %}
-Must observe safety work procedures to prevent safety accidents. Do not change or ignore safety devices or circuits under any circumstances, and pay attention to possible electric shock. 
-In auto mode, all normal works should be performed outside the safety guard. Before carrying out works, you must make sure that there are no people in the operation area of the robot.
+必须遵守安全工作程序以防止安全事故。在任何情况下都不应更改或忽视安全设备或电路，并注意可能的电击。
+在自动模式下，所有正常工作应在安全防护外进行。在进行工作之前，您必须确保操作区域内没有人。
 {% endhint %}
-
-
 [__SOURCE](1-safety/11-robot-safety-measures-op/1-robot-safety-measures-op.md)
-# 1.11.1. Safety Measures When Operting the Robot 
+# 1.11.1. 操作机器人时的安全措施
 
-Observe the following measures considering that safety is very important when operating the robot.
-*	The worker who operates or may operate the robot, and the supervisor should take certain trainings. Except for those who are recognized to be fully aware of the safety and functions of the robot and designated accordingly, any unqualified person should not operate the robot.
+考虑到安全在操作机器人时非常重要，请遵守以下措施。
+* 操作或可能操作机器人的工人以及监督员应接受一定的培训。除非被认定为充分了解机器人安全性和功能并相应指定的人员，任何不合格人员不得操作机器人。
 
-*	Before operating the robot, you must check whether the product has been installed by a qualified installer in compliance with the relevant national and regional regulations and laws.
+* 在操作机器人之前，必须检查产品是否由合格的安装人员按照相关的国家和地区规定和法律进行了安装。
 
-*	Before operating the robot, check whether the safety functions are working normally.
+* 在操作机器人之前，检查安全功能是否正常工作。
 
-*	Must wear a safety helmet, protective glasses and safety shoes. 
+* 必须佩戴安全 helmet、护目镜和安全鞋。
 
-*	Two people must work together. One person should be teaching and the other should be monitoring from the operation panel. One of the two should be ready to press the emergency stop switch at any time, and the other should perform the work quickly with sufficient care in the operation area. In addition, check the evacuation route before starting the work. 
+* 两个人必须一起工作。一人应负责教学，另一人应从操作面板进行监控。两人中的一人应随时准备按下紧急停止开关，另一人应在操作区域内小心快速地进行工作。此外，在开始工作之前检查疏散路线。
 
-*	Supply the power after confirming that there is no worker within the safety guard.
+* 在确认安全防护内没有工人的情况下才供电。
 
-*	Works such as teaching should be performed outside the robot safety guard in principle. However, when required to stop the system and work within the operation range, the worker should bring in the mode switch key (or a switch to change to the auto mode), or the safety plug when going inside. Such action is necessary to make sure that no other worker accidentally changes the robot to the auto operation mode. Also, pay special attention to the direction of the operation of the robot just in preparation for the robot malfunctioning or operating in wrong conditions.
+* 教学等工作原则上应在机器人安全防护外进行。然而，若需要停止系统并在操作范围内工作，工人应带入模式开关钥匙（或切换到自动模式的开关），或在进入时带上安全插头。这样的行为是必要的，以确保其他工人不会意外地将机器人切换到自动操作模式。同时，尤其要注意机器人操作的方向，以便为机器人故障或在错误条件下操作做准备。
 
-*   The supervisor should observe the followings.
-            
-    - The supervisor should be positioned at a location where she or he can see the robot entirely and should be dedicated to the duties of supervision.
-    - If there is any problem, press the emergency stop button immediately.
-    - Other people except for the persons involved in the work should not be allowed to stay within the operation range.
+* 监督员应遵循以下内容。
 
-* In manual operation mode, the speed should be limited to a maximum of 250 mm/sec. At this time, you should progress the work while being prepared, together with the worker outide the guard, to press the emergency stop switch at any time if a problem occurs.
+    - 监督员应处于可以完全看到机器人的位置，并专注于监督职责。
+    - 如果出现问题，立即按下紧急停止按钮。
+    - 除参与工作的人外，应不允许其他人留在操作范围内。
 
-*	When operating the robot manually in high-speed mode, you should progress the operation from outside the safety guard.
+* 在手动操作模式下，速度应限制在最大250mm/sec。在此期间，应与防护外的工人一起做好准备，随时按下紧急停止开关以应对问题。
 
-*	When performing a teaching work, you shoud put up a sign [Teaching in progress]. 
+* 在以高速模式手动操作机器人时，应从安全防护外进行操作。
 
-*	When required to enter inside the safety guard, the worker should pull out the safety plug or an equivalent, and then bring it in when going inside.
+* 在进行教学工作时，应竖起标志[教学进行中]。
 
-*	Do not use equipment that could be a source of noise near the teaching place or its surroundings.
+* 当需要进入安全防护内时，工人应拔出安全插头或同等设备，然后在进入时带入。
 
-*	Do not operate the robot operation buttons on the teach pendant just by using the feeling at the hands while watching the teaching points. Instead, operate the buttons while checking with bare eyes.
+* 不要在教学地点或其周围使用可能产生噪音的设备。
+
+* 不要在观察教学点时，仅凭手感操作教学挂件上的机器人操作按钮。相反，应在肉眼确认的情况下操作按钮。
 
 {% hint style="warning" %}
-Sufficiently check under your feet when teaching. In particular, you must perform the teaching work outside the safety guard when teaching at a high spped (250mm/s or above).
+教学时务必注意脚下。特别是在高速（250mm/s或以上）教学时，必须在安全防护外进行教学工作。
 {% endhint %}
 
+* 当出现异常时采取以下措施。
 
-* 	Take the following measures when abnormality occurs.
-이
-     - 	If abnormal operation is found, immediately press the emergency stop button.
+     - 如果发现异常操作，立即按下紧急停止按钮。
 
-     - 	If abnormality is to be checked following an emergency stop, the stop status of the concerned facility must be checked.
+     - 如果需要在紧急停止后检查异常，必须检查相关设施的停止状态。
 
-     - 	If the robot stops automatically due to abnormality with the power. Check first that the robot is stopped completely, and then investigate the cause and take measures.
+     - 如果机器人因供电异常而自动停止。首先检查机器人是否完全停止，然后调查原因并采取措施。
 
-     - 	If the emergency stop device does not perform functions properly, immediately shut off the main power, and then investigate the cause and take measures.
+     - 如果紧急停止装置未能正常工作，立即切断主电源，然后调查原因并采取措施。
 
-     - 	The investigation of the cause of the abnormality should not be performed by any other than the designated person. After the emergency stop, you should restart the system after surely identifying the cause of the abnormality and taking measure accordingly.
+     - 异常原因的调查应由指定人员以外的任何人进行。在紧急停止后，应在确保识别异常原因并采取相应措施后重新启动系统。
 
-* 	Prepare proper work regulations, considering the installation location and work details, with regard to the robot operation and manipulation methods, and actions to take when abnormality occurs. In addition, work should be carried out according to the work regulations.
-*	Precautions to take when the robot is stopped
+* 针对机器人操作和操作方法以及发生异常时应采取的行动，考虑到安装地点和工作细节，制定适当的工作规程。此外，工作应根据工作规程进行。
+* 机器人停止时的注意事项
 
-    * Must avoid approaching the robot recklessly while thinking that the robot is stopped. When you approach the robot because you think it is stopped, the robot may suddenly move, causing an accident in many cases. The robot will be in the stopped state in the following cases.<br/><br/>
+    * 必须避免在认为机器人已停止的情况下鲁莽靠近机器人。当您认为机器人已停止时靠近，机器人可能会突然运动，从而造成事故。机器人在以下情况下将处于停止状态。<br/><br/>
 
-
-Table 1-4 Status of the robot when it stop mode
+表1-4 机器人停止模式时的状态
 <table>
 <tbody>
 <tr class="odd">
 <td></td>
-<td><p>State of the robot</p></td>
-<td><p>Source of driving</p></td>
-<td><p>Entry</p></td>
+<td><p>机器人的状态</p></td>
+<td><p>驱动源</p></td>
+<td><p>进入</p></td>
 </tr>
 <tr class="even">
 <td><p>1</p></td>
-<td><p>In temporary stop mode</p>
-<p>(Minor abnormality, temporary stop switch)</p></td>
-<td><p>ON</p></td>
+<td><p>处于临时停止模式</p>
+<p>(轻微异常，临时停止开关)</p></td>
+<td><p>打开</p></td>
 <td><p>X</p></td>
 </tr>
 <tr class="odd">
 <td><p>2</p></td>
-<td><p>In emergency stop mode</p>
-<p>(Major abnormality, emergency stop switch and safety door)</p></td>
-<td><p>OFF</p></td>
+<td><p>处于紧急停止模式</p>
+<p>(重大异常，紧急停止开关和安全门)</p></td>
+<td><p>关闭</p></td>
 <td><p>O</p></td>
 </tr>
 <tr class="even">
 <td><p>3</p></td>
-<td><p>Waiting for input signal from peripheral devices</p>
-<p>(START INTERLOCK)</p></td>
-<td><p>ON</p></td>
+<td><p>等待来自外围设备的输入信号</p>
+<p>(启动联锁)</p></td>
+<td><p>打开</p></td>
 <td><p>X</p></td>
 </tr>
 <tr class="odd">
 <td><p>4</p></td>
-<td><p>Playback being completed</p></td>
-<td><p>ON</p></td>
+<td><p>回放正在完成</p></td>
+<td><p>打开</p></td>
 <td><p>X</p></td>
 </tr>
 <tr class="even">
 <td><p>5</p></td>
-<td><p>Waiting in progress</p></td>
-<td><p>ON</p></td>
+<td><p>等待处理中</p></td>
+<td><p>打开</p></td>
 <td><p>X</p></td>
 </tr>
 </tbody>
 </table>
 
 {% hint style="info" %}
-You should not be negligent in paying attention to sudden movements even when entry is made possible. Must avoid approaching without preparing for possible emergency situation under any circumstances.
+即使在可能入内的情况下，也不应忽视对突然运动的注意。无论在什么情况下，都必须避免未经准备而接近可能的紧急情况。
 {% endhint %}
 
   
-    - If the entrance door needs to be opened to take measures for minor abnormalities (such as nozzle contact, deposition detection and arc abnormality) during a temporary stop, the same measures as taken for opening the door for the teaching should be taken.
+    - 如果在临时停止期间需打开入口门以进行轻微异常（例如喷嘴接触、沉积检测和弧异常）措施，则应采取与打开教学门时相同的措施。
 
-* After completing the robot operation, clean the inside of the safety fence to make sure that no tools, oil or foreign substances remain. If the operation area is stained with oil, or if tools are left in the operation area, it could cause an accident such as falling over. Make sure that arranging and organizing are performed always.
-
+* 完成机器人操作后，清洁安全围栏内，以确保没有工具、油或异物残留。如果操作区域被油污污染，或工具遗留在操作区域，可能导致跌倒等事故。务必始终进行整理和归置。
 [__SOURCE](1-safety/11-robot-safety-measures-op/2-robot-safety-measures-test-run.md)
-# 1.11.2. Safety Measures When Trial-Operating the Robot
+# 1.11.2. 机器人试运行时的安全措施
 
 {% hint style="info" %}
-In the case of trial-operation, there may be a design error, a teaching error, or a defect in manufacturing with regard to the entire system including the teaching program, jigs, and sequencing. For this reason, you should work with elevated safety awareness in trial-operation. Multiple factors can contribute to safety accidents. Observe the following measures considering that safety is very important when trial-operating the robot.
+在试运行的情况下，整个系统（包括教学程序、夹具和顺序）可能存在设计错误、教学错误或制造缺陷。因此，在试运行时，应提高安全意识。多种因素可能导致安全事故。考虑到在试运行机器人时安全非常重要，请遵循以下措施。
 {% endhint %}
 
-* 	Before operating the robot, check the functions of buttons such as the emergency stop button and the stop button as well as the functions of relevant signals. After that, check the operation related to detection of abnormality. First of all, it is important to check all the signals that stop the robot. When an accident is expected, the most important thing is to stop the robot.
+* 在操作机器人之前，请检查紧急停止按钮和停止按钮等按钮的功能，以及相关信号的功能。之后，检查与异常检测相关的操作。首先，重要的是检查所有停止机器人信号。当预期发生事故时，最重要的是停止机器人。
 
-*	When performing trial opreation of the robot, first set it to manual mode, input a job program with which you can test all axes, and then check the operation by repeating more than 1 cycle for each step While the robot is moving, open the safety guard or remove the enabling switch (enabling swith on the teaching pendant) to see whether the robot stop. If a problem is found, press the emergency stop button to check whether the robot stops. If the emergency stop device does not perform its function well, immediately shut off the main power. After that, you should call the responsible aftersales person. If there is no problem, increase the speed in sequence (50% → 75% → 100%), and check the operation by repeating more than 1 cycle each. Operating at high speed from the beginning may lead to a major accident.
+* 在进行机器人试运行时，首先将其设置为手动模式，输入可以测试所有轴的作业程序，然后通过对每个步骤重复超过1次循环来检查操作。在机器人移动时，打开安全护罩或移除启用开关（教学挂件上的启用开关），以查看机器人是否停止。如果发现问题，按下紧急停止按钮以检查机器人是否停止。如果紧急停止装置未能正常工作，请立即关闭主电源。之后，您应该联系负责的售后人员。如果没有问题，按顺序提高速度（50% → 75% → 100%），并每次检查超过1次循环的操作。从一开始以高速操作可能会导致重大事故。
 
-*	It is not possible to predict what kind of problem will occur during trial-operation. Never enter inside the safety fence during trial-operation. As the reliability is low, it is very likely that unexpected accidents could occur
-
-
+* 在试运行期间无法预测将会发生什么样的问题。在试运行期间，切勿进入安全围栏。由于可靠性低，意外事故很可能会发生。
 [__SOURCE](1-safety/11-robot-safety-measures-op/3-robot-safety-measures-auto-run.md)
-# 1.11.3. Safety Measures for Auto Operation
+# 1.11.3. 自动操作的安全措施
 
-Observe the following measures considering that safety is very important when operating the robot in auto mode.
+考虑到在自动模式下操作机器人时安全非常重要，请遵循以下措施。
 
-* 	Put up a sign [No entry during operation] on the safety fence entrance and ask the worker to refrain from entering during operation. If the robot is stopped, you may enter inside the safety fence after judging the situation. 
+* 	在安全围栏入口处张贴 [操作期间禁止入内] 的标志，并要求工作人员在操作期间勿入内。如果机器人停止，您可以在判断情况后进入安全围栏内。 
 
-*	When starting the auto operation, you must check whether there is a worker inside the safety fence. If you work without checking whether there is a worker inside, it may cause an accident involving people. 
+*	在启动自动操作时，必须检查安全围栏内是否有工作人员。如果在未检查安全围栏内有工作人员的情况下工作，可能会导致涉及人员的事故。 
 
-*	When starting the auto operation, check first that that the program number, step number, mode, start selection, etc. are in proper state for auto operation. If you start the robot while an irrelevant program or step is selected, the robot may behave unexpectedly causing an accident. 
+*	在启动自动操作时，首先检查程序号、步骤号、模式、启动选择等是否处于适合自动操作的状态。如果在选择无关的程序或步骤时启动机器人，机器人可能产生意外行为，从而导致事故。 
 
-*	When starting the auto operation, check in advance that the robot is in the position where the robot can start the auto operation. Check also whether the program number or step number matches with the robot position. Even when the program or step is correct, if the robot is in a different position, an accident may occur due to an operation different from a normal operation 
+*	在启动自动操作前，提前检查机器人是否处于可以启动自动操作的位置。同时检查程序号或步骤号是否与机器人位置匹配。即使程序或步骤是正确的，如果机器人处于不同位置，可能会由于与正常操作不同的操作而发生事故。 
 
-*	Be prepared to press the emergency stop button immediately at the start of auto operation. If an unexpected robot operation or unexpecred situation occurs, immediately press the emergency stop button. 
+*	在启动自动操作时，准备好立即按下紧急停机按钮。如果发生机器人意外操作或意外情况，请立即按下紧急停机按钮。 
 
-*	Check the operation path, operation status, and operation sound, etc. of the robot to judge whether there is any abnormal state. The robot may suddenly cause an abnormality such as a failure, but it may give some symptoms before the failure occurs. In order to predict this in advance, it is required to well understand the normal operation status of the robot. 
+*	检查机器人的操作路径、操作状态和操作声音等，以判断是否存在异常状态。机器人可能会突然发生故障，但在故障发生之前可能会出现一些症状。为了提前预测这一点，要求充分了解机器人的正常操作状态。 
 
-*	If any abnormality is found, immediately make an emergency stop and take proper measure for it. Using the robot without proper measures could lead to a severe failure that may lead to production interruption and significant accidents involving people. 
+*	如果发现任何异常，请立即进行紧急停机并采取适当措施。未经适当措施使用机器人可能导致严重故障，可能导致生产中断和涉及人员的重大事故。 
 
-*	While completing measures and checking the operation after an abnormality occurred, do not operate the robot while the worker is still inside the safety fence. Unexpected accidents such as other abnormalities may occur as the reliability is low. 
+*	在发生异常后完成措施并检查操作时，工作人员仍在安全围栏内时，请勿操作机器人。由于可靠性低，可能会发生其他意外事故。 
 
-*	Before selecting the auto mode, if there is a safety device function that has been stopped, you should progress works after recovering the function back to completely normal state.
-
+*	在选择自动模式之前，如果有已停止的安全装置功能，必须在将功能恢复到完全正常状态后再进行工作。
 [__SOURCE](1-safety/12-enter-fence-safety-measure.md)
-# 1.12. Safety Measures When Entering Inside the Safety Fence
+# 1.12. 进入安全防护区域或围栏内的安全措施
 
-When required to enter the safety door in the robot operation area, a worker and a super visor who have received certain trainings should perform works in a group of two. Also, they must wear a safety helmet, protective glasses and safety shoes. The supervisor should be prepared to press the emergency stop switch at any time, and the worker must bring in the teach pendant when going inside, making impossible for other people to operate the robot. Must put up a sign on the control panel to indicate that the robot is being operated.
+当需要进入机器人操作区域的安全门时，已接受特定培训的工作人员和监督员应以两人一组进行工作。此外，他们必须佩戴安全头盔、护目镜和安全鞋。监督员应随时准备按下紧急停止开关，而工作人员在进入时必须携带示教器，确保其他人无法操作机器人。必须在控制面板上张贴标志，以指示机器人正在操作。
 
-When you enter the robot operation area, you must full understand the following items. 
+当您进入机器人操作区域时，您必须充分了解以下事项。
 
-*	No one except for the teaching person should enter the robot operation area.
-*	The operation setting mode of the controller should be manual mode on the control panel.
-*	Always wear certified work clothes.
-*	Do not wear gloves when operating the controller.
-*	Don't let underwear, shirt, tie etc. come out of the work clothes.
-*	Do not wear large jewelry such as earrings, rings or necklaces.
-*	Must wear safety shoes, safety helmet and protective glasses, and, when necessary, should wear safety gear such as safety gloves.
-*	Before operating the robot, check if the emergency stop circuit is functioning well to turn off the motor when the emergency stop button on the control panel or the teach pendant is pressed
-*	Work in a position facing the manipulator.
-*	Follow predetermined work procedures.
-*	Thinking that the robot may rush towards you unexpectedly, you should prepare a method or place for evacuation. 
-
+* 除教学人员外，任何人不得进入机器人操作区域。
+* 控制器的操作设定模式应为控制面板上的手动模式。
+* 始终穿戴认证的工作服。
+* 操作控制器时不要戴手套。
+* 不要让内衣、衬衫、领带等露出工作服。
+* 不要佩戴耳环、戒指或项链等大型珠宝。
+* 必须穿戴安全鞋、安全头盔和护目镜，并在必要时应穿戴安全手套等安全设备。
+* 在操作机器人之前，检查紧急停止电路是否正常，以便在控制面板或示教器上按下紧急停止按钮时关闭电机。
+* 以面向操作臂的姿势工作。
+* 遵循既定的工作程序。
+* 要考虑到机器人可能会意外向您冲过来，您应准备好撤离的方法或地点。
 
 {% hint style="info" %}
-You should not be negligent in paying attention to sudden movements even when entry is made possible. Must avoid approaching without preparing for possible emergency situation under any circumstances.
+即使在允许进入时，也不应忽视对突发动作的注意。必须在任何情况下避免在未准备好应对可能的紧急情况的情况下靠近。
 {% endhint %}
-
-
 [__SOURCE](1-safety/13-maintenance-safety-measures/README.md)
-# 1.13. Safety Measures When Maintaining and Inspecting
+# 1.13. 维护和检查时的安全措施
 [__SOURCE](1-safety/13-maintenance-safety-measures/1-controller-maintenance-safety-measures.md)
-# 1.13.1. Safety Measures When Maintaining and Inspecting the Controller
+# 1.13.1. 维护和检查控制器时的安全措施
 
-Observe the following safety measures when maintaining and inspecting the robot controller.
+维护和检查机器人控制器时，请遵守以下安全措施。
 
-* 	Maintenance and inspection works should be performed only by those who have received special maintenance trainings and fully understand the related contents.
+*  维护和检查工作应仅由经过特殊维护培训并完全理解相关内容的人员进行。
 
-*	Progress the work according to the controller maintenance and inspection procedures.
+*  根据控制器的维护和检查程序推进工作。
 
-*	For the maintenance and inspection works, you must check the surroundings for safety and secure a passage or a place to avoid danger before progressing the work safely.
+*  在进行维护和检查工作时，必须检查周围环境的安全，并确保通道或场所以避免危险，确保安全地推进工作。
 
-*	Must turn off the power before performing daily inspection or maintenance of the robot or replacement of parts. In addition, in order to prevent other workers from inadvertently turning on the power, put a warning marking such as [Power-On Prohibited] on the primary power supply. 
+*  在进行每日检查或维护机器人或更换零件之前，必须关闭电源。此外，为了防止其他工人意外打开电源，请在主电源上贴上[禁止开启电源]等警告标志。
 
-*	Always use the designated replacement parts. 
+*  始终使用指定的替换零件。
 
-*	When required to open the controller door, you must turn off the power first and then wait for about 3 minutes before starting the work.
+*  当需要打开控制器门时，必须先关闭电源，然后等待约3分钟再开始工作。
 
-*	Use external lighting when sufficient illumination is not secured when performing maintenance and inspection works inside the controller.
+*  在控制器内部进行维护和检查工作时，如果照明不足，请使用外部照明。
 
-*	Do not touch the heat sink and regenerative resistor of the servo amplifier because they generate excessive heat. After maintenance, check whether tools, foreign substances, etc. are left behind inside the controller, and then close the door securely.
-
+*  不要触摸伺服放大器的散热器和再生电阻，因为它们会产生过多的热量。维护后，请检查工具、异物等是否留在控制器内部，然后 securely 关闭门。
 [__SOURCE](1-safety/13-maintenance-safety-measures/2-robot-maintenance-safety-measures.md)
-# 1.13.2. Safety Measures When Maintaining and Inspecting the Robot System and Manipulator
+# 1.13.2. 维护和检查机器人系统和机械手时的安全措施
 
-Observe the following safety measures when maintaining and inspecting the robot system and manipulator.
+在维护和检查机器人系统和机械手时，请遵守以下安全措施。
 
-* 	Refer to safety measures for the maintenance and inspection of the controller.
+* 	参考控制器的维护和检查安全措施。
 
-*	When maintaining and inspecting the robot system and manipulator, proceed with the work according to the instructed procedures.
+*	在维护和检查机器人系统和机械手时，应按照指示的程序进行操作。
 
-*	Must cut off the main power of the controller. In order to prevent other workers from powering it up again, put a warning marking such as [Power-On Prohibited] on the primary power supply.
+*	必须切断控制器的主电源。为了防止其他工人再次通电，请在主电源上贴上[禁止通电]等警告标志。
  
 
 {% hint style="info" %}
-During maintenance and inspection of the manipulator, the robot arm may fall, or there could be a different type of danger. So, you must proceed with the work according to the instructed procedures. 
+在维护和检查机械手时，机器人手臂可能会掉落，或者可能存在其他类型的危险。因此，您必须按照指示的程序进行操作。 
 {% endhint %}
 
 
 {% hint style="info" %}
-When moving the axis of the robot without driving force applied, there is a risk of the axis dropping due to gravity and also an additional risk due to the release of the brake system. So, you must proceed with the work according to the instructed procedures.
+在没有施加驱动力的情况下移动机器人轴时，存在由于重力导致轴下落的风险，以及由于刹车系统释放而带来的额外风险。因此，您必须按照指示的程序进行操作。
 {% endhint %}
-
 [__SOURCE](1-safety/13-maintenance-safety-measures/3-measures-after-maintenance.md)
-# 1.13.3. Actions to Take after Maintenance and Inspection
+# 1.13.3. 维护和检查后应采取的措施
 
-Observe the following actions after maintenance and inspection.
+观察维护和检查后以下措施。
 
-*	Check if the wires or parts inside the controller are connected normally.
+* 检查控制器内部的电线或部件是否正常连接。
 
-*	After maintenance, check whether any tool is left behind inside and around the controller, manipulator or the robot system, and keep them surely arranged and organized. Must close every door.
+* 维护后，检查在控制器、操纵器或机器人系统内部和周围是否遗留任何工具，并确保它们被正确安排和组织。必须关闭每个门。
 
-*	If any problem or fatal defect is found, do not turn on the power of the robot.
+* 如果发现任何问题或致命缺陷，请勿开启机器人的电源。
 
-*	Turn on the main breaker in the control panel.
+* 打开控制面板中的主断路器。
 
-*	Check the current position and status of the robot. 
+* 检查机器人的当前位置和状态。
 
-*	Operate the robot at a low speed.
-
+* 以低速操作机器人。
 
 {% hint style="info" %}
-Before turning on the power, check that there is no worker inside the robot operation area and you are in a safe place
+在开启电源之前，请检查机器人操作区域内没有工人，并确保您处于安全的位置。
 {% endhint %}
 
 {% hint style="warning" %}
-When it comes to the change of components or additoin of optional equipment (both hardware and software) to the robot both of which may affect safety-related functions, you must check whether the functions are in normal conditions, by paying attention to the items described in "1.11 Safety Works When Operating the Robot". 
+当涉及更换组件或添加可能影响安全相关功能的可选设备（包括硬件和软件）时，您必须检查这些功能是否处于正常状态，注意“1.11 操作机器人时的安全工作”中描述的事项。
 {% endhint %}
-
-
 [__SOURCE](1-safety/14-end-effector-safety/README.md)
-# 1.14. Safety Related to End Effctors
+# 1.14. 与末端执行器相关的安全
 
 {% hint style="warning" %}
-When installing and operating end effectors, you must comply with ISO 10218-1:2018 in applying, maintaining and operating them.
+安装和操作末端执行器时，必须遵守 ISO 10218-1:2018 的应用、维护和操作要求。
 {% endhint %}
 
-
-Refer to the maintenance manual of each robot for detailed specifications regarding the installation of end effectors.
+请参阅每个机器人的维护手册，以获取有关末端执行器安装的详细规格。
 [__SOURCE](1-safety/14-end-effector-safety/1-gripper.md)
 # 1.14.1. Gripper
 
-* 	When a gripper is used to hold a workpiece, there should be a measure to take against abrupt dropping of the workpiece.
+* 当夹具用于夹持工件时，应采取措施以防止工件突然掉落。
 
-*	When installing the device onto an end effector or arm, you should use the bolts of specified sizes and the specified number of bolts, and tighten them completely according to regulated torques by using torque wrenches. You should use bolts that are not rusted or stained.
+* 在将设备安装到末端执行器或臂上时，您应使用规定尺寸和规定数量的螺栓，并使用扭矩扳手按照规定的扭矩完全紧固。您应使用未生锈或未污染的螺栓。
 
-*	When manufacturing an end effector, you should take into account that it can be used within the allowable load value of the wrist of the robot. An end effector should hava a structure that will not allow a gripped material to be released or dropped even when the power supply or air supply is interrupted, and the corners and protrusions should be surely treated in order to prevent people or objects from suffering any damage.
-
-
+* 在制造末端执行器时，应考虑使其能够在机器人腕部的允许负载值范围内使用。末端执行器应具有结构，即使在电源或气源中断时，也不会释放或掉落夹持的材料，应确保对角落和突起进行处理，以防止人员或物体受到损害。
 [__SOURCE](1-safety/14-end-effector-safety/2-tool-work.md)
-# 1.14.2. Tools/Workpieces
+# 1.14.2. 工具/工件
 
-* 	It should be possible to safely change tools such as a milling cutter. Until the cutter stops rotating, the safety devices should surely perform proper functions.
+* 应该能够安全更换工具，例如铣刀。在铣刀停止旋转之前，安全装置应确保执行适当的功能。
 
-*	The tool should be designed in a way that the workpiece will not have any abnormality even when a sudden power failure or control failure occurs. In manual operation, it should be possible to separate the workpiece.
-
-
+* 工具的设计应确保在发生突然断电或控制故障时，工件不会出现任何异常。在手动操作时，应能够分离工件。
 [__SOURCE](1-safety/14-end-effector-safety/3-pneumatic-hydraulic-system.md)
-# 1.14.3. Pneumatic / Hydraulic Systems
+# 1.14.3. 气动 / 液压系统
 
-* 	Special safety laws will be applied to the pneumatic and hydraulic systems. 
+* 	特殊安全法律将适用于气动和液压系统。
 
-*	In this type of systems, as residual energy may remain even after the system is shut down, you should pay attention in particular. Before repairing the pneumatic or hydraulic systems, you must remove the pressure inside the devices.
-
+*	在这类系统中，由于在系统关闭后可能仍然存在残余能量，因此您需要特别注意。 在修理气动或液压系统之前，您必须排除设备内部的压力。
 [__SOURCE](2-details/README.md)
-# 2. Details of Specifications
-
+# 2. 详细配置
 [__SOURCE](2-details/1-detail-spec-controller-model.md)
-# 2.1. Details of Specifications of Each Controller Model
+# 2.1. 各控制器型号的详细配置
 
-Table 2-1 Details of Specifications of Each Controller Model
+Table 2-1 各控制器型号的详细配置
 
 <table>
 <thead>
   <tr>
-    <th colspan="2">&nbsp;&nbsp;&nbsp;<br>Model&nbsp;&nbsp;&nbsp;</th>
+    <th colspan="2">&nbsp;&nbsp;&nbsp;<br>型号&nbsp;&nbsp;&nbsp;</th>
     <th><br>Hi6-N00-A0<br>Hi6-N30-A0<br>Hi6-N80-A0</th>
     <th><br>Hi6-N00U-A0<br>Hi6-N30U-A0<br>Hi6-N80U-A0</th>
   </tr>
@@ -805,134 +748,134 @@ Table 2-1 Details of Specifications of Each Controller Model
 <tbody>
   <tr>
     <td colspan="2">&nbsp;&nbsp;&nbsp;<br>CPU&nbsp;&nbsp;&nbsp;</td>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>2.7GHz Dual core&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>2.7GHz 双核&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Program execution method&nbsp;&nbsp;&nbsp;</td>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Teaching &amp; playback&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>程序执行方式&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>教学与回放&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Opertion method&nbsp;&nbsp;&nbsp;</td>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Menu-based&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>操作方式&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>基于菜单&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Interpolation type&nbsp;&nbsp;&nbsp;</td>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>PTP, linear and circular&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>插值类型&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>PTP、线性和圆形&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Memory backup method&nbsp;&nbsp;&nbsp;</td>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Battery backup IC memory&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>内存备份方式&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>电池备份IC内存&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Encoder type&nbsp;&nbsp;&nbsp;</td>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Absolute encoder&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>编码器类型&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>绝对编码器&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Servo drive unit&nbsp;&nbsp;&nbsp;</td>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>6 axes integrated, digital servo&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>伺服驱动单元&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>6轴集成，数字伺服&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Maximum number of units&nbsp;&nbsp;&nbsp;</td>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Maximum 32 axes simultaneously&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>最大单元数量&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>最多32轴同时&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Step&nbsp;&nbsp;&nbsp;</td>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>10,000,000 steps&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>步长&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>10,000,000步&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Program selection&nbsp;&nbsp;&nbsp;</td>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>255 (binary)/8 (discret)&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>程序选择&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>255（双进制）/8（离散）&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Display on the teach pendant&nbsp;&nbsp;&nbsp;</td>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>7-inch colorful TFT-LCD (800x480)&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>教学手柄上的显示&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>7寸彩色TFT-LCD（800x480）&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Fieldbus interface&nbsp;&nbsp;&nbsp;(optional)&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>现场总线接口&nbsp;&nbsp;&nbsp;（可选）&nbsp;&nbsp;&nbsp;</td>
     <td colspan="2">&nbsp;&nbsp;&nbsp;<br>DeviceNet,&nbsp;&nbsp;&nbsp;ProfiNET, Modbus TCP/UDP, EtherCAT &nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Digital I/O<br>&nbsp;&nbsp;&nbsp;(optional)&nbsp;&nbsp;&nbsp;</td>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Input: 8 points (maximum 496 points) / Output: 8 points (maximum 496 points)&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>数字I/O<br>&nbsp;&nbsp;&nbsp;（可选）&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>输入：8点（最多496点）/ 输出：8点（最多496点）&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Analogue I/O<br>&nbsp;&nbsp;&nbsp;(optional)&nbsp;&nbsp;&nbsp;</td>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Input: 4 points / Output: 4 points&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>模拟I/O<br>&nbsp;&nbsp;&nbsp;（可选）&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>输入：4点 / 输出：4点&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Conveyor pulse counter&nbsp;&nbsp;&nbsp;(optional)&nbsp;&nbsp;&nbsp;</td>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Line driver / Open collector&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>输送脉冲计数器&nbsp;&nbsp;&nbsp;（可选）&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>线路驱动程序 / 开放收集器&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Communication interface&nbsp;&nbsp;&nbsp;</td>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>3Ethernet port/ 2 USB 2.0 ports/ 2 RS232 ports&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>通信接口&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>3个以太网端口 / 2个USB 2.0端口 / 2个RS232端口&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td rowspan="4">&nbsp;&nbsp;&nbsp;<br>Circuit board&nbsp;&nbsp;&nbsp;</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>Main module&nbsp;&nbsp;&nbsp;</td>
+    <td rowspan="4">&nbsp;&nbsp;&nbsp;<br>电路板&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>主模块&nbsp;&nbsp;&nbsp;</td>
     <td colspan="2">&nbsp;&nbsp;&nbsp;<br>H6COM-T&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td>&nbsp;&nbsp;&nbsp;<br>Servo board&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>伺服板&nbsp;&nbsp;&nbsp;</td>
     <td colspan="2">&nbsp;&nbsp;&nbsp;<br>BD640&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td>&nbsp;&nbsp;&nbsp;<br>Safety module&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>安全模块&nbsp;&nbsp;&nbsp;</td>
     <td colspan="2">&nbsp;&nbsp;&nbsp;<br>BD632&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td>&nbsp;&nbsp;&nbsp;<br>Power supply module&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>电源模块&nbsp;&nbsp;&nbsp;</td>
     <td colspan="2">&nbsp;&nbsp;&nbsp;<br>H6PSM(BD6C2)&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td rowspan="2">&nbsp;&nbsp;&nbsp;<br>Drive&nbsp;&nbsp;&nbsp;module&nbsp;&nbsp;&nbsp;</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>For medium-sized 6 axes</td>
+    <td rowspan="2">&nbsp;&nbsp;&nbsp;<br>驱动&nbsp;&nbsp;&nbsp;模块&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>中型6轴</td>
     <td colspan="2"><br>N00(U)-A0 : H6D6X<br>N80(U)-A0 : H6D6X<br>N30(U)-A0 : H6D6A</td>
   </tr>
   <tr>
-    <td>&nbsp;&nbsp;&nbsp;<br>For one additional axis&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>一个附加轴&nbsp;&nbsp;&nbsp;</td>
     <td colspan="2">&nbsp;&nbsp;&nbsp;<br>H6D1X, H6D1Z&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Wire harness&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>线束&nbsp;&nbsp;&nbsp;</td>
     <td colspan="2">&nbsp;&nbsp;&nbsp;<br>CMC1, CMC2, CEC1&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Teach pendant&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>教学手柄&nbsp;&nbsp;&nbsp;</td>
     <td colspan="2">&nbsp;&nbsp;&nbsp;<br>TP630&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Rated supply voltage&nbsp;&nbsp;&nbsp;</td>
-    <td><br>3-phase 220V(50/60 Hz)±10%±10%<br>Option: 3-phase 380V, 400V, 415V and 440V</td>
-    <td><br>3-phase 220V(50/60 Hz)±10%<br>Option: 3-phase 460V and 480V</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>额定供电电压&nbsp;&nbsp;&nbsp;</td>
+    <td><br>三相220V(50/60 Hz)±10%±10%<br>选项：三相380V, 400V, 415V和440V</td>
+    <td><br>三相220V(50/60 Hz)±10%<br>选项：三相460V和480V</td>
   </tr>
   <tr>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Maximum power consumption&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>最大功率消耗&nbsp;&nbsp;&nbsp;</td>
     <td colspan="2"><br>Hi6-N80(U)-A0:10.5KVA<br>Hi6-N00(U)-A0: 7.8KVA<br>Hi6-N30(U)-A0: 4.4KVA&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Operation temperature&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>工作温度&nbsp;&nbsp;&nbsp;</td>
     <td colspan="2">&nbsp;&nbsp;&nbsp;<br>0 ~ 45 ℃&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Operation humidity&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>工作湿度&nbsp;&nbsp;&nbsp;</td>
     <td colspan="2">&nbsp;&nbsp;&nbsp;<br>75%&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Protection grade&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>保护等级&nbsp;&nbsp;&nbsp;</td>
     <td colspan="2">&nbsp;&nbsp;&nbsp;<br>IP54&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Noise level&nbsp;&nbsp;&nbsp;</td>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Maximum 68 dB&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>噪声级别&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>最大68 dB&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Exterior diemsion*1 (WxHxD)<br>&nbsp;&nbsp;&nbsp;(WxHxD)&nbsp;&nbsp;&nbsp;</td>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>W650xD560xH580 (mm)<br>Caster 100mm Exclude&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>外形尺寸*1 (WxHxD)<br>&nbsp;&nbsp;&nbsp;(WxHxD)&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>W650xD560xH580 (mm)<br>脚轮100mm不包括&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Weight&nbsp;&nbsp;&nbsp;</td>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>Standard Voltage Specification(Exclude TR)<br>Hi6-N30(U): 120kg<br>Hi6-N00(U): 120kg<br>Hi6-N80(U): 125kg<br><br>Optional Voltage Specification(Include TR)<br>Hi6-N30(U): 165kg<br>Hi6-N00(U): 185kg<br>Hi6-N80(U): 195kg</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>重量&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>标准电压规格（不包括TR）<br>Hi6-N30(U): 120kg<br>Hi6-N00(U): 120kg<br>Hi6-N80(U): 125kg<br><br>选配电压规格（包括TR）<br>Hi6-N30(U): 165kg<br>Hi6-N00(U): 185kg<br>Hi6-N80(U): 195kg</td>
   </tr>
 </tbody>
 </table>
@@ -943,52 +886,52 @@ Table 2-2 Power Requirements
 <table>
 <thead>
   <tr>
-    <th>&nbsp;&nbsp;&nbsp;<br>Controller type&nbsp;&nbsp;&nbsp;</th>
-    <th>&nbsp;&nbsp;&nbsp;<br>Capacity *1) [KVA]&nbsp;&nbsp;&nbsp;</th>
-    <th>&nbsp;&nbsp;&nbsp;<br>Input voltage *2) [V]&nbsp;&nbsp;&nbsp;</th>
-    <th>&nbsp;&nbsp;&nbsp;<br>Frequency[Hz]&nbsp;&nbsp;&nbsp;</th>
-    <th>&nbsp;&nbsp;&nbsp;<br>Peak current [A]&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>控制器类型&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>容量 *1) [KVA]&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>输入电压 *2) [V]&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>频率[Hz]&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>峰值电流 [A]&nbsp;&nbsp;&nbsp;</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td>&nbsp;&nbsp;&nbsp;<br>Hi6-N30&nbsp;&nbsp;&nbsp;</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>Max. 4.4 KVA&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>最大4.4 KVA&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>220/380/400/415/440V&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>50/60&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>15 A&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td>&nbsp;&nbsp;&nbsp;<br>Hi6-N00&nbsp;&nbsp;&nbsp;</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>Max. 7.8 KVA&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>最大7.8 KVA&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>220/380/400/415/440V&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>50/60&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>30 A&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td>&nbsp;&nbsp;&nbsp;<br>Hi6-N80&nbsp;&nbsp;&nbsp;</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>Max. 10.5 KVA&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>最大10.5 KVA&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>220/380/400/415/440V&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>50/60&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>50 A&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td>&nbsp;&nbsp;&nbsp;<br>Hi6-N30U&nbsp;&nbsp;&nbsp;</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>Max. 4.4 KVA&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>最大4.4 KVA&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>460/480V&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>50/60&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>15 A&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td>&nbsp;&nbsp;&nbsp;<br>Hi6-N00U&nbsp;&nbsp;&nbsp;</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>Max. 7.8 KVA&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>最大7.8 KVA&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>460/480V&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>50/60&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>30 A&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td>&nbsp;&nbsp;&nbsp;<br>Hi6-N80U&nbsp;&nbsp;&nbsp;</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>Max. 10.5 KVA&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>最大10.5 KVA&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>460/480V&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>50/60&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>50 A&nbsp;&nbsp;&nbsp;</td>
@@ -996,65 +939,56 @@ Table 2-2 Power Requirements
 </tbody>
 </table>
 
+Note 1) 功率容量：指控制器的供电容量。有关每个机器人的功率容量，请参阅操纵器维护手册。
 
-Note 1) Power capacity: Refers to the power supply capacity of the controller. For the power capacity of each robot, refer to the manipulator maintenance manual.
-
-Note 2) Voltage range: ±10% (at the power terminal of the controller)
-
+Note 2) 电压范围：±10%（在控制器的电源端子上）
 [__SOURCE](2-details/2-controller-appearance.md)
-# 2.2. Exterior of the Controller
+# 2.2. 控制器外观
 
 ![](../_assets/2.2._제어기_외관(Hi6).png )
 
-Figure 2.1 Front Exterior of the Controller
-
-
+Figure 2.1 控制器的前外观
 [__SOURCE](3-installation/README.md)
-# 3. Installation of the Controller
+# 3. 控制器的安装
 
-If you properly install, transport, and store the product in consideration of the position and direction of the installation and the size of the surrounding space, you can secure the service life of the product and prevent the degradation of its performance.
+如果您考虑到安装的位置和方向以及周围空间的大小，正确安装、运输和存储产品，您可以确保产品的使用寿命并防止其性能下降。
 
-*	Checking of the installation and use environments
+*	检查安装和使用环境
 
-*	Transport of the controller
+*	控制器的运输
 
-*	Storage of the controller
+*	控制器的存储
 
-*	Discarding of the controller
+*	控制器的处置
 
 
 {% hint style="info" %}
-Before installing the product, you must perform a risk assessment sufficiently and then set the safety function based on the assement results. For details on safety functions, refer to "1. Safety".
+在安装产品之前，您必须充分进行风险评估，然后根据评估结果设置安全功能。有关安全功能的详细信息，请参阅“1. 安全”。
 {% endhint %}
-
-
 [__SOURCE](3-installation/1-configuration/README.md)
-# 3.1. Configuration
-
+# 3.1. 配置
 [__SOURCE](3-installation/1-configuration/1-basic-configuration.md)
-# 3.1.1. Basic Configuration
+# 3.1.1. 基本配置
 
 ![](../../_assets/그림_3.1_산업용_로봇_설치의_기본_구성.png)
 
-Figure 3.1 Basic Installation Configuration of the Industrial Robot
+Figure 3.1 工业机器人基本安装配置
 
-* 	Hi6 controller
+* 	Hi6 控制器
 
-*	Teaching pendant
+*	教学手柄
 
-*	Wire harness (Hi6 controller ↔ robot)
+*	电缆束 (Hi6 控制器 ↔ 机器人)
 
-*	Robot
-
-
+*	机器人
 [__SOURCE](3-installation/1-configuration/2-various-name-plates.md)
-# 3.1.2. Checking of Various Name Plates
+# 3.1.2. 检查各种名称标签
 
 ![](../../_assets/그림_1.1_안전라벨.png  )
 
-Figure 3.2 Controller's Labels <br/><br/>
+图 3.2 控制器标签 <br/><br/>
 
-Table 3-1 Label Type
+表 3-1 标签类型
 
 ![](../../_assets/표3-1_라벨_종류-1.png  )
 
@@ -1064,189 +998,170 @@ Table 3-1 Label Type
 
 
 {% hint style="warning" %}
-Any act of damaging the safety labels, such as relocating the name plates, warning markings, safety symbols, name markings and wire markings or painting over them or blocking them with a cover is prohibited. 
+任何损坏安全标签的行为，例如移动名称标签、警告标记、安全符号、名称标记和电缆标记，或涂抹、覆盖它们是被禁止的。
 {% endhint %}
 
 
 {% hint style="info" %}
-Mark the installation and dangerous areas of the robot in a way that they can be differentiated from other facilities and devices in terms of type, color and style.
+以便于与其他设施和设备在类型、颜色和风格上区分的方式标记机器人的安装和危险区域。
 {% endhint %}
-
 [__SOURCE](3-installation/2-install-use-env.md)
-# 3.2. Installation and Use Environmets 
+# 3.2. 安装和使用环境
 
-Install the product in an appropriate place in consideration of the installation and use environments and conditions.
+在考虑安装和使用环境及条件的情况下，将产品安装在合适的地方。
 
-*	The proper use temperature of the product is 0℃ - 45℃, and the proper storage humidity is 20 to 85%RH.
+*	产品的适用温度为 0℃ - 45℃，适宜的储存湿度为 20% 到 85%RH。
 
-*	Do not drop the product or apply a strong impact to it while moving or using it.
+*	在移动或使用时，请勿将产品摔落或施加强烈冲击。
 
-*	Transport and install the product in a correct way based on the weight of the product while paying attention to the safety.
+*	在运输和安装产品时，请根据产品的重量正确操作，同时注意安全。
 
-*	Install and use the product in a solid, flat and vibration-free area where the product will not turn over easily.
+*	在坚固、平坦且无震动的区域安装和使用产品，以避免产品轻易翻倒。
 
-*	Do not install and use the product in an area with a lot of foreign substances such as water, moisture, gas, dust, or in a dirty place.
+*	请勿在有大量外来物质的区域（如水、潮气、气体、灰尘）或肮脏的地方安装和使用产品。
 
-*	Do not install or use the product in an area with flammable and corrosive substances or gases, or in an area wherer heat is generated, or near heat of fire.
+*	请勿在含有易燃和腐蚀性物质或气体的区域，或在产生热量的区域，或靠近火源的地方安装或使用产品。
 
-*	Do not install or use the product in an area that has a source of strong electrical noise or is affected by it.
+*	请勿在有强电噪声源或受其影响的区域安装或使用产品。
 
-*	Install the controller in a safe area by referring to "1.10 Safety Measures When Installing".
+*	根据“1.10 安装时的安全措施”将控制器安装在安全区域。
 
-*	Carry out the controller maintenance work by referring to "1.13. Safety Measures When Maintaining and Inspecting".
+*	根据“1.13 维护和检查时的安全措施”进行控制器的维护工作。
 
-*	When installing the product in an area where welding work is performed, install the product in a location where there will be no effect from welding spatter and cooling water.
+*	在焊接作业进行的区域安装产品时，请安装在不会受到焊接飞溅和冷却水影响的位置。
 
-*	When installing the controller, keep a distance of at least 500mm if there is a wall or obstacle nearby.
+*	在安装控制器时，如果附近有墙壁或障碍物，请保持至少 500mm 的距离。
 
-*	For the matters related to the installation of the robot, refer to each robot maintenance manual.
-
+*	有关机器人安装的事项，请参考各自的机器人维护手册。
 
 {% hint style="info" %}
-If the product is not installed in the recommended locations, the performance and service life of the product may be reduced. Install and use the product according to the recommendations.
+如果未在推荐位置安装产品，可能会降低产品的性能和使用寿命。请根据推荐进行产品的安装和使用。
 {% endhint %}
 
 {% hint style="warning" %}
-The robot should be installed and operated according to the guidelines of ISO 10218-2. In addition, it is required to comply with the relevant requirements of international standards and national laws. 
-Our company (or the manufacturer) will not be responsible for any accidents that occur due to not complying with the relevant requirements of international standards and national laws or due to not reviewing the "risk assessment".
+机器人必须根据 ISO 10218-2 的指导方针进行安装和操作。此外，必须遵守国际标准和国家法律的相关要求。
+我们的公司（或制造商）将不对因未遵守国际标准和国家法律的相关要求或未审查“风险评估”而发生的任何事故负责。
 {% endhint %}
-
-
 [__SOURCE](3-installation/3-controller-transport/README.md)
-# 3.3. Transport of the Controller
+# 3.3. 控制器的运输
 
-The following items describle the precautions to take in packing, transporting, and unpacking the Hi6 controller. Rrefer to the robot maintenance manual for the matters related to the packing and transport of the robot.
+以下项目描述了在打包、运输和拆解 Hi6 控制器时应采取的预防措施。有关机器人打包和运输的事项，请参阅机器人维护手册。
 [__SOURCE](3-installation/3-controller-transport/1-packaging.md)
-# 3.3.1. Packing
+# 3.3.1. 包装
 
-* 	Attach the model name plate to the box.
+* 	将型号铭牌附加到箱子上。
 
-*	Protect all exposed connectors with a dust cap or polyvinyl.
+*	用防尘盖或聚氯乙烯保护所有暴露的连接器。
 
-*	When the teach pendant is packaged in a box, use an air-filled cushioning to prevent the LCD from getting damaged due to external impact.
+*	当教导显示器包装在箱子内时，使用充气缓冲材料以防止LCD因外部冲击而受损。
 
-*	Attach the waterproofed packing list to the outside of the box.
-
-
+*	将防水的包装清单附在箱子外部。
 [__SOURCE](3-installation/3-controller-transport/2-carrying-weight-modi.md)
-# 3.3.2. Transport (Modifying the Weight)
+# 3.3.2. 运输 (修改重量)
 
-* 	Check whether the front door of the controller is completely locked.
+* 检查控制器的前门是否完全锁定。
 
-*	Remove anything that is not fixed onto the controller.
+* 移除控制器上未固定的任何物品。
 
-*	Check if the eye bolts on the controller are surely fastened.
+* 检查控制器上的眼螺栓是否牢固。
 
-*	As the controller is a precision device, pay attention to the transport of it to prevent any strong impact from being applied to it.
+* 由于控制器是精密设备，注意运输时防止受到强烈冲击。
 
-*	The weight of the controller is maximum 200kg. When using a crane, take precautions to prevent an object on the controller from being damaged by the wire. 
+* 控制器的最大重量为200kg。使用起重机时，采取预防措施以防止控制器上的物品被钢丝损坏。
 
-* For the weight of the controller, refer to "2. Details of Specifications'.
+* 有关控制器的重量，请参见"2. 详细配置"。
 
-*	 When using a forklift, fix the controller in a way to prevent the controller from shaking.
+* 使用叉车时，以防止控制器摇晃的方式固定控制器。
 
-*	When moving the product by vehicle, fix the manipulator and controller by using squids.
+* 使用车辆移动产品时，使用绳索固定机械手和控制器。
 
-*	When transporting the product, fully understand the contents related to the packing and transport, and follow the instructions. Our company will not be responsible for any damage to or breaking of the product due to customer's carelessness, inexperience in operation, or negligence.
+* 运输产品时，充分了解与包装和运输相关的内容，并遵循说明。我们的公司对因客户疏忽、操作经验不足或粗心造成的产品损坏或破损不承担任何责任。
 
-*	Check the following items when transporting the controller by using a crane.
+* 使用起重机运输控制器时，请检查以下项目。
 
+    - 通常，控制器应使用眼螺栓所用的起重机钢丝运输。
+    - 检查钢丝是否有足够的强度承受控制器的重量。
+    - 检查眼螺栓是否紧固。
 
-    - 	In general, the controller should be transported by using crane wires for which eye bolts are used.
-    -	Check whether the wires have sufficient strength to withstand the weight of the controller.
-    -	Check whether the eye bolts are fastened tightly.
+![](../../_assets/그림_3.3_제어기_와이어_연결_위치.png)
 
+图 3.3 控制器线缆连接位置
 
-![](../../_assets/그림_3.3_제어기_와이어_연결_위치.png  )
+* 使用叉车运输控制器时，请检查以下项目，
+    - 使用钢丝绳运输产品时，使用能承受控制器重量的钢丝。
+    - 检查眼螺栓是否牢固固定。
+    - 运输控制器时尽可能保持低位。<br/><br/>
 
-Figure 3.3 Controller Wire Connection Position
+![](../../_assets/그림_3.4_지게차를_이용한_제어기_운반.png)
 
-*	Check the following items when transporting the controller by using a forklift,
-    -	When transporting the product by using wire ropes, use a wire that can withstand the weight of the controller.
-    -	Check whether the eyebolts are firmly fixed.
-    -	Transport the controller while keeping it as low as possible.<br/><br/>
-
-
-![](../../_assets/그림_3.4_지게차를_이용한_제어기_운반.png  )
-
-Figure 3.4 Transport of the Controller by Using a Forklift
-
+图 3.4 使用叉车运输控制器
 
 {% hint style="warning" %}
-If you transport the product by uisng lifting equpment, you should comply with the relevant national and local safety regulations and equipment usage guidelines. When moving the product by using a crane, you must make sure that that no workers are under the product. Also, never work or walk under the crane or the product.
+如果您使用提升设备运输产品，您应遵守相关的国家和地方安全法规及设备使用指南。使用起重机移动产品时，必须确保没有工人在产品下方。同时，绝不要在起重机或产品下方工作或走动。
 {% endhint %}
-
-
-
 [__SOURCE](3-installation/3-controller-transport/3-unpackaging.md)
-# 3.3.3. Unpacking 
+# 3.3.3. 拆包 
 
-* 	Fully understand the safety regulations and other guidelines carefully before unpacking and installing the robot.
+* 	在拆包和安装机器人之前，请充分了解安全规定和其他指南。
 
-*	Unpack the product according to the unpacking instructions.
+*	根据拆包说明拆开产品。
 
-*	Check whether the location is an area where the robot and controller can be safely installed.
+*	检查位置是否是机器人和控制器可以安全安装的区域。
 
-*	Check if a path that allows the robot and controller to move safely is secured.
+*	检查是否确保了允许机器人和控制器安全移动的路径。
 
-*	Transport of the robot should be performed by a qualified person.
+*	机器人运输应由合格人员进行。
 
-*	When unpacking the product, check that whether there is any damage that might have occurred during transport or unpcking.
-
-
+*	拆包产品时，请检查在运输或拆包过程中是否有任何可能的损坏。
 [__SOURCE](3-installation/4-keep-controller.md)
-# 3.4. Storage of the Controller
+# 3.4. 控制器的存放
 
-When storing the controller, instead of installing it, refer to the following items.
-*	Store the controller while keeping it in the packaged state and seal the power and communication connection parts tightly.
+当存放控制器时，除了安装外，请参照以下事项。
+* 在保持包装状态下存放控制器，并将电源和通信连接部分密封紧实。
 
-*	When storing the controller for a long time, you must take safety measures against the risk of it falling over.
+* 长时间存放控制器时，必须采取安全措施以防其倾倒的风险。
 
-*	When storing the controller wrapped in packing material, pack it with a desiccant or store it in a dry place. If it is stored in a highly humid place, moisture may form inside the packing material, damaging the product.
+* 将控制器包裹在包装材料中存放时，请配备干燥剂或存放在干燥的地方。如果存放在潮湿的地方，包装材料内部可能会形成湿气，从而损坏产品。
 
-*	Avoid places where temperature and humidity may change easily (where condensation occurs) and store the controller in a cool, dry place where the ambient temperature ranges from -15 ℃ to 40 ℃.
+* 避免温度和湿度容易变化的地方（发生冷凝的地方），将控制器存放在环境温度范围为 -15 ℃ 至 40 ℃ 的凉爽干燥处。
 
-*	Do not store the controller in locations where there are chemical products, acid and alkali products, batteries, circuit breakers, etc.
-
-
+* 请勿将控制器存放在有化学产品、酸碱产品、电池、断路器等的地方。
 [__SOURCE](3-installation/5-disposal-controller.md)
-# 3.5. Discarding of the Controller
+# 3.5. 控制器的废弃
 
-In order to ensure user safety and protect the environment, certain parts should be managed and discarded according to specified methods, and if they contain industrial waste materials, they must never be discarded together with general industrial or household waste. When discarding all or part of the robot system, you must comply with the relevant national or local regulations and laws. For details on the discarding and disposal of the product, please contact our customer support team.
+为了确保用户安全和保护环境，某些部件应按照规定的方法进行管理和处置，如果它们包含工业废料，绝不能与一般工业或家庭垃圾一起丢弃。在废弃全部或部分机器人系统时，必须遵守相关的国家或地方法规和法律。有关产品的废弃和处理的详细信息，请联系客户支持团队。
 [__SOURCE](3-installation/6-connection/README.md)
-# 3.6. Connection
+# 3.6. 连接
 
 {% hint style="info" %}
-1. Before connecting the cables, turn "off" the controller's main power switch and lock it by using use a padlock. 
-2. The controller has DC400V charged energy. Be careful. 
-Turn "off" the power switch and then wait 5 minutes at least to discharge the charged energy.
-3. When handling the PCB, take precautions not to allow static electricity to damage it.
-4. Wiring and connection of wires must be performed by qualified personnel.
+1. 在连接电缆之前，请关闭控制器的主电源开关并使用挂锁将其锁定。
+2. 控制器具有DC400V的电能，请小心。
+关闭电源开关后，至少等待5分钟以放电储存的能量。
+3. 操作PCB时，请采取预防措施以防止静电损坏。
+4. 电缆的布线和连接必须由合格的人员进行。
 {% endhint %}
-
 [__SOURCE](3-installation/6-connection/1-teach-pendant-conn.md)
-# 3.6.1. Connection of the Teaching Pendant 
+# 3.6.1. 教学挂件的连接
 
-Connect the cable connector of the teaching pendant to the CNRTP receptacle of the controller.
+将教学挂件的电缆连接器连接到控制器的 CNRTP 插座。
 
-![](../../_assets/그림_3.5_Hi6-N_(U)_티칭펜던트의_접속.png  )
+![](../../_assets/그림_3.5_Hi6-N_(U)_티칭펜던트의_접속.png)
 
-Figure 3.5 Connection of Hi6-N**(U) Teaching Pendant  
-
+图 3.5 Hi6-N**(U) 教学挂件的连接
 [__SOURCE](3-installation/6-connection/2-robot-controller.md)
-# 3.6.2. Connection of the Manipulator and Controller
+# 3.6.2. 操作器与控制器的连接
 
-Connect between the manipulator and controller by using a wire harness. Check the names of individual receptacles while connecting them.
+使用电缆束连接操作器和控制器。连接时检查每个插口的名称。
 
 ![](../../_assets/3.6.2._로봇_본체와_제어기의_접속-1.png)<br/><br/>
 
-Wire Harness connection diagram
+电缆束连接图
 
 <table>
 <thead>
   <tr>
-    <th>&nbsp;&nbsp;&nbsp;<br>Hi6-N Controller&nbsp;&nbsp;&nbsp;</th>
-    <th>&nbsp;&nbsp;&nbsp;<br>ROBOT&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Hi6-N 控制器&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>机器人&nbsp;&nbsp;&nbsp;</th>
   </tr>
 </thead>
 <tbody>
@@ -1282,46 +1197,43 @@ Wire Harness connection diagram
 </table>
 
 {% hint style="info" %}
-Since the contact part of the connector for each robot may be different from the figure above, you must read the relevant robot maintenance manual carefully before connecting the wire harness.
+由于每个机器人的连接器接触部分可能与上述图形不同，因此在连接电缆束之前，您必须仔细阅读相关机器人的维护手册。
 {% endhint %}
 
 
-Figure 3.6 Connection of the Manipulator and Controller (Hi6-N**(U))
-
+图 3.6 操作器与控制器的连接 (Hi6-N**(U))
 [__SOURCE](3-installation/6-connection/3-controller-1st-power/README.md)
-# 3.6.3. Connectin of the Controller and Primary Power
+# 3.6.3. 控制器与主电源的连接
 
-Check whether the power has been removed from the primary power and breaker (NFB).
-In the case of a Hi6-N** controller, insert the power cable through the power inlet and then connect it to the breaker (NFB).
+检查主电源和断路器（NFB）是否已断电。
+在 Hi6-N** 控制器的情况下，将电源线插入电源入口，然后连接到断路器（NFB）。
 
-At this time, use a terminal receptable of an appropriate size for the end side of the primary power supply cable.
-
+此时，使用适当大小的终端插座连接主电源线的末端。
 
 ![](../../../_assets/그림_3.8_Hi6-N__U__제어기에_1차_전원_접속부.png  )
 
 ![](../../../_assets/그림_3.8_Hi6-N__U__제어기에_1차_전원_접속부_2.png  )
 
-Figure 3.7 Primary Power Connection Part of Hi6-N**(U) Controller
-
+图 3.7 Hi6-N**(U) 控制器的主电源连接部分
 [__SOURCE](3-installation/6-connection/3-controller-1st-power/1-req-power.md)
-# 3.6.3.1. Power Requirements 
+# 3.6.3.1. 电源要求 
 
-Table 3-2 Power Requirements 
+表 3-2 电源要求 
 
 <table>
 <tbody>
 <tr class="odd">
-<td><p><strong>No.</strong></p></td>
-<td><p><strong>Controller type</strong></p></td>
-<td><p><strong>Capacity*1)<sup>*1)</sup>[KVA]</strong></p></td>
-<td><p><strong>Input voltage<sup>*2)</sup>[V]</strong></p></td>
-<td><p><strong>Frequency[Hz]</strong></p></td>
-<td><p><strong>Peak current[A]</strong></p></td>
+<td><p><strong>编号</strong></p></td>
+<td><p><strong>控制器类型</strong></p></td>
+<td><p><strong>容量*1)<sup>*1)</sup>[KVA]</strong></p></td>
+<td><p><strong>输入电压<sup>*2)</sup>[V]</strong></p></td>
+<td><p><strong>频率[Hz]</strong></p></td>
+<td><p><strong>峰值电流[A]</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>1</strong></p></td>
 <td><p>Hi6-N00</p></td>
-<td><p>Max. 7.8KVA</p></td>
+<td><p>最大 7.8KVA</p></td>
 <td><p>220V/380V/400V/440V</p></td>
 <td><p>50/60</p></td>
 <td><p>30A</p></td>
@@ -1329,7 +1241,7 @@ Table 3-2 Power Requirements
 <tr class="odd">
 <td><p><strong>2</strong></p></td>
 <td><p>Hi6-N30</p></td>
-<td><p>Max. 4.4KVA</p></td>
+<td><p>最大 4.4KVA</p></td>
 <td><p>220V/380V/400V/440V</p></td>
 <td><p>50/60</p></td>
 <td><p>15A</p></td>
@@ -1337,7 +1249,7 @@ Table 3-2 Power Requirements
 <tr class="even">
 <td><p><strong>3</strong></p></td>
 <td><p>Hi6-N80</p></td>
-<td><p>Max. 10.5KVA</p></td>
+<td><p>最大 10.5KVA</p></td>
 <td><p>220V/380V/400V/440V</p></td>
 <td><p>50/60</p></td>
 <td><p>50A</p></td>
@@ -1345,7 +1257,7 @@ Table 3-2 Power Requirements
 <tr class="odd">
 <td><p><strong>4</strong></p></td>
 <td><p>Hi6-N00U</p></td>
-<td><p>Max. 7.8KVA</p></td>
+<td><p>最大 7.8KVA</p></td>
 <td><p>460V/480V</p></td>
 <td><p>50/60</p></td>
 <td><p>30A</p></td>
@@ -1353,7 +1265,7 @@ Table 3-2 Power Requirements
 <tr class="even">
 <td><p><strong>5</strong></p></td>
 <td><p>Hi6-N30U</p></td>
-<td><p>Max. 4.4KVA</p></td>
+<td><p>最大 4.4KVA</p></td>
 <td><p>460V/480V</p></td>
 <td><p>50/60</p></td>
 <td><p>15A</p></td>
@@ -1361,7 +1273,7 @@ Table 3-2 Power Requirements
 <tr class="odd">
 <td><p><strong>6</strong></p></td>
 <td><p>Hi6-N80U</p></td>
-<td><p>Max. 10.5KVA</p></td>
+<td><p>最大 10.5KVA</p></td>
 <td><p>460V/480V</p></td>
 <td><p>50/60</p></td>
 <td><p>50A</p></td>
@@ -1370,26 +1282,23 @@ Table 3-2 Power Requirements
 </table>
 
 
-Note 1) Power capacity
+注 1) 功率容量
 
-Refers to the power supply capacity of the controller. For the power capacity of each robot, refer to the "Manipulator Maintenance Manual".
+指控制器的电源容量。有关每个机器人的功率容量，请参见《操作器维护手册》。
 
-Note 2) Voltage range: ±10% (at the power terminal of the controller)
-
-
+注 2) 电压范围：±10%（在控制器的电源端子处）
 [__SOURCE](3-installation/6-connection/3-controller-1st-power/2-power-wire-thick.md)
-# 3.6.3.2. Power Cable Thickness 
+# 3.6.3.2. 电源电缆厚度 
 
-
-Table 3-3 Recommended Minimum Cable Thickness 
+表 3-3 推荐的最小电缆厚度 
 
 <table>
 <thead>
   <tr>
-    <th rowspan="2">&nbsp;&nbsp;&nbsp;<br>No.&nbsp;&nbsp;&nbsp;</th>
-    <th rowspan="2">&nbsp;&nbsp;&nbsp;<br>Cable length m(feet)&nbsp;&nbsp;&nbsp;</th>
-    <th colspan="2">&nbsp;&nbsp;&nbsp;<br>Cable thickness<br>&nbsp;&nbsp;&nbsp;<br>(Hi6-N00(U),Hi6-N80(U))&nbsp;&nbsp;&nbsp;</th>
-    <th colspan="2">&nbsp;&nbsp;&nbsp;<br>Cable thickness<br>&nbsp;&nbsp;&nbsp;<br>(Hi6-N30(U))&nbsp;&nbsp;&nbsp;</th>
+    <th rowspan="2">&nbsp;&nbsp;&nbsp;<br>编号&nbsp;&nbsp;&nbsp;</th>
+    <th rowspan="2">&nbsp;&nbsp;&nbsp;<br>电缆长度 m(英尺)&nbsp;&nbsp;&nbsp;</th>
+    <th colspan="2">&nbsp;&nbsp;&nbsp;<br>电缆厚度<br>&nbsp;&nbsp;&nbsp;<br>(Hi6-N00(U),Hi6-N80(U))&nbsp;&nbsp;&nbsp;</th>
+    <th colspan="2">&nbsp;&nbsp;&nbsp;<br>电缆厚度<br>&nbsp;&nbsp;&nbsp;<br>(Hi6-N30(U))&nbsp;&nbsp;&nbsp;</th>
   </tr>
   <tr>
     <th>&nbsp;&nbsp;&nbsp;<br>mm2&nbsp;&nbsp;&nbsp;</th>
@@ -1433,91 +1342,84 @@ Table 3-3 Recommended Minimum Cable Thickness
   </tr>
 </tbody>
 </table>
-
 [__SOURCE](3-installation/6-connection/4-controller-ground.md)
-# 3.6.4. The Controller and Grounding
+# 3.6.4. 控制器与接地
 
-For using the controller safely, connect the grounding wire to the controller. Use a grounding wire of 5.5㎟ or more. (Grounding of Category 3).
-
+为了安全使用控制器，请将接地线连接到控制器。使用5.5㎟或更大规格的接地线。（接地类别3）。
 [__SOURCE](3-installation/6-connection/5-other-caution.md)
-# 3.6.5. Other Cautions 
+# 3.6.5. 其他注意事项
 
 {% hint style="info" %}
-1. When wiring the controller and manipulator, separate the signal line and the power line.
-In addition, use separate ducts respectively for high power lines and signal lines.
-2. Use a protective cover for the wires, as a measure to prevent the wires from getting damaged when people are passing.
-3. Before supplying the primary power, you must check again the relationship in terms of connection, the power specification and the power supply specification of the controller.
+1. 在接线控制器和操纵器时，请将信号线和电源线分开。
+此外，高功率线和信号线应分别使用不同的管道。
+2. 使用保护罩来保护电线，以防止在人员经过时电线受损。
+3. 在供电之前，您必须再次检查连接关系、电源规格和控制器的电源供应规格。
 {% endhint %}
-
 [__SOURCE](3-installation/6-connection/6-user-eth-port-conn.md)
-# 3.6.6. Connection of the Ethernet Port for the User
+# 3.6.6. 用户以太网端口的连接
 
-The Ethernet port for the user is located on the front door of the controller. The pin descriptin and connection with a Pc are as follows.</br></br>
+用户的以太网端口位于控制器的前门。引脚描述和与 Pc 的连接如下。</br></br>
 
-Table 3-4 Pin Description (RJ45 Connector Specification; RJ 45P Shield)
+表 3-4 引脚描述 (RJ45 连接器规格; RJ 45P 屏蔽)
 
 <table>
 <tbody>
 <tr class="odd">
-<td><p><strong>RJ45 Pin No.</strong></p></td>
-<td><p><strong>Name</strong></p></td>
-<td><p><strong>Abbreviation</strong></p></td>
-<td><p><strong>Direction</strong></p></td>
+<td><p><strong>RJ45 引脚编号</strong></p></td>
+<td><p><strong>名称</strong></p></td>
+<td><p><strong>缩写</strong></p></td>
+<td><p><strong>方向</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>1</strong></p></td>
-<td><p>Transmit Data +</p></td>
+<td><p>传输数据 +</p></td>
 <td><p>TX +</p></td>
-<td><p>Out</p></td>
+<td><p>输出</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>2</strong></p></td>
-<td><p>Transmit Data -</p></td>
+<td><p>传输数据 -</p></td>
 <td><p>TX -</p></td>
-<td><p>Out</p></td>
+<td><p>输出</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>3</strong></p></td>
-<td><p>Receive Data +</p></td>
+<td><p>接收数据 +</p></td>
 <td><p>RX +</p></td>
-<td><p>In</p></td>
+<td><p>输入</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>6</strong></p></td>
-<td><p>Receive Data -</p></td>
+<td><p>接收数据 -</p></td>
 <td><p>RX -</p></td>
-<td><p>In</p></td>
+<td><p>输入</p></td>
 </tr>
 </tbody>
 </table>
-
 [__SOURCE](4-basic-components/README.md)
-# 4. Basic Configuration of the Controller
+# 4. 控制器的基本配置
 
 {% hint style="info" %}
-The person in charge of maintenance should work after understanding the placement of various devices and parts and their functions inside the controller.
+负责维护的人应该在理解控制器内部各种设备和部件的布局及其功能后进行工作。
 {% endhint %}
-
-
 [__SOURCE](4-basic-components/1-config.md)
-# 4.1. Configuration 
+# 4.1. 配置
 
-The controller consists of the main body and teaching pendant.
+控制器由主机和教学手柄组成。
 
 ![](../_assets/그림_4.1_Hi6-N_(U)_제어기.png  )
 
-Figure 4.1 Hi6-N**(U) Controller
+图 4.1 Hi6-N**(U) 控制器
 
 ![](../_assets/그림_4.2_티칭펜던트_TP630.png  )
 
-Figure 4.2 Teaching Pendant TP630
-
+图 4.2 教学手柄 TP630
 [__SOURCE](4-basic-components/2-part-layout.md)
-# 4.2. Placement of Parts
+# 4.2. 部件的放置
 
-The main components of the Hi6-N00/N30/N80 controller and their individual names are shown below in Table 4-1 and are arranged as shown in Figure 4.3 to Figure 4.5.</br></br>
+Hi6-N00/N30/N80 控制器的主要组件及其各自名称如下表 4-1 所示，并按照图 4.3 至图 4.5 所示的方式排列。</br></br>
 
-Table 4-1 Names of Individual Parts of the Hi6-N00/N30/N80 Controller
+表 4-1 Hi6-N00/N30/N80 控制器各个部件的名称
 
 <table>
 <tbody>
@@ -1529,129 +1431,127 @@ Table 4-1 Names of Individual Parts of the Hi6-N00/N30/N80 Controller
 <tr class="even">
 <td><p><strong>1</strong></p></td>
 <td><p>H6COM-T</p></td>
-<td><p>Main control module</p></td>
+<td><p>主控制模块</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>2</strong></p></td>
 <td><p>BD640</p></td>
-<td><p>Servo board</p></td>
+<td><p>伺服板</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>3</strong></p></td>
 <td><p>BD632</p></td>
-<td><p>Safety board</p></td>
+<td><p>安全板</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>4</strong></p></td>
 <td><p>H6PSM</p></td>
-<td><p>Power supply module</p></td>
+<td><p>电源模块</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>5</strong></p></td>
-<td><p>H6D6X(Large/Medium-sized)</p>
-<p>/H6D6A(Small-sized)</p></td>
-<td><p>Drive module for Large/Medium/Small-sized 6 axes</p></td>
+<td><p>H6D6X(大型/中型)</p>
+<p>/H6D6A(小型)</p></td>
+<td><p>大型/中型/小型 6 轴驱动模块</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>6</strong></p></td>
-<td><p>H6D1X(Optional)</p></td>
-<td><p>Drive module for 1 axis of 100A</p></td>
+<td><p>H6D1X(可选)</p></td>
+<td><p>100A 1 轴驱动模块</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>6-1</strong></p></td>
-<td><p>H6D1Z(Optional)</p></td>
-<td><p>Drive module for 1 axis of 50A</p></td>
+<td><p>H6D1Z(可选)</p></td>
+<td><p>50A 1 轴驱动模块</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>7</strong></p></td>
 <td><p>OP EM. SW.</p></td>
-<td><p>Emergency switch on the controller panel</p></td>
+<td><p>控制面板上的紧急开关</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>8</strong></p></td>
 <td><p>NFB</p></td>
-<td><p>No fuse breaker</p></td>
+<td><p>无保险丝断路器</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>9</strong></p></td>
 <td><p>FAN2</p></td>
-<td><p>Drive module internal cooling fan</p></td>
+<td><p>驱动模块内部冷却风扇</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>10~12</strong></p></td>
 <td><p>FAN3~5</p></td>
-<td><p>Drive module external cooling fan</p></td>
+<td><p>驱动模块外部冷却风扇</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>13</strong></p></td>
 <td><p>NFT1</p></td>
-<td><p>Line noise filter</p></td>
+<td><p>线路噪声滤波器</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>14</strong></p></td>
 <td><p>RDR1</p></td>
-<td><p>Small/Medium/Large-sized regenerative discharge resistor</br>(CE/UL certified article)</p></td>
+<td><p>小型/中型/大型再生放电电阻</br>(CE/UL 认证产品)</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>15</strong></p></td>
 <td><p>TR</p></td>
-<td><p>Transformer for the input power for options</p></td>
+<td><p>选项输入电源的变压器</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>16</strong></p></td>
 <td><p>CMC1</p></td>
-<td><p>Motor drive power cable inlet connection</p></td>
+<td><p>电机驱动电源电缆入口连接</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>17</strong></p></td>
 <td><p>CMC2</p></td>
-<td><p>Motor drive power cable inlet connection</p>
-<p>(Small controllers without a CMC2 mounted)</p></td>
+<td><p>电机驱动电源电缆入口连接</p>
+<p>(没有安装 CMC2 的小型控制器)</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>18</strong></p></td>
-<td><p>AMC1(Option)</p></td>
-<td><p>Inlet connector for the motor-driving power cable
-for options 1
+<td><p>AMC1(选项)</p></td>
+<td><p>选项 1 的电机驱动电源电缆入口连接器
 </p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>19</strong></p></td>
-<td><p>AMC2(Option)</p></td>
-<td><p>Inlet connector for the motor-driving power cable
-for options 2
+<td><p>AMC2(选项)</p></td>
+<td><p>选项 2 的电机驱动电源电缆入口连接器
 </p></td>
 </tr>
 <tr class="even">
 <td><p><strong>20</strong></p></td>
 <td><p>CEC1</p></td>
-<td><p>Encoder communication cable inlet connection</p></td>
+<td><p>编码器通信电缆入口连接</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>21</strong></p></td>
 <td><p>AEC1</p></td>
-<td><p>Inlet connector for the motor encoder cable for options 1</p></td>
+<td><p>选项 1 的电机编码器电缆入口连接器</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>22</strong></p></td>
 <td><p>AEC2</p></td>
-<td><p>Inlet connector for the motor encoder cable for options 2</p></td>
+<td><p>选项 2 的电机编码器电缆入口连接器</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>23</strong></p></td>
 <td><p>CNRTP</p></td>
-<td><p>Teaching pendant cable inlet connector </p></td>
+<td><p>教导Pendant电缆入口连接器 </p></td>
 </tr>
 </tbody>
 </table>
 
 ![](../_assets/그림_4.3_Hi6-N00(U),N30(U),N80(U)_제어기_전면_외부의_부품배치.png  )
 
-Figure 4.3 Placement of Parts on the Front Exterior of the Hi6-N00(U)/N30(U)/N80(U) Controller
+图 4.3 Hi6-N00(U)/N30(U)/N80(U) 控制器前外部部件的放置
 
 ![](../_assets/그림_4.4_Hi6-N00(U),N30(U),N80(U)_제어기_전면_내부의_부품배치.png  )
 
-Figure 4.4 Placement of Parts on the Front Interior of the Hi6-N00(U)/N30(U)/N80(U) Controller
+图 4.4 Hi6-N00(U)/N30(U)/N80(U) 控制器前内部部件的放置
 
 ![](../_assets/그림_4.5_Hi6-N00(U),N30(U),N80(U)_제어기_후면_부품배치-1.png  )
 
@@ -1659,317 +1559,310 @@ Figure 4.4 Placement of Parts on the Front Interior of the Hi6-N00(U)/N30(U)/N80
 
 ![](../_assets/그림_4.5_Hi6-N00(U),N30(U),N80(U)_제어기_후면_부품배치-3.png  )
 
-Figure 4.5 Placement of Parts on the Back of the Hi6-N00(U)/N30(U)/N80(U) Controller
-
+图 4.5 Hi6-N00(U)/N30(U)/N80(U) 控制器后部件的放置
 [__SOURCE](4-basic-components/3-component-func/README.md)
-# 4.3. Functions of the Individual Components 
+# 4.3. 各个组件的功能
 
-Table 4-2 Summary of Functions of the Individual Components
+表 4-2 各个组件功能的汇总
 
 <table>
 <thead>
   <tr>
-    <th colspan="2">Components</th>
-    <th>Functions</th>
+    <th colspan="2">组件</th>
+    <th>功能</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td rowspan="3">Control module</td>
-    <td>Main control module (H6COM-T)</td>
-    <td>- Recording the record points and calculating the operation paths<br>- 	Preservation of the programs and robot integers<br>- Teach pendant (T/P) communication<br>- Connection of the LAN, USB, and the serial (RS232) communication</td>
+    <td rowspan="3">控制模块</td>
+    <td>主控制模块 (H6COM-T)</td>
+    <td>- 记录记录点并计算操作路径<br>- 保存程序和机器人整数<br>- 教学挂件 (T/P) 通信<br>- 连接局域网、USB和串行 (RS232) 通信</td>
   </tr>
   <tr>
-    <td>Servo board (BD640)</td>
-    <td>-	DSP for servo control<br>- Encoder connection (Serial I/F)<br>- Open/close outputs for the servo motor<br>- Sequence control</td>
+    <td>伺服板 (BD640)</td>
+    <td>- 用于伺服控制的 DSP<br>- 编码器连接 (串行 I/F)<br>- 伺服电机的开/关输出<br>- 顺序控制</td>
   </tr>
   <tr>
-    <td>Safety module (BD632)</td>
-    <td>- I/O in the controller (I/O for the system)<br>- Processing of various input signals from the manipulator<br>- Safety chain circuit</td>
+    <td>安全模块 (BD632)</td>
+    <td>- 控制器中的 I/O (系统的 I/O)<br>- 处理来自操作器的各种输入信号<br>- 安全链路电路</td>
   </tr>
   <tr>
-    <td>Drive module</td>
-    <td>Large/Medium-sized 6 axes: H6D6X<br>Small-sized 6 axes: H6D6A<br>Additional axis: H6D1X, H6D1Z</td>
-    <td>- Generation of the motor drive power<br>- Regenerative discharge<br>- Servo motor power amplification circuit<br>- Various error outputs</td>
+    <td>驱动模块</td>
+    <td>大型/中型 6 轴: H6D6X<br>小型 6 轴: H6D6A<br>附加轴: H6D1X, H6D1Z</td>
+    <td>- 生成电机驱动电源<br>- 再生放电<br>- 伺服电机功率放大电路<br>- 各种错误输出</td>
   </tr>
   <tr>
-    <td>T/P<br>(Teach Pendant)</td>
+    <td>T/P<br>(教学挂件)</td>
     <td>TP630</td>
-    <td>- Display of various information (LCD)<br>- Button inputs and switch inputs (function/jog, etc.)<br>- Emergency stop, enable, and T/P On/Off inputs</td>
+    <td>- 显示各种信息 (LCD)<br>- 按钮输入和开关输入 (功能/走动等)<br>- 紧急停止、启用及 T/P 开/关输入</td>
   </tr>
   <tr>
-    <td>Cooling device</td>
-    <td>Fan</td>
-    <td>- Air circulation inside the panel<br>- Cooling of the drive module</td>
+    <td>冷却设备</td>
+    <td>风扇</td>
+    <td>- 面板内部的空气循环<br>- 驱动模块的冷却</td>
   </tr>
   <tr>
-    <td>Power supply module</td>
+    <td>电源模块</td>
     <td>H6PSM</td>
-    <td>- Opening/closing of the motor drive power<br>- Distribution of various power</td>
+    <td>- 电机驱动电源的开/关<br>- 各种电源的分配</td>
   </tr>
 </tbody>
 </table>
 
-
-* For the types of components of each controller, refer to "2.1 Details of Specifications of Each Controller Model."
+* 有关每个控制器的组件类型，请参阅 "2.1 各控制器型号的详细配置."
 [__SOURCE](4-basic-components/3-component-func/1-main-module-H6COM-T/README.md)
-# 4.3.1. Main Module (H6COM-T)
-
+# 4.3.1. 主模块 (H6COM-T)
 [__SOURCE](4-basic-components/3-component-func/1-main-module-H6COM-T/1-overview.md)
-# 4.3.1.1. Overview
+# 4.3.1.1. 概述
 
-H6COM-T is structure as shown in Figure 4.3, in which the main CPU board and the carrier board are combined. The main CPU board consists of an SSD slot, a CPU slot, a memory card slot, a USB port, a COM port, and a bus connector that is to be connected to the carrier board. The carrier board contains three LAN ports for external systems, two LAN ports for internal systems, two USB ports, one GPIO port, two PCI connectors, one PCI-e connector and one DC 24V power connector. The LAN ports for internal systems are used for EtherCAT communication, as well as for interface with the teach pendant, and the GPIO port is used to detect a power failure signal from the power system. The SB is used for debugging. One PCI expansion slot and three spare LAN ports for external systems are provided to support other universal bus interfaces. The connection to other communication interfaces than EtherCAT can be made via the relevant slots.
+H6COM-T 的结构如图 4.3 所示，其中主 CPU 板和载体板相结合。主 CPU 板由 SSD 插槽、CPU 插槽、内存卡插槽、USB 端口、COM 端口和要连接到载体板的总线连接器组成。载体板包含三个用于外部系统的 LAN 端口、两个用于内部系统的 LAN 端口、两个 USB 端口、一个 GPIO 端口、两个 PCI 连接器、一个 PCI-e 连接器和一个 DC 24V 电源连接器。用于内部系统的 LAN 端口用于 EtherCAT 通信，以及与教导挂件的接口，而 GPIO 端口用于检测电源系统的电源故障信号。SB 用于调试。提供一个 PCI 扩展插槽和三个用于外部系统的备用 LAN 端口，以支持其他通用总线接口。可以通过相关插槽连接 EtherCAT 以外的其他通信接口。
 
 ![](../../../_assets/그림_4.23_H6COM-T.png  )
 
-Figure 4.6 H6COM-T
-
+图 4.6 H6COM-T
 [__SOURCE](4-basic-components/3-component-func/1-main-module-H6COM-T/2-connector.md)
-# 4.3.1.2. Connectors
+# 4.3.1.2. 连接器
 
-Table 4-3 describes the usage of the connector and the connection of external devices.
+Table 4-3 描述了连接器的使用情况和外部设备的连接。
 
-Table 4-3 Types and Usage of the Connectors of Hi6COM-T
+Table 4-3 Hi6COM-T 的连接器类型和使用
 
 <table>
 <tbody>
 <tr class="odd">
-<td><p><strong>Name</strong></p></td>
-<td><p><strong>Usage</strong></p></td>
-<td><p><strong>Connection of external devices</strong></p></td>
+<td><p><strong>名称</strong></p></td>
+<td><p><strong>使用</strong></p></td>
+<td><p><strong>外部设备的连接</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DC IN 24V</strong></p></td>
-<td><p>DC24V main power supply</p></td>
+<td><p>DC24V 主电源</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>COM 1,2</strong></p></td>
-<td><p>Serial port (RS232/RS422/RS485)</p></td>
+<td><p>串口 (RS232/RS422/RS485)</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>GIO</strong></p></td>
-<td><p>Application of the power failure of the power unit</p></td>
+<td><p>电源单元故障的应用</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LAN 4</strong></p></td>
-<td><p>EtherCAT master connector port</p></td>
-<td><p>EtherCAT connector</p></td>
+<td><p>EtherCAT 主连接器端口</p></td>
+<td><p>EtherCAT 连接器</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LAN 5</strong></p></td>
-<td><p>Ethernet port: For communication between teach pendants</p></td>
-<td><p>TP connector</p></td>
+<td><p>以太网端口：用于教导挂件之间的通信</p></td>
+<td><p>TP 连接器</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LAN 1</strong></p></td>
-<td><p>Ethernet port: For the user (PC I/F)</p></td>
-<td><p>Optional EtherCAT connector</p></td>
+<td><p>以太网端口：供用户使用 (PC I/F)</p></td>
+<td><p>可选 EtherCAT 连接器</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LAN 2</strong></p></td>
-<td><p>Ethernet port: For the user (PC I/F)</p></td>
+<td><p>以太网端口：供用户使用 (PC I/F)</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LAN 3</strong></p></td>
-<td><p>Ethernet port: For the user (PC I/F)</p></td>
+<td><p>以太网端口：供用户使用 (PC I/F)</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>PCI, PCIe</strong></p></td>
-<td><p>Optional expansion board slot</p></td>
+<td><p>可选扩展板插槽</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>USB1,2</strong></p></td>
-<td><p>USB port: For the user (PC I/F)</p></td>
+<td><p>USB 端口：供用户使用 (PC I/F)</p></td>
 <td><p>-</p></td>
 </tr>
 </tbody>
 </table>
-
 [__SOURCE](4-basic-components/3-component-func/2-safety-module-BD632/README.md)
-# 4.3.2. Safety Module (BD632)
-
+# 4.3.2. 安全模块 (BD632)
 [__SOURCE](4-basic-components/3-component-func/2-safety-module-BD632/1-overview.md)
-# 4.3.2.1. Overview
+# 4.3.2.1. 概述
 
-For meeting the requirement of PLr=d cat3 (SIL2) in compliance with IOS 13849-1, the safety module (BD632) is designed in a dualized safety electric circuit and continuously monitors the status of safety-related inputs. If a system error or safety-related input is detected, this safety module renders the robot into a safe state by cutting off the motor power and brake power according to the classification of the stop types determined through risk assessment.
-
+为满足符合IOS 13849-1的PLr=d cat3 (SIL2)要求，安全模块（BD632）设计为双重安全电路，并持续监控与安全相关的输入状态。如果检测到系统错误或与安全相关的输入，该安全模块会根据风险评估确定的停止类型分类，通过切断电机电源和制动电源将机器人置于安全状态。
 [__SOURCE](4-basic-components/3-component-func/2-safety-module-BD632/2-connector.md)
-# 4.3.2.2. Connectors
+# 4.3.2.2. 连接器
 
-The following figure shows the positions and usage of various connectors installed on BD632 (Safety IO Module).
+下图显示了安装在BD632（安全IO模块）上的各种连接器的位置和使用方式。
 
 ![](../../../_assets/그림_4.24_BD632(Safety_IO_Board)의_커넥터_및_스위치_배치.png  )
 
-Figure 4.7 Placement of the Connectors and Switches of the BD632 (Safety IO Board)</br></br>
+图4.7 BD632（安全IO板）的连接器和开关的布置</br></br>
 
-Table 4-4 Types and Usage of the Connectors of the BD632 (Safety IO Board)
+表4-4 BD632（安全IO板）连接器的类型和使用
 
 <table>
 <tbody>
 <tr class="odd">
 <td><p><strong></strong></p></td>
-<td><p><strong>Name</strong></p></td>
-<td><p><strong>Usage</strong></p></td>
-<td><p><strong>Connection of external devices</strong></p></td>
+<td><p><strong>名称</strong></p></td>
+<td><p><strong>用途</strong></p></td>
+<td><p><strong>外部设备的连接</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>A</strong></p></td>
 <td><p><strong>CNSMPS1</strong></p></td>
-<td><p>SMPS DC24V power supply</p></td>
+<td><p>SMPS DC24V电源</p></td>
 <td><p>DC24V SMPS</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>A</strong></p></td>
 <td><p><strong>CNSMPS2</strong></p></td>
-<td><p>SMPS DC24V power supply</p></td>
+<td><p>SMPS DC24V电源</p></td>
 <td><p>DC24V SMPS</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>B</strong></p></td>
 <td><p><strong>CNTP</strong></p></td>
-<td><p>Inputs of the emergency stop switch, mode switch, and enable switch of the teaching pendant</p></td>
-<td><p>Teaching Pendant</p></td>
+<td><p>紧急停止开关、模式开关和教导 pendant 的使能开关输入</p></td>
+<td><p>教导 pendant</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>C</strong></p></td>
 <td><p><strong>CNMC</strong></p></td>
-<td><p>Connection of the Magnet Contact (MC) input and output signals</p></td>
-<td><p>MC(Magnet Contact)</p></td>
+<td><p>磁接触（MC）输入和输出信号的连接</p></td>
+<td><p>MC（磁接触）</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>D</strong></p></td>
 <td><p><strong>CNLS</strong></p></td>
-<td><p>Limit switch input for the detection of arm interference and over-travel</p></td>
+<td><p>检测手臂干扰和超行程的限位开关输入</p></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><p><strong>E</strong></p></td>
 <td><p><strong>CNLS7</strong></p></td>
-<td><p>Limit switch input for the detection of the over-travel of the additional axis 7</p></td>
+<td><p>检测附加轴7超行程的限位开关输入</p></td>
 <td></td>
 </tr>
 <tr class="even">
 <td><p><strong>F</strong></p></td>
 <td><p><strong>CNLS8</strong></p></td>
-<td><p>Limit switch input for the detection of the over-travel of the additional axis 8</p></td>
+<td><p>检测附加轴8超行程的限位开关输入</p></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><p><strong>G</strong></p></td>
 <td><p><strong>CNSV</strong></p></td>
-<td><p>Servo sequence board (BD640) I/F</p>
-<p>(Status related to motor on/off, feedback, the servo sequence board, and the safety board)</p></td>
+<td><p>伺服序列板（BD640） I/F</p>
+<p>（与电动机开/关、反馈、伺服序列板和安全板相关的状态）</p></td>
 <td><p>BD640</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>H</strong></p></td>
 <td><p><strong>CNEMSW</strong></p></td>
-<td><p>Emergency stop input of the Operational Panel (OP)</p></td>
-<td><p>OP(Operational Panel)</p></td>
+<td><p>操作面板（OP）的紧急停止输入</p></td>
+<td><p>OP（操作面板）</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>I</strong></p></td>
 <td><p><strong>CNOPSW</strong></p></td>
-<td><p>Inputs of the mode switch and keys of the Operational Panel (OP)</p></td>
-<td><p>OP(Operational Panel)</p></td>
+<td><p>操作面板（OP）的模式开关和按键的输入</p></td>
+<td><p>OP（操作面板）</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>J</strong></p></td>
 <td><p><strong>CNOPLP</strong></p></td>
-<td><p>Lamp output of the Operational Panel (OP)</p></td>
-<td><p>OP(Operational Panel)</p></td>
+<td><p>操作面板（OP）的灯输出</p></td>
+<td><p>OP（操作面板）</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>K</strong></p></td>
 <td><p><strong>TBEM</strong></p></td>
-<td><p>External safety inputs</p>
-<p>(Emergency stop, auto mode safety guard 1, auto mode safety guard 2, and general safety guard input)</p></td>
-<td><p>User IO</p></td>
+<td><p>外部安全输入</p>
+<p>（紧急停止、自动模式安全保护1、自动模式安全保护2和一般安全保护输入）</p></td>
+<td><p>用户IO</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>L</strong></p></td>
 <td><p><strong>EXMON</strong></p></td>
-<td><p>External motor on signal input</p></td>
+<td><p>外部电动机开启信号输入</p></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><p><strong>M</strong></p></td>
 <td><p><strong>TBPLC</strong></p></td>
-<td><p>Connection of the safety PLC safety signals</p></td>
-<td><p>Safety PLC</p></td>
+<td><p>安全PLC安全信号的连接</p></td>
+<td><p>安全PLC</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>N</strong></p></td>
 <td><p><strong>MJ1</strong></p></td>
-<td><p>EtherCat communication connection (INPUT)</p></td>
+<td><p>EtherCat通信连接（输入）</p></td>
 <td><p>BD640</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>N</strong></p></td>
 <td><p><strong>MJ2</strong></p></td>
-<td><p>EtherCat communication connection (OUTPUT)</p></td>
+<td><p>EtherCat通信连接（输出）</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>O</strong></p></td>
 <td><p><strong>SW3,SW4</strong></p></td>
-<td><p>limit&OVT On/OFF SW</p></td>
+<td><p>限位&OVT 开/关开关</p></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><p><strong>P</strong></p></td>
 <td><p><strong>SW1,SW2</strong></p></td>
-<td><p>OP INSTALL input (enable, disable)</p></td>
+<td><p>操作面板安装输入（使能、禁用）</p></td>
 <td></td>
 </tr>
 <tr class="even">
 <td><p><strong>Q</strong></p></td>
 <td><p><strong>A_JTAG1,B_JTAG1</strong></p></td>
-<td><p>J-TAG connector (Program download)</p></td>
+<td><p>J-TAG连接器（程序下载）</p></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><p><strong>R</strong></p></td>
 <td><p><strong>SW7</strong></p></td>
-<td><p>ES, SG input (enable, disable)</p></td>
+<td><p>ES, SG输入（使能、禁用）</p></td>
 <td></td>
 </tr>
 </tbody>
 </table>
 
-\(1\) External Safety Signal Terminal Block of the BD632: TBEM
+\(1\) BD632的外部安全信号接线端子块：TBEM
 
 ![](../../../_assets/그림_4.25_BD632(Safety_IO_Board)_TBEM.png  )
 
-Figure 4.8 BD632(Safety IO Board) TBEM
+图4.8 BD632（安全IO板）TBEM
 
 {% hint style="info" %}
-When a safety-related input is connected and activated, you must check whether the function is operating normally by referring to "1.11 Safety Measures When Operating the Robot."
+连接并激活与安全相关的输入时，您必须参考“1.11 操作机器人时的安全措施”检查功能是否正常运行。
 {% endhint %}
 
-Table 4-5 Description of TBEM of the BD632 (Safety IO Board) 
+表4-5 BD632（安全IO板）的TBEM说明
 
 <table>
 <thead>
   <tr>
-    <th>Terminal no.</th>
-    <th>Terminal name</th>
-    <th>Usage</th>
-    <th>Others</th>
+    <th>端子号</th>
+    <th>端子名称</th>
+    <th>用途</th>
+    <th>其他</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td>16</td>
     <td>SGG1+</td>
-    <td rowspan="2">General safety guard chain 1 input</td>
-    <td rowspan="2">If the general safety guard chain 1 input is not to be used, it should be short-circuited.</td>
+    <td rowspan="2">一般安全防护链1输入</td>
+    <td rowspan="2">如果不使用一般安全防护链1输入，应短路。</td>
   </tr>
   <tr>
     <td>8</td>
@@ -1978,8 +1871,8 @@ Table 4-5 Description of TBEM of the BD632 (Safety IO Board)
   <tr>
     <td>15</td>
     <td>SGG2+</td>
-    <td rowspan="2">General safety guard chain 2 input</td>
-    <td rowspan="2">If the general safety guard chain 2 input is not to be used, it should be short-circuited.</td>
+    <td rowspan="2">一般安全防护链2输入</td>
+    <td rowspan="2">如果不使用一般安全防护链2输入，应短路。</td>
   </tr>
   <tr>
     <td>7</td>
@@ -1988,8 +1881,8 @@ Table 4-5 Description of TBEM of the BD632 (Safety IO Board)
   <tr>
     <td>14</td>
     <td>SGA11+</td>
-    <td rowspan="2">Automatic safety guard 1 chain 1 input</td>
-    <td rowspan="2">If the automatic safety guard 1 chain 1 input is not to be used, it should be short-circuited.</td>
+    <td rowspan="2">自动安全防护1链1输入</td>
+    <td rowspan="2">如果不使用自动安全防护1链1输入，应短路。</td>
   </tr>
   <tr>
     <td>6</td>
@@ -1998,8 +1891,8 @@ Table 4-5 Description of TBEM of the BD632 (Safety IO Board)
   <tr>
     <td>13</td>
     <td>SGA21+</td>
-    <td rowspan="2">Automatic safety guard 1 chain 2 input</td>
-    <td rowspan="2">If the automatic safety guard 1 chain 2 input is not to be used, it should be short-circuited.</td>
+    <td rowspan="2">自动安全防护1链2输入</td>
+    <td rowspan="2">如果不使用自动安全防护1链2输入，应短路。</td>
   </tr>
   <tr>
     <td>5</td>
@@ -2008,8 +1901,8 @@ Table 4-5 Description of TBEM of the BD632 (Safety IO Board)
   <tr>
     <td>12</td>
     <td>SGA12+</td>
-    <td rowspan="2">Automatic safety guard 2 chain 1 input</td>
-    <td rowspan="2">If the automatic safety guard 2 chain 1 input is not to be used, it should be short-circuited.</td>
+    <td rowspan="2">自动安全防护2链1输入</td>
+    <td rowspan="2">如果不使用自动安全防护2链1输入，应短路。</td>
   </tr>
   <tr>
     <td>4</td>
@@ -2018,8 +1911,8 @@ Table 4-5 Description of TBEM of the BD632 (Safety IO Board)
   <tr>
     <td>11</td>
     <td>SGA22+</td>
-    <td rowspan="2">Automatic safety guard 2 chain 2 input</td>
-    <td rowspan="2">If the automatic safety guard 2 chain 2 input is not to be used, it should be short-circuited.</td>
+    <td rowspan="2">自动安全防护2链2输入</td>
+    <td rowspan="2">如果不使用自动安全防护2链2输入，应短路。</td>
   </tr>
   <tr>
     <td>3</td>
@@ -2028,8 +1921,8 @@ Table 4-5 Description of TBEM of the BD632 (Safety IO Board)
   <tr>
     <td>10</td>
     <td>EMEX1+</td>
-    <td rowspan="2">External emergency stop chain 1 input</td>
-    <td rowspan="2">If the external emergency stop chain 1 is not to be used, it should be short-circuited.</td>
+    <td rowspan="2">外部紧急停止链1输入</td>
+    <td rowspan="2">如果不使用外部紧急停止链1，应短路。</td>
   </tr>
   <tr>
     <td>2</td>
@@ -2038,8 +1931,8 @@ Table 4-5 Description of TBEM of the BD632 (Safety IO Board)
   <tr>
     <td>9</td>
     <td>EMEX2+</td>
-    <td rowspan="2">External emergency stop chain 2 input</td>
-    <td rowspan="2">If the external emergency stop chain 2 is not to be used, it should be short-circuited.</td>
+    <td rowspan="2">外部紧急停止链2输入</td>
+    <td rowspan="2">如果不使用外部紧急停止链2，应短路。</td>
   </tr>
   <tr>
     <td>1</td>
@@ -2049,79 +1942,79 @@ Table 4-5 Description of TBEM of the BD632 (Safety IO Board)
 </table>
 
 
-\(2\) Safety PLC Connection Terminal Block of the BD632: TBPLC
+\(2\) BD632的安全PLC连接接线端子块：TBPLC
 
 ![](../../../_assets/그림_4.26_BD632(Safety_IO_Board)_TBPLC.png  )
 
-Figure 4.9 BD632(Safety IO Board) TBPLC
+图4.9 BD632（安全IO板）TBPLC
 
 {% hint style="warning" %}
-When a safety-related input is connected and activated, you must check whether the function is operating normally by referring to "1.11 Safety Measures When Operating the Robot."
+连接并激活与安全相关的输入时，您必须参考“1.11 操作机器人时的安全措施”检查功能是否正常运行。
 {% endhint %}
 
 
-Table 4-6 Description of TBPLC of BD632 (Safety IO Board)
+表4-6 BD632（安全IO板）的TBPLC说明
 
 <table>
 <thead>
   <tr>
-    <th>Terminal no.</th>
-    <th>Terminal name</th>
-    <th>Usage</th>
-    <th>Others</th>
+    <th>端子号</th>
+    <th>端子名称</th>
+    <th>用途</th>
+    <th>其他</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td>12</td>
     <td>PLC_P</td>
-    <td>Safety PLC 24V</td>
+    <td>安全PLC 24V</td>
     <td></td>
   </tr>
   <tr>
     <td>6</td>
     <td>PLC_G</td>
-    <td>Safety PLC GND</td>
-    <td>To function as Common for the SG/ES signal </td>
+    <td>安全PLC GND</td>
+    <td>用作SG/ES信号的公共接地</td>
   </tr>
   <tr>
     <td>11</td>
     <td>PLC_TO1</td>
-    <td>Input terminal for the monitoring output of the safety IO</td>
-    <td rowspan="2">PNP output type applicable only</td>
+    <td>安全IO的监测输出输入端子</td>
+    <td rowspan="2">仅适用PNP输出类型</td>
   </tr>
   <tr>
     <td>5</td>
     <td>PLC_FDBK1</td>
-    <td>Feedback signal output for T0 of the safety IO</td>
+    <td>安全IO的T0反馈信号输出</td>
   </tr>
   <tr>
     <td>10</td>
     <td>SG1</td>
-    <td>Chain 1 for the safety guard input from the safety PLC</td>
-    <td rowspan="2">PNP output type applicable only</td>
+    <td>来自安全PLC的安全防护输入链1</td>
+    <td rowspan="2">仅适用PNP输出类型</td>
   </tr>
   <tr>
     <td>4</td>
     <td>SG2</td>
-    <td>Chain 2 for the safety guard input from the safety PLC</td>
+    <td>来自安全PLC的安全防护输入链2</td>
   </tr>
   <tr>
     <td>9</td>
     <td>ES1</td>
-    <td>Chain 1 for the emergency stop input from the safety PLC</td>
-    <td rowspan="2">PNP output type applicable only</td>
+    <td>来自安全PLC的紧急停止输入链1</td>
+    <td rowspan="2">仅适用PNP输出类型</td>
   </tr>
   <tr>
     <td>3</td>
     <td>ES2</td>
-    <td>Chain 2 for the emergency stop input from the safety PLC</td>
+    <td>来自安全PLC的紧急停止输入链2</td>
   </tr>
   <tr>
     <td>8</td>
     <td>EMOUT11+</td>
-    <td rowspan="2">Internal emergency stop output chain 1</td>
-    <td rowspan="2">PNP output type applicable only</td>
+    <td rowspan="2">内部紧急停止输出链1</td>
+    <td rowspan="2">仅适用PNP输出类型</td>
   </tr>
   <tr>
     <td>2</td>
@@ -2130,8 +2023,8 @@ Table 4-6 Description of TBPLC of BD632 (Safety IO Board)
   <tr>
     <td>7</td>
     <td>EMOUT21+</td>
-    <td rowspan="2">Internal emergency stop output chain 2</td>
-    <td rowspan="2">PNP output type applicable only</td>
+    <td rowspan="2">内部紧急停止输出链2</td>
+    <td rowspan="2">仅适用PNP输出类型</td>
   </tr>
   <tr>
     <td>1</td>
@@ -2140,876 +2033,873 @@ Table 4-6 Description of TBPLC of BD632 (Safety IO Board)
 </tbody>
 </table>
 
-\(3\)  External Motor On connecter
+\(3\) 外部电动机开启连接器
 
 ![](../../../_assets/외부_모터온_커넥터.png  )
 
-Table 4-7 BD632 external motor on switch 
+表4-7 BD632外部电动机开启开关
 
 <table>
 <tbody>
 <tr class="odd">
-<td><p><strong>Terminal no. </strong></p></td>
-<td><p><strong>Terminal name</strong></p></td>
-<td><p><strong>Usage</strong></p></td>
-<td><p><strong>Others</strong></p></td>
+<td><p><strong>端子号 </strong></p></td>
+<td><p><strong>端子名称</strong></p></td>
+<td><p><strong>用途</strong></p></td>
+<td><p><strong>其他</strong></p></td>
 </tr>
 <tr class="even">
 <td><p>5</p></td>
 <td><p>EXMON_C1+</p></td>
-<td><p>External motor on (Contact type)</p></td>
-<td><p>When not to be used, EXMON_C1+ should be short-circuited with EXMON_C1-.</p></td>
+<td><p>外部电动机开启（接触型）</p></td>
+<td><p>不使用时，应将EXMON_C1+与EXMON_C1-短路。</p></td>
 </tr>
 <tr class="odd">
 <td><p>1</p></td>
 <td><p>EXMON_C1-</p></td>
-<td><p>External motor on (Contact type)</p></td>
-<td><p>When not to be used, EXMON_C1+ should be short-circuited with EXMON_C1-.</p></td>
+<td><p>外部电动机开启（接触型）</p></td>
+<td><p>不使用时，应将EXMON_C1+与EXMON_C1-短路。</p></td>
 </tr>
 <tr class="even">
 <td><p>8</p></td>
 <td><p>EXMON_C2+</p></td>
-<td><p>External motor on (Contact type)</p></td>
-<td><p>When not to be used, EXMON_C2+ should be short-circuited with EXMON_C2-.</p></td>
+<td><p>外部电动机开启（接触型）</p></td>
+<td><p>不使用时，应将EXMON_C2+与EXMON_C2-短路。</p></td>
 </tr>
 <tr class="odd">
 <td><p>4</p></td>
 <td><p>EXMON_C2-</p></td>
-<td><p>External motor on (Contact type)</p></td>
-<td><p>When not to be used, EXMON_C2+ should be short-circuited with EXMON_C2-.</p></td>
+<td><p>外部电动机开启（接触型）</p></td>
+<td><p>不使用时，应将EXMON_C2+与EXMON_C2-短路。</p></td>
 </tr>
 </tbody>
 </table>
-
 [__SOURCE](4-basic-components/3-component-func/2-safety-module-BD632/3-display.md)
-# 4.3.2.3. Display Devices
+# 4.3.2.3. 显示设备
 
 ![](../../../_assets/그림_4.27_BD632(Safety_IO_Board)의_표시장치.png  )
 
-Figure 4.10 Display Devices of BD632 (Safety IO Board)</br></br>
+图 4.10 BD632 的显示设备 (Safety IO Board)</br></br>
 
-Table 4-8 Description of the Display Devices of the BD632 (Safety IO Module)
+表 4-8 BD632（Safety IO Module）显示设备的描述
 
 <table>
 <tbody>
 <tr class="odd">
-<td><p><strong>Name</strong></p></td>
-<td><p><strong>Contents of display</strong></p></td>
-<td><p><strong>Color</strong></p></td>
-<td><p><strong>When normal</strong></p></td>
-<td><p><strong>Actions to take when an abnormality occurs</strong></p></td>
+<td><p><strong>名称</strong></p></td>
+<td><p><strong>显示内容</strong></p></td>
+<td><p><strong>颜色</strong></p></td>
+<td><p><strong>正常时</strong></p></td>
+<td><p><strong>发生异常时采取的措施</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LED1</strong></p></td>
-<td><p>24 V power (Chain 1)</p></td>
-<td><p>Green</p>
-<p>Red</p></td>
-<td><p>Green LED turned on</p></td>
-<td><p>Phenomenon Red LED turned on or off </p>
-<p>Action 1: Check the inpput voltage (24 V).</p>
-<p>Action 2: If the LED is turned off, check the fuse (F1).</p>
-<p>Action 3: Replace the BD632 board.</p></td>
+<td><p>24 V 电源 (链 1)</p></td>
+<td><p>绿色</p>
+<p>红色</p></td>
+<td><p>绿色 LED 点亮</p></td>
+<td><p>现象 红色 LED 点亮或熄灭 </p>
+<p>措施 1: 检查输入电压 (24 V)。</p>
+<p>措施 2: 如果 LED 熄灭，检查保险丝 (F1)。</p>
+<p>措施 3: 更换 BD632 板。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LED2</strong></p></td>
-<td><p>24 V power (Chain 2)</p></td>
-<td><p>Green</p>
-<p>Red</p></td>
-<td><p>Green LED turned on</p></td>
-<td><p>Phenomenon Red LED turned on or off</p>
-<p>Action 1: Check the inpput voltage (24 V).</p>
-<p>Action 2: If the LED is turned off, check the fuse (F2).</p>
-<p>Action 3: Replace the BD632 board.</p></td>
+<td><p>24 V 电源 (链 2)</p></td>
+<td><p>绿色</p>
+<p>红色</p></td>
+<td><p>绿色 LED 点亮</p></td>
+<td><p>现象 红色 LED 点亮或熄灭</p>
+<p>措施 1: 检查输入电压 (24 V)。</p>
+<p>措施 2: 如果 LED 熄灭，检查保险丝 (F2)。</p>
+<p>措施 3: 更换 BD632 板。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LED3</strong></p></td>
-<td><p>24 V power (Chain 1)</p></td>
-<td><p>Green</p>
-<p>Red</p></td>
-<td><p>Green LED turned on</p></td>
-<td><p>Phenomenon Red LED turned on or off</p>
-<p>Action 1: Check the inpput voltage (24 V).</p>
-<p>Action 2: If the LED is turned off, check the fuse (F3).</p>
-<p>Action 3: Replace the BD632 board</p></td>
+<td><p>24 V 电源 (链 1)</p></td>
+<td><p>绿色</p>
+<p>红色</p></td>
+<td><p>绿色 LED 点亮</p></td>
+<td><p>现象 红色 LED 点亮或熄灭</p>
+<p>措施 1: 检查输入电压 (24 V)。</p>
+<p>措施 2: 如果 LED 熄灭，检查保险丝 (F3)。</p>
+<p>措施 3: 更换 BD632 板</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LED4</strong></p></td>
-<td><p>24 V power (Chain 2)</p></td>
-<td><p>Green</p>
-<p>Red</p></td>
-<td><p>Green LED turned on</p></td>
-<td><p>Phenomenon Red Turned on or Turned off</p>
-<p>Action 1: Check the inpput voltage (24 V).</p>
-<p>Action 2: If the LED is turned off, check the fuse (F5).</p>
-<p>Action 3: Replace the BD632 board.</p></td>
+<td><p>24 V 电源 (链 2)</p></td>
+<td><p>绿色</p>
+<p>红色</p></td>
+<td><p>绿色 LED 点亮</p></td>
+<td><p>现象 红色 LED 点亮或熄灭</p>
+<p>措施 1: 检查输入电压 (24 V)。</p>
+<p>措施 2: 如果 LED 熄灭，检查保险丝 (F5)。</p>
+<p>措施 3: 更换 BD632 板。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LEDR1</strong></p></td>
-<td><p>Reset</p></td>
-<td><p>Red</p></td>
-<td><p>Turned off</p></td>
-<td><p>Phenomenon Red Turned on</p>
-<p>Action 1: Replace the BD632 board.</p></td>
+<td><p>复位</p></td>
+<td><p>红色</p></td>
+<td><p>熄灭</p></td>
+<td><p>现象 红色 LED 点亮</p>
+<p>措施 1: 更换 BD632 板。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LEDR2</strong></p></td>
-<td><p>EtherCAT communication error LED</p></td>
-<td><p>Red</p></td>
-<td><p>Turned off</p></td>
-<td><p>Phenomenon Red Turned on</p>
-<p>Action 1: Check the EtherCAT cable connection status.</p>
-<p>Action 2: Replace the BD632 board.</p>
-<p>Action 3: Check H6COM-T or BD640</p></td>
+<td><p>EtherCAT 通信错误 LED</p></td>
+<td><p>红色</p></td>
+<td><p>熄灭</p></td>
+<td><p>现象 红色 LED 点亮</p>
+<p>措施 1: 检查 EtherCAT 电缆连接状态。</p>
+<p>措施 2: 更换 BD632 板。</p>
+<p>措施 3: 检查 H6COM-T 或 BD640</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LEDG3</strong></p></td>
-<td><p>OP installation LED (Chain 1)</p></td>
-<td><p>Green</p></td>
-<td><p>Switch On (When the OP is installed) green LED turned on</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Replace the BD632 board.</p></td>
+<td><p>OP 安装 LED (链 1)</p></td>
+<td><p>绿色</p></td>
+<td><p>打开开关 (当 OP 安装时) 绿色 LED 点亮</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 更换 BD632 板。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LEDG4</strong></p></td>
-<td><p>OP installation LED (Chain 2)</p></td>
-<td><p>Green</p></td>
-<td><p>Switch On (When the OP is installed) green LED turned on</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Replace the BD632 board.</p></td>
+<td><p>OP 安装 LED (链 2)</p></td>
+<td><p>绿色</p></td>
+<td><p>打开开关 (当 OP 安装时) 绿色 LED 点亮</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 更换 BD632 板。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LEDG5</strong></p></td>
-<td><p>STO output LED (Chain 2)</p></td>
-<td><p>Green</p></td>
-<td><p>STO On: Turned on</p>
-<p>STO OFF: Turned off</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Replace the BD632 board</p>
-<p>Action 2: Replace the magnet contact.</p></td>
+<td><p>STO 输出 LED (链 2)</p></td>
+<td><p>绿色</p></td>
+<td><p>STO 开: 点亮</p>
+<p>STO 关: 熄灭</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 更换 BD632 板</p>
+<p>措施 2: 更换磁接触。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LEDG6</strong></p></td>
-<td><p>STO output LED (Chain 1)</p></td>
-<td><p>Green</p></td>
-<td><p>STO On: Turned on</p>
-<p>STO OFF: Turned off</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Replace the BD632 board.</p>
-<p>Action 2: Replace the magnet contact</p></td>
+<td><p>STO 输出 LED (链 1)</p></td>
+<td><p>绿色</p></td>
+<td><p>STO 开: 点亮</p>
+<p>STO 关: 熄灭</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 更换 BD632 板。</p>
+<p>措施 2: 更换磁接触</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LEDG7</strong></p></td>
-<td><p>MC status check LED (Chain 2)</p></td>
-<td><p>Green</p></td>
-<td><p>MC Close: Turned on</p>
-<p>MC Open: Turned off</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Replace the BD632 board</p>
-<p>Action 2: Replace the magnet contact</p></td>
+<td><p>MC 状态检查 LED (链 2)</p></td>
+<td><p>绿色</p></td>
+<td><p>MC 关闭: 点亮</p>
+<p>MC 打开: 熄灭</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 更换 BD632 板</p>
+<p>措施 2: 更换磁接触</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LEDG8</strong></p></td>
-<td><p>MC status check LED (Chain 1)</p></td>
-<td><p>Green</p></td>
-<td><p>MC Close: Turned on</p>
-<p>MC Open: Turned off</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Replace the BD632 board</p>
-<p>Action 2: Replace the magnet contact</p></td>
+<td><p>MC 状态检查 LED (链 1)</p></td>
+<td><p>绿色</p></td>
+<td><p>MC 关闭: 点亮</p>
+<p>MC 打开: 熄灭</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 更换 BD632 板</p>
+<p>措施 2: 更换磁接触</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LEDG9</strong></p></td>
-<td><p>Teach pendant manual mode input (Chain 1)</p></td>
-<td><p>Green</p></td>
-<td><p>When not inputted: Turned on</p>
-<p>When not inputted: Turned off</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Replace the teach pendant</p>
-<p>Action 2: Replace BD632</p></td>
+<td><p>教导挂件手动模式输入 (链 1)</p></td>
+<td><p>绿色</p></td>
+<td><p>无输入: 点亮</p>
+<p>无输入: 熄灭</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 更换教导挂件</p>
+<p>措施 2: 更换 BD632</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LEDG10</strong></p></td>
-<td><p>Teach pendant manual mode input (Chain 2)</p></td>
-<td><p>Green</p></td>
-<td><p>When not inputted: Turned on</p>
-<p>When not inputted: Turned off</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Replace the teach pendant</p>
-<p>Action 2: Replace BD632</p></td>
+<td><p>教导挂件手动模式输入 (链 2)</p></td>
+<td><p>绿色</p></td>
+<td><p>无输入: 点亮</p>
+<p>无输入: 熄灭</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 更换教导挂件</p>
+<p>措施 2: 更换 BD632</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LEDG11</strong></p></td>
-<td><p>Teach pendant auto mode input (Chain 1)</p></td>
-<td><p>Green</p></td>
-<td><p>When not inputted: Turned on</p>
-<p>When not inputted: Turned off</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Replace the teach pendant</p>
-<p>Action 2: Replace BD632</p></td>
+<td><p>教导挂件自动模式输入 (链 1)</p></td>
+<td><p>绿色</p></td>
+<td><p>无输入: 点亮</p>
+<p>无输入: 熄灭</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 更换教导挂件</p>
+<p>措施 2: 更换 BD632</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LEDG12</strong></p></td>
-<td><p>Teach pendant auto mode input (Chain 2)</p></td>
-<td><p>Green</p></td>
-<td><p>When not inputted: Turned on</p>
-<p>When not inputted: Turned off</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Replace the teach pendant</p>
-<p>Action 2: Replace BD632</p></td>
+<td><p>教导挂件自动模式输入 (链 2)</p></td>
+<td><p>绿色</p></td>
+<td><p>无输入: 点亮</p>
+<p>无输入: 熄灭</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 更换教导挂件</p>
+<p>措施 2: 更换 BD632</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LEDG13</strong></p></td>
-<td><p>Teach pendant remote mode input (Chain 1)</p></td>
-<td><p>Green</p></td>
-<td><p>When not inputted: Turned on</p>
-<p>When not inputted: Turned off</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Replace the teach pendant</p>
-<p>Action 2: Replace BD632</p></td>
+<td><p>教导挂件远程模式输入 (链 1)</p></td>
+<td><p>绿色</p></td>
+<td><p>无输入: 点亮</p>
+<p>无输入: 熄灭</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 更换教导挂件</p>
+<p>措施 2: 更换 BD632</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LEDG14</strong></p></td>
-<td><p>Teach pendant remote mode input (Chain 2)</p></td>
-<td><p>Green</p></td>
-<td><p>When not inputted: Turned on</p>
-<p>When not inputted: Turned off</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Replace the teach pendant</p>
-<p>Action 2: Replace BD632</p></td>
+<td><p>教导挂件远程模式输入 (链 2)</p></td>
+<td><p>绿色</p></td>
+<td><p>无输入: 点亮</p>
+<p>无输入: 熄灭</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 更换教导挂件</p>
+<p>措施 2: 更换 BD632</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LEDG15</strong></p></td>
-<td><p>Teach pendant enable input (Chain 1)</p></td>
-<td><p>Green</p></td>
-<td><p>When not inputted: Turned on</p>
-<p>When not inputted: Turned off</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Replace the teach pendant</p>
-<p>Action 2: Replace BD632</p></td>
+<td><p>教导挂件使能输入 (链 1)</p></td>
+<td><p>绿色</p></td>
+<td><p>无输入: 点亮</p>
+<p>无输入: 熄灭</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 更换教导挂件</p>
+<p>措施 2: 更换 BD632</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LEDG16</strong></p></td>
-<td><p>Teach pendant enable input (Chain 2)</p></td>
-<td><p>Green</p></td>
-<td><p>When not inputted: Turned on</p>
-<p>When not inputted: Turned off</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Replace the teach pendant</p>
-<p>Action 2: Replace BD632</p></td>
+<td><p>教导挂件使能输入 (链 2)</p></td>
+<td><p>绿色</p></td>
+<td><p>无输入: 点亮</p>
+<p>无输入: 熄灭</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 更换教导挂件</p>
+<p>措施 2: 更换 BD632</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LEDG17</strong></p></td>
-<td><p>Teach pendant emergency stop input (Chain 2)</p></td>
-<td><p>Green</p></td>
-<td><p>When inputted: Turned off</p>
-<p>When not inputted: Turned on</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Replace the teach pendant</p>
-<p>Action 2: Replace BD632</p></td>
+<td><p>教导挂件紧急停机输入 (链 2)</p></td>
+<td><p>绿色</p></td>
+<td><p>输入时: 熄灭</p>
+<p>无输入: 点亮</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 更换教导挂件</p>
+<p>措施 2: 更换 BD632</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LEDG18</strong></p></td>
-<td><p>Teach pendant emergency stop input (Chain 1)</p></td>
-<td><p>Green</p></td>
-<td><p>When inputted: Turned off</p>
-<p>When not inputted: Turned on</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Replace the teach pendant</p>
-<p>Action 2: Replace BD632</p></td>
+<td><p>教导挂件紧急停机输入 (链 1)</p></td>
+<td><p>绿色</p></td>
+<td><p>输入时: 熄灭</p>
+<p>无输入: 点亮</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 更换教导挂件</p>
+<p>措施 2: 更换 BD632</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LEDG19</strong></p></td>
-<td><p>OVT input (Chain 1)</p></td>
-<td><p>Green</p></td>
-<td><p>When inputted: Turned off</p>
-<p>When not inputted: Turned on</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect the cable</p>
-<p>Action 2: Replace BD632</p>
-<p>Action 3: Replace the OVT switch</p></td>
+<td><p>OVT 输入 (链 1)</p></td>
+<td><p>绿色</p></td>
+<td><p>输入时: 熄灭</p>
+<p>无输入: 点亮</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查电缆</p>
+<p>措施 2: 更换 BD632</p>
+<p>措施 3: 更换 OVT 开关</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LEDG20</strong></p></td>
-<td><p>OVT input (Chain 2)</p></td>
-<td><p>Green</p></td>
-<td><p>When inputted: Turned off</p>
-<p>When not inputted: Turned on</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect the cable</p>
-<p>Action 2: Replace BD632</p>
-<p>Action 3: Replace the OVT switch</p></td>
+<td><p>OVT 输入 (链 2)</p></td>
+<td><p>绿色</p></td>
+<td><p>输入时: 熄灭</p>
+<p>无输入: 点亮</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查电缆</p>
+<p>措施 2: 更换 BD632</p>
+<p>措施 3: 更换 OVT 开关</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LEDG21</strong></p></td>
-<td><p>Hard limit input (Chain 1)</p></td>
-<td><p>Green</p></td>
-<td><p>When inputted: Turned off</p>
-<p>When not inputted: Turned on</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect the cable</p>
-<p>Action 2: Replace BD632</p>
-<p>Action 3: Replace the hard limit switch</p></td>
+<td><p>硬极限输入 (链 1)</p></td>
+<td><p>绿色</p></td>
+<td><p>输入时: 熄灭</p>
+<p>无输入: 点亮</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查电缆</p>
+<p>措施 2: 更换 BD632</p>
+<p>措施 3: 更换硬极限开关</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LEDG22</strong></p></td>
-<td><p>Hard limit input (Chain 2)</p></td>
-<td><p>Green</p></td>
-<td><p>When inputted: Turned off</p>
-<p>When not inputted: Turned on</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect the cable</p>
-<p>Action 2: Replace BD632</p>
-<p>Action 3: Replace the hard limit switch</p></td>
+<td><p>硬极限输入 (链 2)</p></td>
+<td><p>绿色</p></td>
+<td><p>输入时: 熄灭</p>
+<p>无输入: 点亮</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查电缆</p>
+<p>措施 2: 更换 BD632</p>
+<p>措施 3: 更换硬极限开关</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LEDG23</strong></p></td>
-<td><p>Additional axis OVT input (Chain 1)</p></td>
-<td><p>Green</p></td>
-<td><p>When inputted: Turned off</p>
-<p>When not inputted: Turned on</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect the cable</p>
-<p>Action 2: Replace BD632</p>
-<p>Action 3: Replace the additional axis OVT switch.</p></td>
+<td><p>附加轴 OVT 输入 (链 1)</p></td>
+<td><p>绿色</p></td>
+<td><p>输入时: 熄灭</p>
+<p>无输入: 点亮</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查电缆</p>
+<p>措施 2: 更换 BD632</p>
+<p>措施 3: 更换附加轴 OVT 开关。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LEDG24</strong></p></td>
-<td><p>Additional axis OVT input (Chain 2)</p></td>
-<td><p>Green</p></td>
-<td><p>When inputted: Turned off</p>
-<p>When not inputted: Turned on</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect the cable</p>
-<p>Action 2: Replace BD632</p>
-<p>Action 3: Replace the additional axis OVT switch.</p></td>
+<td><p>附加轴 OVT 输入 (链 2)</p></td>
+<td><p>绿色</p></td>
+<td><p>输入时: 熄灭</p>
+<p>无输入: 点亮</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查电缆</p>
+<p>措施 2: 更换 BD632</p>
+<p>措施 3: 更换附加轴 OVT 开关。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LEDG25</strong></p></td>
-<td><p>Extended OVT input (Chain 1)</p></td>
-<td><p>Green</p></td>
-<td><p>When inputted: Turned off</p>
-<p>When not inputted: Turned on</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect the cable</p>
-<p>Action 2: Replace BD632</p>
-<p>Action 3: Replace the extended OVT switch</p></td>
+<td><p>扩展 OVT 输入 (链 1)</p></td>
+<td><p>绿色</p></td>
+<td><p>输入时: 熄灭</p>
+<p>无输入: 点亮</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查电缆</p>
+<p>措施 2: 更换 BD632</p>
+<p>措施 3: 更换扩展 OVT 开关</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LEDG26</strong></p></td>
-<td><p>Extended OVT input (Chain 2)</p></td>
-<td><p>Green</p></td>
-<td><p>When inputted: Turned off</p>
-<p>When not inputted: Turned on</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect the cable</p>
-<p>Action 2: Replace BD632</p>
-<p>Action 3: Replace the extended OVT switch</p></td>
+<td><p>扩展 OVT 输入 (链 2)</p></td>
+<td><p>绿色</p></td>
+<td><p>输入时: 熄灭</p>
+<p>无输入: 点亮</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查电缆</p>
+<p>措施 2: 更换 BD632</p>
+<p>措施 3: 更换扩展 OVT 开关</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LEDG27</strong></p></td>
-<td><p>Safety guard input (Chain 1)</p></td>
-<td><p>Green</p></td>
-<td><p>When inputted: Turned off</p>
-<p>When not inputted: Turned on</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect the cable</p>
-<p>Action 2: Replace BD632</p>
-<p>Action 3: Replace the safety guard</p></td>
+<td><p>安全护栏输入 (链 1)</p></td>
+<td><p>绿色</p></td>
+<td><p>输入时: 熄灭</p>
+<p>无输入: 点亮</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查电缆</p>
+<p>措施 2: 更换 BD632</p>
+<p>措施 3: 更换安全护栏</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LEDG28</strong></p></td>
-<td><p>Safety guard input (Chain 2)</p></td>
-<td><p>Green</p></td>
-<td><p>When inputted: Turned off</p>
-<p>When not inputted: Turned on</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect the cable</p>
-<p>Action 2: Replace BD632</p>
-<p>Action 3: Replace the safety guard</p></td>
+<td><p>安全护栏输入 (链 2)</p></td>
+<td><p>绿色</p></td>
+<td><p>输入时: 熄灭</p>
+<p>无输入: 点亮</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查电缆</p>
+<p>措施 2: 更换 BD632</p>
+<p>措施 3: 更换安全护栏</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LEDG29</strong></p></td>
-<td><p>Auto mode safety guard 1 input (Chain 2)</p></td>
-<td><p>Green</p></td>
-<td><p>When inputted: Turned off</p>
-<p>When not inputted: Turned on</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect the cable</p>
-<p>Action 2: Replace BD632</p>
-<p>Action 3: Replace the auto mode 1 safety guard</p></td>
+<td><p>自动模式安全护栏 1 输入 (链 2)</p></td>
+<td><p>绿色</p></td>
+<td><p>输入时: 熄灭</p>
+<p>无输入: 点亮</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查电缆</p>
+<p>措施 2: 更换 BD632</p>
+<p>措施 3: 更换自动模式 1 安全护栏</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LEDG30</strong></p></td>
-<td><p>Auto mode safety guard 1 input (Chain 1)</p></td>
-<td><p>Green</p></td>
-<td><p>When inputted: Turned off</p>
-<p>When not inputted: Turned on</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect the cable</p>
-<p>Action 2: Replace BD632</p>
-<p>Action 3: Replace the auto mode 1 safety guard</p></td>
+<td><p>自动模式安全护栏 1 输入 (链 1)</p></td>
+<td><p>绿色</p></td>
+<td><p>输入时: 熄灭</p>
+<p>无输入: 点亮</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查电缆</p>
+<p>措施 2: 更换 BD632</p>
+<p>措施 3: 更换自动模式 1 安全护栏</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LEDG31</strong></p></td>
-<td><p>Auto mode safety guard 2 input (Chain 1)</p></td>
-<td><p>Green</p></td>
-<td><p>When inputted: Turned off</p>
-<p>When not inputted: Turned on</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect the cable</p>
-<p>Action 2: Replace BD632</p>
-<p>Action 3: Replace the auto mode 2 safety guard</p></td>
+<td><p>自动模式安全护栏 2 输入 (链 1)</p></td>
+<td><p>绿色</p></td>
+<td><p>输入时: 熄灭</p>
+<p>无输入: 点亮</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查电缆</p>
+<p>措施 2: 更换 BD632</p>
+<p>措施 3: 更换自动模式 2 安全护栏</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LEDG32</strong></p></td>
-<td><p>Auto mode safety guard 2 input (Chain 2)</p></td>
-<td><p>Green</p></td>
-<td><p>When inputted: Turned off</p>
-<p>When not inputted: Turned on</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect the cable</p>
-<p>Action 2: Replace BD632</p>
-<p>Action 3: Replace the auto mode 2 safety guard</p></td>
+<td><p>自动模式安全护栏 2 输入 (链 2)</p></td>
+<td><p>绿色</p></td>
+<td><p>输入时: 熄灭</p>
+<p>无输入: 点亮</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查电缆</p>
+<p>措施 2: 更换 BD632</p>
+<p>措施 3: 更换自动模式 2 安全护栏</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LEDG33</strong></p></td>
-<td><p>External motor on input (Contact type)</p></td>
-<td><p>Green</p></td>
-<td><p>When inputted: Turned off</p>
-<p>When not inputted: Turned on</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect the cable</p>
-<p>Action 2: Replace BD632</p>
-<p>Action 3: Replace the external motor on contact switch.</p></td>
+<td><p>外部电机开输入 (接触类型)</p></td>
+<td><p>绿色</p></td>
+<td><p>输入时: 熄灭</p>
+<p>无输入: 点亮</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查电缆</p>
+<p>措施 2: 更换 BD632</p>
+<p>措施 3: 更换外部电机开接触开关。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LEDG34</strong></p></td>
-<td><p>External emergency stop input (Chain 1)</p></td>
-<td><p>Green</p></td>
-<td><p>When inputted: Turned off</p>
-<p>When not inputted: Turned on</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect the cable</p>
-<p>Action 2: Replace BD632</p>
-<p>Replace the external emergency stop switch</p></td>
+<td><p>外部紧急停机输入 (链 1)</p></td>
+<td><p>绿色</p></td>
+<td><p>输入时: 熄灭</p>
+<p>无输入: 点亮</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查电缆</p>
+<p>措施 2: 更换 BD632</p>
+<p>更换外部紧急停机开关</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LEDG35</strong></p></td>
-<td><p>External emergency stop input (Chain 2)</p></td>
-<td><p>Green</p></td>
-<td><p>When inputted: Turned off</p>
-<p>When not inputted: Turned on</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect the cable</p>
-<p>Action 2: Replace BD632</p>
-<p>Replace the external emergency stop switch</p></td>
+<td><p>外部紧急停机输入 (链 2)</p></td>
+<td><p>绿色</p></td>
+<td><p>输入时: 熄灭</p>
+<p>无输入: 点亮</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查电缆</p>
+<p>措施 2: 更换 BD632</p>
+<p>更换外部紧急停机开关</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LEDG36</strong></p></td>
-<td><p>Servo state input (Chain 1)</p></td>
-<td><p>Green</p></td>
-<td><p>When inputted: Turned off</p>
-<p>When not inputted: Turned on</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect the cable</p>
-<p>Action 2: Replace BD632</p>
-<p>Action 3: Replace BD640</p></td>
+<td><p>伺服状态输入 (链 1)</p></td>
+<td><p>绿色</p></td>
+<td><p>输入时: 熄灭</p>
+<p>无输入: 点亮</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查电缆</p>
+<p>措施 2: 更换 BD632</p>
+<p>措施 3: 更换 BD640</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LEDG37</strong></p></td>
-<td><p>Safety module state output (Chain 1)</p></td>
-<td><p>Green</p></td>
-<td><p>When inputted: Turned off</p>
-<p>When not inputted: Turned on</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Replace BD632</p></td>
+<td><p>安全模块状态输出 (链 1)</p></td>
+<td><p>绿色</p></td>
+<td><p>输入时: 熄灭</p>
+<p>无输入: 点亮</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 更换 BD632</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LEDG38</strong></p></td>
-<td><p>Servo state input (Chain 2)</p></td>
-<td><p>Green</p></td>
-<td><p>When inputted: Turned off</p>
-<p>When not inputted: Turned on</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect the cable</p>
-<p>Action 2: Replace BD632</p>
-<p>Action 3: Replace BD640</p></td>
+<td><p>伺服状态输入 (链 2)</p></td>
+<td><p>绿色</p></td>
+<td><p>输入时: 熄灭</p>
+<p>无输入: 点亮</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查电缆</p>
+<p>措施 2: 更换 BD632</p>
+<p>措施 3: 更换 BD640</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LEDG39</strong></p></td>
-<td><p>Safety module state output (Chain 2)</p></td>
-<td><p>Green</p></td>
-<td><p>When inputted: Turned off</p>
-<p>When not inputted: Turned on</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Replace BD632</p></td>
+<td><p>安全模块状态输出 (链 2)</p></td>
+<td><p>绿色</p></td>
+<td><p>输入时: 熄灭</p>
+<p>无输入: 点亮</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 更换 BD632</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LEDG40</strong></p></td>
-<td><p>OP emergency stop input (Chain 1)</p></td>
-<td><p>Green</p></td>
-<td><p>When inputted: Turned off</p>
-<p>When not inputted: Turned on</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect the cable</p>
-<p>Action 2: Replace BD632</p>
-<p>: Replace the OP emergency stop switch. </p></td>
+<td><p>OP 紧急停机输入 (链 1)</p></td>
+<td><p>绿色</p></td>
+<td><p>输入时: 熄灭</p>
+<p>无输入: 点亮</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查电缆</p>
+<p>措施 2: 更换 BD632</p>
+<p>更换 OP 紧急停机开关。 </p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LEDG41</strong></p></td>
-<td><p>OP emergency stop input (Chain 2)</p></td>
-<td><p>Green</p></td>
-<td><p>When inputted: Turned off</p>
-<p>When not inputted: Turned on</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect the cable</p>
-<p>Action 2: Replace BD632</p>
-<p>: Replace the OP emergency stop switch. </p></td>
+<td><p>OP 紧急停机输入 (链 2)</p></td>
+<td><p>绿色</p></td>
+<td><p>输入时: 熄灭</p>
+<p>无输入: 点亮</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查电缆</p>
+<p>措施 2: 更换 BD632</p>
+<p>更换 OP 紧急停机开关。 </p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LEDG52</strong></p></td>
-<td><p>PLC power</p></td>
-<td><p>Green</p></td>
-<td><p>When connected: Turned on</p>
-<p>When not connected: Turned off</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect the fuse (F6)</p>
-<p>Action 2: Inspect the cable</p>
-<p>Action 3: Replace BD632</p>
-<p>Action 4: Replace the connected board</p></td>
+<td><p>PLC 电源</p></td>
+<td><p>绿色</p></td>
+<td><p>连接时: 点亮</p>
+<p>未连接时: 熄灭</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查保险丝 (F6)</p>
+<p>措施 2: 检查电缆</p>
+<p>措施 3: 更换 BD632</p>
+<p>措施 4: 更换连接板</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LEDG53</strong></p></td>
-<td><p>Emergency stop (npn type) input (Chain 1)</p></td>
-<td><p>Green</p></td>
-<td><p>When not inputted: Turned on</p>
-<p>When not inputted: Turned off</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect LEDG52 (when abnormal, take action for LEDG52)</p>
-<p>Action 2: Inspect the cable</p>
-<p>Action 3: Replace BD632</p>
-<p>Action 4: Replace the connected board</p></td>
+<td><p>紧急停机 (npn 类型) 输入 (链 1)</p></td>
+<td><p>绿色</p></td>
+<td><p>无输入: 点亮</p>
+<p>无输入: 熄灭</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查 LEDG52 (若异常，采取 LEDG52 的措施)</p>
+<p>措施 2: 检查电缆</p>
+<p>措施 3: 更换 BD632</p>
+<p>措施 4: 更换连接板</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LEDG54</strong></p></td>
-<td><p>Emergency stop (npn type) input (Chain 2)</p></td>
-<td><p>Green</p></td>
-<td><p>When not inputted: Turned on</p>
-<p>When not inputted: Turned off</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect LEDG52 (when abnormal, take action for LEDG52)</p>
-<p>Action 2: Inspect the cable</p>
-<p>Action 3: Replace BD632</p>
-<p>Action 4: Replace the connected board</p></td>
+<td><p>紧急停机 (npn 类型) 输入 (链 2)</p></td>
+<td><p>绿色</p></td>
+<td><p>无输入: 点亮</p>
+<p>无输入: 熄灭</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查 LEDG52 (若异常，采取 LEDG52 的措施)</p>
+<p>措施 2: 检查电缆</p>
+<p>措施 3: 更换 BD632</p>
+<p>措施 4: 更换连接板</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LEDG55</strong></p></td>
-<td><p>Safety guard (npn type) input (Chain 1)</p></td>
-<td><p>Green</p></td>
-<td><p>When not inputted: Turned on</p>
-<p>When not inputted: Turned off</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect LEDG52 (when abnormal, take action for LEDG52)</p>
-<p>Action 2: Inspect the cable</p>
-<p>Action 3: Replace BD632</p>
-<p>Action 4: Replace the connected board</p></td>
+<td><p>安全护栏 (npn 类型) 输入 (链 1)</p></td>
+<td><p>绿色</p></td>
+<td><p>无输入: 点亮</p>
+<p>无输入: 熄灭</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查 LEDG52 (若异常，采取 LEDG52 的措施)</p>
+<p>措施 2: 检查电缆</p>
+<p>措施 3: 更换 BD632</p>
+<p>措施 4: 更换连接板</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LEDG56</strong></p></td>
-<td><p>Safety guard (npn type) input (Chain 2)</p></td>
-<td><p>Green</p></td>
-<td><p>When not inputted: Turned on</p>
-<p>When not inputted: Turned off</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect LEDG52 (when abnormal, take action for LEDG52)</p>
-<p>Action 2: Inspect the cable</p>
-<p>Action 3: Replace BD632</p>
-<p>Action 4: Replace the connected board</p></td>
+<td><p>安全护栏 (npn 类型) 输入 (链 2)</p></td>
+<td><p>绿色</p></td>
+<td><p>无输入: 点亮</p>
+<p>无输入: 熄灭</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查 LEDG52 (若异常，采取 LEDG52 的措施)</p>
+<p>措施 2: 检查电缆</p>
+<p>措施 3: 更换 BD632</p>
+<p>措施 4: 更换连接板</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LEDG57</strong></p></td>
-<td><p>24 V power input</p></td>
-<td><p>Green</p></td>
-<td><p>Green Turned on</p></td>
-<td><p>Phenomenon Turned off</p>
-<p>Action 1: Inspect the 24 V power cable and voltage (power for connecting the CNSMPS1 connector)</p>
-<p>Action 2: Inspect the fuse (F1)</p>
-<p>Action 3: Replace BD632</p></td>
+<td><p>24 V 电源输入</p></td>
+<td><p>绿色</p></td>
+<td><p>绿色 点亮</p></td>
+<td><p>现象 熄灭</p>
+<p>措施 1: 检查 24 V 电源电缆和电压 (连接 CNSMPS1 连接器的电源)</p>
+<p>措施 2: 检查保险丝 (F1)</p>
+<p>措施 3: 更换 BD632</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LEDG58</strong></p></td>
-<td><p>EtherCAT MJ1 connector ACT LED</p></td>
-<td><p>Green</p></td>
-<td><p>When EterCAT cable connected: Turned on</p>
-<p>When EterCAT cable not connected: Turned off</p>
-<p>During EtherCAT communication: Blinking</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect the EtherCAT cable</p>
-<p>Action 2: Check the firmware</p>
-<p>Action 3: Replace BD632</p>
-<p>Action 4: Replace BD640 or H6COM-T</p></td>
+<td><p>EtherCAT MJ1 连接器 ACT LED</p></td>
+<td><p>绿色</p></td>
+<td><p>当 EtherCAT 电缆连接时: 点亮</p>
+<p>当 EtherCAT 电缆未连接时: 熄灭</p>
+<p>在 EtherCAT 通信期间: 闪烁</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查 EtherCAT 电缆</p>
+<p>措施 2: 检查固件</p>
+<p>措施 3: 更换 BD632</p>
+<p>措施 4: 更换 BD640 或 H6COM-T</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LEDG59</strong></p></td>
-<td><p>EtherCAT MJ2 connector ACT LED</p></td>
-<td><p>Green</p></td>
-<td><p>When EterCAT cable connected: Turned on</p>
-<p>When EterCAT cable not connected: Turned off</p>
-<p>During EtherCAT communication: Blinking</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect the EtherCAT cable</p>
-<p>Action 2: Check the firmware</p>
-<p>Action 3: Replace BD632</p>
-<p>Action 4: Replace BD640 or H6COM-T</p></td>
+<td><p>EtherCAT MJ2 连接器 ACT LED</p></td>
+<td><p>绿色</p></td>
+<td><p>当 EtherCAT 电缆连接时: 点亮</p>
+<p>当 EtherCAT 电缆未连接时: 熄灭</p>
+<p>在 EtherCAT 通信期间: 闪烁</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查 EtherCAT 电缆</p>
+<p>措施 2: 检查固件</p>
+<p>措施 3: 更换 BD632</p>
+<p>措施 4: 更换 BD640 或 H6COM-T</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LEDG60</strong></p></td>
-<td><p>EtherCAT state LED</p></td>
-<td><p>Green</p></td>
-<td><p>When communication connected: Blinking</p>
-<p>When communication not connected: Turned off</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect the EtherCAT cable</p>
-<p>Action 2: Check the firmware</p>
-<p>Action 3: Replace BD632</p>
-<p>Action 4: Replace BD640 or H6COM-T</p></td>
+<td><p>EtherCAT 状态 LED</p></td>
+<td><p>绿色</p></td>
+<td><p>当通信连接时: 闪烁</p>
+<p>当通信未连接时: 熄灭</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查 EtherCAT 电缆</p>
+<p>措施 2: 检查固件</p>
+<p>措施 3: 更换 BD632</p>
+<p>措施 4: 更换 BD640 或 H6COM-T</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LEDG61</strong></p></td>
 <td><p>EtherCAT RUN LED</p></td>
-<td><p>Green</p></td>
-<td><p>When communication connected: Blinking</p>
-<p>When communication not connected: Turned off</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect the EtherCAT cable</p>
-<p>Action 2: Check the firmware</p>
-<p>Action 3: Replace BD632</p>
-<p>Action 4: Replace BD640 or H6COM-T</p></td>
+<td><p>绿色</p></td>
+<td><p>当通信连接时: 闪烁</p>
+<p>当通信未连接时: 熄灭</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查 EtherCAT 电缆</p>
+<p>措施 2: 检查固件</p>
+<p>措施 3: 更换 BD632</p>
+<p>措施 4: 更换 BD640 或 H6COM-T</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LEDG62</strong></p></td>
-<td><p>Safety chain input (Chain 1)</p></td>
-<td><p>Green</p></td>
-<td><p>When inputted: Turned off</p>
-<p>When not inputted: Turned on</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect the connected cable</p>
-<p>Action 2: Replace BD632</p>
-<p>Action 3: Replace the connected board</p></td>
+<td><p>安全链输入 (链 1)</p></td>
+<td><p>绿色</p></td>
+<td><p>输入时: 熄灭</p>
+<p>无输入: 点亮</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查连接电缆</p>
+<p>措施 2: 更换 BD632</p>
+<p>措施 3: 更换连接板</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LEDG63</strong></p></td>
-<td><p>Safety chain input (Chain 2)</p></td>
-<td><p>Green</p></td>
-<td><p>When inputted: Turned off</p>
-<p>When not inputted: Turned on</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect the connected cable</p>
-<p>Action 2: Replace BD632</p>
-<p>Action 3: Replace the connected board</p></td>
+<td><p>安全链输入 (链 2)</p></td>
+<td><p>绿色</p></td>
+<td><p>输入时: 熄灭</p>
+<p>无输入: 点亮</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查连接电缆</p>
+<p>措施 2: 更换 BD632</p>
+<p>措施 3: 更换连接板</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LEDG64</strong></p></td>
-<td><p>EtherCAT MJ2 connector speed LED</p></td>
-<td><p>Green</p></td>
-<td><p>When connected: Turned on</p>
-<p>When not connected: Turned off</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect the EtherCAT cable</p>
-<p>Action 2: Check the firmware</p>
-<p>Action 3: Replace BD632</p>
-<p>Action 4: Replace BD640 or H6COM-T</p></td>
+<td><p>EtherCAT MJ2 连接器速度 LED</p></td>
+<td><p>绿色</p></td>
+<td><p>连接时: 点亮</p>
+<p>未连接时: 熄灭</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查 EtherCAT 电缆</p>
+<p>措施 2: 检查固件</p>
+<p>措施 3: 更换 BD632</p>
+<p>措施 4: 更换 BD640 或 H6COM-T</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LEDG65</strong></p></td>
-<td><p>EtherCAT MJ1 connector speed LED</p></td>
-<td><p>Green</p></td>
-<td><p>When connected: Turned on</p>
-<p>When not connected: Turned off</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect the EtherCAT cable</p>
-<p>Action 2: Check the firmware</p>
-<p>Action 3: Replace BD632</p>
-<p>Action 4: Replace BD640 or H6COM-T</p></td>
+<td><p>EtherCAT MJ1 连接器速度 LED</p></td>
+<td><p>绿色</p></td>
+<td><p>连接时: 点亮</p>
+<p>未连接时: 熄灭</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查 EtherCAT 电缆</p>
+<p>措施 2: 检查固件</p>
+<p>措施 3: 更换 BD632</p>
+<p>措施 4: 更换 BD640 或 H6COM-T</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LEDG68</strong></p></td>
-<td><p>Safety chain output (Chain 1)</p></td>
-<td><p>Green</p></td>
-<td><p>When inputted: Turned off</p>
-<p>When not inputted: Turned on</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect the connected cable</p>
-<p>Action 2: Replace BD632</p>
-<p>Action 3: Replace the connected board</p></td>
+<td><p>安全链输出 (链 1)</p></td>
+<td><p>绿色</p></td>
+<td><p>输入时: 熄灭</p>
+<p>无输入: 点亮</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查连接电缆</p>
+<p>措施 2: 更换 BD632</p>
+<p>措施 3: 更换连接板</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LEDG69</strong></p></td>
-<td><p>Safety chain output (Chain 2)</p></td>
-<td><p>Green</p></td>
-<td><p>When inputted: Turned off</p>
-<p>When not inputted: Turned on</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect the connected cable</p>
-<p>Action 2: Replace BD632</p>
-<p>Action 3: Replace the connected board</p></td>
+<td><p>安全链输出 (链 2)</p></td>
+<td><p>绿色</p></td>
+<td><p>输入时: 熄灭</p>
+<p>无输入: 点亮</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查连接电缆</p>
+<p>措施 2: 更换 BD632</p>
+<p>措施 3: 更换连接板</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LEDG70</strong></p></td>
 <td><p>ACFLT</p></td>
-<td><p>Green</p></td>
-<td><p>When connected: Turned on</p>
-<p>When not connected: Turned off</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect the connected cable</p>
-<p>Action 2: Replace BD632</p>
-<p>Action 3: Replace the connected board or electrical equipment</p></td>
+<td><p>绿色</p></td>
+<td><p>连接时: 点亮</p>
+<p>未连接时: 熄灭</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查连接电缆</p>
+<p>措施 2: 更换 BD632</p>
+<p>措施 3: 更换连接板或电气设备</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LEDG71</strong></p></td>
 <td><p>EXMON_C2</p></td>
-<td><p>Green</p></td>
-<td><p>When connected: Turned on</p>
-<p>When not connected: Turned off</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect the connected cable</p>
-<p>Action 2: Replace BD632</p>
-<p>Action 3: Replace the connected board or electrical equipment</p></td>
+<td><p>绿色</p></td>
+<td><p>连接时: 点亮</p>
+<p>未连接时: 熄灭</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查连接电缆</p>
+<p>措施 2: 更换 BD632</p>
+<p>措施 3: 更换连接板或电气设备</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LEDG72</strong></p></td>
-<td><p>Magnet contact ON/OFF signal (Channel 1)
+<td><p>磁接触 ON/OFF 信号 (通道 1)
 </p></td>
-<td><p>Green</p></td>
-<td><p>When ON signal: Turned off</p>
-<p>When OFF signal: Turned on</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect the connected cable(BD632-BD640)</p>
-<p>Action 2: Replace BD632</p>
-<p>Action 3: Check the firmware</p></td>
+<td><p>绿色</p></td>
+<td><p>当 ON 信号时: 熄灭</p>
+<p>当 OFF 信号时: 点亮</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查连接电缆 (BD632-BD640)</p>
+<p>措施 2: 更换 BD632</p>
+<p>措施 3: 检查固件</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LEDG73</strong></p></td>
-<td><p>Magnet status Feedback(Channel 1)</p></td>
-<td><p>Green</p></td>
-<td><p>MC CLOSE: Turned off</p>
-<p>MC OPEN: Turned on</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect the connected cable(BD632-H6PSM-MC)</p>
-<p>Action 2: Replace MC</p>
-<p>Action 3: Replace BD632</p>
-<p>Action 4: Check the firmware</p></td>
+<td><p>磁铁状态反馈 (通道 1)</p></td>
+<td><p>绿色</p></td>
+<td><p>MC 关闭: 熄灭</p>
+<p>MC 打开: 点亮</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查连接电缆 (BD632-H6PSM-MC)</p>
+<p>措施 2: 更换 MC</p>
+<p>措施 3: 更换 BD632</p>
+<p>措施 4: 检查固件</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LEDG74</strong></p></td>
-<td><p>Magnet contact ON/OFF signal (Channel 2)
+<td><p>磁接触 ON/OFF 信号 (通道 2)
 </p></td>
-<td><p>Green</p></td>
-<td><p>When ON signal: Turned off</p>
-<p>When OFF signal: Turned on</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect the connected cable(BD632-BD640)</p>
-<p>Action 2: Replace BD632</p>
-<p>Action 3: Check the firmware</p></td>
+<td><p>绿色</p></td>
+<td><p>当 ON 信号时: 熄灭</p>
+<p>当 OFF 信号时: 点亮</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查连接电缆 (BD632-BD640)</p>
+<p>措施 2: 更换 BD632</p>
+<p>措施 3: 检查固件</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LEDG75</strong></p></td>
-<td><p>Magnet status Feedback(Channel 2)</p></td>
-<td><p>Green</p></td>
-<td><p>MC CLOSE: Turned off</p>
-<p>MC OPEN: Turned on</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect the connected cable(BD632-H6PSM-MC)</p>
-<p>Action 2: Replace MC</p>
-<p>Action 3: Replace BD632</p>
-<p>Action 4: Check the firmware</p></td>
+<td><p>磁铁状态反馈 (通道 2)</p></td>
+<td><p>绿色</p></td>
+<td><p>MC 关闭: 熄灭</p>
+<p>MC 打开: 点亮</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查连接电缆 (BD632-H6PSM-MC)</p>
+<p>措施 2: 更换 MC</p>
+<p>措施 3: 更换 BD632</p>
+<p>措施 4: 检查固件</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MJ1 G</strong></p></td>
-<td><p>EtherCAT MJ1 connector link LED</p></td>
-<td><p>Green</p></td>
-<td><p>When connected: Blinking</p>
-<p>When not connected: Turned off</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect the EtherCAT cable</p>
-<p>Action 2: Check the firmware</p>
-<p>Action 3: Replace BD632</p>
-<p>Action 4: Replace BD640 or H6COM-T</p></td>
+<td><p>EtherCAT MJ1 连接器链接 LED</p></td>
+<td><p>绿色</p></td>
+<td><p>连接时: 闪烁</p>
+<p>未连接时: 熄灭</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查 EtherCAT 电缆</p>
+<p>措施 2: 检查固件</p>
+<p>措施 3: 更换 BD632</p>
+<p>措施 4: 更换 BD640 或 H6COM-T</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>MJ1 Y</strong></p></td>
-<td><p>EtherCAT MJ1 connector ACT LED</p></td>
-<td><p>Yellow</p></td>
-<td><p>When connected: Turned on</p>
-<p>When not connected: Turned off</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect the EtherCAT cable</p>
-<p>Action 2: Check the firmware</p>
-<p>Action 3: Replace BD632</p>
-<p>Action 4: Replace BD640 or H6COM-T</p></td>
+<td><p>EtherCAT MJ1 连接器 ACT LED</p></td>
+<td><p>黄色</p></td>
+<td><p>连接时: 点亮</p>
+<p>未连接时: 熄灭</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查 EtherCAT 电缆</p>
+<p>措施 2: 检查固件</p>
+<p>措施 3: 更换 BD632</p>
+<p>措施 4: 更换 BD640 或 H6COM-T</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MJ2 G</strong></p></td>
-<td><p>EtherCAT MJ2 connector link LED</p></td>
-<td><p>Green</p></td>
-<td><p>When connected: Blinking</p>
-<p>When not connected: Turned off</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect the EtherCAT cable</p>
-<p>Action 2: Check the firmware</p>
-<p>Action 3: Replace BD632</p>
-<p>Action 4: Replace BD640 or H6COM-T</p></td>
+<td><p>EtherCAT MJ2 连接器链接 LED</p></td>
+<td><p>绿色</p></td>
+<td><p>连接时: 闪烁</p>
+<p>未连接时: 熄灭</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查 EtherCAT 电缆</p>
+<p>措施 2: 检查固件</p>
+<p>措施 3: 更换 BD632</p>
+<p>措施 4: 更换 BD640 或 H6COM-T</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>MJ2 Y</strong></p></td>
-<td><p>EtherCAT MJ2 connector ACT LED</p></td>
-<td><p>Yellow</p></td>
-<td><p>When connected: Turned on</p>
-<p>When not connected: Turned off</p></td>
-<td><p>Phenomenon States other than normal state</p>
-<p>Action 1: Inspect the EtherCAT cable</p>
-<p>Action 2: Check the firmware</p>
-<p>Action 3: Replace BD632</p>
-<p>Action 4: Replace BD640 or H6COM-T</p></td>
+<td><p>EtherCAT MJ2 连接器 ACT LED</p></td>
+<td><p>黄色</p></td>
+<td><p>连接时: 点亮</p>
+<p>未连接时: 熄灭</p></td>
+<td><p>现象 状态异常</p>
+<p>措施 1: 检查 EtherCAT 电缆</p>
+<p>措施 2: 检查固件</p>
+<p>措施 3: 更换 BD632</p>
+<p>措施 4: 更换 BD640 或 H6COM-T</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>SEG1</strong></p></td>
-<td><p>Safety module state LED (Chain 1)</p></td>
-<td><p>7-seg</p></td>
-<td><p>When normal: A number will be displayed, and the dot will blink.</p></td>
-<td><p>Phenomenon Turned off, or the dot stops blinking</p>
-<p>Action 1: Replace BD632</p></td>
+<td><p>安全模块状态 LED (链 1)</p></td>
+<td><p>7 段</p></td>
+<td><p>正常时: 显示数字，点将闪烁。</p></td>
+<td><p>现象 熄灭，或点停止闪烁</p>
+<p>措施 1: 更换 BD632。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SEG2</strong></p></td>
-<td><p>Safety module state LED (Chain 2)</p></td>
-<td><p>7-seg</p></td>
-<td><p>When normal: A number will be displayed, and the dot will blink.</p></td>
-<td><p>Phenomenon Turned off, or the dot stops blinking</p>
-<p>Action 1: Replace BD632</p></td>
+<td><p>安全模块状态 LED (链 2)</p></td>
+<td><p>7 段</p></td>
+<td><p>正常时: 显示数字，点将闪烁。</p></td>
+<td><p>现象 熄灭，或点停止闪烁</p>
+<p>措施 1: 更换 BD632。</p></td>
 </tr>
 </tbody>
 </table>
 
 [__SOURCE](4-basic-components/3-component-func/2-safety-module-BD632/4-setting-device.md)
-# 4.3.2.4. Setting Devices
+# 4.3.2.4. 设定设备
 
-![](../../../_assets/그림_4.31_BD632(Safety_IO_Board)의_설정장치_설명.png  )
+![](../../../_assets/그림_4.31_BD632(Safety_IO_Board)의_설정장치_설명.png)
 
-Figure 4.11 Description of the Setting Devices of the BD632 (Safety IO Board)
+Figure 4.11 BD632（安全IO板）的设定设备说明
 
 {% hint style="warning" %}
-When a safety-related input is connected and activated, you must check whether the function is operating normally by referring to "1.11 Safety Measures When Operating the Robot."
+当安全相关输入连接并激活时，您必须通过参考“1.11 操作机器人时的安全措施”来检查功能是否正常运行。
 {% endhint %}
 
-
-Table 4-9 Description of the SW1, SW2, SW3, SW4 and SW7 setting devices of BD632 (Safety IO Module)
-
+表4-9 BD632（安全IO模块）SW1、SW2、SW3、SW4和SW7设定设备的说明
 
 <table>
 <thead>
   <tr>
-    <th colspan="2">Switch</th>
+    <th colspan="2">开关</th>
     <th rowspan="2">SW1</th>
     <th rowspan="2">SW2</th>
     <th rowspan="2">SW3</th>
@@ -3017,312 +2907,298 @@ Table 4-9 Description of the SW1, SW2, SW3, SW4 and SW7 setting devices of BD632
     <th rowspan="2">SW7</th>
   </tr>
   <tr>
-    <th colspan="2">number</th>
+    <th colspan="2">编号</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td colspan="2">Usage</td>
-    <td>Sets whether to install the Operation Panel (OP) (Chain 1)</td>
-    <td>Sets whether to install the Operation Panel (OP) (Chain 2)</td>
-    <td>Sets whether to install OVT6, LS, OVT7 (additional axis), and OVT8 (extended axis) (Chain 1)</td>
-    <td>Sets whether to install OVT6, LS, OVT7 (additional axis), and OVT8 (extended axis) (Chain 2)</td>
-    <td>Sets whether to install the PLC ES, SG(Chain 1, Chain 2)
+    <td colspan="2">用途</td>
+    <td>设定是否安装操作面板（OP）（链1）</td>
+    <td>设定是否安装操作面板（OP）（链2）</td>
+    <td>设定是否安装OVT6、LS、OVT7（附加轴）和OVT8（扩展轴）（链1）</td>
+    <td>设定是否安装OVT6、LS、OVT7（附加轴）和OVT8（扩展轴）（链2）</td>
+    <td>设定是否安装PLC ES、SG（链1，链2）
 </td>
   </tr>
   <tr>
-    <td rowspan="2">Contents of setting</td>
-    <td>OFF</td>
-    <td>Non-installation</td>
-    <td>Non-installation</td>
-    <td>1: Installation of OVT6</br>2: Installation of LS<br>3: Installation of OVT7</br>4: Installation of OVT8
+    <td rowspan="2">设定内容</td>
+    <td>关闭</td>
+    <td>不安装</td>
+    <td>不安装</td>
+    <td>1：安装OVT6</br>2：安装LS<br>3：安装OVT7</br>4：安装OVT8
 </td>
-    <td>1: Installation of OVT6</br>2: Installation of LS</br>3: Installation of OVT7</br>4: Installation of OVT8</br>
+    <td>1：安装OVT6</br>2：安装LS</br>3：安装OVT7</br>4：安装OVT8</br>
 </td>
-    <td>1: Installation of ES(Chain 1)</br>2: Installation of SG(Chain 1)</br>3: Installation of ES(Chain 2)</br>4: Installation of SG(Chain 2)</br>
-</td>
-  </tr>
-  <tr>
-    <td>ON</td>
-    <td>Installation</td>
-    <td>Installation</td>
-    <td>1: No installation of OVT6</br>2: No installation of LS</br>3: No installation of OVT7</br>4: No installation of OVT8</br>
-</td>
-    <td>1: No installation of OVT6</br>2: No installation of LS</br>3: No installation of OVT7</br>4: No installation of OVT8</br>
-</td>
-    <td>1: No installation of ES(Chain 1)</br>2: No installation of SG(Chain 1)</br>3: No installation of ES(Chain 2)</br>4: No installation of SG(Chain 2)</br>
+    <td>1：安装ES（链1）</br>2：安装SG（链1）</br>3：安装ES（链2）</br>4：安装SG（链2）</br>
 </td>
   </tr>
   <tr>
-    <td colspan="2">Setting when shipped from the factory</td>
-    <td>Non-installation (OFF)</td>
-    <td>Non-installation (OFF)</td>
-    <td>1: OFF</br>2: OFF</br>3: On (OFF when an additional axis OVT is connected)</br>4: On (OFF when an extended axis OVT is connected)</br>
+    <td>打开</td>
+    <td>安装</td>
+    <td>安装</td>
+    <td>1：不安装OVT6</br>2：不安装LS</br>3：不安装OVT7</br>4：不安装OVT8</br>
 </td>
-    <td>1: OFF</br>2: OFF</br>3: On (OFF when an additional axis OVT is connected)</br>4: On (OFF when an extended axis OVT is connected)</br>
+    <td>1：不安装OVT6</br>2：不安装LS</br>3：不安装OVT7</br>4：不安装OVT8</br>
 </td>
-    <td>1: No installation of ES(Chain 1)</br>2: No installation of SG(Chain 1)</br>3: No installation of ES(Chain 2)</br>4: No installation of SG(Chain 2)</br>
+    <td>1：不安装ES（链1）</br>2：不安装SG（链1）</br>3：不安装ES（链2）</br>4：不安装SG（链2）</br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2">出厂时的设定</td>
+    <td>不安装（关闭）</td>
+    <td>不安装（关闭）</td>
+    <td>1：关闭</br>2：关闭</br>3：开启（连接附加轴OVT时关闭）</br>4：开启（连接扩展轴OVT时关闭）</br>
+</td>
+    <td>1：关闭</br>2：关闭</br>3：开启（连接附加轴OVT时关闭）</br>4：开启（连接扩展轴OVT时关闭）</br>
+</td>
+    <td>1：不安装ES（链1）</br>2：不安装SG（链1）</br>3：不安装ES（链2）</br>4：不安装SG（链2）</br>
 </td>
   </tr>
 </tbody>
 </table>
-
 [__SOURCE](4-basic-components/3-component-func/2-safety-module-BD632/5-em-stop-conn.md)
-# 4.3.2.5. Connections of the Emergency Stop
+# 4.3.2.5. 紧急停止的连接
 
-(1\)  External Emergency Stop of Contact Input Type 
+(1\) 外部紧急停止接触输入类型
 
-The external emergency stop (EMEX) is designed in a way that it can be operated regardless of the controller mode (automatic or manual) and is continuously monitored by the BD632 (Safety IO Board). When a safety input is coming in, the motor power will be shut off to put the robot in a safe state. The external emergency stop switch should be connected and used in the form of contact output, as shown in the figure below.
+外部紧急停止 (EMEX) 的设计使其可以在任何控制器模式（自动或手动）下操作，并由 BD632（安全 IO 板）持续监控。当安全输入到达时，电动机电源会关闭，以使机器人处于安全状态。外部紧急停止开关应按下图所示以接触输出的形式连接和使用。
 
-![](../../../_assets/그림_4.32_터미널블록_TBEM에_외부비상정지_스위치를_연결하는_방법.png  )
+![](../../../_assets/그림_4.32_터미널블록_TBEM에_외부비상정지_스위치를_연결하는_방법.png)
 
-Figure 4.12 Method to Connect the External Emergency Stop Switch to the Terminal Block TBEM
+图 4.12 将外部紧急停止开关连接到端子块 TBEM 的方法
 
-If the external emergency stop is not to be used, connect the terminals of the terminal block TBEM (connect the pins 9-1 and 10-2 of the TBEM connector), as shown below, to disable the input.
+如果不打算使用外部紧急停止，请如下面所示连接端子块 TBEM 的端子（连接 TBEM 连接器的引脚 9-1 和 10-2），以禁用输入。
 
-![](../../../_assets/그림_4.25_BD632(Safety_IO_Board)_TBEM.png  )
+![](../../../_assets/그림_4.25_BD632(Safety_IO_Board)_TBEM.png)
 
-Figure 4.13 Method to Perform When Not Using the External Emergency Stop of Contact Input Type
+图 4.13 不使用外部紧急停止接触输入类型时的处理方法
 
 {% hint style="warning" %}
-If an external emergency stop is to be installed and used, the robot should be operated after confirming that the emergency stop operates normally. In addition, check if the emergency stop input is disabled. This is an essential measure that must be taken in advance for the safety of workers.
+如果要安装和使用外部紧急停止，机器人应在确认紧急停止正常工作后再操作。此外，请检查紧急停止输入是否被禁用。这是确保工人安全必须提前采取的基本措施。
 {% endhint %}
-
 [__SOURCE](4-basic-components/3-component-func/2-safety-module-BD632/6-safety-guard-conn.md)
-# 4.3.2.6. Connection of the Safety Guard 
+# 4.3.2.6. 安全保护装置的连接
 
-(1\) General Safety Guard
+(1\) 一般安全保护装置
 
-The general safety guard operates regardless of the controller's mode (automatic or manual). In other words, when a person enters inside the installed safety guard or when the guard is broken, the controller will immediately shut off the motor power. The safety guard that can be used should be in the form of contact output. In the terminal block TBEM, terminals are configured in a way that they connect the contact outputs of the safety guard to the dual safety chain, as shown in the figure below.
+一般安全保护装置在控制器的模式（自动或手动）下均可操作。换句话说，当人进入安装的安全保护装置内部或保护装置被破坏时，控制器将立即切断电机电源。可使用的安全保护装置应该是接触输出的形式。在终端块 TBEM 中，端子被配置为将安全保护装置的接触输出连接到双重安全链，如下图所示。
 
+![](../../../_assets/그림_4.34_터미널블록_TBRMT에_일반_안전가드를_연결하는_방법.png)
 
+图 4.14 将一般安全保护装置连接到终端块 TBRMT 的方法
 
-![](../../../_assets/그림_4.34_터미널블록_TBRMT에_일반_안전가드를_연결하는_방법.png  )
+如果不使用一般安全保护装置，请将终端块 TBEM 的端子（引脚 15-7 和 16-8）连接，如下所示，以禁用输入。
 
-Figure 4.14 Method to Connect a General Safety Guard to the Terminal Block TBRMT
+![](../../../_assets/그림_4.25_BD632(Safety_IO_Board)_TBEM.png)
 
-If the general safety guard is not to be used, connect the terminals (pins 15-7 and 16-8) of the terminal block TBEM, as shown below, to disable the input.
-
-![](../../../_assets/그림_4.25_BD632(Safety_IO_Board)_TBEM.png  )
-
-Figure 4.15 Method to Perform When Not Using a General Safety Guard
+图 4.15 不使用一般安全保护装置时的操作方法
 
 {% hint style="warning" %}
-If a general safety guard is to be installed and used, the robot should be operated after confirming that the emergency stop operates normally. In addition, check if the emergency stop input is disabled. This is an essential measure that must be taken in advance for the safety of workers.
+如果要安装和使用一般安全保护装置，则在操作机器人之前应确认急停按钮正常运行。此外，检查急停输入是否被禁用。这是确保工人安全的必要措施。
 {% endhint %}
 
+(2\) 接触输入类型的自动安全保护装置
 
-\(2\) Automatic Safety Guard of Contact Input Type 
+仅当控制器处于自动模式时，自动安全保护装置才会工作，并提供两个输入，如下所示。与一般安全保护装置一样，自动安全保护装置也应为接触输出的形式。在终端块 TBEM 中，端子被配置为将安全保护装置的接触输出连接到双重安全链，如下图所示。
 
-The automatic safety guard operates only when the controller is in the automatic mode and provides two inputs, as shown below. Like a general safety guard, the automatic safety guard should be in the form of contact output. In the terminal block TBEM, terminals are configured in a way that they connect the contact outputs of the safety guard to the dual safety chain, as shown in the figure below.
+![](../../../_assets/그림_4.36_터미널블록_TBEM에_접점입력_자동_안전가드를_연결하는_방법.png)
 
-![](../../../_assets/그림_4.36_터미널블록_TBEM에_접점입력_자동_안전가드를_연결하는_방법.png  )
+图 4.16 将接触输入类型的自动安全保护装置连接到终端块 TBEM 的方法
 
-Figure 4.16 Method to Connect an Automatic Safety Guard of Contact Input Type to the Terminal Block TBEM
+如果不使用自动安全保护装置，请将终端块 TBEM 的端子（引脚 11-3、12-4、13-5 和 14-6）连接，如下所示，以禁用输入。
 
-If the automatic safety guard is not to be used, connect the terminals of the terminal block TBEM((pins 11-3, 12-4, 13-5 and 14-6), as shown below, to disable the input.
+![](../../../_assets/그림_4.25_BD632(Safety_IO_Board)_TBEM.png)
 
-![](../../../_assets/그림_4.25_BD632(Safety_IO_Board)_TBEM.png  )
-
-Figure 4.17 Method to Perform When Not Using an Automatic Safety Guard of Contact Input Type
+图 4.17 不使用接触输入类型的自动安全保护装置时的操作方法
 
 {% hint style="warning" %}
-If an automatic safety guard is to be installed and used, the robot should be operated after confirming that the emergency stop works normally. In addition, check if the emergency stop input is disabled. This is an essential measure that must be taken in advance for the safety of workers.
+如果要安装和使用自动安全保护装置，则在操作机器人之前应确认急停按钮正常运行。此外，检查急停输入是否被禁用。这是确保工人安全的必要措施。
 {% endhint %}
-
-
 [__SOURCE](4-basic-components/3-component-func/2-safety-module-BD632/7-safety-plc-io-conn.md)
-# 4.3.2.7. Connection of the Safety PLC/IO
+# 4.3.2.7. 安全PLC/IO的连接
 
-The emergency input signal and monitoring output signal between the safety PLC or IO, and the robot controller should be connected in the following way.
+安全PLC或IO与机器人控制器之间的紧急输入信号和监控输出信号应该按照以下方式连接。
 
 ![](../../../_assets/그림_4.38_Safety_PLC,IO의_연결방법.png  )
 
-Figure 4.18 Method to Connect the Safety PLC/IO
+图4.18 连接安全PLC/IO的方法
 
-\(1\) P-COM Input and Safety Input 
+\(1\) P-COM输入和安全输入 
 
-The safety inputs (ES, SG) of the safety PLC are designed in a way that the controller can receive the PNP output, as an input, from the terminal block TBEM. Considering this, you must connect the power (DC24V) of the PLC before using the safety inputs.
+安全PLC的安全输入（ES，SG）设计成可以从端子块TBEM接收PNP输出作为输入。考虑到这一点，在使用安全输入之前，必须连接PLC的电源（DC24V）。
 
 {% hint style="warning" %}
-If a safety input is to be installed and used, the robot should be operated after confirming that the function works normally. This is an essential measure that must be taken in advance for the safety of workers.
+如果要安装和使用安全输入，则应在确认功能正常工作后操作机器人。这是为工人安全必须提前采取的必要措施。
 {% endhint %}
 
 
-\(2\) Emergency Stop Output
+\(2\) 紧急停止输出
 
-Emergency stop output is designed in a way that allows the controller to use the PNP output by turning it on or off when it is necessary for an external device to use the status of the emergency stop switch (on the operation panel, teach pendant, etc.) installed inside the controller.
+紧急停止输出的设计方式允许控制器在需要外部设备使用控制器内部安装的紧急停止开关（在操作面板、教导盒等上）的状态时开启或关闭PNP输出。
 
 {% hint style="warning" %}
-If an emergency stop output is to be installed and used, the robot should be operated after confirming that the emergency stop output operates normally. This is an essential measure that must be taken in advance for the safety of workers.
+如果要安装和使用紧急停止输出，则应在确认紧急停止输出正常运行后操作机器人。这是为工人安全必须提前采取的必要措施。
 {% endhint %}
-
-
 [__SOURCE](4-basic-components/3-component-func/2-safety-module-BD632/8-ext-motor-on-sig-conn.md)
-# 4.3.2.8. Connection of the External Motor On Signal
+# 4.3.2.8. 外部电机开启信号的连接
 
 ![](../../../_assets/그림_4.39_외부_모터온_신호의_연결방법.png  )
 
-Figure 4.19 Method for Connection of the External Motor On Signal
+图 4.19 外部电机开启信号的连接方法
 
-When using a motor on signal input from the outside of the controller, the relevant connection should be configured in the form of a contact as above. If you don't connect, please connect it with a jumper wire. (N.C Contact type)
-
+当使用来自控制器外部的电机开启信号输入时，相关连接应按照上述接触形式配置。如果不连接，请使用跳线连接。 （N.C 接触类型）
 [__SOURCE](4-basic-components/3-component-func/3-servo-board-BD640/README.md)
-# 4.3.3. Servo Board (BD640)
-
+# 4.3.3. 伺服板 (BD640)
 [__SOURCE](4-basic-components/3-component-func/3-servo-board-BD640/1-overview.md)
-# 4.3.3.1. Overview
+# 4.3.3.1. 概述
 
-The servo board controls the operation of six axes (maximum eight axes) according to the position command received from the main board through EtherCAT communication, and processes the encoder signal, checks the error status, and creates the PWM signal of the drive unit.
+伺服板根据通过 EtherCAT 通信从主板接收到的位置指令控制六个轴的操作（最多八个轴），并处理编码器信号，检查错误状态，并生成驱动单元的 PWM 信号。
 
-![](../../../_assets/4.3.3.1._개요(Hi6).png  )
-
+![](../../../_assets/4.3.3.1._개요(Hi6).png)
 [__SOURCE](4-basic-components/3-component-func/3-servo-board-BD640/2-connector.md)
-# 4.3.3.2. Connectors
+# 4.3.3.2. 连接器
 
-Table 4-10 Types and Usage of the Connectors of the Servo Board (BD640)
+表 4-10 伺服板 (BD640) 连接器的类型和用法
 
 <table>
 <tbody>
 <tr class="odd">
-<td><p><strong>Name</strong></p></td>
-<td><p><strong>Usage</strong></p></td>
-<td><p><strong>Connection of external devices</strong></p></td>
+<td><p><strong>名称</strong></p></td>
+<td><p><strong>用法</strong></p></td>
+<td><p><strong>外部设备的连接</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CNEC1,4</strong></p></td>
-<td><p>Connection of the encoder signal</p></td>
+<td><p>编码器信号连接</p></td>
 <td><p>CNR4</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CNEC7,8</strong></p></td>
-<td><p>Connection of encoder signal of the additional axis</p></td>
+<td><p>附加轴的编码器信号连接</p></td>
 <td><p>CNR7,CNR8</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CNBS1,2,3</strong></p></td>
-<td><p>Connection of the drive unit signal</p></td>
-<td><p>CNBS1, CNBS2, and CNBS 3 of the drive unit</p></td>
+<td><p>驱动单元信号连接</p></td>
+<td><p>驱动单元的 CNBS1、CNBS2 和 CNBS3</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CNJTAG1</strong></p></td>
-<td><p>FPGA JTAG emulator port</p></td>
-<td><p>JTAG emulator</p></td>
+<td><p>FPGA JTAG 仿真器端口</p></td>
+<td><p>JTAG 仿真器</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>JP1</strong></p></td>
-<td><p>FPGA BOOT MODE</p></td>
-<td><p>FPGA flash and JTAG boot mode</p></td>
+<td><p>FPGA 启动模式</p></td>
+<td><p>FPGA 闪存和 JTAG 启动模式</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>VR1</strong></p></td>
-<td><p>Encoder input power regulator</p></td>
+<td><p>编码器输入电源调节器</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CNPNB1</strong></p></td>
-<td><p>Brake power input</p></td>
-<td><p>Brake cable</p></td>
+<td><p>制动电源输入</p></td>
+<td><p>制动电缆</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CNB1</strong></p></td>
-<td><p>Brake power of the main axis</p></td>
-<td><p>Brake cables for axis 1 to axis 6</p></td>
+<td><p>主轴的制动电源</p></td>
+<td><p>轴 1 到轴 6 的制动电缆</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CNB7,8</strong></p></td>
-<td><p>Brake power of the additional axis</p></td>
-<td><p>Brake cables for axis 7 and axis 8</p></td>
+<td><p>附加轴的制动电源</p></td>
+<td><p>轴 7 和轴 8 的制动电缆</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CNPRC1</strong></p></td>
-<td><p>MC relay contact</p></td>
+<td><p>MC 继电器接触点</p></td>
 <td></td>
 </tr>
 <tr class="even">
 <td><p><strong>CN24VB1</strong></p></td>
-<td><p>BD640 main power</p></td>
+<td><p>BD640 主电源</p></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CNSV1</strong></p></td>
-<td><p>BD630 DIO contact interface</p></td>
+<td><p>BD630 DIO 接触接口</p></td>
 <td></td>
 </tr>
 <tr class="even">
 <td><p><strong>DS1</strong></p></td>
-<td><p>DSP boot mode</p></td>
+<td><p>DSP 启动模式</p></td>
 <td><p>-</p></td>
 </tr>
 </tbody>
 </table>
-
 [__SOURCE](4-basic-components/3-component-func/3-servo-board-BD640/3-display.md)
-# 4.3.3.3. Display Devices
+# 4.3.3.3. 显示设备
 
- Table 4-11 LEDs of the Servo Board (BD640)
+ 表 4-11 伺服板 (BD640) 的 LED
 
 <table>
 <tbody>
 <tr class="odd">
-<td><p><strong>Status</strong></p>
-<p><strong>Name</strong></p></td>
-<td><p><strong>Color</strong></p></td>
-<td><p><strong>When normal</strong></p></td>
-<td><p><strong>When abnormal</strong></p></td>
-<td><p><strong>Remarks</strong></p></td>
+<td><p><strong>状态</strong></p>
+<p><strong>名称</strong></p></td>
+<td><p><strong>颜色</strong></p></td>
+<td><p><strong>正常时</strong></p></td>
+<td><p><strong>异常时</strong></p></td>
+<td><p><strong>备注</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>AL1</strong></p></td>
-<td><p>Red</p></td>
-<td><p>Turned off</p></td>
-<td><p>Turned on</p></td>
-<td><p>The PWM control signals for all axes will be turned off.</p></td>
+<td><p>红色</p></td>
+<td><p>关闭</p></td>
+<td><p>开启</p></td>
+<td><p>所有轴的 PWM 控制信号将被关闭。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>SON1~8</strong></p></td>
-<td><p>Green</p></td>
-<td><p>Will be turned on when the motor is on</p></td>
-<td><p>Will be turned off when the motor is off</p></td>
+<td><p>绿色</p></td>
+<td><p>当电机开启时将点亮</p></td>
+<td><p>当电机关闭时将熄灭</p></td>
 <td><p>-</p></td>
 </tr>
 </tbody>
 </table>
-
 [__SOURCE](4-basic-components/3-component-func/3-servo-board-BD640/4-setting-device.md)
-# 4.3.3.4. Setting Devices 
+# 4.3.3.4. 设置设备
 
 {% hint style="info" %}
-The DIP switch is set to OFF mode when shipped from the factory, and the setting should not be changed arbitrarily by the user.
+DIP开关在出厂时设置为OFF模式，用户不应随意更改该设置。
 {% endhint %}
 
 
-Table 4-12 Method to Set the DIP Switch (DS1) of the Servo Board (BD640) 
+表4-12 设置伺服板 (BD640) 的DIP开关 (DS1) 方法
 
 <table>
 <thead>
   <tr>
-    <th>Switch number</th>
+    <th>开关编号</th>
     <th>1</th>
     <th>2</th>
-    <th>Mode</th>
+    <th>模式</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>Setting when shipped from the factory</td>
+    <td>出厂时的设置</td>
     <td>OFF</td>
     <td>OFF</td>
-    <td>GET MODE</td>
+    <td>获取模式</td>
   </tr>
   <tr>
-    <td>When testing</td>
+    <td>测试时</td>
     <td>ON</td>
     <td>OFF</td>
-    <td>WAIT MODE</td>
+    <td>等待模式</td>
   </tr>
   <tr>
-    <td>Switch exterior</td>
+    <td>开关外观</td>
     <td colspan="3"></td>
   </tr>
 </tbody>
@@ -3331,16 +3207,16 @@ Table 4-12 Method to Set the DIP Switch (DS1) of the Servo Board (BD640)
 ![](../../../_assets/표4-11_스위치외형.png)</br></br>
 
 {% hint style="info" %}
-The user cannot change the following items arbitrarily and needs to refer to them only when required to reprogram through FPGA JTAG.
+用户无法随意更改以下项目，需仅在通过FPGA JTAG重新编程时参考。
 {% endhint %}
 
 
-Table 4-13 Description of the Jumper (JP1) of the Servo Board (BD640) 
+表4-13 伺服板 (BD640) 的跳线 (JP1) 描述
 
 <table>
 <thead>
   <tr>
-    <th colspan="2" rowspan="2">Name<br>Contents of the setting</th>
+    <th colspan="2" rowspan="2">名称<br>设置内容</th>
     <th colspan="4">JP1</th>
   </tr>
   <tr>
@@ -3352,138 +3228,135 @@ Table 4-13 Description of the Jumper (JP1) of the Servo Board (BD640)
 </thead>
 <tbody>
   <tr>
-    <td rowspan="2">Setting of the jumper</td>
-    <td>QSPI (flash) boot mode</td>
+    <td rowspan="2">跳线的设置</td>
+    <td>QSPI (闪存) 启动模式</td>
     <td>⊙</td>
     <td>⊙</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td>JTAG programming mode</td>
+    <td>JTAG编程模式</td>
     <td></td>
     <td>⊙</td>
     <td>⊙</td>
     <td></td>
   </tr>
   <tr>
-    <td>Setting when shipped from the factory</td>
-    <td colspan="5">1, 2 : short / 3 : open</td>
+    <td>出厂时的设置</td>
+    <td colspan="5">1, 2 : 短接 / 3 : 开路</td>
   </tr>
 </tbody>
 </table>
-
 [__SOURCE](4-basic-components/3-component-func/4-drive-module/README.md)
-# 4.3.4. Drive Module
-
+# 4.3.4. 驱动模块
 [__SOURCE](4-basic-components/3-component-func/4-drive-module/1-H6DX-middle-6ax-drive-module.md)
-# 4.3.4.1. H6D6X (Medium-Sized 6 Axes Integrated Drive Module)
+# 4.3.4.1. H6D6X (中型6轴一体化驱动模块)
 
-The drive module performs a power amplification function that allows the current to flow to the individual phases of the motor according to the current command from the servo board. The six axes integrated drive module can drive six motors at the same time and is configured as follows.
+驱动模块执行功率放大功能，允许电流根据伺服板的当前命令流向电机的各个相。六轴一体化驱动模块可以同时驱动六个电机，配置如下。
 
-The three-phase current entered from the power supply module is rectified through a diode module and then converted into direct current and stored in a smoothing capacitor. When the motor speed of the robot is decelerated, the electric power generated from the motor will be consumed through IGBT and resistors. The relevant configuration is as follows. 
+从电源模块输入的三相电流通过二极管模块整流，然后转换为直流电并存储在平滑电容中。当机器人的电机速度减速时，电机产生的电力将通过IGBT和电阻消耗。相关配置如下。
 
-Table 4-14 Configuration of H6D6X (Medium-Sized 6 Axes Integrated Drive Module)
-
+表4-14 H6D6X（中型6轴一体化驱动模块）的配置
 
 <table>
 <thead>
   <tr>
-    <th colspan="2">Components</th>
-    <th>Functions</th>
+    <th colspan="2">组件</th>
+    <th>功能</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td rowspan="6">BD651<br>(Power Board)</td>
-    <td>Gate drive circuit</td>
-    <td>Generates the IPM gate signal</td>
+    <td rowspan="6">BD651<br>(电源板)</td>
+    <td>栅极驱动电路</td>
+    <td>生成IPM栅极信号</td>
   </tr>
   <tr>
-    <td>Gate power module</td>
-    <td>Transmit the gate power</td>
+    <td>栅极电源模块</td>
+    <td>传输栅极电源</td>
   </tr>
   <tr>
-    <td>Current detection part</td>
-    <td>Detects the current that flows through the motor</td>
+    <td>电流检测部分</td>
+    <td>检测通过电机的电流</td>
   </tr>
   <tr>
-    <td>Regenerative control</td>
-    <td>Drives the IGBT when the PN voltage rises</td>
+    <td>再生控制</td>
+    <td>当PN电压上升时驱动IGBT</td>
   </tr>
   <tr>
-    <td>Error detection part</td>
-    <td>Detects the PN overvoltage, regenerative discharge resistor overheating, and PN undervoltage errors</td>
+    <td>错误检测部分</td>
+    <td>检测PN过电压、再生放电电阻过热和PN欠电压错误</td>
   </tr>
   <tr>
-    <td>High voltage capacitor</td>
-    <td>Smooths the direct current</td>
+    <td>高压电容</td>
+    <td>平滑直流电</td>
   </tr>
   <tr>
-    <td rowspan="2">BD652<br>(Iterface Board)</td>
-    <td>Sequence interlocking part</td>
-    <td>Interlocks between the sequence status and the servo on signal</td>
+    <td rowspan="2">BD652<br>(接口板)</td>
+    <td>顺序联锁部分</td>
+    <td>在顺序状态和伺服开启信号之间进行联锁</td>
   </tr>
   <tr>
-    <td>Dedicated IO Terminal Blocks</td>
-    <td>Reserved IO port inside the controller</td>
+    <td>专用IO端子块</td>
+    <td>控制器内部保留的IO端口</td>
   </tr>
   <tr>
-    <td rowspan="4">Other parts</td>
-    <td>Heat sink</td>
-    <td>Releases the heat generated from power elements to the outside</td>
+    <td rowspan="4">其他部分</td>
+    <td>散热器</td>
+    <td>将功率元件产生的热量释放到外部</td>
   </tr>
   <tr>
-    <td>Rectification part</td>
-    <td>Rectify the AC input power to generate DC power for driving the motor</td>
+    <td>整流部分</td>
+    <td>整流交流输入功率以产生驱动电机的直流电</td>
   </tr>
   <tr>
-    <td>Regenerative IGBT</td>
-    <td>Performs regenerative discharge</td>
+    <td>再生IGBT</td>
+    <td>执行再生放电</td>
   </tr>
   <tr>
     <td>IPM</td>
-    <td>Convert the power for driving a three-phase motor</td>
+    <td>转换驱动三相电动机的功率</td>
   </tr>
 </tbody>
 </table>
 
-■  **Configuration of the Type Number of the Medium-Sized 6 Axes Integrated Drive Module**
+■  **中型6轴一体化驱动模块的型号配置**
 
 ![](../../../_assets/중형_6축_일체형_드라이브모듈_형번_구성.png  )
 
-Table 4-15 Type Symbol of the Medium-Sized 6 Axes Integrated Drive Module 
+表4-15 中型6轴一体化驱动模块的类型符号 
 
 <table>
 <tbody>
 <tr class="odd">
-<td><p><strong>Category</strong></p></td>
-<td><p><strong>Type symbol</strong></p></td>
+<td><p><strong>类别</strong></p></td>
+<td><p><strong>型号符号</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Hi6 Medium-Sized 6 Axes drive module</strong></p></td>
+<td><p><strong>Hi6 中型6轴驱动模块</strong></p></td>
 <td><p>H6D6X</p></td>
 </tr>
 </tbody>
 </table>
 
-Table 4-16 Specification of the Medium-Sized 6 Axes Integrated Drive Module
+表4-16 中型6轴一体化驱动模块的规格
 
 <table>
 <thead>
   <tr>
-    <th>Configuration</th>
-    <th colspan="2">Classification</th>
-    <th colspan="2">Application </th>
+    <th>配置</th>
+    <th colspan="2">分类</th>
+    <th colspan="2">应用</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td rowspan="2">IPM capacity</td>
+    <td rowspan="2">IPM容量</td>
     <td>3X</td>
     <td>3Y</td>
     <td>HS180, HS220, HH300, HH050</td>
-    <td rowspan="2">6 axes integrated </td>
+    <td rowspan="2">6轴一体化</td>
   </tr>
   <tr>
     <td>4X</td>
@@ -3491,64 +3364,64 @@ Table 4-16 Specification of the Medium-Sized 6 Axes Integrated Drive Module
     <td>HC2502B2D, HC2503B2D</td>
   </tr>
   <tr>
-    <td>Year</td>
+    <td>年份</td>
     <td colspan="2">00 ~ 99</td>
-    <td colspan="2">Production year: 2000~2099</td>
+    <td colspan="2">生产年份：2000~2099</td>
   </tr>
   <tr>
-    <td>Month</td>
+    <td>月份</td>
     <td colspan="2">01 ~ 12</td>
-    <td colspan="2">Production month: January~December</td>
+    <td colspan="2">生产月份：一月至十二月</td>
   </tr>
   <tr>
-    <td>Serial No.</td>
+    <td>序列号</td>
     <td colspan="2">001 ~ 999</td>
-    <td colspan="2">Number of units produced monthly: 1~999</td>
+    <td colspan="2">每月生产的单位数量：1~999</td>
   </tr>
 </tbody>
 </table>
 
-Table 4-17 Symbols of the IPM of the medium-sized 6 axes drive module 
+表4-17 中型6轴驱动模块的IPM符号 
 
 <table>
 <thead>
   <tr>
-    <th>Drive Model</th>
-    <th>IPM symbol</th>
-    <th>IPM Specification</th>
+    <th>驱动模型</th>
+    <th>IPM符号</th>
+    <th>IPM规格</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td rowspan="6">Drive module of the medium-sized 6 axes</td>
+    <td rowspan="6">中型6轴驱动模块</td>
     <td>X</td>
-    <td>(IPM current rating) 100A</td>
+    <td>(IPM电流额定值) 100A</td>
   </tr>
   <tr>
     <td>Y</td>
-    <td>(IPM current rating) 75A</td>
+    <td>(IPM电流额定值) 75A</td>
   </tr>
    <tr>
     <td>Z</td>
-    <td>(IPM current rating) 50A</td>
+    <td>(IPM电流额定值) 50A</td>
   </tr>
 </tbody>
 </table>
 
-Table 4-18 Symbols of the Hall Sensors of the medium-sized 6 axes drive module 
+表4-18 中型6轴驱动模块的霍尔传感器符号 
 
 <table>
 <thead>
   <tr>
-    <th>Drive Model</th>
-    <th>Hall sensor symbol (Specification)</th>
-    <th>Full-scalecurrent (Im)</th>
-    <th>IPM specification<br>(Rated current)</th>
+    <th>驱动模型</th>
+    <th>霍尔传感器符号（规格）</th>
+    <th>满刻度电流（Im）</th>
+    <th>IPM规格<br>(额定电流)</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td rowspan="6">Drive module of the medium-sized 6 axes</td>
+    <td rowspan="6">中型6轴驱动模块</td>
   </tr>
   <tr>
     <td>1 (4V/50A)</td>
@@ -3575,345 +3448,343 @@ Table 4-18 Symbols of the Hall Sensors of the medium-sized 6 axes drive module
 </table>
 
 {% hint style="info" %}
-The drive module differs depending on the type of the robot, so you must check the type when replacing it.
+驱动模块因机器人类型的不同而有所不同，因此更换时必须检查类型。
 {% endhint %}
 
 
 ![](../../../_assets/그림_4.39_BD651_부품_배치도.png  )
 
-Figure 4.20 Parts Placement Diagram of BD651</br></br>
+图 4.20 BD651的零件布局示意图</br></br>
 
-Table 4-19 Description of the Connectors of BD651
+表4-19 BD651的连接器说明
 
 <table>
 <tbody>
 <tr class="odd">
-<td><p><strong>Name</strong></p></td>
-<td><p><strong>Usage</strong></p></td>
-<td><p><strong>Connection of external devices</strong></p></td>
+<td><p><strong>名称</strong></p></td>
+<td><p><strong>用途</strong></p></td>
+<td><p><strong>外部设备连接</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CNPWM1~6</strong></p></td>
-<td><p>PWM signals and IPM error signals</p></td>
-<td><p>Board-to-board connectors of the BD652</p></td>
+<td><p>PWM信号和IPM错误信号</p></td>
+<td><p>BD652的板对板连接器</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CNRST</strong></p></td>
-<td><p>3-phase power input</p></td>
-<td><p>CNRST for the electronic module</p></td>
+<td><p>三相电源输入</p></td>
+<td><p>电子模块的CNRST</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CNCVT</strong></p></td>
-<td><p>Converter part error signal</p></td>
-<td><p>Board-to-board connectors of the BD652</p></td>
+<td><p>变换器部分错误信号</p></td>
+<td><p>BD652的板对板连接器</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CNDR</strong></p></td>
-<td><p>Regenerative discharge power output</p></td>
-<td><p>Regenerative discharge resistor</p></td>
+<td><p>再生放电功率输出</p></td>
+<td><p>再生放电电阻</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CNTR</strong></p></td>
-<td><p>Regenerative discharge resistor overheating detection</p></td>
-<td><p>Regenerative discharge resistor temperature sensor</p></td>
+<td><p>再生放电电阻过热检测</p></td>
+<td><p>再生放电电阻温度传感器</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CNM1~3</strong></p></td>
-<td><p>Motor drive output for axis 1 to axis 3</p></td>
+<td><p>轴1到轴3的电机驱动输出</p></td>
 <td><p>CMC1</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CNM4~6</strong></p></td>
-<td><p>Motor drive output for axis 4 to axis 6</p></td>
+<td><p>轴4到轴6的电机驱动输出</p></td>
 <td><p>CMC2</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CNPN7~8</strong></p></td>
-<td><p>Direct current power for the drive module of the additional axis</p></td>
-<td><p>CNPN for the drive module for an optional additional axis.</p></td>
+<td><p>额外轴的驱动模块的直流电源</p></td>
+<td><p>可选额外轴驱动模块的CNPN。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CNFG1</strong></p></td>
-<td><p>Frame ground for axis 1 to axis 3</p></td>
+<td><p>轴1到轴3的框架接地</p></td>
 <td><p>CMC1</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CNFG2</strong></p></td>
-<td><p>Frame ground for axis 4 to axis 6</p></td>
+<td><p>轴4到轴6的框架接地</p></td>
 <td><p>CMC2</p></td>
 </tr>
 </tbody>
 </table>
 
-Table 4-20 Description of LEDs of BD651
+表4-20 BD651的LED说明
 
 <table>
 <tbody>
 <tr class="odd">
-<td><p><strong>Name</strong></p></td>
-<td><p><strong>Color</strong></p></td>
-<td><p><strong>Status Display</strong></p></td>
+<td><p><strong>名称</strong></p></td>
+<td><p><strong>颜色</strong></p></td>
+<td><p><strong>状态显示</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>MC ON</strong></p></td>
-<td><p>Yellow</p></td>
-<td><p>Will be turned on when the magnet contact is driving</p></td>
+<td><p>黄色</p></td>
+<td><p>当磁接触驱动时点亮</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>POW</strong></p></td>
-<td><p>Green</p></td>
-<td><p>Will be turned on when the control voltage of the converter part is normal</p></td>
+<td><p>绿色</p></td>
+<td><p>当变换器部分的控制电压正常时点亮</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DR</strong></p></td>
-<td><p>Red</p></td>
-<td><p>Will be turned on the regenerative discharge is operating</p></td>
+<td><p>红色</p></td>
+<td><p>当再生放电正在操作时点亮</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>PN</strong></p></td>
-<td><p>Red</p></td>
-<td><p>Will be turned on when the PN voltage is higher than 42V</p></td>
+<td><p>红色</p></td>
+<td><p>当PN电压高于42V时点亮</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RYON</strong></p></td>
-<td><p>Red</p></td>
-<td><p>Will be turned off when the PN discharge is operating</p></td>
+<td><p>红色</p></td>
+<td><p>当PN放电操作时熄灭</p></td>
 </tr>
 </tbody>
 </table>
 
 ![](../../../_assets/그림_4.40_BD652_부품_배치도.png  )
 
-Figure 4.21 Parts Placement Diagram of BD652
+图 4.21 BD652的零件布局示意图
 
-Table 4-21 Description of the Connectors of BD652
+表4-21 BD652的连接器说明
 
 <table>
 <tbody>
 <tr class="odd">
-<td><p><strong>Name</strong></p></td>
-<td><p><strong>Usage</strong></p></td>
-<td><p><strong>Connection of external devices</strong></p></td>
+<td><p><strong>名称</strong></p></td>
+<td><p><strong>用途</strong></p></td>
+<td><p><strong>外部设备连接</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CNBS1~3</strong></p></td>
-<td><p>PWM signals and IPM error signals for 8 axes<br>Converter part error signal</p></td>
-<td><p>Board-to-board connectors of BD640</p></td>
+<td><p>8轴的PWM信号和IPM错误信号<br>变换器部分错误信号</p></td>
+<td><p>BD640的板对板连接器</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CNPWM1~6</strong></p></td>
-<td><p>PWM signals and IPM error signals for individual axes</p></td>
-<td><p>Board-to-board connectors of BD651</p></td>
+<td><p>个体轴的PWM信号和IPM错误信号</p></td>
+<td><p>BD651的板对板连接器</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CNPWM7~8</strong></p></td>
-<td><p>PWM signal and IPM error signal for the additional axis</p></td>
-<td><p>CNPWM of the drive module (BD658 or BD659) of the additional axis</p></td>
+<td><p>额外轴的PWM信号和IPM错误信号</p></td>
+<td><p>额外轴的驱动模块（BD658或BD659）的CNPWM</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CNCVT</strong></p></td>
-<td><p>Converter part error signal</p></td>
-<td><p>Board-to-board connectors of BD651</p></td>
+<td><p>变换器部分错误信号</p></td>
+<td><p>BD651的板对板连接器</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>TBIO</strong></p></td>
-<td><p>Reserved only for the IO terminal block</p></td>
-<td><p>Reserved</p></td>
+<td><p>仅保留用于IO端子块</p></td>
+<td><p>保留</p></td>
 </tr>
 </tbody>
 </table>
 
-Table 4-22 Description of the LEDs of BD652
+表4-22 BD652的LED说明
 
 <table>
 <tbody>
 <tr class="odd">
-<td><p><strong>Name</strong></p></td>
-<td><p><strong>Color</strong></p></td>
-<td><p><strong>Status Display</strong></p></td>
+<td><p><strong>名称</strong></p></td>
+<td><p><strong>颜色</strong></p></td>
+<td><p><strong>状态显示</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>MC</strong></p></td>
-<td><p>Yellow</p></td>
-<td><p>Will be turned on when the magnet contact is driving</p></td>
+<td><p>黄色</p></td>
+<td><p>当磁接触驱动时点亮</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>POW</strong></p></td>
-<td><p>Green</p></td>
-<td><p>Will be turned on when the control power is normal</p></td>
+<td><p>绿色</p></td>
+<td><p>当控制电源正常时点亮</p></td>
 </tr>
 </tbody>
 </table>
-
 [__SOURCE](4-basic-components/3-component-func/4-drive-module/2-H6D6A-small-6ax-drive-module.md)
-# 4.3.4.2. H6D6A (Small-Sized 6 Axes Integrated Drive Module)
+# 4.3.4.2. H6D6A (小型六轴集成驱动模块)
 
-The drive module performs a power amplification function that allows the current to flow to individual phases of the motor according to the current command from the servo board. The six axes integrated drive module can drive six motors at the same time and is configured as follows.
+该驱动模块执行功率放大功能，使电流能够按照伺服板发出的电流命令流向电机的各个相。六轴集成驱动模块可以同时驱动六台电机，配置如下。
 
-The three-phase current entered from the power supply module is rectified through a diode module and then converted into direct current and stored in a smoothing capacitor. When the motor speed of the robot is decelerated, the electric power generated from the motor will be consumed through IGBT and resistors. The relevant configuration is as follows.
+从电源模块输入的三相电流通过二极管模块整流后，转变为直流电并储存在平滑电容器中。当机械人的电机速度减速时，由电机产生的电能将通过IGBT和电阻消耗。相关配置如下。
 
-
-Table 4-23 Configuration of H6D6A (Small-Sized 6 Axes Integrated Drive Module)
+表 4-23 H6D6A (小型六轴集成驱动模块) 的配置
 
 <table>
 <thead>
   <tr>
-    <th colspan="2">Components</th>
-    <th>Components</th>
+    <th colspan="2">组件</th>
+    <th>组件</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td rowspan="6">BD653<br>(Power Board)</td>
-    <td>Gate drive circuit</td>
-    <td>Generates the IPM gate signal</td>
+    <td rowspan="6">BD653<br>(电源板)</td>
+    <td>门驱动电路</td>
+    <td>产生IPM门信号</td>
   </tr>
   <tr>
-    <td>Gate power module</td>
-    <td>Generates the gate power</td>
+    <td>门电源模块</td>
+    <td>产生门电源</td>
   </tr>
   <tr>
-    <td>Current detection part</td>
-    <td>Detects the current that flows through the motor</td>
+    <td>电流检测部分</td>
+    <td>检测流经电机的电流</td>
   </tr>
   <tr>
-    <td>Regenerative control</td>
-    <td>Turn on the IGBT when the PN voltage rises</td>
+    <td>再生控制</td>
+    <td>当PN电压上升时打开IGBT</td>
   </tr>
   <tr>
-    <td>Error detection part</td>
-    <td>Detects the overvoltage, regenerative resistor overheating, and undervoltage errors</td>
+    <td>错误检测部分</td>
+    <td>检测过压、再生电阻过热和欠压错误</td>
   </tr>
   <tr>
-    <td>High voltage capacitor</td>
-    <td>Smooths the direct current</td>
+    <td>高压电容</td>
+    <td>平滑直流电</td>
   </tr>
   <tr>
-    <td rowspan="2">BD654<br>(Iterface Board)</td>
-    <td>Sequence interlocking part</td>
-    <td>Interlocks between the sequence status and the servo on signal</td>
+    <td rowspan="2">BD654<br>(接口板)</td>
+    <td>顺序联锁部分</td>
+    <td>在顺序状态和伺服启信号之间联锁</td>
   </tr>
   <tr>
-    <td>Dedicated IO Terminal Blocks</td>
-    <td>Reserved IO port inside the controller</td>
+    <td>专用IO接线端子</td>
+    <td>控制器内部的保留IO端口</td>
   </tr>
   <tr>
-    <td rowspan="4">Other Parts</td>
-    <td>Heat sink</td>
-    <td>Releases the heat generated in power elements to the outside</td>
+    <td rowspan="4">其他部件</td>
+    <td>散热器</td>
+    <td>将电源元件产生的热量释放到外部</td>
   </tr>
   <tr>
-    <td>Rectification part</td>
-    <td>Rectify the AC input power to generate DC power for driving the motor</td>
+    <td>整流部分</td>
+    <td>将交流输入电源整流生成直流电源以驱动电机</td>
   </tr>
   <tr>
-    <td>Regenerative IGBT</td>
-    <td>Performs regenerative discharge</td>
+    <td>再生IGBT</td>
+    <td>执行再生放电</td>
   </tr>
   <tr>
     <td>IPM</td>
-    <td>Convert the power for driving a three-phase motor</td>
+    <td>转变为驱动三相电机的电源</td>
   </tr>
 </tbody>
 </table>
 
 {% hint style="info" %}
-The drive module differs depending on the type of the robot, so you must check the type when replacing it.
+驱动模块因机械人类型不同而有所不同，因此更换时必须确认类型。
 {% endhint %}
 
-■  **Configuration of the Type Number of the Small-Sized 6 Axes Integrated Drive Module**
+■  **小型六轴集成驱动模块的型号配置**
 
 
 ![](../../../_assets/소형_6축_일체형_드라이브모듈_형번_구성.png  )
 
-Table 4-24 Type Symbol of the Small-Sized 6 Axes Integrated Drive Module
+表 4-24 小型六轴集成驱动模块的类型符号
 
 <table>
 <tbody>
 <tr class="odd">
-<td><p><strong>Category </strong></p></td>
-<td><p><strong>Type symbol</strong></p></td>
+<td><p><strong>类别 </strong></p></td>
+<td><p><strong>类型符号</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Hi6 Small-Sized 6 Axes drive module</strong></p></td>
+<td><p><strong>Hi6 小型六轴驱动模块</strong></p></td>
 <td><p>H6D6A</p></td>
 </tr>
 </tbody>
 </table>
 
-Table 4-25 Specification of the Small-Sized 6 Axes Integrated Drive Module
+表 4-25 小型六轴集成驱动模块的规格
 
 <table>
 <thead>
   <tr>
-    <th>Configuration</th>
-    <th colspan="2">Classification</th>
-    <th colspan="2">Application</th>
+    <th>配置</th>
+    <th colspan="2">分类</th>
+    <th colspan="2">应用</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>IPM capacity</td>
+    <td>IPM容量</td>
     <td>3A</td>
     <td>3D</td>
     <td>HA006B, HH020</td>
-    <td>6 axes integrated </td>
+    <td>六轴集成 </td>
   </tr>
   <tr>
-    <td>Year</td>
+    <td>年份</td>
     <td colspan="2">00 ~ 99</td>
-    <td colspan="2">Production year: 2000-2099</td>
+    <td colspan="2">生产年份: 2000-2099</td>
   </tr>
   <tr>
-    <td>Month</td>
+    <td>月份</td>
     <td colspan="2">01 ~ 12</td>
-    <td colspan="2">Production month: January-December</td>
+    <td colspan="2">生产月份: 一月-十二月</td>
   </tr>
   <tr>
-    <td>Serial No.</td>
+    <td>序列号</td>
     <td colspan="2">001 ~ 999</td>
-    <td colspan="2">Number of units produced monthly: 1~999</td>
+    <td colspan="2">每月生产数量: 1~999</td>
   </tr>
 </tbody>
 </table>
 
-Table 4-26 Capacity of the Small-Sized IPM
+表 4-26 小型IPM的容量
 
 <table>
 <thead>
   <tr>
-    <th>Drive Model</th>
-    <th>IPM symbol</th>
-    <th>IPM Specification</th>
+    <th>驱动型号</th>
+    <th>IPM符号</th>
+    <th>IPM规格</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td rowspan="7">Drive module of the small-sized 6 axes</td>
+    <td rowspan="7">小型六轴的驱动模块</td>
     <td>A</td>
-    <td>(IPM allowable current rating) 30A</td>
+    <td>(IPM可承受电流额定值) 30A</td>
   </tr>
   <tr>
     <td>D</td>
-    <td>(IPM allowable current rating) 10A</td>
+    <td>(IPM可承受电流额定值) 10A</td>
   </tr>
 </tbody>
 </table>
 
-Table 4-27 Symbols of the Hall Sensors of the Small-Sized IPM
+表 4-27 小型IPM的霍尔传感器符号
 
 <table>
 <thead>
   <tr>
-    <th>Drive Model</th>
-    <th>Hall sensor symbol (Specification)</th>
-    <th>Full-scale current (Im)</th>
-    <th>IPM specification (Allowable current rating)</th>
+    <th>驱动型号</th>
+    <th>霍尔传感器符号 (规格)</th>
+    <th>满量程电流 (Im)</th>
+    <th>IPM规格 (可承受电流额定值)</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td rowspan="7">Drive module of the small-sized 6 axes</td>
+    <td rowspan="7">小型六轴的驱动模块</td>
     <td>3 (4V/15A)</td>
     <td>27.27Apeak</td>
     <td rowspan="2">6MBP50VAA060 (30A)</td>
@@ -3949,230 +3820,229 @@ Table 4-27 Symbols of the Hall Sensors of the Small-Sized IPM
 </table>
 
 {% hint style="info" %}
-The drive module differs depending on the type of the robot, so you must check the type when replacing it.
+驱动模块因机械人类型不同而有所不同，因此更换时必须确认类型。
 {% endhint %}
 
 ![](../../../_assets/그림_4.41_BD653_부품_배치도.png  )
 
-Figure 4.22 Parts Placement Diagram of BD653 
+图 4.22 BD653的部件布局图 
 
-Table 4-28 Description of the Connectors of BD653
+表 4-28 BD653的连接器描述
 
 <table>
 <tbody>
 <tr class="odd">
-<td><p><strong>Name</strong></p></td>
-<td><p><strong>Usage</strong></p></td>
-<td><p><strong>Connection of external devices</strong></p></td>
+<td><p><strong>名称</strong></p></td>
+<td><p><strong>用途</strong></p></td>
+<td><p><strong>外部设备连接</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CNPWM1~6</strong></p></td>
-<td><p>PWM signals and IPM error signals</p></td>
-<td><p>Board-to-board connectors of BD654</p></td>
+<td><p>PWM信号和IPM错误信号</p></td>
+<td><p>BD654的板对板连接器</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CNRST</strong></p></td>
-<td><p>3-phase power input</p></td>
-<td><p>CNRST for the electronic module</p></td>
+<td><p>三相电源输入</p></td>
+<td><p>电子模块的CNRST</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CNCVT</strong></p></td>
-<td><p>Converter part error signal</p></td>
-<td><p>Board-to-board connectors of BD654</p></td>
+<td><p>转换器部分错误信号</p></td>
+<td><p>BD654的板对板连接器</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CNDR</strong></p></td>
-<td><p>Regenerative discharge power output </p></td>
-<td><p>Regenerative discharge resistor</p></td>
+<td><p>再生放电功率输出 </p></td>
+<td><p>再生放电电阻</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CNTR</strong></p></td>
-<td><p>Regenerative discharge resistor overheating detection</p></td>
-<td><p>Regenerative discharge resistor temperature sensor</p></td>
+<td><p>再生放电电阻过热检测</p></td>
+<td><p>再生放电电阻温度传感器</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CNM1~6</strong></p></td>
-<td><p>Motor drive output</p></td>
+<td><p>电机驱动输出</p></td>
 <td><p>CMC1</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CNPN7~8</strong></p></td>
-<td><p>Direct current for the drive module of the additional axis</p></td>
-<td><p>CNPN for the drive module for an optional additional axis</p></td>
+<td><p>用于额外轴的驱动模块的直流电</p></td>
+<td><p>用于额外轴驱动模块的CNPN</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CNFG1, CNFG4</strong></p></td>
-<td><p>Frame ground for motors</p></td>
+<td><p>电机的框架接地</p></td>
 <td><p>CMC1</p></td>
 </tr>
 </tbody>
 </table>
 
-Table 4-29 Description of the LEDs of BD653
+表 4-29 BD653的LED描述
 
 <table>
 <tbody>
 <tr class="odd">
-<td><p><strong>Name</strong></p></td>
-<td><p><strong>Color</strong></p></td>
-<td><p><strong>Status display</strong></p></td>
+<td><p><strong>名称</strong></p></td>
+<td><p><strong>颜色</strong></p></td>
+<td><p><strong>状态显示</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>MC ON</strong></p></td>
-<td><p>Yellow</p></td>
-<td><p>Will be turned on when the magnet contact is driving</p></td>
+<td><p>黄色</p></td>
+<td><p>当磁性接触器驱动时会亮起</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>POW</strong></p></td>
-<td><p>Green</p></td>
-<td><p>Will be turned on when the control voltage of the converter part is normal</p></td>
+<td><p>绿色</p></td>
+<td><p>当转换器部分的控制电压正常时会亮起</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DR</strong></p></td>
-<td><p>Red</p></td>
-<td><p>Will be turned on the regenerative discharge is operating</p></td>
+<td><p>红色</p></td>
+<td><p>当再生放电操作时会亮起</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>PN</strong></p></td>
-<td><p>Red</p></td>
-<td><p>Will be turned on when the PN voltage is higher than 42V</p></td>
+<td><p>红色</p></td>
+<td><p>当PN电压高于42V时会亮起</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RYON</strong></p></td>
-<td><p>Red</p></td>
-<td><p>Will be turned off when the PN discharge operation starts</p></td>
+<td><p>红色</p></td>
+<td><p>当PN放电操作开始时会熄灭</p></td>
 </tr>
 </tbody>
 </table>
 
 ![](../../../_assets/그림_4.42_BD654_부품_배치도.png  )
 
-Figure 4.23 Parts Placement Diagram of BD654</br></br>
+图 4.23 BD654的部件布局图</br></br>
 
-Table 4-30 Description of the Connectors of BD654
+表 4-30 BD654的连接器描述
 
 <table>
 <tbody>
 <tr class="odd">
-<td><p><strong>Name</strong></p></td>
-<td><p><strong>Usage</strong></p></td>
-<td><p><strong>Connection of external devices</strong></p></td>
+<td><p><strong>名称</strong></p></td>
+<td><p><strong>用途</strong></p></td>
+<td><p><strong>外部设备连接</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CNBS1~3</strong></p></td>
-<td><p>PWM signals and IPM error signals for 8 axes<br>Converter part error signal</p></td>
-<td><p>Board-to-board connectors of BD640</p></td>
+<td><p>8轴的PWM信号和IPM错误信号<br>转换器部分错误信号</p></td>
+<td><p>BD640的板对板连接器</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CNPWM1~6</strong></p></td>
-<td><p>PWM signals and IPM error signals for individual axes</p></td>
-<td><p>Board-to-board connectors of BD653</p></td>
+<td><p>单轴的PWM信号和IPM错误信号</p></td>
+<td><p>BD653的板对板连接器</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CNPWM7~8</strong></p></td>
-<td><p>PWM signal and IPM error signal for the additional axis</p></td>
-<td><p>CNPWM of the drive module (BD 658 or BD 659) of the additional axis</p></td>
+<td><p>附加轴的PWM信号和IPM错误信号</p></td>
+<td><p>附加轴驱动模块(BD 658或BD 659)的CNPWM</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CNCVT</strong></p></td>
-<td><p>Converter part error signal</p></td>
-<td><p>Board-to-board connectors of BD653</p></td>
+<td><p>转换器部分错误信号</p></td>
+<td><p>BD653的板对板连接器</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>TBIO</strong></p></td>
-<td><p>Reserved only IO terminal block</p></td>
-<td><p>Reserved</p></td>
+<td><p>仅保留的IO接线端子</p></td>
+<td><p>保留</p></td>
 </tr>
 </tbody>
 </table>
 
-Table 4-31 Description of the LEDs of BD654
+表 4-31 BD654的LED描述
 
 <table>
 <tbody>
 <tr class="odd">
-<td><p><strong>Name</strong></p></td>
-<td><p><strong>Color</strong></p></td>
-<td><p><strong>Status Display</strong></p></td>
+<td><p><strong>名称</strong></p></td>
+<td><p><strong>颜色</strong></p></td>
+<td><p><strong>状态显示</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>MC</strong></p></td>
-<td><p>Yellow</p></td>
-<td><p>Will be turned on when the magnet contact is driving</p></td>
+<td><p>黄色</p></td>
+<td><p>当磁性接触器驱动时会亮起</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>POW</strong></p></td>
-<td><p>Green</p></td>
-<td><p>Will be turned on when the control power is normal</p></td>
+<td><p>绿色</p></td>
+<td><p>当控制电源正常时会亮起</p></td>
 </tr>
 </tbody>
 </table>
-
 [__SOURCE](4-basic-components/3-component-func/4-drive-module/3-optional-drive-module-spec.md)
-# 4.3.4.3. Specification of the Optional Drive Module
+# 4.3.4.3. 可选驱动模块的规格
 
-■  **Configuration of the Type Number of the Optional Drive Module**
+■  **可选驱动模块的类型编号配置**
 
 ![](../../../_assets/선택사양_드라이브모듈의_형번_구성.png  )
 
-Table 4-32 Type Symbol of the Optional Drive Module
+表 4-32 可选驱动模块的类型符号
 
 <table>
 <thead>
   <tr>
-    <th>Category</th>
-    <th>Type symbol</th>
+    <th>类别</th>
+    <th>类型符号</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>Hi6 1 Axes drive module</td>
+    <td>Hi6 1 轴驱动模块</td>
     <td>H6D1</td>
   </tr>
 </tbody>
 </table>
 
-Table 4-33 Capacity of the IPM of the Optional Drive Module
+表 4-33 可选驱动模块的IPM容量
 
 <table>
 <thead>
   <tr>
-    <th>Drive Model</th>
-    <th>IPM symbol</th>
-    <th>IPM Specification</th>
+    <th>驱动型号</th>
+    <th>IPM符号</th>
+    <th>IPM规格</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td rowspan="6">Drive module of the additional axis</td>
+    <td rowspan="6">附加轴的驱动模块</td>
     <td>X</td>
-    <td>(IPM current rating) 100A</td>
+    <td>(IPM电流额定值) 100A</td>
   </tr>
   <tr>
     <td>Y</td>
-    <td>(IPM current rating) 75A</td>
+    <td>(IPM电流额定值) 75A</td>
   </tr>
   <tr>
     <td>Z</td>
-    <td>(IPM current rating) 50A</td>
+    <td>(IPM电流额定值) 50A</td>
   </tr>
 </tbody>
 </table>
 
-Table 4-34 Symbols of the Hall Sensors of the Optional Drive Module
+表 4-34 可选驱动模块的霍尔传感器符号
 
 <table>
 <thead>
   <tr>
-    <th>Drive Model</th>
-    <th>Hall sensor symbol(Specification)</br>Full-scale current (Im)</th>
-    <th>Full-scale current(Im)</th>
-    <th>IPM specification</br>(Rated current</th>
+    <th>驱动型号</th>
+    <th>霍尔传感器符号（规格）</br>满量程电流（Im）</th>
+    <th>满量程电流（Im）</th>
+    <th>IPM规格</br>（额定电流</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td rowspan="6">Drive module of the additional axis</td>
+    <td rowspan="6">附加轴的驱动模块</td>
   </tr>
   <tr>
     <td>1 (4V/50A)</td>
@@ -4197,1115 +4067,1081 @@ Table 4-34 Symbols of the Hall Sensors of the Optional Drive Module
   </tr>
 </tbody>
 </table>
-
 [__SOURCE](4-basic-components/3-component-func/4-drive-module/4-H6D1X-carriage-drive-module-spec.md)
-# 4.3.4.4. H6D1X (Carriage Drive Module; Optional)
+# 4.3.4.4. H6D1X (驱动模块; 可选)
 
-The drive module performs a power amplification function that allows the current to flow to the individual phases of the motor according to the current command from the servo board. The carriage drive module can drive one motor of 100A or below and is configured as follows.
+驱动模块执行功率放大功能，允许电流根据伺服板的电流命令流向电机的各相。小车驱动模块可以驱动一个电流为100A或以下的电机，配置如下。
 
-![](../../../_assets/그림_4.43_H6D1X용BD658_부품_배치도.png  )
+![](../../../_assets/그림_4.43_H6D1X용BD658_부품_배치도.png)
 
-Figure 4.24 Parts Placement Diagram of BD658 for H6D1X</br></br>
+图4.24 H6D1X用BD658的部件布置图</br></br>
 
-Table 4-35 Configuration of H6D1X
+表4-35 H6D1X的配置
 
 <table>
 <thead>
   <tr>
-    <th colspan="2">Components</th>
-    <th>Functions</th>
+    <th colspan="2">组件</th>
+    <th>功能</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td rowspan="3">BD658</br>(IPM board)
+    <td rowspan="3">BD658</br>(IPM板)
 </td>
-    <td>Logic part</td>
-    <td>Converts the PWM signals received from the drive module for the 6 axes into the upper and lower sides drive signals of the IPM, and processes errors</td>
+    <td>逻辑部分</td>
+    <td>将从驱动模块接收到的6个轴的PWM信号转换为IPM的上下侧驱动信号，并处理错误</td>
   </tr>
   <tr>
-    <td>Gate power module</td>
-    <td>Generates the IPM gate power</td>
+    <td>门电源模块</td>
+    <td>生成IPM门电源</td>
   </tr>
   <tr>
-    <td>Current detection part</td>
-    <td>Detects the current that flows through the motor</td>
+    <td>电流检测部分</td>
+    <td>检测流过电机的电流</td>
   </tr>
   <tr>
-    <td rowspan="2">Other parts</td>
-    <td>Heat sink</td>
-    <td>Releases the heat generated in IPM to the outside</td>
+    <td rowspan="2">其他部件</td>
+    <td>散热器</td>
+    <td>将IPM产生的热量释放到外部</td>
   </tr>
   <tr>
     <td>IPM</td>
-    <td>Convert the power for driving a three-phase motor</td>
+    <td>转换驱动三相电机的功率</td>
   </tr>
 </tbody>
 </table>
 
-Table 4-36 Description of the Connectors of H6D1X
+表4-36 H6D1X连接器的描述
 
 <table>
 <thead>
   <tr>
-    <th>Name</th>
-    <th>Usage</th>
-    <th>Connection of external devices</th>
+    <th>名称</th>
+    <th>使用</th>
+    <th>外部设备的连接</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td>CNPWM</td>
-    <td>PWM signal and error signal</td>
-    <td>CNPWM7 or CNPWM8 of the drive module (BD652 or BD654) for the 6 axes</td>
+    <td>PWM信号和错误信号</td>
+    <td>驱动模块的CNPWM7或CNPWM8（BD652或BD654）用于6个轴</td>
   </tr>
   <tr>
     <td>CNM</td>
-    <td>Motor drive output</td>
-    <td>AMC1 or AMC2</td>
+    <td>电机驱动输出</td>
+    <td>AMC1或AMC2</td>
   </tr>
   <tr>
     <td>CNFG</td>
-    <td>Frame ground for the motor</td>
-    <td>AMC1 or AMC2</td>
+    <td>电机的框架接地</td>
+    <td>AMC1或AMC2</td>
   </tr>
   <tr>
     <td>CNPN</td>
-    <td>Drive direct current power input</td>
-    <td>CNPN7 or CNPN8 of the drive module (BD651 or BD653) for the 6 axes</td>
+    <td>驱动直流电源输入</td>
+    <td>驱动模块的CNPN7或CNPN8（BD651或BD653）用于6个轴</td>
   </tr>
 </tbody>
 </table>
-
 [__SOURCE](4-basic-components/3-component-func/4-drive-module/5-H6D1Z_servogun-drive-module-spec.md)
-# 4.3.4.5. H6D1Z (Servo Gun Drive Module; Optional)
+# 4.3.4.5. H6D1Z (伺服枪驱动模块; 可选)
 
-The drive module performs a power amplification function that allows the current to flow to the individual phases of the motor according to the current command from the servo board. The servo gun drive module can drive one motor of 50A or below and is configured as follows.
+驱动模块执行功率放大功能，允许电流根据伺服板的当前命令流向电机的各个相。伺服枪驱动模块可以驱动50A或以下的一个电机，配置如下。
 
 ![](../../../_assets/그림_4.44_H6D1Z용_BD659_부품_배치도.png  )
 
-Figure 4.25 Parts Placement Diagram of BD659 for H6D1Z</br></br>
+图 4.25 H6D1Z用BD659的零件布局图</br></br>
 
-Table 4-37 Configuration of H6D1Z
+表 4-37 H6D1Z的配置
 
 <table>
 <thead>
   <tr>
-    <th colspan="2">Components</th>
-    <th>Functions</th>
+    <th colspan="2">组件</th>
+    <th>功能</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td rowspan="3">BD659<br>(IPM board)</td>
-    <td>Logic part</td>
-    <td>Converts the PWM signals received from the drive module for the 6 axes into the upper and lower sides drive signals of the IPM, and processes errors</td>
+    <td rowspan="3">BD659<br>(IPM 板)</td>
+    <td>逻辑部分</td>
+    <td>将从驱动模块接收到的6个轴的PWM信号转换为IPM的上下侧驱动信号，并处理错误</td>
   </tr>
   <tr>
-    <td>Gate power module</td>
-    <td>Generates the IPM gate power</td>
+    <td>门驱动模块</td>
+    <td>生成IPM门驱动电源</td>
   </tr>
   <tr>
-    <td>Current detection part</td>
-    <td>Detects the current that flows through the motor</td>
+    <td>电流检测部分</td>
+    <td>检测流经电机的电流</td>
   </tr>
   <tr>
-    <td rowspan="2">Other parts</td>
-    <td>Heat sink</td>
-    <td>Releases the heat generated in IPM to the outside</td>
+    <td rowspan="2">其他部分</td>
+    <td>散热器</td>
+    <td>将IPM中产生的热量释放到外部</td>
   </tr>
   <tr>
     <td>IPM</td>
-    <td>Convert the power for driving a three-phase motor</td>
+    <td>转换驱动三相电机的电源</td>
   </tr>
 </tbody>
 </table>
 
-Table 4-38 Description of the Connectors of H6D1Z
+表 4-38 H6D1Z连接器的描述
 
 <table>
 <thead>
   <tr>
-    <th>Name</th>
-    <th>Usage</th>
-    <th>Connection of external devices</th>
+    <th>名称</th>
+    <th>使用</th>
+    <th>外部设备的连接</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td>CNPWM</td>
-    <td>PWM signal and error signal</td>
-    <td>CNPWM7 or CNPWM8 of the drive module (BD652 or BD654) for the 6 axes</td>
+    <td>PWM信号和错误信号</td>
+    <td>驱动模块的CNPWM7或CNPWM8（BD652或BD654）用于6个轴</td>
   </tr>
   <tr>
     <td>CNM</td>
-    <td>Motor drive output</td>
-    <td>AMC1 or AMC2</td>
+    <td>电机驱动输出</td>
+    <td>AMC1或AMC2</td>
   </tr>
   <tr>
     <td>CNFG</td>
-    <td>Frame ground for the motor</td>
-    <td>AMC1 or AMC2</td>
+    <td>电机的框架接地</td>
+    <td>AMC1或AMC2</td>
   </tr>
   <tr>
     <td>CNPN</td>
-    <td>Drive direct current power input</td>
-    <td>CNPN7 or CNPN8 of the drive module (BD651 or BD653) for the 6 axes</td>
+    <td>驱动直流电源输入</td>
+    <td>驱动模块的CNPN7或CNPN8（BD651或BD653）用于6个轴</td>
   </tr>
 </tbody>
 </table>
-
 [__SOURCE](4-basic-components/3-component-func/5-power-supply-module-H6PSM/README.md)
-# 4.3.5. Power Supply Module (H6PSM)
-
+# 4.3.5. 电源模块 (H6PSM)
 [__SOURCE](4-basic-components/3-component-func/5-power-supply-module-H6PSM/1-H6PSM-power-dist-bd-BD6C2.md)
-# 4.3.5.1. H6PSM and Power Distribution Board (BD6C2) 
+# 4.3.5.1. H6PSM 和电源分配板 (BD6C2)
 
-The H6PSM (Hi6-N controller power supply module) module is responsible for the opening and closing and distribution of various power supplied to the controller. The following figures show the interior and exterior of the electrical module with diverse connectors and fuses.
+H6PSM（Hi6-N 控制器电源模块）模块负责控制器供电的打开、关闭和分配。下图显示了具有多种连接器和保险丝的电气模块的内部和外部。
 
-![](../../../_assets/그림_4.45_H6PSM(Hi6-N_제어기_전원공급모듈)_외부.png  )
+![](../../../_assets/그림_4.45_H6PSM(Hi6-N_제어기_전원공급모듈)_외부.png)
 
-Figure 4.26 Exterior of H6PSM (Hi6-N Controller Power Supply Module)
+图 4.26 H6PSM（Hi6-N 控制器电源模块）外部
 
-The following figure shows the power system diagram for the AC control power related to the opening and closing of the 3-phase AC power for the motor power, the generation of the brake power, and the driving of the fan. The diagram in the figure also shows the power distribution, such as the SMPS power for the DC power supply to the control module. A circuit breaker (CP) or fuse is connected to each power to protect individual circuits against overcurrent.
+下图显示了与电机电源的 3 相 AC 电源的打开和关闭、制动电源的生成以及风扇驱动相关的 AC 控制电源的电源系统图。图中的电路图还显示了电源模块的直流电源的 SMPS 电源等电源分配情况。每个电源连接了断路器（CP）或保险丝，以保护各个电路免受过电流的影响。
 
-![](../../../_assets/그림_4.47_Hi6-N_제어기의_전원계통.png  )
+![](../../../_assets/그림_4.47_Hi6-N_제어기의_전원계통.png)
 
-Figure 4.27 Power System of the Hi6-N Controller</br></br>
+图 4.27 Hi6-N 控制器的电源系统</br></br>
 
-Table 4-39 Types and Usage of the Fuses of the Electronic Module 
+表 4-39 电子模块保险丝的类型和用途 
 
 <table>
 <thead>
   <tr>
-    <th>Name</th>
-    <th>Usage</th>
-    <th>Specification</th>
+    <th>名称</th>
+    <th>用途</th>
+    <th>规格</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td>F1, F2</td>
-    <td>Overcurrent protection fuse for the cooling fan power (AC220V)</td>
+    <td>冷却风扇电源的过电流保护保险丝 (AC220V)</td>
     <td>AC220V 5A</td>
   </tr>
   <tr>
     <td>F3, F4</td>
-    <td>Overcurrent protection fuse for the CMSMPS power (AC220V) </td>
+    <td>CMSMPS 电源的过电流保护保险丝 (AC220V)</td>
     <td>AC220V 5A</td>
   </tr>
   <tr>
     <td>F5, F6</td>
-    <td>Overcurrent protection fuse for the BKSMPS power (AC220V) </td>
+    <td>BKSMPS 电源的过电流保护保险丝 (AC220V)</td>
     <td>AC220V 5A</td>
   </tr>
 </tbody>
 </table>
-
 [__SOURCE](4-basic-components/3-component-func/5-power-supply-module-H6PSM/2-BD6C2-connector.md)
-# 4.3.5.2. Connectors of BD6C2
+# 4.3.5.2. BD6C2的连接器
 
-The placement of the connectors of the electronic board (BD6C2) is shown in the following figure, and the usage and connection devices for each are as shown in Table 4-39.
+电子板(BD6C2)的连接器位置如以下图所示，每个连接器的使用及连接设备如表4-39所示。
 
 ![](../../../_assets/그림_4.48_전장보드(BD6C2)의_커넥터.png  )
 
-Figure 4.28 Connectors of the Electronic Board (BD6C2)</br></br>
+图4.28 电子板(BD6C2)的连接器</br></br>
 
-Table 4-40 Types and Usage of the Connectors of BD6C2
+表4-40 BD6C2连接器的类型和使用
 
 <table>
 <thead>
   <tr>
-    <th>Name</th>
-    <th>Usage</th>
-    <th>Specification</th>
+    <th>名称</th>
+    <th>使用</th>
+    <th>规格</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td>CNAC</td>
-    <td>3-phase power input for control</td>
-    <td>3-phase 220V</td>
+    <td>控制的三相电源输入</td>
+    <td>三相220V</td>
   </tr>
   <tr>
     <td>CN220</td>
-    <td>CMSMPS power output</td>
-    <td>Single-phase 220V</td>
+    <td>CMSMPS电源输出</td>
+    <td>单相220V</td>
   </tr>
   <tr>
     <td>CNFN1~4</td>
-    <td>AC fan power output</td>
-    <td>Single-phase 220V</td>
+    <td>交流风扇电源输出</td>
+    <td>单相220V</td>
   </tr>
   <tr>
     <td>CNPR1</td>
-    <td>Inrush current limiting circuit input</td>
-    <td>3-phase 220V, MC1 input side</td>
+    <td>涌流限制电路输入</td>
+    <td>三相220V, MC1输入侧</td>
   </tr>
   <tr>
     <td>CNPR2</td>
-    <td>Inrush current limiting circuit output</td>
-    <td>3-phase 220V, MC2 output side </td>
+    <td>涌流限制电路输出</td>
+    <td>三相220V, MC2输出侧 </td>
   </tr>
   <tr>
     <td>CNBKAC</td>
-    <td>Brake SMPS input</td>
-    <td>Single-phase 220V</td>
+    <td>制动SMPS输入</td>
+    <td>单相220V</td>
   </tr>
   <tr>
     <td>CNBKDC</td>
-    <td>Brake SMPS output</td>
+    <td>制动SMPS输出</td>
     <td>24VDC</td>
   </tr>
   <tr>
     <td>CNPB1</td>
-    <td>Brake control power</td>
+    <td>制动控制电源</td>
     <td>24VDC, PB, BD640</td>
   </tr>
   <tr>
     <td>CNPB2</td>
-    <td>Brake control power</td>
-    <td>24VDC, PB, Reserved</td>
+    <td>制动控制电源</td>
+    <td>24VDC, PB, 保留</td>
   </tr>
   <tr>
     <td>CNPRC</td>
-    <td>Inrush current limiting circuit control and monitoring</td>
+    <td>涌流限制电路控制和监测</td>
     <td>BD640 CNPRC</td>
   </tr>
   <tr>
     <td>CNFPS1</td>
-    <td>CMSMPS power failure detection signal output 1</td>
+    <td>CMSMPS电源故障检测信号输出1</td>
     <td>H6COM DIO</td>
   </tr>
   <tr>
     <td>CNFPS2</td>
-    <td>CMSMPS power failure detection signal output 2</td>
-    <td>Reserved</td>
+    <td>CMSMPS电源故障检测信号输出2</td>
+    <td>保留</td>
   </tr>
   <tr>
     <td>CNMC1</td>
-    <td>Electronic contact MC1 control and monitoring</td>
+    <td>电子接触MC1控制和监测</td>
     <td>MC1</td>
   </tr>
   <tr>
     <td>CNMC2</td>
-    <td>Electronic contact MC2 control and monitoring</td>
+    <td>电子接触MC2控制和监测</td>
     <td>MC2</td>
   </tr>
   <tr>
     <td>CNMC</td>
-    <td>Electronic contact control and monitoring</td>
+    <td>电子接触控制和监测</td>
     <td>BD632 CNMC</td>
   </tr>
   <tr>
     <td>CN24VB</td>
-    <td>Control power input for each module</td>
-    <td>24VDC, CMBUFFER output</td>
+    <td>各模块的控制电源输入</td>
+    <td>24VDC, CMBUFFER输出</td>
   </tr>
   <tr>
     <td>CN24VB1~8</td>
-    <td>Control power output for each module</td>
-    <td>24VDC, CN24VB for each module</td>
+    <td>各模块的控制电源输出</td>
+    <td>24VDC, 每个模块的CN24VB</td>
   </tr>
   <tr>
     <td>CNBM</td>
-    <td>CMSMPS power failure detection signal input</td>
+    <td>CMSMPS电源故障检测信号输入</td>
     <td>CMSMPS 13-14</td>
   </tr>
 </tbody>
 </table>
-
 [__SOURCE](4-basic-components/3-component-func/6-teach-pendant-TP630/README.md)
-# 4.3.6. Teach Pendant (TP630)
-
+# 4.3.6. 教学挂件 (TP630)
 [__SOURCE](4-basic-components/3-component-func/6-teach-pendant-TP630/1-overview.md)
-# 4.3.6.1. Overview
+# 4.3.6.1. 概述
 
-The teach pendant (TP630) communicates with the main module (H6COM-T) of the controller through Ethernet and allows the user to directly operate the following functions.
+教导挂件 (TP630) 通过以太网与控制器的主模块 (H6COM-T) 进行通信，并允许用户直接操作以下功能。
 
-*	Monitoring	: Job program / Data of each axis / Input and output signals / Status of the robot, etc.
+* 监控 : 作业程序 / 各轴的数据 / 输入和输出信号 / 机器人状态等。
 
-*	Log management 	: System version, operation time, error log, stop log, etc.
+* 日志管理 : 系统版本，运行时间，错误日志，停止日志等。
 
-*	File management 	: Version and teach program up/down
+* 文件管理 : 版本和教导程序的上下传
 
-*	Setting of various variables : User environment / control / robot / application / automatic integer, etc.
+* 各种变量的设置 : 用户环境 / 控制 / 机器人 / 应用 / 自动整数等。
 
-*	Robot teaching 	: Jog and teach program registration
+* 机器人教学 : Jog 和教导程序注册
 
-*	Robot operation 	: Motor on / start / stop / mode settings
+* 机器人操作 : 电机开启 / 启动 / 停止 / 模式设置
 
-The teach pendant is also equipped with a three-stage enable switch and emergency stop switch to ensure user safety.
-In addition, a USB A type connector is mounted under the rubber cover at the bottom of the teach pendant, allowing the user to upload/download necessary files, such as data and teaching programs, as well as versions of diverse types of boards using a USB memory stick.
+教导挂件还配备了三段启用开关和紧急停止开关，以确保用户安全。
+此外，教导挂件底部的橡胶盖下安装了一个 USB A 型连接器，允许用户使用 USB 存储棒上传/下载必要的文件，例如数据和教学程序，以及多种类型板的版本。
 
 
 ![](../../../_assets/그림_4.49_티치펜던트_TP630의_외관.png  )
 
-Figure 4.29 Exterior of the Teach Pendant TP630
-
+Figure 4.29 教导挂件 TP630 的外观
 [__SOURCE](4-basic-components/3-component-func/6-teach-pendant-TP630/2-USB-cover.md)
-# 4.3.6.2. USB Cover
+# 4.3.6.2. USB盖
 
-There is a USB A type connector mounted under the rubber cover at the bottom of the teach pendant, allowing the user to upload/download necessary files, such as versions of diverse types of boards, as well as data and teaching programs, using a USB memory stick.
- 
-
+在教导挂件底部的橡胶盖下安装了一个USB A型连接器，允许用户使用USB存储器上传/下载必要的文件，例如各种类型的板的版本，以及数据和教学程序。
 [__SOURCE](5-optional-components/README.md)
-# 5. Optional Components of the Controller
-
+# 5. 控制器的可选组件
 [__SOURCE](5-optional-components/1-PCI-comm-card/README.md)
-# 5.1. PCI Communication Card
-
+# 5.1. PCI通信卡
 [__SOURCE](5-optional-components/1-PCI-comm-card/1-overview.md)
-# 5.1.1. Overview
+# 5.1.1. 概述
 
-To use industrial communication in the Hi6 controller, you can use a PCI communication card. Descriptions below are provided based on a PCI communication card for Ethernet, which is a general model. For details, please refer to the contents for the PC Cards CIFX 50 model in the document "PC Cards CIFX 50 50E 70E 100EH UM 51 EN."
+要在 Hi6 控制器中使用工业通信，可以使用 PCI 通信卡。以下描述是基于以太网的 PCI 通信卡提供的，这是一个通用模型。有关详细信息，请参考文档 "PC Cards CIFX 50 50E 70E 100EH UM 51 EN" 中关于 PC 卡 CIFX 50 模型的内容。
 
-Table 5-1 Part Names of PCI Communication Cards
+表 5-1 PCI 通信卡的部件名称
 
 <table>
 <thead>
   <tr>
     <th>No.</th>
-    <th>Model Name</th>
-    <th>Communication type</th>
-    <th>Interface Connector</th>
+    <th>型号名称</th>
+    <th>通信类型</th>
+    <th>接口连接器</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td>1</td>
     <td>CIFX 50-RE/ML-HRC</td>
-    <td>HRC Real-Time Ethernet Master PCI</td>
+    <td>HRC 实时以太网主 PCI</td>
     <td>RJ45</td>
   </tr>
   <tr>
     <td>2</td>
     <td>CIFX 50-RE-HRC</td>
-    <td>HRC Real-Time Ethernet Slave PCI</td>
+    <td>HRC 实时以太网从 PCI</td>
     <td>RJ45</td>
   </tr>
   <tr>
     <td>3</td>
     <td>CIFX 50E-RE/ML-HRC</td>
-    <td>HRC Real-Time Ethernet Master PCIe</td>
+    <td>HRC 实时以太网主 PCIe</td>
     <td>RJ45</td>
   </tr>
   <tr>
     <td>4</td>
     <td>CIFX 50E-RE-HRC</td>
-    <td>HRC Real-Time Ethernet Slave PCIe</td>
+    <td>HRC 实时以太网从 PCIe</td>
     <td>RJ45</td>
   </tr>
   <tr>
     <td>5</td>
     <td>CIFX 50-CC-HRC</td>
-    <td>CC-Link Slave PCI</td>
-    <td>CombiCon Male, 5 pin</td>
+    <td>CC-Link 从 PCI</td>
+    <td>CombiCon 公头, 5 针</td>
   </tr>
   <tr>
     <td>6</td>
     <td>CIFX 50E-CC-HRC</td>
-    <td>CC-Link Slave PCIe</td>
-    <td>CombiCon Male, 5 pin</td>
+    <td>CC-Link 从 PCIe</td>
+    <td>CombiCon 公头, 5 针</td>
   </tr>
   <tr>
     <td>7</td>
     <td>CIFX 50-DN/ML-HRC</td>
-    <td>DeviceNet Maser PCI</td>
-    <td>CombiCon Male, 5 pin</td>
+    <td>DeviceNet 主 PCI</td>
+    <td>CombiCon 公头, 5 针</td>
   </tr>
   <tr>
     <td>8</td>
     <td>CIFX 50-DN-HRC</td>
-    <td>DeviceNet Slave PCI</td>
-    <td>CombiCon Male, 5 pin</td>
+    <td>DeviceNet 从 PCI</td>
+    <td>CombiCon 公头, 5 针</td>
   </tr>
   <tr>
     <td>9</td>
     <td>CIFX 50E-DN/ML-HRC</td>
-    <td>DeviceNet Maser PCIe</td>
-    <td>CombiCon Male, 5 pin</td>
+    <td>DeviceNet 主 PCIe</td>
+    <td>CombiCon 公头, 5 针</td>
   </tr>
   <tr>
     <td>10</td>
     <td>CIFX 50E-DN-HRC</td>
-    <td>DeviceNet Slave PCIe</td>
-    <td>CombiCon Male, 5 pin</td>
+    <td>DeviceNet 从 PCIe</td>
+    <td>CombiCon 公头, 5 针</td>
   </tr>
   <tr>
     <td>11</td>
     <td>CIFX 50-DP/ML-HRC</td>
-    <td>PROFIBUS Master PCI</td>
-    <td>Dsub Female, 9 pin</td>
+    <td>PROFIBUS 主 PCI</td>
+    <td>Dsub 母头, 9 针</td>
   </tr>
   <tr>
     <td>12</td>
     <td>CIFX 50-DP-HRC</td>
-    <td>PROFIBUS Slave PCI</td>
-    <td>Dsub Female, 9 pin</td>
+    <td>PROFIBUS 从 PCI</td>
+    <td>Dsub 母头, 9 针</td>
   </tr>
   <tr>
     <td>13</td>
     <td>CIFX 50E-DP/ML-HRC</td>
-    <td>PROFIBUS Master PCIe</td>
-    <td>Dsub Female, 9 pin</td>
+    <td>PROFIBUS 主 PCIe</td>
+    <td>Dsub 母头, 9 针</td>
   </tr>
   <tr>
     <td>14</td>
     <td>CIFX 50E-DP-HRC</td>
-    <td>PROFIBUS Slave PCIe</td>
-    <td>Dsub Female, 9 pin</td>
+    <td>PROFIBUS 从 PCIe</td>
+    <td>Dsub 母头, 9 针</td>
   </tr>
   <tr>
     <td>15</td>
     <td>CIFX 50E-CCIES-HRC</td>
-    <td>CC-Link IE Fileld PCIe</td>
+    <td>CC-Link IE 文件 PCIe</td>
     <td>RJ45</td>
   </tr>
 </tbody>
 </table>
-
 [__SOURCE](5-optional-components/1-PCI-comm-card/2-PCI-comm-card-config.md)
-# 5.1.2. Configuration of the PCI Communication Card
+# 5.1.2. PCI通信卡的配置
 
-A PCI communication card is basically configured, as shown below (when Ethernet-based communication is used), and varies in the number of connectors and LEDs depending on the type of industrial communication.
+PCI通信卡的基本配置如下（当使用基于以太网的通信时），并根据工业通信的类型在连接器和LED的数量上有所不同。
 
 ![](../../_assets/그림_5.1_PCI통신_카드_외관.png  )
 
-Figure 5.1 Exterior of the PCI Communication Card</br></br>
+图5.1 PCI通信卡的外观</br></br>
 
-Table 5-2 Description of the Exterior of the PCI Communication Card
+表5-2 PCI通信卡外观的描述
 
 <table>
 <thead>
   <tr>
-    <th>Name</th>
-    <th>Usage</th>
+    <th>名称</th>
+    <th>用途</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>Rotary Switch</td>
-    <td>Sets the communication according to the slot ID</td>
+    <td>旋转开关</td>
+    <td>根据插槽ID设置通信</td>
   </tr>
   <tr>
     <td>LED</td>
-    <td>Displays the system and communication status</td>
+    <td>显示系统和通信状态</td>
   </tr>
   <tr>
-    <td>Communication Port</td>
-    <td>Communication connection port</td>
+    <td>通信端口</td>
+    <td>通信连接端口</td>
   </tr>
   <tr>
-    <td>PCI Bus</td>
-    <td>PC connection bus</td>
+    <td>PCI总线</td>
+    <td>PC连接总线</td>
   </tr>
 </tbody>
 </table>
-
 [__SOURCE](5-optional-components/1-PCI-comm-card/3-PCI-comm-card-front.md)
-# 5.1.3. Front Part of the PCI Communication Card
+# 5.1.3. PCI通信卡的前面部分
 
-You can check the communication setting, communication cable connection, and communication status through the front part of the PCI communication card. Basically, you can use the card by setting the rotary switch to 1-4 in order according to the location of the H6COM-T PCI slot.
+您可以通过PCI通信卡的前面部分检查通信设置、通信电缆连接和通信状态。基本上，您可以根据H6COM-T PCI插槽的位置将旋转开关设置为1-4。
 
 ![](../../_assets/그림_5.2_PCI통신_카드_전면부.png  )
 
-Figure 5.2 Front Part of the PCI Communication Card</br></br>
+图5.2 PCI通信卡的前面部分</br></br>
 
-Table 5-3 Configuration of the Front Part of the PCI Communication Card, and the Description of the Functions
+表5-3 PCI通信卡前面部分的配置及功能说明
 
 <table>
 <thead>
   <tr>
-    <th>Name</th>
-    <th>Usage</th>
-    <th>Description of Functions</th>
+    <th>名称</th>
+    <th>用途</th>
+    <th>功能说明</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>Rotary Switch</td>
-    <td>Sets the communication for each slot number</td>
-    <td>H6COM-T PCI slots are fixed as #1~#4 sequentially starting from the one at the top (Communication to be set from TP).</td>
+    <td>旋转开关</td>
+    <td>设置每个插槽号的通信</td>
+    <td>H6COM-T PCI插槽从顶部开始固定为#1~#4依次排列（通信从TP进行设置）。</td>
   </tr>
   <tr>
-    <td>System LED</td>
-    <td>System status checking LED</td>
-    <td>Green: System in operation</br>Yellow: Boot loader waiting
+    <td>系统LED</td>
+    <td>系统状态检查LED</td>
+    <td>绿色：系统正在运行</br>黄色：启动加载程序等待
 </td>
   </tr>
   <tr>
-    <td>Communication Status LED</td>
-    <td>Communication status checking LED</td>
-    <td>Green: Communication in operation</br>Red: Communication error
+    <td>通信状态LED</td>
+    <td>通信状态检查LED</td>
+    <td>绿色：通信正常运行</br>红色：通信错误
 </td>
   </tr>
   <tr>
-    <td>Communication Interface</td>
-    <td>Communication cable connection port</td>
-    <td>Use of connectors suitable for communication</td>
+    <td>通信接口</td>
+    <td>通信电缆连接端口</td>
+    <td>使用适合通信的连接器</td>
   </tr>
 </tbody>
 </table>
-
 [__SOURCE](5-optional-components/2-brake-release-unit/README.md)
-# 5.2. Brake Release Unit 
-
+# 5.2. 刹车释放单元
 [__SOURCE](5-optional-components/2-brake-release-unit/1-overview.md)
-# 5.2.1. Overview
+# 5.2.1. 概述
 
-The brake release unit can be used when it is necessary to release the motor brake for each axis of the robot. It can help to set the robot posture mainly during the initial installation of the robot. When releasing the brake, you must fully understand the safety information of "Release of the manual brake" in "1.8.2 Other Related Functions" before using the robot.
+刹车释放单元可用于在必要时释放机器人每个轴的电动机刹车。它主要有助于在机器人初始安装期间设置机器人姿态。在释放刹车时，您必须在使用机器人之前充分了解“1.8.2 其他相关功能”中的“手动刹车释放”的安全信息。
 
 {% hint style="info" %}
-1. Do not release more than two axes at the same time.
-2. Keep a safe distance from the robot first before using the brake release unit.
-3. Use the brake release unit after preparing for the dropping of the robot's axis using equipment such as a crane.
-4. Check the safety matters while working in a group of at least two people.
+1. 不要同时释放超过两个轴。
+2. 在使用刹车释放单元之前，保持与机器人安全距离。
+3. 在准备好使用起重机等设备降低机器人的轴后，再使用刹车释放单元。
+4. 在至少两人组队工作时检查安全事项。
 {% endhint %}
 
 {% hint style="warning" %}
-The robot should be installed and operated according to the guidelines of ISO 10218-2. In addition, it is required to comply with the relevant requirements of international standards and national laws. 
-Our company (or the manufacturer) will not be responsible for any accidents that occur because of not complying with the relevant requirements of international standards and national laws or not following the above "caution."
+机器人应根据 ISO 10218-2 的指南进行安装和操作。此外，还需遵守国际标准和国家法律的相关要求。
+我公司（或制造商）不对因未遵守国际标准和国家法律的相关要求或未遵循上述“注意事项”而发生的任何事故负责。
 {% endhint %}
-
-
 [__SOURCE](5-optional-components/2-brake-release-unit/2-brake-release-switch.md)
-# 5.2.2. Brake Release Switch
+# 5.2.2. 刹车释放开关
 
-The placement of the switches of the brake release unit is as shown in Figure 5.3, and their individual usage and operation are described in Table 5-4. To release the brake of the targeted axis, first press the Enable button, and then, while pressing the Enable button, press one of the buttons B1-B8 at the same time. Then, the relevant axis will be released.
-
+刹车释放装置的开关位置如图5.3所示，其各自的使用和操作在表5-4中描述。要释放目标轴的刹车，首先按下启用按钮，然后在按住启用按钮的同时，按下B1-B8其中一个按钮。然后，相应的轴将被释放。
 
 ![](../../_assets/그림_5.3_브레이크_해제유닛_스위치_및_상태확인_LED.png  )
 
-Figure 5.3 Switches and Status Checking LEDs of the Brake Release Unit</br></br>
+图5.3 刹车释放装置的开关和状态检查LED</br></br>
 
-Table 5-4 Usage of the Switches of the Brake Release Unit 
+表5-4 刹车释放装置开关的使用
 
 <table>
 <thead>
   <tr>
-    <th>Name</th>
-    <th>Usage</th>
-    <th>During operation</th>
+    <th>名称</th>
+    <th>使用</th>
+    <th>操作期间</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td>E</td>
-    <td>Brake Release Enable</td>
-    <td>Yellow Enable LED ON</td>
+    <td>刹车释放启用</td>
+    <td>黄色启用LED亮</td>
   </tr>
   <tr>
     <td>B1</td>
-    <td>Axis 1 Brake Release</td>
-    <td>Green D1 LED ON</td>
+    <td>轴1刹车释放</td>
+    <td>绿色D1 LED亮</td>
   </tr>
   <tr>
     <td>B2</td>
-    <td>Axis 2 Brake Release</td>
-    <td>Green D2 LED ON</td>
+    <td>轴2刹车释放</td>
+    <td>绿色D2 LED亮</td>
   </tr>
   <tr>
     <td>B3</td>
-    <td>Axis 3 Brake Release</td>
-    <td>Green D3 LED ON</td>
+    <td>轴3刹车释放</td>
+    <td>绿色D3 LED亮</td>
   </tr>
   <tr>
     <td>B4</td>
-    <td>Axis 4 Brake Release</td>
-    <td>Green D4 LED ON</td>
+    <td>轴4刹车释放</td>
+    <td>绿色D4 LED亮</td>
   </tr>
   <tr>
     <td>B5</td>
-    <td>Axis 5 Brake Release</td>
-    <td>Green D5 LED ON</td>
+    <td>轴5刹车释放</td>
+    <td>绿色D5 LED亮</td>
   </tr>
   <tr>
     <td>B6</td>
-    <td>Axis 6 Brake Release</td>
-    <td>Green D6 LED ON</td>
+    <td>轴6刹车释放</td>
+    <td>绿色D6 LED亮</td>
   </tr>
   <tr>
     <td>B7</td>
-    <td>Axis 7 Brake Release</td>
-    <td>Green D7 LED ON</td>
+    <td>轴7刹车释放</td>
+    <td>绿色D7 LED亮</td>
   </tr>
   <tr>
     <td>B8</td>
-    <td>Axis 8 Brake Release</td>
-    <td>Green D8 LED ON</td>
+    <td>轴8刹车释放</td>
+    <td>绿色D8 LED亮</td>
   </tr>
 </tbody>
 </table>
-
 [__SOURCE](5-optional-components/2-brake-release-unit/3-power-connector.md)
-# 5.2.3. Power and Connectors 
+# 5.2.3. 电源与连接器
 
-The placement of the power and connectors of the brake release unit is as shown in Figure 5.4 below, and their individual usage and connection devices are as shown in Table 5-5 below.
+刹车释放单元的电源和连接器的放置如下面的图5.4所示，它们的各自用途和连接设备如下面的表5-5所示。
 
 {% hint style="info" %}
-- When using the brake release unit, follow the procedures below.
-1. Turn off the AC220V power switch and check that the DC24V power switch is turned off.
-2. Connect the AC power cable to the AC power connector.
-3. Turn on the AC220V power switch.
-4. Turn on the DC24V power switch.
+- 使用刹车释放单元时，请遵循以下程序。
+1. 关闭 AC220V 电源开关，并检查 DC24V 电源开关是否关闭。
+2. 将交流电源线连接到交流电源连接器。
+3. 打开 AC220V 电源开关。
+4. 打开 DC24V 电源开关。
 
-- When the use of the brake release unit is finished, follow the procedures below.
-1. Turn off the DC24V power switch.
-2. Turn off the AC220V power switch.
-4. Disconnect the AC power cable.
+- 当刹车释放单元的使用完成后，请遵循以下程序。
+1. 关闭 DC24V 电源开关。
+2. 关闭 AC220V 电源开关。
+4. 断开交流电源线。
 
-- Do not use AC220V power and DC24V battery power at the same time.
+- 请勿同时使用 AC220V 电源与 DC24V 电池电源。
 {% endhint %}
 
 {% hint style="warning" %}
-Our company (or the manufacturer) will not be responsible for any accidents that occur because of not complying with the above "caution."
+本公司（或制造商）将对因未遵守上述“注意事项”而发生的任何事故不负责。
 {% endhint %}
-
 
 ![](../../_assets/그림_5.4_브레이크_해제_유닛_스위치_및_커넥터.png  )
 
-Figure 5.4 Switches and Connectors of the Brake Release Unit</br></br>
+图5.4 刹车释放单元的开关和连接器</br></br>
 
-Table 5-5 Types and Usage of the Connectors of the Brake Release Unit
+表5-5 刹车释放单元的连接器类型和用途
 
 <table>
 <thead>
   <tr>
-    <th>Name</th>
-    <th>Usage</th>
-    <th>Connection of external devices</th>
+    <th>名称</th>
+    <th>用途</th>
+    <th>外部设备的连接</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>AC 220V power connector and switch</td>
-    <td>Application of the AC power</td>
-    <td>100V AC~240V AC Single phase</td>
+    <td>AC 220V 电源连接器和开关</td>
+    <td>交流电源的应用</td>
+    <td>100V AC~240V AC单相</td>
   </tr>
   <tr>
-    <td>Brake release cable connection connector</td>
-    <td>Connection of the brake release unit and controller</td>
-    <td>CNB1, CNB7, and CNB8 of BD640</td>
+    <td>刹车释放电缆连接连接器</td>
+    <td>刹车释放单元与控制器的连接</td>
+    <td>BD640的CNB1、CNB7和CNB8</td>
   </tr>
   <tr>
-    <td>DC24V battery power connector</td>
-    <td>Connection of the power of a portable 24V battery</td>
-    <td>Portable 24V battery</td>
+    <td>DC24V电池电源连接器</td>
+    <td>便携式24V电池电源的连接</td>
+    <td>便携式24V电池</td>
   </tr>
   <tr>
-    <td>DC24V power switch</td>
-    <td>Brake release unit drive on/off</td>
-    <td>None</td>
+    <td>DC24V电源开关</td>
+    <td>刹车释放单元驱动的开/关</td>
+    <td>无</td>
   </tr>
 </tbody>
 </table>
-
 [__SOURCE](5-optional-components/2-brake-release-unit/4-brake-release-unit-status-LED.md)
-# 5.2.4. Brake Release Unit Status Display LEDs
-The LEDs for displaying the status of the brake release unit are as shown in Figure 5.3, and their individual usage and operation status are as shown in Table 5-6 below.
+# 5.2.4. 刹车释放单元状态显示 LED
+显示刹车释放单元状态的 LED 如图 5.3 所示，其各自的使用和操作状态如下表 5-6 所示。
 
-Table 5--6 Usage and Operation of the LEDs for the Status of the Brake Release Unit
-
+Table 5--6 刹车释放单元状态 LED 的使用和操作
 
 <table>
 <thead>
   <tr>
-    <th>Name</th>
-    <th>Usage</th>
-    <th>LED On operation</th>
+    <th>名称</th>
+    <th>使用</th>
+    <th>LED 开启操作</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>Enable</td>
-    <td>Checking by pressing the Enable switch</td>
-    <td>When the Enable switch is pressed,</br>the yellow Enable LED will be turned on.</td>
+    <td>启用</td>
+    <td>通过按下启用开关进行检查</td>
+    <td>当按下启用开关时，</br>黄色启用 LED 将被点亮。</td>
   </tr>
   <tr>
     <td>D1</td>
-    <td>Checking by pressing the switch for axis 1</td>
-    <td>When the switch for axis 1 is pressed, the green D1 LED will be turned on.</td>
+    <td>通过按下轴 1 开关进行检查</td>
+    <td>当按下轴 1 的开关时，绿色 D1 LED 将被点亮。</td>
   </tr>
   <tr>
     <td>D2</td>
-    <td>Checking by pressing the switch for axis 2</td>
-    <td>When the switch for axis 2 is pressed, the green D2 LED will be turned on.</td>
+    <td>通过按下轴 2 开关进行检查</td>
+    <td>当按下轴 2 的开关时，绿色 D2 LED 将被点亮。</td>
   </tr>
   <tr>
     <td>D3</td>
-    <td>Checking by pressing the switch for axis 3</td>
-    <td>When the switch for axis 3 is pressed, the green D3 LED will be turned on.</td>
+    <td>通过按下轴 3 开关进行检查</td>
+    <td>当按下轴 3 的开关时，绿色 D3 LED 将被点亮。</td>
   </tr>
   <tr>
     <td>D4</td>
-    <td>Checking by pressing the switch for axis 4</td>
-    <td>When the switch for axis 4 is pressed, the green D4 LED will be turned on.</td>
+    <td>通过按下轴 4 开关进行检查</td>
+    <td>当按下轴 4 的开关时，绿色 D4 LED 将被点亮。</td>
   </tr>
   <tr>
     <td>D5</td>
-    <td>Checking by pressing the switch for axis 5</td>
-    <td>When the switch for axis 5 is pressed, the green D5 LED will be turned on.</td>
+    <td>通过按下轴 5 开关进行检查</td>
+    <td>当按下轴 5 的开关时，绿色 D5 LED 将被点亮。</td>
   </tr>
   <tr>
     <td>D6</td>
-    <td>Checking by pressing the switch for axis 6</td>
-    <td>When the switch for axis 6 is pressed, the green D6 LED will be turned on.</td>
+    <td>通过按下轴 6 开关进行检查</td>
+    <td>当按下轴 6 的开关时，绿色 D6 LED 将被点亮。</td>
   </tr>
   <tr>
     <td>D7</td>
-    <td>Checking by pressing the switch for axis 7</td>
-    <td>When the switch for axis 7 is pressed, the green D7 LED will be turned on.</td>
+    <td>通过按下轴 7 开关进行检查</td>
+    <td>当按下轴 7 的开关时，绿色 D7 LED 将被点亮。</td>
   </tr>
   <tr>
     <td>D8</td>
-    <td>Checking by pressing the switch for axis 8</td>
-    <td>When the switch for axis 8 is pressed, the green D8 LED will be turned on.</td>
+    <td>通过按下轴 8 开关进行检查</td>
+    <td>当按下轴 8 的开关时，绿色 D8 LED 将被点亮。</td>
   </tr>
 </tbody>
 </table>
-
 [__SOURCE](5-optional-components/3-remote-io/README.md)
-# 5.3. Remote IO
-
+# 5.3. 远程 IO
 [__SOURCE](5-optional-components/3-remote-io/1-overview.md)
-# 5.3.1. Overview
+# 5.3.1. 概述
 
-To use general IO signals in the Hi6 controller, you need the commercial remote IO. Basically, the commercial remote IO can be used by connecting an "IO module" (selected by the user) to one "communication module." The module introduced below is a commercial remote IO module of Crevis, and you may purchase and use a commercial remote of other companies. For details on how to use each module, you are required to ask the company about the IO module you purchased.
+要在 Hi6 控制器中使用通用 IO 信号，您需要商业远程 IO。基本上，可以通过将用户选择的“IO 模块”连接到一个“通信模块”来使用商业远程 IO。下面介绍的模块是 Crevis 的商业远程 IO 模块，您也可以购买并使用其他公司的商业远程 IO。有关如何使用每个模块的详细信息，您需要向您购买的 IO 模块的公司咨询。
 
 {% hint style="info" %}
-Fieldbus communication must be available to use the commercial remote IO. Therefore, you should configure the PCI communication card together by referring to "5.1 PCI Communication Card" mentioned above.
+要使用商业远程 IO，必须支持现场总线通信。因此，您应参照上述的“5.1 PCI 通信卡”共同配置 PCI 通信卡。
 {% endhint %}
 
 
 ![](../../_assets/그림_5.5상용_리모트_IO_구성_예시.png  )
 
-Figure 5.5 Example of Configuration of Commercial Remote IO
-
+图 5.5 商业远程 IO 配置示例
 [__SOURCE](5-optional-components/3-remote-io/2-comm-module-crevis.md)
-# 5.3.2. Communication Module (of Crevis)
+# 5.3.2. 通信模块 (of Crevis)
 
-The types of communication modules are as shown below and can be used according to the desired communication.
+通信模块的类型如下所示，可以根据所需的通信进行使用。
 
-Table 5-7 Communication Module (of Crevis)
+表 5-7 通信模块 (of Crevis)
 
 
 <table>
 <tbody>
 <tr class="odd">
 <td><p><strong>NO</strong></p></td>
-<td><p><strong>Model name</strong></p></td>
-<td><p><strong>Specification</strong></p></td>
+<td><p><strong>型号名称</strong></p></td>
+<td><p><strong>规格</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>1</strong></p></td>
 <td><p>M9212</p></td>
-<td><p>DeviceNet Network Adapter</p></td>
+<td><p>DeviceNet 网络适配器</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>2</strong></p></td>
 <td><p>M9287</p></td>
-<td><p>ProfiNet Network Adapter</p></td>
+<td><p>ProfiNet 网络适配器</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>3</strong></p></td>
 <td><p>M9289</p></td>
-<td><p>ModbusTCP/UDP, EthernetIP Network Adapter</p></td>
+<td><p>ModbusTCP/UDP, EthernetIP 网络适配器</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>4</strong></p></td>
 <td><p>M9386</p></td>
-<td><p>EtherCAT ID Network Adapter, 1452 bytes</p></td>
+<td><p>EtherCAT ID 网络适配器, 1452 字节</p></td>
 </tr>
 </tbody>
 </table>
-
 [__SOURCE](5-optional-components/3-remote-io/3-io-other-module-crevis.md)
-# 5.3.3. IO and Other Modules (of Crevis)
+# 5.3.3. IO 和其他模块 (的 Crevis)
 
-The types of IO and other modules are as shown below and can be configured and used according to the desired operation.
+IO 和其他模块的类型如下所示，可以根据所需的操作进行配置和使用。
 
-Table 5-8 IO Module (of Crevis)
-
+表 5-8 IO 模块 (的 Crevis)
 
 <table>
 <tbody>
 <tr class="odd">
 <td><p><strong>NO</strong></p></td>
-<td><p><strong>Model name</strong></p></td>
-<td><p><strong>Specification</strong></p></td>
+<td><p><strong>型号名称</strong></p></td>
+<td><p><strong>规格</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>1</strong></p></td>
 <td><p>M12DF</p></td>
-<td><p>Digital Input 16Points, Universal (Sink or</p>
-<p>Source), 24Vdc, 18RTB</p></td>
+<td><p>数字输入 16 点，通用（源或</p>
+<p>接地），24Vdc，18RTB</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>2</strong></p></td>
 <td><p>M12FA</p></td>
-<td><p>Digital Input 32Points, Universal (Sink or</p>
-<p>Source), 24Vdc, Hirose 40P</p></td>
+<td><p>数字输入 32 点，通用（源或</p>
+<p>接地），24Vdc，Hirose 40P</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>3</strong></p></td>
 <td><p>M225F</p></td>
-<td><p>Digital Output 16 Points, Sink, 24Vdc/0.3A,</p>
+<td><p>数字输出 16 点，接地，24Vdc/0.3A，</p>
 <p>18RTB</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>4</strong></p></td>
 <td><p>M226F</p></td>
-<td><p>Digital Output 16 Points, Source, 24Vdc/0.3A,</p>
+<td><p>数字输出 16 点，源，24Vdc/0.3A，</p>
 <p>18RTB</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>5</strong></p></td>
 <td><p>M22BA</p></td>
-<td><p>Digital Output 32Points, Sink, 24Vdc/0.3A,</p>
+<td><p>数字输出 32 点，接地，24Vdc/0.3A，</p>
 <p>Hirose 40P</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>6</strong></p></td>
 <td><p>M2618</p></td>
-<td><p>Digital Output 8 Points, Sink, 24Vdc/1A, Max</p>
-<p>8A, 18RTB</p></td>
+<td><p>数字输出 8 点，接地，24Vdc/1A，最大</p>
+<p>8A，18RTB</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>7</strong></p></td>
 <td><p>M2628</p></td>
-<td><p>Digital Output 8 Points, Source, 24Vdc/1A, Max</p>
-<p>8A, 18RTB</p></td>
+<td><p>数字输出 8 点，源，24Vdc/1A，最大</p>
+<p>8A，18RTB</p></td>
 </tr>
 </tbody>
 </table>
 
-Table 5-9 Relay Module (of Crevis)
+表 5-9 继电器模块 (的 Crevis)
 
 <table>
 <tbody>
 <tr class="odd">
 <td><p><strong>NO</strong></p></td>
-<td><p><strong>Model Name</strong></p></td>
-<td><p><strong>Specification</strong></p></td>
+<td><p><strong>型号名称</strong></p></td>
+<td><p><strong>规格</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>1</strong></p></td>
 <td><p>M2788</p></td>
-<td><p>MOS Relay, 8 Points, 110Vdc/ac, 1A, 18RTB</p></td>
+<td><p>MOS 继电器，8 点，110Vdc/ac，1A，18RTB</p></td>
 </tr>
 </tbody>
 </table>
 
-Table 5-10 Analogue IO Module (of Crevis)
+表 5-10 模拟 IO 模块 (的 Crevis)
 
 <table>
 <tbody>
 <tr class="odd">
 <td><p><strong>NO</strong></p></td>
-<td><p><strong>Model Name</strong></p></td>
-<td><p><strong>Specification</strong></p></td>
+<td><p><strong>型号名称</strong></p></td>
+<td><p><strong>规格</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>1</strong></p></td>
 <td><p>M3534</p></td>
-<td><p>Analog Input 4ch Volatage, -10~10Vdc, 14bits</p></td>
+<td><p>模拟输入 4 通道电压，-10~10Vdc，14 位</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>2</strong></p></td>
 <td><p>M4534</p></td>
-<td><p>Analog Output 4ch Volatage, -10~10Vdc,</p>
-<p>14bits</p></td>
+<td><p>模拟输出 4 通道电压，-10~10Vdc，</p>
+<p>14 位</p></td>
 </tr>
 </tbody>
 </table>
 
-Table 5-11 Pulse Measuring Module (of Crevis)
+表 5-11 脉冲测量模块 (的 Crevis)
 
 <table>
 <tbody>
 <tr class="odd">
 <td><p><strong>NO</strong></p></td>
-<td><p><strong>Model Name</strong></p></td>
-<td><p><strong>Specification</strong></p></td>
+<td><p><strong>型号名称</strong></p></td>
+<td><p><strong>规格</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>1</strong></p></td>
 <td><p>M5112</p></td>
-<td><p>High speed counter, 2Channels, 24Vdc,</p>
-<p>18RTB(Open Collector)</p></td>
+<td><p>高速计数器，2 通道，24Vdc，</p>
+<p>18RTB（开集电极）</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>2</strong></p></td>
 <td><p>M5102</p></td>
-<td><p>High speed counter, 2Channels, 5Vdc,</p>
-<p>18RTB(RS422 Differential)</p></td>
+<td><p>高速计数器，2 通道，5Vdc，</p>
+<p>18RTB（RS422 差分）</p></td>
 </tr>
 </tbody>
 </table>
 
-Table 5-12 Serial Communication Module (of Crevis)
+表 5-12 串行通信模块 (的 Crevis)
 
 <table>
 <tbody>
 <tr class="odd">
 <td><p><strong>NO</strong></p></td>
-<td><p><strong>Model Name</strong></p></td>
-<td><p><strong>Specification</strong></p></td>
+<td><p><strong>型号名称</strong></p></td>
+<td><p><strong>规格</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>1</strong></p></td>
 <td><p>M5212</p></td>
-<td><p>RS232 Serial Interface, 2channels Full Duplex</p></td>
+<td><p>RS232 串行接口，2 通道全双工</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>2</strong></p></td>
 <td><p>M5232</p></td>
-<td><p>RS485 Serial Interface, 2channels Full Duplex</p></td>
+<td><p>RS485 串行接口，2 通道全双工</p></td>
 </tr>
 </tbody>
 </table>
-
 [__SOURCE](6-regular-inspection/README.md)
-# 6. Periodic Inspections
+# 6. 定期检查
 
-The periodic inspection of the controller is designed to minimize the occurrence of failures and to maintain the performance continuously. This section describes the cautions and contents of works during the periodic inspection. 
+控制器的定期检查旨在最大限度地减少故障的发生，并持续维护性能。本节描述了定期检查期间的注意事项和工作内容。
 [__SOURCE](6-regular-inspection/1-inspection-schedule.md)
-# 6.1. Inspection Schedule 
+# 6.1. 检查计划 
 
-Inspections should be carried out according to the schedule shown in the figure below. Periodic inspections are designed to prevent failures in advance and to secure safety and maintain accuracy even when the controller and manipulator are used for a long time. Periodic inspections are absolutely necessary and must be conducted even during normal operation.
+检查应根据下图所示的计划进行。定期检查旨在提前预防故障，并确保安全及在控制器和机械手长期使用时保持准确性。定期检查绝对必要，甚至在正常操作期间也必须进行。
 
 ![](../_assets/그림_6.1_점검_일정.png  )
 
-Figure 6.1 Inspection Schedule
-
+图 6.1 检查计划
 [__SOURCE](6-regular-inspection/2-regular-insp-general-cautions.md)
-# 6.2. General Cautions for Periodic Inspections
+# 6.2. 定期检查的一般注意事项
 
-* 	The inspection work should be conducted by a person who has completed the courses implemented at the robot training center by our company.
+* 检查工作应由已完成我们公司机器人培训中心实施课程的人员进行。
 
-*	Before carrying out inspection works, check the parts, tools, drawings, etc. necessary for the work.
+* 在进行检查工作之前，请检查进行工作所需的部件、工具、图纸等。
 
-*	Use the specialized replacement parts designated by our company.
+* 使用我们公司指定的专业更换零件。
 
-*	Turn off the power when inspecting the manipulator.
+* 在检查操作器时，请关闭电源。
 
-*	When conducting works while keeping the door open, turn off the primary power and take precautions to prohibit dust, etc. to fly into the surrounding area.
+* 在保持门开启的情况下进行工作时，请关闭主电源，并采取预防措施，以禁止灰尘等飞入周围区域。
 
-*	When required to touch the parts of the controller, you should take special care not to allow the IC to be destroyed by static electricity (Be careful also when contacting the connector).
+* 当需要接触控制器的部件时，应特别小心，以免静电损坏IC（接触连接器时也要小心）。
 
-*	When performing periodic inspections while operating the manipulator, take precautions to prohibit anyone from entering inside the operation range.
+* 在操作操纵器的同时进行定期检查时，应采取预防措施，以禁止任何人进入操作范围内。
 
-*	You should measure the voltage at a designated place and take precautions for electric shock and short-circuiting.
+* 您应在指定地点测量电压，并采取电击和短路的预防措施。
 
-*	Do not inspect the robot and the controller at the same time. 
+* 请勿同时检查机器人和控制器。
 
-*	After inspection, you must perform a trial-operation to check the operation of the robot before performing the normal operation.
-
-
+* 检查后，您必须进行试运行以检查机器人的操作，然后再进行正常操作。
 [__SOURCE](6-regular-inspection/3-general-inspection.md)
-# 6.3. General Inspections 
+# 6.3. 一般检查 
 
-Table 6-1 Daily Inspection 
+Table 6-1 每日检查 
 
 <table>
 <thead>
   <tr>
     <th>No.</th>
-    <th>Elements to inspect</th>
-    <th>Items to inspect</th>
-    <th>Remarks</th>
+    <th>检查项</th>
+    <th>检查内容</th>
+    <th>备注</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td rowspan="3">1</td>
-    <td rowspan="3">Controller</td>
-    <td>Are the display lamps normal?</td>
-    <td>Check with your own eyes.</td>
+    <td rowspan="3">控制器</td>
+    <td>显示灯正常吗？</td>
+    <td>亲自检查。</td>
   </tr>
   <tr>
-    <td>Is the door closed properly?</td>
-    <td>Check with your own eyes.</td>
+    <td>门关闭得好吗？</td>
+    <td>亲自检查。</td>
   </tr>
   <tr>
-    <td>Is there any problem with the screen of the teach pendant?</td>
-    <td>Check with your own eyes.</td>
+    <td>教导 pendant 的屏幕有没有问题？</td>
+    <td>亲自检查。</td>
   </tr>
   <tr>
     <td rowspan="4">2</td>
-    <td rowspan="4">Manipulator</td>
-    <td>Is there any noise during the operation?</td>
-    <td>Listen with your own ears.</td>
+    <td rowspan="4">机械手</td>
+    <td>操作过程中有噪音吗？</td>
+    <td>用耳朵听。</td>
   </tr>
   <tr>
-    <td>Is there any loosening of the screw at the front-end connection part?</td>
-    <td>Fasten.</td>
+    <td>前端连接部分的螺丝有松动吗？</td>
+    <td>紧固。</td>
   </tr>
   <tr>
-    <td>Is there any scratch, contamination, or damage to the wiring and wire harness of the manipulator?</td>
-    <td>Check with your own eyes.</td>
+    <td>机械手的 wiring 和 wire harness 有划伤、污染或损坏吗？</td>
+    <td>亲自检查。</td>
   </tr>
   <tr>
-    <td>Is there any dirt or obstacle that causes damage to the manipulator?</td>
-    <td>Check with your own eyes, then clean.</td>
+    <td>有没有污垢或障碍物导致机械手受损？</td>
+    <td>亲自检查，然后清洁。</td>
   </tr>
   <tr>
     <td>3</td>
-    <td>Others</td>
-    <td>Is there any interference with the surrounding area of the controller and manipulator?</td>
-    <td>Check with your own eyes.</td>
+    <td>其他</td>
+    <td>控制器和机械手周围的区域有没有干扰？</td>
+    <td>亲自检查。</td>
   </tr>
 </tbody>
 </table>
-
 [__SOURCE](6-regular-inspection/4-first-inspection-750-hour.md)
-# 6.4. First Inspection (Inspection When Reaching 750 Hours) 
+# 6.4. 首次检查（达到750小时的检查） 
 
-Table 6-2 First Inspection 
+Table 6-2 首次检查 
 
 <table>
 <tbody>
 <tr class="odd">
-<td><p><strong>No.</strong></p></td>
-<td><p><strong>Elements to Inspect</strong></p></td>
-<td><p><strong>Items to Inspect</strong></p></td>
-<td><p><strong>Remarks</strong></p></td>
+<td><p><strong>编号</strong></p></td>
+<td><p><strong>检查项目</strong></p></td>
+<td><p><strong>检查内容</strong></p></td>
+<td><p><strong>备注</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>1</strong></p></td>
-<td><p>External and main screws</p></td>
-<td><p>Loosening of screws </p></td>
-<td><p>Fasten.</p></td>
+<td><p>外部和主要螺丝</p></td>
+<td><p>螺丝松动 </p></td>
+<td><p>紧固。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>2</strong></p></td>
-<td><p>Electric wiring connectors and wire harnesses of the manipulator</p></td>
-<td><p>Loosening of connectors</p></td>
-<td><p>Fasten.</p></td>
+<td><p>操纵器的电气连接器和线束</p></td>
+<td><p>连接器松动</p></td>
+<td><p>紧固。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>3</strong></p></td>
-<td><p>Screws for fastening the dogs and limit switches</p></td>
-<td><p>Loosening of screws</p></td>
-<td><p>Fasten.</p></td>
+<td><p>固定限位开关和狗的螺丝</p></td>
+<td><p>螺丝松动</p></td>
+<td><p>紧固。</p></td>
 </tr>
 </tbody>
 </table>
-
 [__SOURCE](6-regular-inspection/5-periodic-inspection.md)
-# 6.5. Cyclic Inspections
+# 6.5. 循环检查
 
-Table 6-3 Cyclic Inspections 
+Table 6-3 循环检查 
 
 <table>
 <thead>
   <tr>
-    <th rowspan="2">No.</th>
-    <th colspan="3">Cycle</br>(Months)</th>
-    <th rowspan="2">Elements to Inspect </th>
-    <th rowspan="2">Items to Inspect</th>
-    <th rowspan="2">Remarks</th>
+    <th rowspan="2">编号</th>
+    <th colspan="3">周期</br>(月份)</th>
+    <th rowspan="2">检查元素</th>
+    <th rowspan="2">检查项目</th>
+    <th rowspan="2">备注</th>
   </tr>
   <tr>
     <th>3</th>
@@ -5319,8 +5155,8 @@ Table 6-3 Cyclic Inspections
     <td></td>
     <td>◎</td>
     <td>◎</td>
-    <td>Packing of the door</td>
-    <td>‧Checking for deformation and detachment</td>
+    <td>门的封条</td>
+    <td>‧检查变形和脱落</td>
     <td></td>
   </tr>
   <tr>
@@ -5328,20 +5164,20 @@ Table 6-3 Cyclic Inspections
     <td rowspan="4">◎</td>
     <td rowspan="4">◎</td>
     <td rowspan="4">◎</td>
-    <td rowspan="4">Back</td>
-    <td>‧Checking dust on and rotation of the cooling fan blade part</td>
+    <td rowspan="4">后部</td>
+    <td>‧检查冷却风扇叶片部件上的灰尘和旋转情况</td>
     <td></td>
   </tr>
   <tr>
-    <td>‧Checking the regenerative discharge resistor for damage and dust</td>
+    <td>‧检查再生放电电阻器的损坏和灰尘</td>
     <td></td>
   </tr>
   <tr>
-    <td>‧Checking the transformer room for any heat using the sense of touch, and then cleaning the room</td>
+    <td>‧用手触感检查变压器室是否有热量，然后清理房间</td>
     <td></td>
   </tr>
   <tr>
-    <td>‧Checking the transformer terminal block for any loosening and damage</td>
+    <td>‧检查变压器接线端子是否松动和损坏</td>
     <td></td>
   </tr>
   <tr>
@@ -5349,8 +5185,8 @@ Table 6-3 Cyclic Inspections
     <td>◎</td>
     <td>◎</td>
     <td>◎</td>
-    <td>Wire harness</td>
-    <td>‧Checking the connectors for any loosening and damage</td>
+    <td>线束</td>
+    <td>‧检查连接器是否松动和损坏</td>
     <td></td>
   </tr>
   <tr>
@@ -5358,8 +5194,8 @@ Table 6-3 Cyclic Inspections
     <td></td>
     <td>◎</td>
     <td>◎</td>
-    <td>Motor drive</td>
-    <td>‧Checking the connectors and terminals for any loosening and damage </td>
+    <td>电动机驱动</td>
+    <td>‧检查连接器和端子的松动和损坏</td>
     <td></td>
   </tr>
   <tr>
@@ -5367,8 +5203,8 @@ Table 6-3 Cyclic Inspections
     <td></td>
     <td>◎</td>
     <td>◎</td>
-    <td>Connectors of each board</td>
-    <td>‧Checking for any loosening using the sense of touch</td>
+    <td>各板的连接器</td>
+    <td>‧用手触感检查是否松动</td>
     <td></td>
   </tr>
   <tr>
@@ -5376,8 +5212,8 @@ Table 6-3 Cyclic Inspections
     <td>◎</td>
     <td>◎</td>
     <td>◎</td>
-    <td>Operation panel</td>
-    <td>‧Checking the status of buttons and switches</td>
+    <td>操作面板</td>
+    <td>‧检查按键和开关的状态</td>
     <td></td>
   </tr>
   <tr>
@@ -5385,8 +5221,8 @@ Table 6-3 Cyclic Inspections
     <td></td>
     <td>◎</td>
     <td>◎</td>
-    <td>The whole controller</td>
-    <td>‧Cleaning dust</td>
+    <td>整个控制器</td>
+    <td>‧清洁灰尘</td>
     <td></td>
   </tr>
   <tr>
@@ -5394,8 +5230,8 @@ Table 6-3 Cyclic Inspections
     <td>◎</td>
     <td>◎</td>
     <td>◎</td>
-    <td>Nameplate</td>
-    <td>‧Inspecting various nameplates</td>
+    <td>铭牌</td>
+    <td>‧检查各种铭牌</td>
     <td></td>
   </tr>
   <tr>
@@ -5403,8 +5239,8 @@ Table 6-3 Cyclic Inspections
     <td rowspan="4"></td>
     <td rowspan="4">◎</td>
     <td rowspan="4">◎</td>
-    <td rowspan="4">Voltage measurement</td>
-    <td>‧Voltage of the primary power</td>
+    <td rowspan="4">电压测量</td>
+    <td>‧主电源的电压</td>
     <td rowspan="4"></td>
   </tr>
   <tr>
@@ -5421,8 +5257,8 @@ Table 6-3 Cyclic Inspections
     <td></td>
     <td>◎</td>
     <td>◎</td>
-    <td>Grounding</td>
-    <td>‧Checking the terminals for any loosening and detachment</td>
+    <td>接地</td>
+    <td>‧检查端子是否松动和脱落</td>
     <td></td>
   </tr>
   <tr>
@@ -5430,30 +5266,30 @@ Table 6-3 Cyclic Inspections
     <td></td>
     <td>◎</td>
     <td>◎</td>
-    <td>Battery</td>
-    <td>‧Checking the voltage and replacing the battery Periodically</td>
-    <td>Main board LEDs</td>
+    <td>电池</td>
+    <td>‧检查电压并定期更换电池</td>
+    <td>主板LED</td>
   </tr>
   <tr>
     <td rowspan="4">12</td>
     <td rowspan="4">◎</td>
     <td rowspan="4">◎</td>
     <td rowspan="4">◎</td>
-    <td rowspan="4">Teach pendant</td>
-    <td>‧Inspecting the exterior and checking the connector connection part</td>
+    <td rowspan="4">教学手持器</td>
+    <td>‧检查外观并检查连接器的连接部分</td>
     <td></td>
   </tr>
   <tr>
-    <td>‧LCD Display</br>Checking the status of the LCD display
+    <td>‧LCD显示器</br>检查LCD显示器的状态
 </td>
     <td></td>
   </tr>
   <tr>
-    <td>‧Checking the display of LEDs</td>
+    <td>‧检查LED的显示状态</td>
     <td></td>
   </tr>
   <tr>
-    <td>‧Checking the status of the buttons, switches, and LEDs</td>
+    <td>‧检查按钮、开关和LED的状态</td>
     <td></td>
   </tr>
   <tr>
@@ -5461,36 +5297,36 @@ Table 6-3 Cyclic Inspections
     <td>◎</td>
     <td>◎</td>
     <td>◎</td>
-    <td rowspan="5">Safety-related parts</td>
-    <td>‧Checking the emergency stop switch (on the controller and teach pendant)</td>
+    <td rowspan="5">安全相关部件</td>
+    <td>‧检查紧急停止开关（在控制器和教学手持器上）</td>
     <td></td>
   </tr>
   <tr>
     <td>◎</td>
     <td>◎</td>
     <td>◎</td>
-    <td>‧Checking the main power circuit breaker switch (NFB1)</td>
+    <td>‧检查主电源断路器开关（NFB1）</td>
     <td></td>
   </tr>
   <tr>
     <td>◎</td>
     <td>◎</td>
     <td>◎</td>
-    <td>‧Checking the Enable device of the teach pendant</td>
+    <td>‧检查教学手持器的使能设备</td>
     <td></td>
   </tr>
   <tr>
     <td>◎</td>
     <td>◎</td>
     <td>◎</td>
-    <td>‧Checking the circuit protector (CP1)</td>
+    <td>‧检查电路保护器（CP1）</td>
     <td></td>
   </tr>
   <tr>
     <td>◎</td>
     <td>◎</td>
     <td>◎</td>
-    <td>‧Checking the magnetic contacts (MC1, MC2)
+    <td>‧检查磁性接点（MC1，MC2）
 </td>
     <td></td>
   </tr>
@@ -5499,85 +5335,82 @@ Table 6-3 Cyclic Inspections
     <td>◎</td>
     <td>◎</td>
     <td>◎</td>
-    <td>Safety-related board</td>
-    <td>‧Checking the BD630 (Connectors, LEDs)</td>
+    <td>安全相关电路板</td>
+    <td>‧检查BD630（连接器，LED）</td>
     <td></td>
   </tr>
 </tbody>
 </table>
-
 [__SOURCE](6-regular-inspection/6-long-vacation-inspection.md)
-# 6.6. Inspection When Going on a Long Vacation
+# 6.6. 长假前的检查
 
 When going on a long vacation, you should check the following items first before turning off the controller of the robot.
 
-(1)	Check whether the yellow LED (BATLOW) for battery discharge detection on the main board is turned on. The yellow LED will be turned on if there is a problem with the battery. In this case, replace the battery with a battery of rated capacity. If the controller input power is turned off while there is a problem with the battery, various programs and integer data in the board will be removed after about seven days. Therefore, you must back them up using HRView or a USB memory.
+(1)	检查主板上的电池放电检测黄色 LED (BATLOW) 是否点亮。如果电池有问题，黄色 LED 将点亮。在这种情况下，请用额定容量的电池更换电池。如果在电池有问题时关闭控制器输入电源，则主板上的各种程序和整数数据将在大约七天后被删除。因此，您必须使用 HRView 或 USB 存储器进行备份。
 
-(2)	Check if the door of the controller is secured.
-
-
+(2)	检查控制器的门是否安全。
 [__SOURCE](6-regular-inspection/7-repare-part-item.md)
-# 6.7. Maintenance Parts 
+# 6.7. 维护零件 
 
-The characteristics of individual parts are described below. 
+各个零件的特性如下所述。 
 
-**Maintenance Parts of the Category A**
+**A类维护零件**
 
 {% hint style="info" %}
-These are the important parts to be prepared for daily maintenance and inspection.
+这些是日常维护和检查中需要准备的重要零件。
 {% endhint %}
 
 
-To maintain normal operation, the parts of the category A-2 and parts of the category A-3 are the minimum necessary parts, and at least one set of each group should be prepared.
+为了保持正常操作，A-2类和A-3类零件是最基本的必要零件，每组至少应准备一套。
 
 
-Table 6-4 Inspection of Maintenance Parts of the Category A 
+表6-4 A类维护零件的检查 
 
 
 <table>
 <thead>
   <tr>
-    <th>Type</th>
-    <th>Contents</th>
-    <th>Remarks (Reference)</th>
+    <th>类型</th>
+    <th>内容</th>
+    <th>备注（参考）</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>Maintenance parts of the category A-1</td>
-    <td>Spare parts for standard parts</td>
+    <td>A-1类维护零件</td>
+    <td>标准零件的备件</td>
     <td></td>
   </tr>
   <tr>
-    <td>Maintenance parts of the category A-2</td>
-    <td>Important backup parts</td>
+    <td>A-2类维护零件</td>
+    <td>重要备份零件</td>
     <td></td>
   </tr>
   <tr>
-    <td>Maintenance parts of the category A-3</td>
-    <td>Periodic replacement parts</td>
+    <td>A-3类维护零件</td>
+    <td>定期更换零件</td>
     <td></td>
   </tr>
 </tbody>
 </table>
 
-Table 6-5 Maintenance Parts of the Category A-1 (Spare Parts for Standard Parts) 
+表6-5 A-1类维护零件（标准零件的备件） 
 
 <table>
 <thead>
   <tr>
-    <th>No.</th>
-    <th>Part name</th>
-    <th>Type</th>
-    <th>Maker</th>
-    <th>Quantity(EA)</th>
-    <th>Remarks</th>
+    <th>编号</th>
+    <th>零件名称</th>
+    <th>类型</th>
+    <th>制造商</th>
+    <th>数量（EA）</th>
+    <th>备注</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td>1</td>
-    <td>Fuse (F1,F2)</td>
+    <td>保险丝（F1,F2）</td>
     <td>0218005</td>
     <td>Littlefuse</td>
     <td>2</td>
@@ -5585,7 +5418,7 @@ Table 6-5 Maintenance Parts of the Category A-1 (Spare Parts for Standard Parts)
   </tr>
   <tr>
     <td>2</td>
-    <td>Fuse (F3,F4)</td>
+    <td>保险丝（F3,F4）</td>
     <td>0218005</td>
     <td>Littlefuse</td>
     <td>2</td>
@@ -5593,7 +5426,7 @@ Table 6-5 Maintenance Parts of the Category A-1 (Spare Parts for Standard Parts)
   </tr>
   <tr>
     <td>3</td>
-    <td>Fuse (F5,F6)</td>
+    <td>保险丝（F5,F6）</td>
     <td>0218005</td>
     <td>Littlefuse</td>
     <td>2</td>
@@ -5602,31 +5435,31 @@ Table 6-5 Maintenance Parts of the Category A-1 (Spare Parts for Standard Parts)
 </tbody>
 </table>
 
-Table 6-6 Maintenance Parts of the Category A-2 (Important Backup Parts) 
+表6-6 A-2类维护零件（重要备份零件） 
 
 <table>
 <thead>
   <tr>
-    <th>No.</th>
-    <th>Part name</th>
-    <th>Type</th>
-    <th>Maker</th>
-    <th>Quantity(EA)</th>
-    <th>Remarks</th>
+    <th>编号</th>
+    <th>零件名称</th>
+    <th>类型</th>
+    <th>制造商</th>
+    <th>数量（EA）</th>
+    <th>备注</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td>1</td>
-    <td>Motor drive</td>
+    <td>电动机驱动</td>
     <td>H6D6X<br>H6D6A</td>
     <td>Hyundai Robotics</td>
     <td>1</td>
-    <td>Large-sized robot</br>Medium-sized<br>Small-sized robot</td>
+    <td>大型机器人</br>中型<br>小型机器人</td>
   </tr>
   <tr>
     <td>2</td>
-    <td>Main control module</td>
+    <td>主控制模块</td>
     <td>H6COM</td>
     <td>Hyundai Robotics</td>
     <td>1</td>
@@ -5634,7 +5467,7 @@ Table 6-6 Maintenance Parts of the Category A-2 (Important Backup Parts)
   </tr>
   <tr>
     <td>3</td>
-    <td>Teach pendant</td>
+    <td>教导手柄</td>
     <td>TP600</td>
     <td>Hyundai Robotics</td>
     <td>1</td>
@@ -5642,134 +5475,134 @@ Table 6-6 Maintenance Parts of the Category A-2 (Important Backup Parts)
   </tr>
   <tr>
     <td>4</td>
-    <td>Power supply module</td>
+    <td>电源模块</td>
     <td>H6PSM30<br>H6PSM15</td>
     <td>Hyundai Robotics</td>
     <td>1</td>
-    <td>Large-sized robot</br>Medium-sized robot<br>Small-sized robot</td>
+    <td>大型机器人</br>中型机器人<br>小型机器人</td>
   </tr>
   <tr>
     <td rowspan="3">5</td>
-    <td rowspan="3">Boards</td>
+    <td rowspan="3">电路板</td>
     <td>BD640</td>
     <td>Hyundai Robotics</td>
     <td>1</td>
-    <td>Servo board</td>
+    <td>伺服板</td>
   </tr>
   <tr>
     <td>BD632</td>
     <td>Hyundai Robotics</td>
     <td>1</td>
-    <td>Safety IO board</td>
+    <td>安全IO板</td>
   </tr>
   
 </tbody>
 </table>
 
-Table 6-7 Maintenance Parts of the Category A-3 (Periodic Replacement Parts) 
+表6-7 A-3类维护零件（定期更换零件） 
 
 <table>
 <tbody>
 <tr class="odd">
-<td><p><strong>No.</strong></p></td>
-<td><p><strong>Part name</strong></p></td>
-<td><p><strong>Type</strong></p></td>
-<td><p><strong>Maker</strong></p></td>
-<td><p><strong>Quantity(EA)</strong></p></td>
-<td><p><strong>Remarks</strong></p></td>
+<td><p><strong>编号</strong></p></td>
+<td><p><strong>零件名称</strong></p></td>
+<td><p><strong>类型</strong></p></td>
+<td><p><strong>制造商</strong></p></td>
+<td><p><strong>数量（EA）</strong></p></td>
+<td><p><strong>备注</strong></p></td>
 </tr>
 <tr class="even">
 <td><p>1</p></td>
-<td><p>Battery(3.6V AA Size)</p></td>
+<td><p>电池（3.6V AA规格）</p></td>
 <td><p>ER6V-T1</p></td>
-<td><p>TOSHIBA (JAPAN)</p></td>
+<td><p>TOSHIBA (日本)</p></td>
 <td><p>1</p></td>
-<td><p>Replace it every two years</p></td>
+<td><p>每两年更换一次</p></td>
 </tr>
 </tbody>
 </table>
 
-**Maintenance Parts of the Category B**
+**B类维护零件**
 
 {% hint style="info" %}
-These are the maintenance parts to be prepared when multiple units are purchased.
+这些是购买多个单元时需要准备的维护零件。
 {% endhint %}
 
 
-Table 6-8 Maintenance Parts of the Category B 
+表6-8 B类维护零件 
 
 <table>
 <tbody>
 <tr class="odd">
-<td><p><strong>Type</strong></p></td>
-<td><p><strong>Contents</strong></p></td>
-<td><p><strong>Remarks (Reference)</strong></p></td>
+<td><p><strong>类型</strong></p></td>
+<td><p><strong>内容</strong></p></td>
+<td><p><strong>备注（参考）</strong></p></td>
 </tr>
 <tr class="even">
-<td><p>Maintenance parts of the category B-1</p></td>
-<td><p>Parts that should be purchased from Hyundai Robotics</p></td>
+<td><p>B-1类维护零件</p></td>
+<td><p>应从Hyundai Robotics购买的零件</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Maintenance parts of the category B-2</p></td>
-<td><p>Parts that can be purchased directly from the parts maker</p></td>
+<td><p>B-2类维护零件</p></td>
+<td><p>可以直接从零件制造商购买的零件</p></td>
 <td></td>
 </tr>
 </tbody>
 </table>
 
-Table 6-9 Maintenance Parts of the Category B-1 (Parts that should be purchased from Hyundai Robotics)
+表6-9 B-1类维护零件（应从Hyundai Robotics购买的零件）
 
 <table>
 <thead>
   <tr>
-    <th>No.</th>
-    <th>Part Name</th>
-    <th>Type</th>
-    <th>Maker</th>
-    <th>Quantity(EA)</th>
-    <th>Remarks</th>
+    <th>编号</th>
+    <th>零件名称</th>
+    <th>类型</th>
+    <th>制造商</th>
+    <th>数量（EA）</th>
+    <th>备注</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td rowspan="3">1</td>
-    <td rowspan="3">Wire harness</td>
+    <td rowspan="3">线束</td>
     <td>CMC1</td>
     <td>Hyundai Robotics</td>
     <td>1</td>
-    <td>Large-sized/Medium-sized/Small-sized</td>
+    <td>大型/中型/小型</td>
   </tr>
   <tr>
     <td>CMC2</td>
     <td>Hyundai Robotics</td>
     <td>1</td>
-    <td>Large-sized/Medium-sized</td>
+    <td>大型/中型</td>
   </tr>
   <tr>
     <td>CEC1</td>
     <td>Hyundai Robotics</td>
     <td>1</td>
-    <td>Large-sized/Medium-sized/Small-sized</td>
+    <td>大型/中型/小型</td>
   </tr>
 </tbody>
 </table>
 
-Table 6-10 Maintenance Parts of the Category B-2 (Parts that can be purchased directly from the parts maker)
+表6-10 B-2类维护零件（可以直接从零件制造商购买的零件）
 
 <table>
 <tbody>
 <tr class="odd">
-<td><p><strong>No.</strong></p></td>
-<td><p><strong>Part Name</strong></p></td>
-<td><p><strong>Type</strong></p></td>
-<td><p><strong>Maker</strong></p></td>
-<td><p><strong>Quantity(EA)</strong></p></td>
-<td><p><strong>Remarks</strong></p></td>
+<td><p><strong>编号</strong></p></td>
+<td><p><strong>零件名称</strong></p></td>
+<td><p><strong>类型</strong></p></td>
+<td><p><strong>制造商</strong></p></td>
+<td><p><strong>数量（EA）</strong></p></td>
+<td><p><strong>备注</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>1</strong></p></td>
-<td><p>No fuse breaker (NFB)</p></td>
+<td><p>无保险断路器（NFB）</p></td>
 <td><p>-</p></td>
 <td><p>-</p></td>
 <td><p>1</p></td>
@@ -5777,7 +5610,7 @@ Table 6-10 Maintenance Parts of the Category B-2 (Parts that can be purchased di
 </tr>
 <tr class="odd">
 <td><p><strong>2</strong></p></td>
-<td><p>Magnetic contact (MC1, MC2)</p></td>
+<td><p>磁性接触器（MC1, MC2）</p></td>
 <td><p>-</p></td>
 <td><p>-</p></td>
 <td><p>2</p></td>
@@ -5785,7 +5618,7 @@ Table 6-10 Maintenance Parts of the Category B-2 (Parts that can be purchased di
 </tr>
 <tr class="even">
 <td><p><strong>3</strong></p></td>
-<td><p>Circuit protector (CP1)</p></td>
+<td><p>电路保护器（CP1）</p></td>
 <td><p>-</p></td>
 <td><p>-</p></td>
 <td><p>1</p></td>
@@ -5795,18 +5628,15 @@ Table 6-10 Maintenance Parts of the Category B-2 (Parts that can be purchased di
 </table>
 
 ![](../_assets/6.7._보수_부품_항목-보존온도.png  )
-
 [__SOURCE](appendices/README.md)
-# Appendices
-
+# 附录
 [__SOURCE](appendices/rules-occupational-safety.md)
-# Rules on Occupational Safety and Health Standards, and Notice for Safety Inspection
+# 职业安全与健康标准的规则以及安全检查通知
 
-The industrial robot should be installed in consideration of the inspection standards, both of the Rules on Occupational Safety and Health Standards and of the Notice for Safety Inspection (if subject to inspection).
+工业机器人应在考虑检查标准的情况下安装，包括职业安全与健康标准的规则和安全检查通知（如果需要检查）。
 
-"[Rules on Occupational Safety and Health Standards](https://hrbook-hrc.web.app/#/view/rules-on-occupational-safety-and-health-standards/en/README)"
-
+"[职业安全与健康标准的规则](https://hrbook-hrc.web.app/#/view/rules-on-occupational-safety-and-health-standards/zh/README)"
 [__SOURCE](quality-assurance.md)
-# Quality Assurance
+# 质量保证
 
-"[Quality Assurance](https://hrbook-hrc.web.app/#/view/quality-assurance/en/README)"
+"[质量保证](https://hrbook-hrc.web.app/#/view/quality-assurance/zh/README)"

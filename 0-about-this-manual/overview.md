@@ -1,13 +1,13 @@
-﻿## Overview
+## 概述
 
-The main purpose of this chapter is to describe the matters about the safety for the users of the industrial robot and for the workers who maintain and operate the robot.
+本章旨在阐述面向工业机器人用户、维护及操作人员的安全要求事项。
 
-Every worker who installs, replaces, adjusts, operate, preserves and maintains the robot system must carefully read and fully understand the operation manual and maintenance manual. Also, keep the manuals nearby so that you can view it whenever necessary.
+每位安装、替换、调整、操作、保存和维护机器人系统的工作人员必须仔细阅读并充分理解操作手册和维护手册。此外，请将手册就近保管，以便需要时随时查看。
 
-Our company plans and implements the preservation, maintenance and operation trainings so the person using the robot should ensure that the workers working in the robot system should receive the relevant trainings. It must be ensured that only those who have completed this course can handle the robot.
+机器人用户务必让机器人工作人员接受本公司实施的保养、维护和操作培训。另外，务必确保只有完成本培训课程的工作人员才能操作机器人。
 
-The users of our industrial robots are responsible for surely understanding and complying with safety-related laws applicable in concerned countries and for properly designing, installing, and operating safety devices to protect workers working in robot systems.
+为确保在机器人系统中工作的人员安全，我司工业机器人用户有责任充分理解并遵守适用于相关国家的安全法律，并负责正确设计、安装和运行安全装置。
 
-The dangerous areas of the robot system, in other words, the areas where the robot, tools and peripheral devices are operating, should be equipped with safety devices according to ANSI / RIA R15.06-2012 to prevent an object, other than the workers and the workpiece, from entering the dangerous areas. The robot system should be configured in a way that it can be stopped immediately by an emergency stop device when a worker or object needs to enter the dangerous area in spite of possible danger. The workers are responsible for installing, checking and operating these safety devices.
+机器人系统的危险区域，换句话说，机器人、工具和外围设备工作区域，应按照 ANSI / RIA R15.06-2012 配备安全装置，以防止除工作人员和工件以外的物体进入危险区域。当工作人员或物体需要进入存在潜在危险的危险区域时，机器人系统应可以通过紧急停止装置立即停止。工作人员负责安装、检查和操作这些安全装置。
 
-This manual has been created based on standard specifications, so some contents may differ depending on the options and model of the product that you have purchased. In addition, the contents and specifications of this manual are subject to change without prior notice to improve the performance of the product, and HD Hyundai Robotics is not responsible for situations that could be caused by inaccuracies or typos in the manual. For detailed information on the revision of the manual, you need to visit our internet website ([www.hd-hyundairobotics.com](https://www.hd-hyundairobotics.com/en/main)).
+本手册是根据标准规范创建的，因此某些内容可能会根据您购买的产品的选项和型号而有所不同。为提高产品性能，本手册的内容和配置可能会在未经通知的情况下进行更改，HD现代机器人对内容不准确或印刷错误而可能导致的情况不承担责任。有关手册修订的详细信息，请访问我司网站 (http://www.hyundai-robotics.cn)进行查询。

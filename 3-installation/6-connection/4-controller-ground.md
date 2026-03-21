@@ -1,3 +1,3 @@
-﻿# 3.6.4. The Controller and Grounding
+﻿# 3.6.4. 控制器与接地
 
-For using the controller safely, connect the grounding wire to the controller. Use a grounding wire of 5.5㎟ or more. (Grounding of Category 3).
+为了安全使用控制器，请将接地线连接到控制器。使用5.5㎟或更大规格的接地线。（接地类别3）。

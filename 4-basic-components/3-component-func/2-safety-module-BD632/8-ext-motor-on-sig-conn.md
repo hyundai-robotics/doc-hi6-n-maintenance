@@ -1,7 +1,7 @@
-﻿# 4.3.2.8. Connection of the External Motor On Signal
+﻿# 4.3.2.8. 外部电机开启信号的连接
 
 ![](../../../_assets/그림_4.39_외부_모터온_신호의_연결방법.png  )
 
-Figure 4.19 Method for Connection of the External Motor On Signal
+图 4.19 外部电机开启信号的连接方法
 
-When using a motor on signal input from the outside of the controller, the relevant connection should be configured in the form of a contact as above. If you don't connect, please connect it with a jumper wire. (N.C Contact type)
+当使用来自控制器外部的电机开启信号输入时，相关连接应按照上述接触形式配置。如果不连接，请使用跳线连接。 （N.C 接触类型）

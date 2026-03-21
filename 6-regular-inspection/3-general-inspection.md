@@ -1,54 +1,54 @@
-﻿# 6.3. General Inspections 
+# 6.3. 一般检查 
 
-Table 6-1 Daily Inspection 
+Table 6-1 每日检查 
 
 <table>
 <thead>
   <tr>
     <th>No.</th>
-    <th>Elements to inspect</th>
-    <th>Items to inspect</th>
-    <th>Remarks</th>
+    <th>检查项</th>
+    <th>检查内容</th>
+    <th>备注</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td rowspan="3">1</td>
-    <td rowspan="3">Controller</td>
-    <td>Are the display lamps normal?</td>
-    <td>Check with your own eyes.</td>
+    <td rowspan="3">控制器</td>
+    <td>显示灯正常吗？</td>
+    <td>亲自检查。</td>
   </tr>
   <tr>
-    <td>Is the door closed properly?</td>
-    <td>Check with your own eyes.</td>
+    <td>门关闭得好吗？</td>
+    <td>亲自检查。</td>
   </tr>
   <tr>
-    <td>Is there any problem with the screen of the teach pendant?</td>
-    <td>Check with your own eyes.</td>
+    <td>教导 pendant 的屏幕有没有问题？</td>
+    <td>亲自检查。</td>
   </tr>
   <tr>
     <td rowspan="4">2</td>
-    <td rowspan="4">Manipulator</td>
-    <td>Is there any noise during the operation?</td>
-    <td>Listen with your own ears.</td>
+    <td rowspan="4">机械手</td>
+    <td>操作过程中有噪音吗？</td>
+    <td>用耳朵听。</td>
   </tr>
   <tr>
-    <td>Is there any loosening of the screw at the front-end connection part?</td>
-    <td>Fasten.</td>
+    <td>前端连接部分的螺丝有松动吗？</td>
+    <td>紧固。</td>
   </tr>
   <tr>
-    <td>Is there any scratch, contamination, or damage to the wiring and wire harness of the manipulator?</td>
-    <td>Check with your own eyes.</td>
+    <td>机械手的 wiring 和 wire harness 有划伤、污染或损坏吗？</td>
+    <td>亲自检查。</td>
   </tr>
   <tr>
-    <td>Is there any dirt or obstacle that causes damage to the manipulator?</td>
-    <td>Check with your own eyes, then clean.</td>
+    <td>有没有污垢或障碍物导致机械手受损？</td>
+    <td>亲自检查，然后清洁。</td>
   </tr>
   <tr>
     <td>3</td>
-    <td>Others</td>
-    <td>Is there any interference with the surrounding area of the controller and manipulator?</td>
-    <td>Check with your own eyes.</td>
+    <td>其他</td>
+    <td>控制器和机械手周围的区域有没有干扰？</td>
+    <td>亲自检查。</td>
   </tr>
 </tbody>
 </table>

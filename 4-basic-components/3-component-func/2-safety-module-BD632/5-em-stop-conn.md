@@ -1,19 +1,19 @@
-﻿# 4.3.2.5. Connections of the Emergency Stop
+﻿# 4.3.2.5. 紧急停止的连接
 
-(1\)  External Emergency Stop of Contact Input Type 
+(1\) 外部紧急停止接触输入类型
 
-The external emergency stop (EMEX) is designed in a way that it can be operated regardless of the controller mode (automatic or manual) and is continuously monitored by the BD632 (Safety IO Board). When a safety input is coming in, the motor power will be shut off to put the robot in a safe state. The external emergency stop switch should be connected and used in the form of contact output, as shown in the figure below.
+外部紧急停止 (EMEX) 的设计使其可以在任何控制器模式（自动或手动）下操作，并由 BD632（安全 IO 板）持续监控。当安全输入到达时，电动机电源会关闭，以使机器人处于安全状态。外部紧急停止开关应按下图所示以接触输出的形式连接和使用。
 
-![](../../../_assets/그림_4.32_터미널블록_TBEM에_외부비상정지_스위치를_연결하는_방법.png  )
+![](../../../_assets/그림_4.32_터미널블록_TBEM에_외부비상정지_스위치를_연결하는_방법.png)
 
-Figure 4.12 Method to Connect the External Emergency Stop Switch to the Terminal Block TBEM
+图 4.12 将外部紧急停止开关连接到端子块 TBEM 的方法
 
-If the external emergency stop is not to be used, connect the terminals of the terminal block TBEM (connect the pins 9-1 and 10-2 of the TBEM connector), as shown below, to disable the input.
+如果不打算使用外部紧急停止，请如下面所示连接端子块 TBEM 的端子（连接 TBEM 连接器的引脚 9-1 和 10-2），以禁用输入。
 
-![](../../../_assets/그림_4.25_BD632(Safety_IO_Board)_TBEM.png  )
+![](../../../_assets/그림_4.25_BD632(Safety_IO_Board)_TBEM.png)
 
-Figure 4.13 Method to Perform When Not Using the External Emergency Stop of Contact Input Type
+图 4.13 不使用外部紧急停止接触输入类型时的处理方法
 
 {% hint style="warning" %}
-If an external emergency stop is to be installed and used, the robot should be operated after confirming that the emergency stop operates normally. In addition, check if the emergency stop input is disabled. This is an essential measure that must be taken in advance for the safety of workers.
+如果要安装和使用外部紧急停止，机器人应在确认紧急停止正常工作后再操作。此外，请检查紧急停止输入是否被禁用。这是确保工人安全必须提前采取的基本措施。
 {% endhint %}

@@ -1,21 +1,21 @@
-﻿# 1.11.3. Safety Measures for Auto Operation
+﻿# 1.11.3. 自动操作的安全措施
 
-Observe the following measures considering that safety is very important when operating the robot in auto mode.
+考虑到在自动模式下操作机器人时安全非常重要，请遵循以下措施。
 
-* 	Put up a sign [No entry during operation] on the safety fence entrance and ask the worker to refrain from entering during operation. If the robot is stopped, you may enter inside the safety fence after judging the situation. 
+* 	在安全围栏入口处张贴 [操作期间禁止入内] 的标志，并要求工作人员在操作期间勿入内。如果机器人停止，您可以在判断情况后进入安全围栏内。 
 
-*	When starting the auto operation, you must check whether there is a worker inside the safety fence. If you work without checking whether there is a worker inside, it may cause an accident involving people. 
+*	在启动自动操作时，必须检查安全围栏内是否有工作人员。如果在未检查安全围栏内有工作人员的情况下工作，可能会导致涉及人员的事故。 
 
-*	When starting the auto operation, check first that that the program number, step number, mode, start selection, etc. are in proper state for auto operation. If you start the robot while an irrelevant program or step is selected, the robot may behave unexpectedly causing an accident. 
+*	在启动自动操作时，首先检查程序号、步骤号、模式、启动选择等是否处于适合自动操作的状态。如果在选择无关的程序或步骤时启动机器人，机器人可能产生意外行为，从而导致事故。 
 
-*	When starting the auto operation, check in advance that the robot is in the position where the robot can start the auto operation. Check also whether the program number or step number matches with the robot position. Even when the program or step is correct, if the robot is in a different position, an accident may occur due to an operation different from a normal operation 
+*	在启动自动操作前，提前检查机器人是否处于可以启动自动操作的位置。同时检查程序号或步骤号是否与机器人位置匹配。即使程序或步骤是正确的，如果机器人处于不同位置，可能会由于与正常操作不同的操作而发生事故。 
 
-*	Be prepared to press the emergency stop button immediately at the start of auto operation. If an unexpected robot operation or unexpecred situation occurs, immediately press the emergency stop button. 
+*	在启动自动操作时，准备好立即按下紧急停机按钮。如果发生机器人意外操作或意外情况，请立即按下紧急停机按钮。 
 
-*	Check the operation path, operation status, and operation sound, etc. of the robot to judge whether there is any abnormal state. The robot may suddenly cause an abnormality such as a failure, but it may give some symptoms before the failure occurs. In order to predict this in advance, it is required to well understand the normal operation status of the robot. 
+*	检查机器人的操作路径、操作状态和操作声音等，以判断是否存在异常状态。机器人可能会突然发生故障，但在故障发生之前可能会出现一些症状。为了提前预测这一点，要求充分了解机器人的正常操作状态。 
 
-*	If any abnormality is found, immediately make an emergency stop and take proper measure for it. Using the robot without proper measures could lead to a severe failure that may lead to production interruption and significant accidents involving people. 
+*	如果发现任何异常，请立即进行紧急停机并采取适当措施。未经适当措施使用机器人可能导致严重故障，可能导致生产中断和涉及人员的重大事故。 
 
-*	While completing measures and checking the operation after an abnormality occurred, do not operate the robot while the worker is still inside the safety fence. Unexpected accidents such as other abnormalities may occur as the reliability is low. 
+*	在发生异常后完成措施并检查操作时，工作人员仍在安全围栏内时，请勿操作机器人。由于可靠性低，可能会发生其他意外事故。 
 
-*	Before selecting the auto mode, if there is a safety device function that has been stopped, you should progress works after recovering the function back to completely normal state.
+*	在选择自动模式之前，如果有已停止的安全装置功能，必须在将功能恢复到完全正常状态后再进行工作。

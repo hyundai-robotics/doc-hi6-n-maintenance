@@ -1,12 +1,14 @@
 ﻿{
-    "langCode": "en",
-    "series": "Hi6-N Controller",
-    "title": "Maintenance Manual",
-    "publisher": "HD Hyundai Robotics",
-    "tocTitle": "Table of Contents",
+    "langCode": "zh",
+    "series": "Hi6-N 控制器",
+    "title": "维护手册",
+    "publisher": "HD 现代汽车机器人",
+    "tocTitle": "目录",
     "tocTitleElements": "[ \"h1\", \"h2\" ]",
-    "docId": "HI6NMAINTENANCE_EN_001",
+    "docId": "HI6NMAINTENANCE_ZH_001",
     "references": [
-        { "rpath" : "doc-hi6-operation/en-tp630" }
+        {
+            "rpath": "doc-hi6-operation/zh-tp630"
+        }
     ]
 }

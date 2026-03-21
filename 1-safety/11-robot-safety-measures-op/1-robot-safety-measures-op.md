@@ -1,111 +1,109 @@
-﻿# 1.11.1. Safety Measures When Operting the Robot 
+# 1.11.1. 操作机器人时的安全措施
 
-Observe the following measures considering that safety is very important when operating the robot.
-*	The worker who operates or may operate the robot, and the supervisor should take certain trainings. Except for those who are recognized to be fully aware of the safety and functions of the robot and designated accordingly, any unqualified person should not operate the robot.
+考虑到安全在操作机器人时非常重要，请遵守以下措施。
+* 操作或可能操作机器人的工人以及监督员应接受一定的培训。除非被认定为充分了解机器人安全性和功能并相应指定的人员，任何不合格人员不得操作机器人。
 
-*	Before operating the robot, you must check whether the product has been installed by a qualified installer in compliance with the relevant national and regional regulations and laws.
+* 在操作机器人之前，必须检查产品是否由合格的安装人员按照相关的国家和地区规定和法律进行了安装。
 
-*	Before operating the robot, check whether the safety functions are working normally.
+* 在操作机器人之前，检查安全功能是否正常工作。
 
-*	Must wear a safety helmet, protective glasses and safety shoes. 
+* 必须佩戴安全 helmet、护目镜和安全鞋。
 
-*	Two people must work together. One person should be teaching and the other should be monitoring from the operation panel. One of the two should be ready to press the emergency stop switch at any time, and the other should perform the work quickly with sufficient care in the operation area. In addition, check the evacuation route before starting the work. 
+* 两个人必须一起工作。一人应负责教学，另一人应从操作面板进行监控。两人中的一人应随时准备按下紧急停止开关，另一人应在操作区域内小心快速地进行工作。此外，在开始工作之前检查疏散路线。
 
-*	Supply the power after confirming that there is no worker within the safety guard.
+* 在确认安全防护内没有工人的情况下才供电。
 
-*	Works such as teaching should be performed outside the robot safety guard in principle. However, when required to stop the system and work within the operation range, the worker should bring in the mode switch key (or a switch to change to the auto mode), or the safety plug when going inside. Such action is necessary to make sure that no other worker accidentally changes the robot to the auto operation mode. Also, pay special attention to the direction of the operation of the robot just in preparation for the robot malfunctioning or operating in wrong conditions.
+* 教学等工作原则上应在机器人安全防护外进行。然而，若需要停止系统并在操作范围内工作，工人应带入模式开关钥匙（或切换到自动模式的开关），或在进入时带上安全插头。这样的行为是必要的，以确保其他工人不会意外地将机器人切换到自动操作模式。同时，尤其要注意机器人操作的方向，以便为机器人故障或在错误条件下操作做准备。
 
-*   The supervisor should observe the followings.
-            
-    - The supervisor should be positioned at a location where she or he can see the robot entirely and should be dedicated to the duties of supervision.
-    - If there is any problem, press the emergency stop button immediately.
-    - Other people except for the persons involved in the work should not be allowed to stay within the operation range.
+* 监督员应遵循以下内容。
 
-* In manual operation mode, the speed should be limited to a maximum of 250 mm/sec. At this time, you should progress the work while being prepared, together with the worker outide the guard, to press the emergency stop switch at any time if a problem occurs.
+    - 监督员应处于可以完全看到机器人的位置，并专注于监督职责。
+    - 如果出现问题，立即按下紧急停止按钮。
+    - 除参与工作的人外，应不允许其他人留在操作范围内。
 
-*	When operating the robot manually in high-speed mode, you should progress the operation from outside the safety guard.
+* 在手动操作模式下，速度应限制在最大250mm/sec。在此期间，应与防护外的工人一起做好准备，随时按下紧急停止开关以应对问题。
 
-*	When performing a teaching work, you shoud put up a sign [Teaching in progress]. 
+* 在以高速模式手动操作机器人时，应从安全防护外进行操作。
 
-*	When required to enter inside the safety guard, the worker should pull out the safety plug or an equivalent, and then bring it in when going inside.
+* 在进行教学工作时，应竖起标志[教学进行中]。
 
-*	Do not use equipment that could be a source of noise near the teaching place or its surroundings.
+* 当需要进入安全防护内时，工人应拔出安全插头或同等设备，然后在进入时带入。
 
-*	Do not operate the robot operation buttons on the teach pendant just by using the feeling at the hands while watching the teaching points. Instead, operate the buttons while checking with bare eyes.
+* 不要在教学地点或其周围使用可能产生噪音的设备。
+
+* 不要在观察教学点时，仅凭手感操作教学挂件上的机器人操作按钮。相反，应在肉眼确认的情况下操作按钮。
 
 {% hint style="warning" %}
-Sufficiently check under your feet when teaching. In particular, you must perform the teaching work outside the safety guard when teaching at a high spped (250mm/s or above).
+教学时务必注意脚下。特别是在高速（250mm/s或以上）教学时，必须在安全防护外进行教学工作。
 {% endhint %}
 
+* 当出现异常时采取以下措施。
 
-* 	Take the following measures when abnormality occurs.
-이
-     - 	If abnormal operation is found, immediately press the emergency stop button.
+     - 如果发现异常操作，立即按下紧急停止按钮。
 
-     - 	If abnormality is to be checked following an emergency stop, the stop status of the concerned facility must be checked.
+     - 如果需要在紧急停止后检查异常，必须检查相关设施的停止状态。
 
-     - 	If the robot stops automatically due to abnormality with the power. Check first that the robot is stopped completely, and then investigate the cause and take measures.
+     - 如果机器人因供电异常而自动停止。首先检查机器人是否完全停止，然后调查原因并采取措施。
 
-     - 	If the emergency stop device does not perform functions properly, immediately shut off the main power, and then investigate the cause and take measures.
+     - 如果紧急停止装置未能正常工作，立即切断主电源，然后调查原因并采取措施。
 
-     - 	The investigation of the cause of the abnormality should not be performed by any other than the designated person. After the emergency stop, you should restart the system after surely identifying the cause of the abnormality and taking measure accordingly.
+     - 异常原因的调查应由指定人员以外的任何人进行。在紧急停止后，应在确保识别异常原因并采取相应措施后重新启动系统。
 
-* 	Prepare proper work regulations, considering the installation location and work details, with regard to the robot operation and manipulation methods, and actions to take when abnormality occurs. In addition, work should be carried out according to the work regulations.
-*	Precautions to take when the robot is stopped
+* 针对机器人操作和操作方法以及发生异常时应采取的行动，考虑到安装地点和工作细节，制定适当的工作规程。此外，工作应根据工作规程进行。
+* 机器人停止时的注意事项
 
-    * Must avoid approaching the robot recklessly while thinking that the robot is stopped. When you approach the robot because you think it is stopped, the robot may suddenly move, causing an accident in many cases. The robot will be in the stopped state in the following cases.<br/><br/>
+    * 必须避免在认为机器人已停止的情况下鲁莽靠近机器人。当您认为机器人已停止时靠近，机器人可能会突然运动，从而造成事故。机器人在以下情况下将处于停止状态。<br/><br/>
 
-
-Table 1-4 Status of the robot when it stop mode
+表1-4 机器人停止模式时的状态
 <table>
 <tbody>
 <tr class="odd">
 <td></td>
-<td><p>State of the robot</p></td>
-<td><p>Source of driving</p></td>
-<td><p>Entry</p></td>
+<td><p>机器人的状态</p></td>
+<td><p>驱动源</p></td>
+<td><p>进入</p></td>
 </tr>
 <tr class="even">
 <td><p>1</p></td>
-<td><p>In temporary stop mode</p>
-<p>(Minor abnormality, temporary stop switch)</p></td>
-<td><p>ON</p></td>
+<td><p>处于临时停止模式</p>
+<p>(轻微异常，临时停止开关)</p></td>
+<td><p>打开</p></td>
 <td><p>X</p></td>
 </tr>
 <tr class="odd">
 <td><p>2</p></td>
-<td><p>In emergency stop mode</p>
-<p>(Major abnormality, emergency stop switch and safety door)</p></td>
-<td><p>OFF</p></td>
+<td><p>处于紧急停止模式</p>
+<p>(重大异常，紧急停止开关和安全门)</p></td>
+<td><p>关闭</p></td>
 <td><p>O</p></td>
 </tr>
 <tr class="even">
 <td><p>3</p></td>
-<td><p>Waiting for input signal from peripheral devices</p>
-<p>(START INTERLOCK)</p></td>
-<td><p>ON</p></td>
+<td><p>等待来自外围设备的输入信号</p>
+<p>(启动联锁)</p></td>
+<td><p>打开</p></td>
 <td><p>X</p></td>
 </tr>
 <tr class="odd">
 <td><p>4</p></td>
-<td><p>Playback being completed</p></td>
-<td><p>ON</p></td>
+<td><p>回放正在完成</p></td>
+<td><p>打开</p></td>
 <td><p>X</p></td>
 </tr>
 <tr class="even">
 <td><p>5</p></td>
-<td><p>Waiting in progress</p></td>
-<td><p>ON</p></td>
+<td><p>等待处理中</p></td>
+<td><p>打开</p></td>
 <td><p>X</p></td>
 </tr>
 </tbody>
 </table>
 
 {% hint style="info" %}
-You should not be negligent in paying attention to sudden movements even when entry is made possible. Must avoid approaching without preparing for possible emergency situation under any circumstances.
+即使在可能入内的情况下，也不应忽视对突然运动的注意。无论在什么情况下，都必须避免未经准备而接近可能的紧急情况。
 {% endhint %}
 
   
-    - If the entrance door needs to be opened to take measures for minor abnormalities (such as nozzle contact, deposition detection and arc abnormality) during a temporary stop, the same measures as taken for opening the door for the teaching should be taken.
+    - 如果在临时停止期间需打开入口门以进行轻微异常（例如喷嘴接触、沉积检测和弧异常）措施，则应采取与打开教学门时相同的措施。
 
-* After completing the robot operation, clean the inside of the safety fence to make sure that no tools, oil or foreign substances remain. If the operation area is stained with oil, or if tools are left in the operation area, it could cause an accident such as falling over. Make sure that arranging and organizing are performed always.
+* 完成机器人操作后，清洁安全围栏内，以确保没有工具、油或异物残留。如果操作区域被油污污染，或工具遗留在操作区域，可能导致跌倒等事故。务必始终进行整理和归置。

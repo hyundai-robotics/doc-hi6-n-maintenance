@@ -1,14 +1,14 @@
-﻿# 1.2. Safety Performance
+﻿# 1.2. 安全性能
 
-The performance of the industrial robot's safety modules is as follows.
+工业机器人安全模块的性能如下。
 
-Table 1-1 Safety Performance of Safety Modules
+表 1-1 安全模块的安全性能
 <table>
 <thead>
   <tr>
-    <th>Item</th>
-    <th>Safety performance</th>
-    <th>Applicable standards</th>
+    <th>项目</th>
+    <th>安全性能</th>
+    <th>适用标准</th>
   </tr>
 </thead>
 <tbody>
@@ -18,16 +18,16 @@ Table 1-1 Safety Performance of Safety Modules
     <td rowspan="2">IEC 61508/62061/61800-5-2</td>
   </tr>
   <tr>
-    <td>SIL (Safety Integrity Level)</td>
+    <td>SIL (安全完整性等级)</td>
     <td>2</td>
   </tr>
   <tr>
-    <td>Category</td>
+    <td>类别</td>
     <td>3</td>
     <td rowspan="2">ISO 13849-1</td>
   </tr>
   <tr>
-    <td>PL (Performance Level)</td>
+    <td>PL (性能等级)</td>
     <td>d</td>
   </tr>
 </tbody>

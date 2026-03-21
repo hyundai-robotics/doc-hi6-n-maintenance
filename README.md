@@ -1,1 +1,1 @@
-﻿# Hi6-N Controller Maintenance Manual
+﻿# Hi6-N 控制器维护手册

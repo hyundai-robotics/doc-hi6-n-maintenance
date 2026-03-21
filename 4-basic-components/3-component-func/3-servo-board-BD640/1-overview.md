@@ -1,5 +1,5 @@
-﻿# 4.3.3.1. Overview
+﻿# 4.3.3.1. 概述
 
-The servo board controls the operation of six axes (maximum eight axes) according to the position command received from the main board through EtherCAT communication, and processes the encoder signal, checks the error status, and creates the PWM signal of the drive unit.
+伺服板根据通过 EtherCAT 通信从主板接收到的位置指令控制六个轴的操作（最多八个轴），并处理编码器信号，检查错误状态，并生成驱动单元的 PWM 信号。
 
-![](../../../_assets/4.3.3.1._개요(Hi6).png  )
+![](../../../_assets/4.3.3.1._개요(Hi6).png)

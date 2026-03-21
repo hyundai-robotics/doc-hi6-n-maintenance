@@ -1,14 +1,13 @@
-﻿# 3.1.1. Basic Configuration
+﻿# 3.1.1. 基本配置
 
 ![](../../_assets/그림_3.1_산업용_로봇_설치의_기본_구성.png)
 
-Figure 3.1 Basic Installation Configuration of the Industrial Robot
+Figure 3.1 工业机器人基本安装配置
 
-* 	Hi6 controller
+* 	Hi6 控制器
 
-*	Teaching pendant
+*	教学手柄
 
-*	Wire harness (Hi6 controller ↔ robot)
+*	电缆束 (Hi6 控制器 ↔ 机器人)
 
-*	Robot
-
+*	机器人

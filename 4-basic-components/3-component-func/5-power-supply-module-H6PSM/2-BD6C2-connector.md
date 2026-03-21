@@ -1,110 +1,110 @@
-﻿# 4.3.5.2. Connectors of BD6C2
+# 4.3.5.2. BD6C2的连接器
 
-The placement of the connectors of the electronic board (BD6C2) is shown in the following figure, and the usage and connection devices for each are as shown in Table 4-39.
+电子板(BD6C2)的连接器位置如以下图所示，每个连接器的使用及连接设备如表4-39所示。
 
 ![](../../../_assets/그림_4.48_전장보드(BD6C2)의_커넥터.png  )
 
-Figure 4.28 Connectors of the Electronic Board (BD6C2)</br></br>
+图4.28 电子板(BD6C2)的连接器</br></br>
 
-Table 4-40 Types and Usage of the Connectors of BD6C2
+表4-40 BD6C2连接器的类型和使用
 
 <table>
 <thead>
   <tr>
-    <th>Name</th>
-    <th>Usage</th>
-    <th>Specification</th>
+    <th>名称</th>
+    <th>使用</th>
+    <th>规格</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td>CNAC</td>
-    <td>3-phase power input for control</td>
-    <td>3-phase 220V</td>
+    <td>控制的三相电源输入</td>
+    <td>三相220V</td>
   </tr>
   <tr>
     <td>CN220</td>
-    <td>CMSMPS power output</td>
-    <td>Single-phase 220V</td>
+    <td>CMSMPS电源输出</td>
+    <td>单相220V</td>
   </tr>
   <tr>
     <td>CNFN1~4</td>
-    <td>AC fan power output</td>
-    <td>Single-phase 220V</td>
+    <td>交流风扇电源输出</td>
+    <td>单相220V</td>
   </tr>
   <tr>
     <td>CNPR1</td>
-    <td>Inrush current limiting circuit input</td>
-    <td>3-phase 220V, MC1 input side</td>
+    <td>涌流限制电路输入</td>
+    <td>三相220V, MC1输入侧</td>
   </tr>
   <tr>
     <td>CNPR2</td>
-    <td>Inrush current limiting circuit output</td>
-    <td>3-phase 220V, MC2 output side </td>
+    <td>涌流限制电路输出</td>
+    <td>三相220V, MC2输出侧 </td>
   </tr>
   <tr>
     <td>CNBKAC</td>
-    <td>Brake SMPS input</td>
-    <td>Single-phase 220V</td>
+    <td>制动SMPS输入</td>
+    <td>单相220V</td>
   </tr>
   <tr>
     <td>CNBKDC</td>
-    <td>Brake SMPS output</td>
+    <td>制动SMPS输出</td>
     <td>24VDC</td>
   </tr>
   <tr>
     <td>CNPB1</td>
-    <td>Brake control power</td>
+    <td>制动控制电源</td>
     <td>24VDC, PB, BD640</td>
   </tr>
   <tr>
     <td>CNPB2</td>
-    <td>Brake control power</td>
-    <td>24VDC, PB, Reserved</td>
+    <td>制动控制电源</td>
+    <td>24VDC, PB, 保留</td>
   </tr>
   <tr>
     <td>CNPRC</td>
-    <td>Inrush current limiting circuit control and monitoring</td>
+    <td>涌流限制电路控制和监测</td>
     <td>BD640 CNPRC</td>
   </tr>
   <tr>
     <td>CNFPS1</td>
-    <td>CMSMPS power failure detection signal output 1</td>
+    <td>CMSMPS电源故障检测信号输出1</td>
     <td>H6COM DIO</td>
   </tr>
   <tr>
     <td>CNFPS2</td>
-    <td>CMSMPS power failure detection signal output 2</td>
-    <td>Reserved</td>
+    <td>CMSMPS电源故障检测信号输出2</td>
+    <td>保留</td>
   </tr>
   <tr>
     <td>CNMC1</td>
-    <td>Electronic contact MC1 control and monitoring</td>
+    <td>电子接触MC1控制和监测</td>
     <td>MC1</td>
   </tr>
   <tr>
     <td>CNMC2</td>
-    <td>Electronic contact MC2 control and monitoring</td>
+    <td>电子接触MC2控制和监测</td>
     <td>MC2</td>
   </tr>
   <tr>
     <td>CNMC</td>
-    <td>Electronic contact control and monitoring</td>
+    <td>电子接触控制和监测</td>
     <td>BD632 CNMC</td>
   </tr>
   <tr>
     <td>CN24VB</td>
-    <td>Control power input for each module</td>
-    <td>24VDC, CMBUFFER output</td>
+    <td>各模块的控制电源输入</td>
+    <td>24VDC, CMBUFFER输出</td>
   </tr>
   <tr>
     <td>CN24VB1~8</td>
-    <td>Control power output for each module</td>
-    <td>24VDC, CN24VB for each module</td>
+    <td>各模块的控制电源输出</td>
+    <td>24VDC, 每个模块的CN24VB</td>
   </tr>
   <tr>
     <td>CNBM</td>
-    <td>CMSMPS power failure detection signal input</td>
+    <td>CMSMPS电源故障检测信号输入</td>
     <td>CMSMPS 13-14</td>
   </tr>
 </tbody>

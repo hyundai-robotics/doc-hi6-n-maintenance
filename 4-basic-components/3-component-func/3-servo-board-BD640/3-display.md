@@ -1,29 +1,29 @@
-﻿# 4.3.3.3. Display Devices
+﻿# 4.3.3.3. 显示设备
 
- Table 4-11 LEDs of the Servo Board (BD640)
+ 表 4-11 伺服板 (BD640) 的 LED
 
 <table>
 <tbody>
 <tr class="odd">
-<td><p><strong>Status</strong></p>
-<p><strong>Name</strong></p></td>
-<td><p><strong>Color</strong></p></td>
-<td><p><strong>When normal</strong></p></td>
-<td><p><strong>When abnormal</strong></p></td>
-<td><p><strong>Remarks</strong></p></td>
+<td><p><strong>状态</strong></p>
+<p><strong>名称</strong></p></td>
+<td><p><strong>颜色</strong></p></td>
+<td><p><strong>正常时</strong></p></td>
+<td><p><strong>异常时</strong></p></td>
+<td><p><strong>备注</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>AL1</strong></p></td>
-<td><p>Red</p></td>
-<td><p>Turned off</p></td>
-<td><p>Turned on</p></td>
-<td><p>The PWM control signals for all axes will be turned off.</p></td>
+<td><p>红色</p></td>
+<td><p>关闭</p></td>
+<td><p>开启</p></td>
+<td><p>所有轴的 PWM 控制信号将被关闭。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>SON1~8</strong></p></td>
-<td><p>Green</p></td>
-<td><p>Will be turned on when the motor is on</p></td>
-<td><p>Will be turned off when the motor is off</p></td>
+<td><p>绿色</p></td>
+<td><p>当电机开启时将点亮</p></td>
+<td><p>当电机关闭时将熄灭</p></td>
 <td><p>-</p></td>
 </tr>
 </tbody>

@@ -1,41 +1,41 @@
-﻿# 4.3.5.1. H6PSM and Power Distribution Board (BD6C2) 
+﻿# 4.3.5.1. H6PSM 和电源分配板 (BD6C2)
 
-The H6PSM (Hi6-N controller power supply module) module is responsible for the opening and closing and distribution of various power supplied to the controller. The following figures show the interior and exterior of the electrical module with diverse connectors and fuses.
+H6PSM（Hi6-N 控制器电源模块）模块负责控制器供电的打开、关闭和分配。下图显示了具有多种连接器和保险丝的电气模块的内部和外部。
 
-![](../../../_assets/그림_4.45_H6PSM(Hi6-N_제어기_전원공급모듈)_외부.png  )
+![](../../../_assets/그림_4.45_H6PSM(Hi6-N_제어기_전원공급모듈)_외부.png)
 
-Figure 4.26 Exterior of H6PSM (Hi6-N Controller Power Supply Module)
+图 4.26 H6PSM（Hi6-N 控制器电源模块）外部
 
-The following figure shows the power system diagram for the AC control power related to the opening and closing of the 3-phase AC power for the motor power, the generation of the brake power, and the driving of the fan. The diagram in the figure also shows the power distribution, such as the SMPS power for the DC power supply to the control module. A circuit breaker (CP) or fuse is connected to each power to protect individual circuits against overcurrent.
+下图显示了与电机电源的 3 相 AC 电源的打开和关闭、制动电源的生成以及风扇驱动相关的 AC 控制电源的电源系统图。图中的电路图还显示了电源模块的直流电源的 SMPS 电源等电源分配情况。每个电源连接了断路器（CP）或保险丝，以保护各个电路免受过电流的影响。
 
-![](../../../_assets/그림_4.47_Hi6-N_제어기의_전원계통.png  )
+![](../../../_assets/그림_4.47_Hi6-N_제어기의_전원계통.png)
 
-Figure 4.27 Power System of the Hi6-N Controller</br></br>
+图 4.27 Hi6-N 控制器的电源系统</br></br>
 
-Table 4-39 Types and Usage of the Fuses of the Electronic Module 
+表 4-39 电子模块保险丝的类型和用途 
 
 <table>
 <thead>
   <tr>
-    <th>Name</th>
-    <th>Usage</th>
-    <th>Specification</th>
+    <th>名称</th>
+    <th>用途</th>
+    <th>规格</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td>F1, F2</td>
-    <td>Overcurrent protection fuse for the cooling fan power (AC220V)</td>
+    <td>冷却风扇电源的过电流保护保险丝 (AC220V)</td>
     <td>AC220V 5A</td>
   </tr>
   <tr>
     <td>F3, F4</td>
-    <td>Overcurrent protection fuse for the CMSMPS power (AC220V) </td>
+    <td>CMSMPS 电源的过电流保护保险丝 (AC220V)</td>
     <td>AC220V 5A</td>
   </tr>
   <tr>
     <td>F5, F6</td>
-    <td>Overcurrent protection fuse for the BKSMPS power (AC220V) </td>
+    <td>BKSMPS 电源的过电流保护保险丝 (AC220V)</td>
     <td>AC220V 5A</td>
   </tr>
 </tbody>

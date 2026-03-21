@@ -1,9 +1,9 @@
-﻿# 3.6. Connection
+# 3.6. 连接
 
 {% hint style="info" %}
-1. Before connecting the cables, turn "off" the controller's main power switch and lock it by using use a padlock. 
-2. The controller has DC400V charged energy. Be careful. 
-Turn "off" the power switch and then wait 5 minutes at least to discharge the charged energy.
-3. When handling the PCB, take precautions not to allow static electricity to damage it.
-4. Wiring and connection of wires must be performed by qualified personnel.
+1. 在连接电缆之前，请关闭控制器的主电源开关并使用挂锁将其锁定。
+2. 控制器具有DC400V的电能，请小心。
+关闭电源开关后，至少等待5分钟以放电储存的能量。
+3. 操作PCB时，请采取预防措施以防止静电损坏。
+4. 电缆的布线和连接必须由合格的人员进行。
 {% endhint %}
