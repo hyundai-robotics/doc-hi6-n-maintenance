@@ -5,7 +5,7 @@
 [__SOURCE](0-about-this-manual/precautions.md)
 ## 사전 주의사항
 
-{% include url="https://hrcontentsrelay-bmgae5hdbzapc4bc.koreacentral-01.azurewebsites.net/api/proxy?path=doc-common-pages/ko/precautions.md" %}
+{% include file="ko/precautions.md" %}
 
 [__SOURCE](0-about-this-manual/preface.md)
 ## 개요
@@ -1576,8 +1576,8 @@ Hi6-N00/N30/N80 제어기의 주요 구성품과 각 부의 명칭은 표 4-1과
 </tr>
 <tr class="even">
 <td><p><strong>1</strong></p></td>
-<td><p>H6COM-T</p></td>
-<td><p>메인제어모듈</p></td>
+<td><p>COM MODULE ASSY(Hi6-N)</p></td>
+<td><p>메인제어모듈 ASSY</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>2</strong></p></td>
@@ -1763,11 +1763,11 @@ Hi6-N00/N30/N80 제어기의 주요 구성품과 각 부의 명칭은 표 4-1과
 [__SOURCE](4-basic-components/3-component-func/1-main-module-H6COM-T/1-overview.md)
 # 4.3.1.1. 개요
 
-H6COM-T는 은 그림 4.3과 같은 구조로서 Main CPU보드와 Carier보드의 결합으로 이루어져 있습니다. Main CPU 보드는 SSD 슬롯, CPU슬롯, 메모리카드 슬롯, USB포트, COM포트 와 Carrier보드를 체결하는 버스커넥터로 구성되어 있습니다. Carier보드는 3개의 외부 LAN포트, 2개의 내부 시스템용 LAN포트 2개의USB포트, GPIO포트, 2개의 PCI 커넥터, 1개의 PCI-e커넥터와 DC 24V전원 커넥터를 포함하고 있습니다. 내부 시스템 LAN포트는 EtherCAT통신과 Teach Pandent와의 인터페이스를 위한 목적으로 사용되며, GIO는 전원장치로부터 정전신호를 감지하기 위해 사용됩니다. USB는 디버깅 목적으로 쓰입니다. 기타 범용적인 버스 인터페이스를 지원하기 위해 PCI 확장슬롯과 외부의 LAN포트 여분 3포트를 제공하며, 해당 슬롯을 통해 EtherCAT 외의 다른 통신인터페이스 들과 연결될 수 있습니다.
+H6COM-T는 그림 4.6과 같은 구조로서 Main CPU보드와 Carier보드의 결합으로 이루어져 있습니다. Main CPU 보드는 SSD 슬롯, CPU슬롯, 메모리카드 슬롯, USB포트, COM포트 와 Carrier보드를 체결하는 버스커넥터로 구성되어 있습니다. Carier보드는 3개의 외부 LAN포트, 2개의 내부 시스템용 LAN포트 2개의USB포트, GPIO포트, 2개의 PCI 커넥터, 1개의 PCI-e커넥터와 DC 24V전원 커넥터를 포함하고 있습니다. 내부 시스템 LAN포트는 EtherCAT통신과 Teach Pandent와의 인터페이스를 위한 목적으로 사용되며, GIO는 전원장치로부터 정전신호를 감지하기 위해 사용됩니다. USB는 디버깅 목적으로 쓰입니다. 기타 범용적인 버스 인터페이스를 지원하기 위해 PCI 확장슬롯과 외부의 LAN포트 여분 3포트를 제공하며, 해당 슬롯을 통해 EtherCAT 외의 다른 통신인터페이스 들과 연결될 수 있습니다.
 
-![](../../../_assets/그림_4.23_H6COM-T.png  )
+![](../../../_assets/H6COM_T_COM_MODULE_ASSY_HI6_N.png  )<br>
 
-그림 4.6 H6COM-T
+그림 4.6 H6COM-T & COM MODULE ASSY(Hi6-N)<br>
 
 [__SOURCE](4-basic-components/3-component-func/1-main-module-H6COM-T/2-connector.md)
 # 4.3.1.2. 커넥터
@@ -5642,8 +5642,8 @@ IO 및 기타 모듈의 종류는 다음과 같으며 원하는 동작에 맞게
   </tr>
   <tr>
     <td>2</td>
-    <td>메인제어모듈</td>
-    <td>H6COM</td>
+    <td>메인제어모듈 ASSY</td>
+    <td>COM MODULE ASSY(Hi6-N)</td>
     <td>현대로보틱스</td>
     <td>1</td>
     <td></td>

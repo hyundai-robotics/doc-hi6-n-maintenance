@@ -105,8 +105,8 @@
   </tr>
   <tr>
     <td>2</td>
-    <td>메인제어모듈</td>
-    <td>H6COM</td>
+    <td>메인제어모듈 ASSY</td>
+    <td>COM MODULE ASSY(Hi6-N)</td>
     <td>현대로보틱스</td>
     <td>1</td>
     <td></td>
