@@ -5,7 +5,7 @@
 [__SOURCE](0-about-this-manual/precautions.md)
 ## Precautions
 
-{% include url="https://hrcontentsrelay-bmgae5hdbzapc4bc.koreacentral-01.azurewebsites.net/api/proxy?path=doc-common-pages/en/precautions.md" %}
+{% include file="en/precautions.md" %}
 
 [__SOURCE](0-about-this-manual/overview.md)
 ## Overview
@@ -1528,8 +1528,8 @@ Table 4-1 Names of Individual Parts of the Hi6-N00/N30/N80 Controller
 </tr>
 <tr class="even">
 <td><p><strong>1</strong></p></td>
-<td><p>H6COM-T</p></td>
-<td><p>Main control module</p></td>
+<td><p>COM MODULE ASSY(Hi6-N)</p></td>
+<td><p>Main control module ASSY</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>2</strong></p></td>
@@ -1718,11 +1718,11 @@ Table 4-2 Summary of Functions of the Individual Components
 [__SOURCE](4-basic-components/3-component-func/1-main-module-H6COM-T/1-overview.md)
 # 4.3.1.1. Overview
 
-H6COM-T is structure as shown in Figure 4.3, in which the main CPU board and the carrier board are combined. The main CPU board consists of an SSD slot, a CPU slot, a memory card slot, a USB port, a COM port, and a bus connector that is to be connected to the carrier board. The carrier board contains three LAN ports for external systems, two LAN ports for internal systems, two USB ports, one GPIO port, two PCI connectors, one PCI-e connector and one DC 24V power connector. The LAN ports for internal systems are used for EtherCAT communication, as well as for interface with the teach pendant, and the GPIO port is used to detect a power failure signal from the power system. The SB is used for debugging. One PCI expansion slot and three spare LAN ports for external systems are provided to support other universal bus interfaces. The connection to other communication interfaces than EtherCAT can be made via the relevant slots.
+H6COM-T is structure as shown in Figure 4.6, in which the main CPU board and the carrier board are combined. The main CPU board consists of an SSD slot, a CPU slot, a memory card slot, a USB port, a COM port, and a bus connector that is to be connected to the carrier board. The carrier board contains three LAN ports for external systems, two LAN ports for internal systems, two USB ports, one GPIO port, two PCI connectors, one PCI-e connector and one DC 24V power connector. The LAN ports for internal systems are used for EtherCAT communication, as well as for interface with the teach pendant, and the GPIO port is used to detect a power failure signal from the power system. The SB is used for debugging. One PCI expansion slot and three spare LAN ports for external systems are provided to support other universal bus interfaces. The connection to other communication interfaces than EtherCAT can be made via the relevant slots.
 
-![](../../../_assets/그림_4.23_H6COM-T.png  )
+![](../../../_assets/H6COM_T_COM_MODULE_ASSY_HI6_N.png  )
 
-Figure 4.6 H6COM-T
+Figure 4.6 H6COM-T & COM MODULE ASSY(Hi6-N)
 
 [__SOURCE](4-basic-components/3-component-func/1-main-module-H6COM-T/2-connector.md)
 # 4.3.1.2. Connectors
@@ -5626,8 +5626,8 @@ Table 6-6 Maintenance Parts of the Category A-2 (Important Backup Parts)
   </tr>
   <tr>
     <td>2</td>
-    <td>Main control module</td>
-    <td>H6COM</td>
+    <td>Main control module ASSY</td>
+    <td>COM MODUEL ASSY (Hi6-N)</td>
     <td>Hyundai Robotics</td>
     <td>1</td>
     <td></td>

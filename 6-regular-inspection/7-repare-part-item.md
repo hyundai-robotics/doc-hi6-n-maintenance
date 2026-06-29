@@ -107,8 +107,8 @@ Table 6-6 Maintenance Parts of the Category A-2 (Important Backup Parts)
   </tr>
   <tr>
     <td>2</td>
-    <td>Main control module</td>
-    <td>H6COM</td>
+    <td>Main control module ASSY</td>
+    <td>COM MODUEL ASSY (Hi6-N)</td>
     <td>Hyundai Robotics</td>
     <td>1</td>
     <td></td>
